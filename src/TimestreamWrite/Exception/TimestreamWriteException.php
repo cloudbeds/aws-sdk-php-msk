@@ -1,7 +1,7 @@
 <?php
-namespace Aws\TimestreamWrite\Exception;
+namespace CloudBeds\Aws\MskFork\TimestreamWrite\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Timestream Write** service.

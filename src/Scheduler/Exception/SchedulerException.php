@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Scheduler\Exception;
+namespace CloudBeds\Aws\MskFork\Scheduler\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon EventBridge Scheduler** service.

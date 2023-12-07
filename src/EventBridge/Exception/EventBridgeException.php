@@ -1,7 +1,7 @@
 <?php
-namespace Aws\EventBridge\Exception;
+namespace CloudBeds\Aws\MskFork\EventBridge\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon EventBridge** service.

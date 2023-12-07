@@ -1,16 +1,16 @@
 <?php
-namespace Aws\Test\Integ;
+namespace CloudBeds\Aws\MskFork\Test\Integ;
 
-use Aws\Crypto\AbstractCryptoClientV2;
-use Aws\Crypto\KmsMaterialsProviderV2;
-use Aws\Crypto\MetadataEnvelope;
-use Aws\Exception\AwsException;
-use Aws\S3\Crypto\S3EncryptionClientV2;
+use CloudBeds\Aws\MskFork\Crypto\AbstractCryptoClientV2;
+use CloudBeds\Aws\MskFork\Crypto\KmsMaterialsProviderV2;
+use CloudBeds\Aws\MskFork\Crypto\MetadataEnvelope;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\S3\Crypto\S3EncryptionClientV2;
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\SnippetAcceptingContext;
 use Behat\Behat\Hook\Scope\BeforeScenarioScope;
 use Behat\Behat\Tester\Exception\PendingException;
-use Aws\Kms\KmsClient;
+use CloudBeds\Aws\MskFork\Kms\KmsClient;
 use PHPUnit\Framework\Assert;
 
 class S3EncryptionContextV2 implements Context, SnippetAcceptingContext

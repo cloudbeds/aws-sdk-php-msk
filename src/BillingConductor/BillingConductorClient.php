@@ -1,7 +1,7 @@
 <?php
-namespace Aws\BillingConductor;
+namespace CloudBeds\Aws\MskFork\BillingConductor;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWSBillingConductor** service.

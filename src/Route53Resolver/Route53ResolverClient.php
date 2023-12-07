@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Route53Resolver;
+namespace CloudBeds\Aws\MskFork\Route53Resolver;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Route 53 Resolver** service.

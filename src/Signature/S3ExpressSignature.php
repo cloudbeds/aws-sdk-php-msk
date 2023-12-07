@@ -1,9 +1,9 @@
 <?php
 
-namespace Aws\Signature;
+namespace CloudBeds\Aws\MskFork\Signature;
 
-use Aws\Credentials\Credentials;
-use Aws\Credentials\CredentialsInterface;
+use CloudBeds\Aws\MskFork\Credentials\Credentials;
+use CloudBeds\Aws\MskFork\Credentials\CredentialsInterface;
 use Psr\Http\Message\RequestInterface;
 
 class S3ExpressSignature extends S3SignatureV4

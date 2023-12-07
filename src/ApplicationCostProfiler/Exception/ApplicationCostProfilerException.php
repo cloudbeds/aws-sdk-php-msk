@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ApplicationCostProfiler\Exception;
+namespace CloudBeds\Aws\MskFork\ApplicationCostProfiler\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Application Cost Profiler** service.

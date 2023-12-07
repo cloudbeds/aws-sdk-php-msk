@@ -1,10 +1,10 @@
 <?php
 
-namespace Aws\Test\ClientSideMonitoring;
+namespace CloudBeds\Aws\MskFork\Test\ClientSideMonitoring;
 
-use Aws\HandlerList;
-use Aws\MonitoringEventsInterface;
-use Aws\Result;
+use CloudBeds\Aws\MskFork\HandlerList;
+use CloudBeds\Aws\MskFork\MonitoringEventsInterface;
+use CloudBeds\Aws\MskFork\Result;
 use DMS\PHPUnitExtensions\ArraySubset\ArraySubsetAsserts;
 use GuzzleHttp\Promise;
 use Yoast\PHPUnitPolyfills\Polyfills\AssertIsType;

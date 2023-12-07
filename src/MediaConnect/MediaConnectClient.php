@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MediaConnect;
+namespace CloudBeds\Aws\MskFork\MediaConnect;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS MediaConnect** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\Exception;
+namespace CloudBeds\Aws\MskFork\Test\Exception;
 
-use Aws\Exception\CouldNotCreateChecksumException;
+use CloudBeds\Aws\MskFork\Exception\CouldNotCreateChecksumException;
 use PHPUnit\Framework\TestCase;
 
 /**

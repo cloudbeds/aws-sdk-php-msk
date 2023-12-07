@@ -1,14 +1,14 @@
 <?php
-namespace Aws\Test\Api\Parser;
+namespace CloudBeds\Aws\MskFork\Test\Api\Parser;
 
-use Aws\Api\ListShape;
-use Aws\Api\MapShape;
-use Aws\Api\StructureShape;
-use Aws\Api\TimestampShape;
-use Aws\Command;
-use Aws\Api\Service;
-use Aws\Api\Shape;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Api\ListShape;
+use CloudBeds\Aws\MskFork\Api\MapShape;
+use CloudBeds\Aws\MskFork\Api\StructureShape;
+use CloudBeds\Aws\MskFork\Api\TimestampShape;
+use CloudBeds\Aws\MskFork\Command;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Api\Shape;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use GuzzleHttp\Psr7;
 use PHPUnit\Framework\TestCase;
 

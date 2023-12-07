@@ -1,12 +1,12 @@
 <?php
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws\Api\ApiProvider;
-use Aws\CommandInterface;
-use Aws\DynamoDb\DynamoDbClient;
-use Aws\Exception\AwsException;
-use Aws\Result;
-use Aws\Waiter;
+use CloudBeds\Aws\MskFork\Api\ApiProvider;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\DynamoDb\DynamoDbClient;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\Waiter;
 use GuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\Promise;
 use GuzzleHttp\Promise\FulfilledPromise;

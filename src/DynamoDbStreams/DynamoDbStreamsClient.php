@@ -1,8 +1,8 @@
 <?php
-namespace Aws\DynamoDbStreams;
+namespace CloudBeds\Aws\MskFork\DynamoDbStreams;
 
-use Aws\AwsClient;
-use Aws\DynamoDb\DynamoDbClient;
+use CloudBeds\Aws\MskFork\AwsClient;
+use CloudBeds\Aws\MskFork\DynamoDb\DynamoDbClient;
 
 /**
  * This client is used to interact with the **Amazon DynamoDb Streams** service.

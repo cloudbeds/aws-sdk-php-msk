@@ -1,5 +1,5 @@
 <?php
-namespace Aws\S3\RegionalEndpoint;
+namespace CloudBeds\Aws\MskFork\S3\RegionalEndpoint;
 
 class Configuration implements ConfigurationInterface
 {

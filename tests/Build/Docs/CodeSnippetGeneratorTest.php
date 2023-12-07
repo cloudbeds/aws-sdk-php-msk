@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test\Build\Docs;
+namespace CloudBeds\Aws\MskFork\Test\Build\Docs;
 
 
-use Aws\Api\ApiProvider;
-use Aws\Api\Service;
-use Aws\Build\Docs\CodeSnippetGenerator;
+use CloudBeds\Aws\MskFork\Api\ApiProvider;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Build\Docs\CodeSnippetGenerator;
 use PHPUnit\Framework\TestCase;
 
 class CodeSnippetGeneratorTest extends TestCase

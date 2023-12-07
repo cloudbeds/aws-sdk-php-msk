@@ -1,12 +1,12 @@
 <?php
-namespace Aws\Test\DynamoDb;
+namespace CloudBeds\Aws\MskFork\Test\DynamoDb;
 
-use Aws\CommandInterface;
-use Aws\Exception\AwsException;
-use Aws\MockHandler;
-use Aws\Result;
-use Aws\DynamoDb\WriteRequestBatch;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\MockHandler;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\DynamoDb\WriteRequestBatch;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

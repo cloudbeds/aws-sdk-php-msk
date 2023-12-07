@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ACMPCA;
+namespace CloudBeds\Aws\MskFork\ACMPCA;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Certificate Manager Private Certificate Authority** service.

@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test\EndpointV2;
+namespace CloudBeds\Aws\MskFork\Test\EndpointV2;
 
-use Aws\EndpointV2\EndpointDefinitionProvider;
-use Aws\EndpointV2\EndpointProviderV2;
-use Aws\Middleware;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\EndpointV2\EndpointDefinitionProvider;
+use CloudBeds\Aws\MskFork\EndpointV2\EndpointProviderV2;
+use CloudBeds\Aws\MskFork\Middleware;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

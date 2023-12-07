@@ -1,8 +1,8 @@
 <?php
 
-namespace Aws\Test\ClientSideMonitoring;
+namespace CloudBeds\Aws\MskFork\Test\ClientSideMonitoring;
 
-use Aws\ClientSideMonitoring\Configuration;
+use CloudBeds\Aws\MskFork\ClientSideMonitoring\Configuration;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 use Psr\Log\InvalidArgumentException;
 

@@ -1,5 +1,5 @@
 <?php
-namespace Aws\S3\RegionalEndpoint;
+namespace CloudBeds\Aws\MskFork\S3\RegionalEndpoint;
 
 /**
  * Provides access to S3 regional endpoints configuration options: endpoints_type

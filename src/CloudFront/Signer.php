@@ -1,5 +1,5 @@
 <?php
-namespace Aws\CloudFront;
+namespace CloudBeds\Aws\MskFork\CloudFront;
 
 /**
  * @internal

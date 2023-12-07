@@ -1,7 +1,7 @@
 <?php
-namespace Aws\IVS\Exception;
+namespace CloudBeds\Aws\MskFork\IVS\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Interactive Video Service** service.

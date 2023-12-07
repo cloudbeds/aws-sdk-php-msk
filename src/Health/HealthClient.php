@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Health;
+namespace CloudBeds\Aws\MskFork\Health;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Health APIs and Notifications** service.

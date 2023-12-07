@@ -1,14 +1,14 @@
 <?php
-namespace Aws\Test\Integ;
+namespace CloudBeds\Aws\MskFork\Test\Integ;
 
-use Aws\EventBridge\EventBridgeClient;
-use Aws\EventBridge\Exception\EventBridgeException;
-use Aws\Route53\Route53Client;
-use Aws\Sts\StsClient;
+use CloudBeds\Aws\MskFork\EventBridge\EventBridgeClient;
+use CloudBeds\Aws\MskFork\EventBridge\Exception\EventBridgeException;
+use CloudBeds\Aws\MskFork\Route53\Route53Client;
+use CloudBeds\Aws\MskFork\Sts\StsClient;
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\SnippetAcceptingContext;
-use Aws\S3\S3Client;
-use Aws\S3Control\S3ControlClient;
+use CloudBeds\Aws\MskFork\S3\S3Client;
+use CloudBeds\Aws\MskFork\S3Control\S3ControlClient;
 use Behat\Gherkin\Node\TableNode;
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7;

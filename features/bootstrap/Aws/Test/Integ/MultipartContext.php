@@ -1,15 +1,15 @@
 <?php
 
-namespace Aws\Test\Integ;
+namespace CloudBeds\Aws\MskFork\Test\Integ;
 
-use Aws\Exception\MultipartUploadException;
-use Aws\Glacier\MultipartUploader as GlacierMultipartUploader;
-use Aws\ResultInterface;
-use Aws\S3\MultipartCopy;
-use Aws\S3\MultipartUploader as S3MultipartUploader;
-use Aws\S3\S3Client;
+use CloudBeds\Aws\MskFork\Exception\MultipartUploadException;
+use CloudBeds\Aws\MskFork\Glacier\MultipartUploader as GlacierMultipartUploader;
+use CloudBeds\Aws\MskFork\ResultInterface;
+use CloudBeds\Aws\MskFork\S3\MultipartCopy;
+use CloudBeds\Aws\MskFork\S3\MultipartUploader as S3MultipartUploader;
+use CloudBeds\Aws\MskFork\S3\S3Client;
 use Behat\Behat\Tester\Exception\PendingException;
-use Aws\S3\BatchDelete;
+use CloudBeds\Aws\MskFork\S3\BatchDelete;
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\SnippetAcceptingContext;
 use Behat\Gherkin\Node\PyStringNode;

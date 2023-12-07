@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Test\Api;
+namespace CloudBeds\Aws\MskFork\Test\Api;
 
-use Aws\Api\Shape;
-use Aws\Api\ShapeMap;
-use Aws\Api\ListShape;
+use CloudBeds\Aws\MskFork\Api\Shape;
+use CloudBeds\Aws\MskFork\Api\ShapeMap;
+use CloudBeds\Aws\MskFork\Api\ListShape;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

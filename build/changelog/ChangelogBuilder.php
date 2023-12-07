@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Build\Changelog;
+namespace CloudBeds\Aws\MskFork\Build\Changelog;
 
 /**
  * @internal

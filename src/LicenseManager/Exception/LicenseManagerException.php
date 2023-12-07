@@ -1,7 +1,7 @@
 <?php
-namespace Aws\LicenseManager\Exception;
+namespace CloudBeds\Aws\MskFork\LicenseManager\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS License Manager** service.

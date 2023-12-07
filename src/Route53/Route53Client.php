@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Route53;
+namespace CloudBeds\Aws\MskFork\Route53;
 
-use Aws\AwsClient;
-use Aws\CommandInterface;
+use CloudBeds\Aws\MskFork\AwsClient;
+use CloudBeds\Aws\MskFork\CommandInterface;
 use Psr\Http\Message\RequestInterface;
 
 /**

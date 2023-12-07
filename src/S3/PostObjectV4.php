@@ -1,11 +1,11 @@
 <?php
-namespace Aws\S3;
+namespace CloudBeds\Aws\MskFork\S3;
 
-use Aws\Credentials\CredentialsInterface;
+use CloudBeds\Aws\MskFork\Credentials\CredentialsInterface;
 use GuzzleHttp\Psr7\Uri;
-use Aws\Signature\SignatureTrait;
-use Aws\Signature\SignatureV4 as SignatureV4;
-use Aws\Api\TimestampShape as TimestampShape;
+use CloudBeds\Aws\MskFork\Signature\SignatureTrait;
+use CloudBeds\Aws\MskFork\Signature\SignatureV4 as SignatureV4;
+use CloudBeds\Aws\MskFork\Api\TimestampShape as TimestampShape;
 
 /**
  * Encapsulates the logic for getting the data for an S3 object POST upload form

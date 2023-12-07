@@ -1,7 +1,7 @@
 <?php
-namespace Aws\IotDataPlane\Exception;
+namespace CloudBeds\Aws\MskFork\IotDataPlane\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS IoT Data Plane** service.

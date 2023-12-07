@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ManagedBlockchainQuery;
+namespace CloudBeds\Aws\MskFork\ManagedBlockchainQuery;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Managed Blockchain Query** service.

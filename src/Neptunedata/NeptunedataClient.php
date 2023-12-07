@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Neptunedata;
+namespace CloudBeds\Aws\MskFork\Neptunedata;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon NeptuneData** service.

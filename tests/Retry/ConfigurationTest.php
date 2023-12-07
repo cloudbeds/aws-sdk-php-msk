@@ -1,8 +1,8 @@
 <?php
 
-namespace Aws\Test\Retry;
+namespace CloudBeds\Aws\MskFork\Test\Retry;
 
-use Aws\Retry\Configuration;
+use CloudBeds\Aws\MskFork\Retry\Configuration;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

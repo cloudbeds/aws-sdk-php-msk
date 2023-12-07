@@ -1,12 +1,12 @@
 <?php
-namespace Aws\Test\Endpoint\UseFipsEndpoint;
+namespace CloudBeds\Aws\MskFork\Test\Endpoint\UseFipsEndpoint;
 
-use Aws\CacheInterface;
-use Aws\Endpoint\UseFipsEndpoint\ConfigurationProvider;
-use Aws\LruArrayCache;
-use Aws\Endpoint\UseFipsEndpoint\Configuration;
-use Aws\Endpoint\UseFipsEndpoint\ConfigurationInterface;
-use Aws\Endpoint\UseFipsEndpoint\Exception\ConfigurationException;
+use CloudBeds\Aws\MskFork\CacheInterface;
+use CloudBeds\Aws\MskFork\Endpoint\UseFipsEndpoint\ConfigurationProvider;
+use CloudBeds\Aws\MskFork\LruArrayCache;
+use CloudBeds\Aws\MskFork\Endpoint\UseFipsEndpoint\Configuration;
+use CloudBeds\Aws\MskFork\Endpoint\UseFipsEndpoint\ConfigurationInterface;
+use CloudBeds\Aws\MskFork\Endpoint\UseFipsEndpoint\Exception\ConfigurationException;
 use GuzzleHttp\Promise;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 

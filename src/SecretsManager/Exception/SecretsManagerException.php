@@ -1,7 +1,7 @@
 <?php
-namespace Aws\SecretsManager\Exception;
+namespace CloudBeds\Aws\MskFork\SecretsManager\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Secrets Manager** service.

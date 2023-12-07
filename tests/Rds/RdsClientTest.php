@@ -1,11 +1,11 @@
 <?php
-namespace Aws\Test\Rds;
+namespace CloudBeds\Aws\MskFork\Test\Rds;
 
-use Aws\CommandInterface;
-use Aws\Credentials\Credentials;
-use Aws\Rds\RdsClient;
-use Aws\MockHandler;
-use Aws\Result;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Credentials\Credentials;
+use CloudBeds\Aws\MskFork\Rds\RdsClient;
+use CloudBeds\Aws\MskFork\MockHandler;
+use CloudBeds\Aws\MskFork\Result;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 use Psr\Http\Message\RequestInterface;
 require_once __DIR__ . '/../Signature/sig_hack.php';
@@ -26,7 +26,7 @@ class RdsClientTest extends TestCase
         $_SERVER['aws_time'] = null;
         $_SERVER['formatAwsTime'] = null;
     }
-    
+
     public function testAddsCopySnapshotMiddleware()
     {
         $rds = new RdsClient([

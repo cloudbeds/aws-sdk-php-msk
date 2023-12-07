@@ -1,7 +1,7 @@
 <?php
-namespace Aws\RDSDataService;
+namespace CloudBeds\Aws\MskFork\RDSDataService;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS RDS DataService** service.

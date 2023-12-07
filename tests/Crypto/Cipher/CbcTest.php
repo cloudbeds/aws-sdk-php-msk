@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\Crypto\Cipher;
+namespace CloudBeds\Aws\MskFork\Test\Crypto\Cipher;
 
-use Aws\Crypto\Cipher\Cbc;
+use CloudBeds\Aws\MskFork\Crypto\Cipher\Cbc;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 class CbcTest extends TestCase

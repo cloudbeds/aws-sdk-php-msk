@@ -1,7 +1,7 @@
 <?php
-namespace Aws\XRay;
+namespace CloudBeds\Aws\MskFork\XRay;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS X-Ray** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ElastiCache;
+namespace CloudBeds\Aws\MskFork\ElastiCache;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon ElastiCache** service.

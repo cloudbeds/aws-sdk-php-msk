@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Rekognition;
+namespace CloudBeds\Aws\MskFork\Rekognition;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Rekognition** service.

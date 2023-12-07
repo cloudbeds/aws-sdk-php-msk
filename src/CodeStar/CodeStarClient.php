@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CodeStar;
+namespace CloudBeds\Aws\MskFork\CodeStar;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS CodeStar** service.

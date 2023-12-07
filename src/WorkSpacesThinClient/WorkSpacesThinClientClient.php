@@ -1,7 +1,7 @@
 <?php
-namespace Aws\WorkSpacesThinClient;
+namespace CloudBeds\Aws\MskFork\WorkSpacesThinClient;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon WorkSpaces Thin Client** service.

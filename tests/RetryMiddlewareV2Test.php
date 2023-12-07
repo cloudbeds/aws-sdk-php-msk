@@ -1,18 +1,18 @@
 <?php
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws\Api\ApiProvider;
-use Aws\Api\Service;
-use Aws\Command;
-use Aws\CommandInterface;
-use Aws\Exception\AwsException;
-use Aws\MockHandler;
-use Aws\Result;
-use Aws\ResultInterface;
-use Aws\Retry\Configuration;
-use Aws\Retry\QuotaManager;
-use Aws\Retry\RateLimiter;
-use Aws\RetryMiddlewareV2;
+use CloudBeds\Aws\MskFork\Api\ApiProvider;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Command;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\MockHandler;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\ResultInterface;
+use CloudBeds\Aws\MskFork\Retry\Configuration;
+use CloudBeds\Aws\MskFork\Retry\QuotaManager;
+use CloudBeds\Aws\MskFork\Retry\RateLimiter;
+use CloudBeds\Aws\MskFork\RetryMiddlewareV2;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Promise\RejectedPromise;
 use GuzzleHttp\Psr7\Request;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Aws\Test\Sts\RegionalEndpoints;
+namespace CloudBeds\Aws\MskFork\Test\Sts\RegionalEndpoints;
 
-use Aws\Sts\RegionalEndpoints\Configuration;
+use CloudBeds\Aws\MskFork\Sts\RegionalEndpoints\Configuration;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

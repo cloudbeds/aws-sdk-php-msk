@@ -1,7 +1,7 @@
 <?php
-namespace Aws\LexRuntimeV2;
+namespace CloudBeds\Aws\MskFork\LexRuntimeV2;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Lex Runtime V2** service.

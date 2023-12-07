@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Handler\GuzzleV5;
+namespace CloudBeds\Aws\MskFork\Handler\GuzzleV5;
 
 use GuzzleHttp\Stream\StreamDecoratorTrait;
 use GuzzleHttp\Stream\StreamInterface as GuzzleStreamInterface;

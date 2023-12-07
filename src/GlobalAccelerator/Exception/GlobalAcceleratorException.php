@@ -1,7 +1,7 @@
 <?php
-namespace Aws\GlobalAccelerator\Exception;
+namespace CloudBeds\Aws\MskFork\GlobalAccelerator\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Global Accelerator** service.

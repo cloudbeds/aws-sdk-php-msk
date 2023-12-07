@@ -1,12 +1,12 @@
 <?php
-namespace Aws\S3;
+namespace CloudBeds\Aws\MskFork\S3;
 
-use Aws\Arn\ArnParser;
-use Aws\Arn\ObjectLambdaAccessPointArn;
-use Aws\ClientResolver;
-use Aws\CommandInterface;
-use Aws\Endpoint\EndpointProvider;
-use Aws\Endpoint\PartitionEndpointProvider;
+use CloudBeds\Aws\MskFork\Arn\ArnParser;
+use CloudBeds\Aws\MskFork\Arn\ObjectLambdaAccessPointArn;
+use CloudBeds\Aws\MskFork\ClientResolver;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Endpoint\EndpointProvider;
+use CloudBeds\Aws\MskFork\Endpoint\PartitionEndpointProvider;
 use GuzzleHttp\Exception\InvalidArgumentException;
 use GuzzleHttp\Psr7\Uri;
 use Psr\Http\Message\RequestInterface;

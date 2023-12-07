@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Token;
+namespace CloudBeds\Aws\MskFork\Token;
 
 /**
  * Provides access to an AWS token used for accessing AWS services

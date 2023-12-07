@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Account;
+namespace CloudBeds\Aws\MskFork\Account;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Account** service.

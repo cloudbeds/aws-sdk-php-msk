@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Endpoint\UseFipsEndpoint;
+namespace CloudBeds\Aws\MskFork\Endpoint\UseFipsEndpoint;
 
-use Aws\AbstractConfigurationProvider;
-use Aws\CacheInterface;
-use Aws\ConfigurationProviderInterface;
-use Aws\Endpoint\UseFipsEndpoint\Exception\ConfigurationException;
+use CloudBeds\Aws\MskFork\AbstractConfigurationProvider;
+use CloudBeds\Aws\MskFork\CacheInterface;
+use CloudBeds\Aws\MskFork\ConfigurationProviderInterface;
+use CloudBeds\Aws\MskFork\Endpoint\UseFipsEndpoint\Exception\ConfigurationException;
 use GuzzleHttp\Promise;
 
 /**
@@ -13,7 +13,7 @@ use GuzzleHttp\Promise;
  * or rejected with an {@see \Aws\Endpoint\UseFipsEndpoint\ConfigurationException}.
  *
  * <code>
- * use Aws\Endpoint\UseFipsEndpoint\ConfigurationProvider;
+ * use CloudBeds\Aws\MskFork\Endpoint\UseFipsEndpoint\ConfigurationProvider;
  * $provider = ConfigurationProvider::defaultProvider();
  * // Returns a ConfigurationInterface or throws.
  * $config = $provider()->wait();

@@ -1,12 +1,12 @@
 <?php
-namespace Aws\Test\DynamoDb;
+namespace CloudBeds\Aws\MskFork\Test\DynamoDb;
 
-use Aws\CommandInterface;
-use Aws\DynamoDb\Exception\DynamoDbException;
-use Aws\DynamoDb\StandardSessionConnection;
-use Aws\Middleware;
-use Aws\Result;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\DynamoDb\Exception\DynamoDbException;
+use CloudBeds\Aws\MskFork\DynamoDb\StandardSessionConnection;
+use CloudBeds\Aws\MskFork\Middleware;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
@@ -74,14 +74,14 @@ class StandardSessionConnectionTest extends TestCase
                 'binarykey' => ['B' => 'bar']
             ]]),
         ]);
-        
+
         $client->getHandlerList()->appendBuild(Middleware::tap(function ($command) {
             $this->assertEquals(
                 ['sessionid' => ['S' => 'session1']],
                 $command['Key']
             );
         }));
-        
+
         $connection = new StandardSessionConnection($client, [
             'hash_key' => 'sessionid',
         ]);

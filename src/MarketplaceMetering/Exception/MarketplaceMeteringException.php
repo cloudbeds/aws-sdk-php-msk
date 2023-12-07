@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MarketplaceMetering\Exception;
+namespace CloudBeds\Aws\MskFork\MarketplaceMetering\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWSMarketplace Metering** service.

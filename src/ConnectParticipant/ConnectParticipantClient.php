@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ConnectParticipant;
+namespace CloudBeds\Aws\MskFork\ConnectParticipant;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Connect Participant Service** service.

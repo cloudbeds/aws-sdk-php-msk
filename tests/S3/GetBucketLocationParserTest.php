@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test\S3;
+namespace CloudBeds\Aws\MskFork\Test\S3;
 
-use Aws\Test\UsesServiceTrait;
-use Aws\S3\GetBucketLocationParser;
-use Aws\Command;
-use Aws\Result;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\S3\GetBucketLocationParser;
+use CloudBeds\Aws\MskFork\Command;
+use CloudBeds\Aws\MskFork\Result;
 use GuzzleHttp\Psr7\Response;
 use PHPUnit\Framework\TestCase;
 

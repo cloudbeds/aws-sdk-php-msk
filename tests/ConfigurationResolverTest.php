@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws\Configuration\ConfigurationResolver;
+use CloudBeds\Aws\MskFork\Configuration\ConfigurationResolver;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 class ConfigurationResolverTest extends TestCase
@@ -36,7 +36,7 @@ foo_configuration_option = standard
 services = my-services
 
 [services my-services]
-s3 = 
+s3 =
   endpoint_url = https://exmaple.com
 EOT;
 
@@ -389,16 +389,16 @@ foo_configuration_option = standard
 services = my-services
 
 [services my-services]
-s3 = 
+s3 =
   endpoint_url = https://foo.com
-foo = 
-  bar_option = baz   
+foo =
+  bar_option = baz
 
 [services my-services]
-s3 = 
+s3 =
   endpoint_url = https://exmaple.com
-foo = 
-  bar_option = foo  
+foo =
+  bar_option = foo
 EOT
             ],
             [
@@ -408,19 +408,19 @@ foo_configuration_option = standard
 services = my-services
 
 [services my-services]
-s3 = 
+s3 =
   endpoint_url = https://foo.com
-foo = 
-  bar_option = baz   
+foo =
+  bar_option = baz
 
 [profile foo]
 endpoint_url = https://bar.com
 
 [services my-services]
-s3 = 
+s3 =
   endpoint_url = https://exmaple.com
-foo = 
-  bar_option = foo  
+foo =
+  bar_option = foo
 EOT
             ]
         ];

@@ -21,7 +21,7 @@ Upgrade from 2.7 to 2.8
 
 ### AWS Lambda
 
-Version 2.8 is backward-compatible with version 2.7, except in the case of the 
+Version 2.8 is backward-compatible with version 2.7, except in the case of the
 AWS Lambda service. The Lambda service has changed their API significantly based
 on customer feedback during their preview period. The `invokeAsync()` operation
 has not changed, but many aspects of the API has.
@@ -30,7 +30,7 @@ If you would like to continue using the old 2014-11-11 previewAPI, you can
 configure this when you instantiate the `LambdaClient`:
 
 ```php
-use Aws\Lambda\LambdaClient;
+use CloudBeds\Aws\MskFork\Lambda\LambdaClient;
 
 $client = LambdaClient::factory(array(
     'version' => '2014-11-11',
@@ -85,7 +85,7 @@ If you would like to continue using the older 2011-02-01 API, you can configure 
 `CloudSearchClient`:
 
 ```php
-use Aws\CloudSearch\CloudSearchClient;
+use CloudBeds\Aws\MskFork\CloudSearch\CloudSearchClient;
 
 $client = CloudSearchClient::factory(array(
     'key'     => '<aws access key>',
@@ -241,7 +241,7 @@ easily fixed by switching back to the 2011-12-05 API by using the new `version` 
 the DynamoDB client.
 
 ```php
-use Aws\DynamoDb\DynamoDbClient;
+use CloudBeds\Aws\MskFork\DynamoDb\DynamoDbClient;
 
 $client = DynamoDbClient::factory(array(
     'key'     => '<aws access key>',

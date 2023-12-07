@@ -1,7 +1,7 @@
 <?php
-namespace Aws\DocDBElastic;
+namespace CloudBeds\Aws\MskFork\DocDBElastic;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon DocumentDB Elastic Clusters** service.

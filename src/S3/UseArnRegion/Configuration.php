@@ -1,8 +1,8 @@
 <?php
-namespace Aws\S3\UseArnRegion;
+namespace CloudBeds\Aws\MskFork\S3\UseArnRegion;
 
-use Aws;
-use Aws\S3\UseArnRegion\Exception\ConfigurationException;
+use CloudBeds\Aws\MskFork;
+use CloudBeds\Aws\MskFork\S3\UseArnRegion\Exception\ConfigurationException;
 
 class Configuration implements ConfigurationInterface
 {

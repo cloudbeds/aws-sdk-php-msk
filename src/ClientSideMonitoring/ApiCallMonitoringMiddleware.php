@@ -1,11 +1,11 @@
 <?php
 
-namespace Aws\ClientSideMonitoring;
+namespace CloudBeds\Aws\MskFork\ClientSideMonitoring;
 
-use Aws\CommandInterface;
-use Aws\Exception\AwsException;
-use Aws\MonitoringEventsInterface;
-use Aws\ResultInterface;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\MonitoringEventsInterface;
+use CloudBeds\Aws\MskFork\ResultInterface;
 use Psr\Http\Message\RequestInterface;
 
 /**

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\DynamoDbStreams\Exception;
+namespace CloudBeds\Aws\MskFork\DynamoDbStreams\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the Amazon DynamoDB Streams service.

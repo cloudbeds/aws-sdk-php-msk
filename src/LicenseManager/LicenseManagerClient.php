@@ -1,7 +1,7 @@
 <?php
-namespace Aws\LicenseManager;
+namespace CloudBeds\Aws\MskFork\LicenseManager;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS License Manager** service.

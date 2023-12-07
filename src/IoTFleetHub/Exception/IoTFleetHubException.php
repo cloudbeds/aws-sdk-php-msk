@@ -1,7 +1,7 @@
 <?php
-namespace Aws\IoTFleetHub\Exception;
+namespace CloudBeds\Aws\MskFork\IoTFleetHub\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS IoT Fleet Hub** service.

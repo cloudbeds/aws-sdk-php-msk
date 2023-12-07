@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Test\S3;
+namespace CloudBeds\Aws\MskFork\Test\S3;
 
-use Aws\Api\ApiProvider;
-use Aws\Middleware;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Api\ApiProvider;
+use CloudBeds\Aws\MskFork\Middleware;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use Psr\Http\Message\RequestInterface;
 use PHPUnit\Framework\TestCase;
 

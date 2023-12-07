@@ -1,37 +1,37 @@
 <?php
-namespace Aws;
+namespace CloudBeds\Aws\MskFork;
 
-use Aws\Api\ApiProvider;
-use Aws\Api\Service;
-use Aws\Api\Validator;
-use Aws\ClientSideMonitoring\ApiCallAttemptMonitoringMiddleware;
-use Aws\ClientSideMonitoring\ApiCallMonitoringMiddleware;
-use Aws\ClientSideMonitoring\Configuration;
-use Aws\Configuration\ConfigurationResolver;
-use Aws\Credentials\CredentialProvider;
-use Aws\Credentials\Credentials;
-use Aws\Credentials\CredentialsInterface;
-use Aws\DefaultsMode\ConfigurationInterface as ConfigModeInterface;
-use Aws\DefaultsMode\ConfigurationProvider as ConfigModeProvider;
-use Aws\Endpoint\EndpointProvider;
-use Aws\Endpoint\PartitionEndpointProvider;
-use Aws\Endpoint\UseDualstackEndpoint\Configuration as UseDualStackEndpointConfiguration;
-use Aws\Endpoint\UseDualstackEndpoint\ConfigurationInterface as UseDualStackEndpointConfigurationInterface;
-use Aws\Endpoint\UseDualstackEndpoint\ConfigurationProvider as UseDualStackConfigProvider;
-use Aws\Endpoint\UseFipsEndpoint\Configuration as UseFipsEndpointConfiguration;
-use Aws\Endpoint\UseFipsEndpoint\ConfigurationInterface as UseFipsEndpointConfigurationInterface;
-use Aws\Endpoint\UseFipsEndpoint\ConfigurationProvider as UseFipsConfigProvider;
-use Aws\EndpointDiscovery\ConfigurationInterface;
-use Aws\EndpointDiscovery\ConfigurationProvider;
-use Aws\EndpointV2\EndpointDefinitionProvider;
-use Aws\Exception\AwsException;
-use Aws\Exception\InvalidRegionException;
-use Aws\Retry\ConfigurationInterface as RetryConfigInterface;
-use Aws\Retry\ConfigurationProvider as RetryConfigProvider;
-use Aws\Signature\SignatureProvider;
-use Aws\Token\Token;
-use Aws\Token\TokenInterface;
-use Aws\Token\TokenProvider;
+use CloudBeds\Aws\MskFork\Api\ApiProvider;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Api\Validator;
+use CloudBeds\Aws\MskFork\ClientSideMonitoring\ApiCallAttemptMonitoringMiddleware;
+use CloudBeds\Aws\MskFork\ClientSideMonitoring\ApiCallMonitoringMiddleware;
+use CloudBeds\Aws\MskFork\ClientSideMonitoring\Configuration;
+use CloudBeds\Aws\MskFork\Configuration\ConfigurationResolver;
+use CloudBeds\Aws\MskFork\Credentials\CredentialProvider;
+use CloudBeds\Aws\MskFork\Credentials\Credentials;
+use CloudBeds\Aws\MskFork\Credentials\CredentialsInterface;
+use CloudBeds\Aws\MskFork\DefaultsMode\ConfigurationInterface as ConfigModeInterface;
+use CloudBeds\Aws\MskFork\DefaultsMode\ConfigurationProvider as ConfigModeProvider;
+use CloudBeds\Aws\MskFork\Endpoint\EndpointProvider;
+use CloudBeds\Aws\MskFork\Endpoint\PartitionEndpointProvider;
+use CloudBeds\Aws\MskFork\Endpoint\UseDualstackEndpoint\Configuration as UseDualStackEndpointConfiguration;
+use CloudBeds\Aws\MskFork\Endpoint\UseDualstackEndpoint\ConfigurationInterface as UseDualStackEndpointConfigurationInterface;
+use CloudBeds\Aws\MskFork\Endpoint\UseDualstackEndpoint\ConfigurationProvider as UseDualStackConfigProvider;
+use CloudBeds\Aws\MskFork\Endpoint\UseFipsEndpoint\Configuration as UseFipsEndpointConfiguration;
+use CloudBeds\Aws\MskFork\Endpoint\UseFipsEndpoint\ConfigurationInterface as UseFipsEndpointConfigurationInterface;
+use CloudBeds\Aws\MskFork\Endpoint\UseFipsEndpoint\ConfigurationProvider as UseFipsConfigProvider;
+use CloudBeds\Aws\MskFork\EndpointDiscovery\ConfigurationInterface;
+use CloudBeds\Aws\MskFork\EndpointDiscovery\ConfigurationProvider;
+use CloudBeds\Aws\MskFork\EndpointV2\EndpointDefinitionProvider;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\InvalidRegionException;
+use CloudBeds\Aws\MskFork\Retry\ConfigurationInterface as RetryConfigInterface;
+use CloudBeds\Aws\MskFork\Retry\ConfigurationProvider as RetryConfigProvider;
+use CloudBeds\Aws\MskFork\Signature\SignatureProvider;
+use CloudBeds\Aws\MskFork\Token\Token;
+use CloudBeds\Aws\MskFork\Token\TokenInterface;
+use CloudBeds\Aws\MskFork\Token\TokenProvider;
 use GuzzleHttp\Promise\PromiseInterface;
 use InvalidArgumentException as IAE;
 use Psr\Http\Message\RequestInterface;
@@ -1177,7 +1177,7 @@ class ClientResolver
 
         return $value;
     }
-  
+
     public static function _apply_region($value, array &$args)
     {
         if (empty($value)) {

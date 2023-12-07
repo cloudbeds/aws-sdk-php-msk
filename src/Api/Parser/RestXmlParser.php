@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Api\Parser;
+namespace CloudBeds\Aws\MskFork\Api\Parser;
 
-use Aws\Api\StructureShape;
-use Aws\Api\Service;
+use CloudBeds\Aws\MskFork\Api\StructureShape;
+use CloudBeds\Aws\MskFork\Api\Service;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;
 

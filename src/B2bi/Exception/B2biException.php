@@ -1,7 +1,7 @@
 <?php
-namespace Aws\B2bi\Exception;
+namespace CloudBeds\Aws\MskFork\B2bi\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS B2B Data Interchange** service.

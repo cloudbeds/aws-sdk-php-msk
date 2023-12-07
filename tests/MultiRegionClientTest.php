@@ -1,15 +1,15 @@
 <?php
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws\Api\Service;
-use Aws\AwsClient;
-use Aws\Command;
-use Aws\CommandInterface;
-use Aws\Exception\AwsException;
-use Aws\HandlerList;
-use Aws\MockHandler;
-use Aws\MultiRegionClient;
-use Aws\Result;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\AwsClient;
+use CloudBeds\Aws\MskFork\Command;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\HandlerList;
+use CloudBeds\Aws\MskFork\MockHandler;
+use CloudBeds\Aws\MskFork\MultiRegionClient;
+use CloudBeds\Aws\MskFork\Result;
 use GuzzleHttp\Promise\FulfilledPromise;
 use GuzzleHttp\Psr7\Response;
 use Psr\Http\Message\RequestInterface;

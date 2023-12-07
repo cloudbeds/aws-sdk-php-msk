@@ -1,8 +1,8 @@
 <?php
-namespace Aws\S3\Crypto;
+namespace CloudBeds\Aws\MskFork\S3\Crypto;
 
-use Aws\AwsClientInterface;
-use Aws\Middleware;
+use CloudBeds\Aws\MskFork\AwsClientInterface;
+use CloudBeds\Aws\MskFork\Middleware;
 use Psr\Http\Message\RequestInterface;
 
 trait UserAgentTrait

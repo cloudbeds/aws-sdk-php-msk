@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MigrationHubConfig;
+namespace CloudBeds\Aws\MskFork\MigrationHubConfig;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Migration Hub Config** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\DocDBElastic\Exception;
+namespace CloudBeds\Aws\MskFork\DocDBElastic\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon DocumentDB Elastic Clusters** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\QuickSight;
+namespace CloudBeds\Aws\MskFork\QuickSight;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon QuickSight** service.

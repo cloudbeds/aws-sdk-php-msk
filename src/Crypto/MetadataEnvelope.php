@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Crypto;
+namespace CloudBeds\Aws\MskFork\Crypto;
 
-use Aws\HasDataTrait;
+use CloudBeds\Aws\MskFork\HasDataTrait;
 use \ArrayAccess;
 use \IteratorAggregate;
 use \InvalidArgumentException;

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Token;
+namespace CloudBeds\Aws\MskFork\Token;
 
-use Aws\Exception\TokenException;
+use CloudBeds\Aws\MskFork\Exception\TokenException;
 use GuzzleHttp\Promise;
 
 /**

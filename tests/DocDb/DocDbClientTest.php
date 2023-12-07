@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test\Rds;
+namespace CloudBeds\Aws\MskFork\Test\Rds;
 
-use Aws\CommandInterface;
-use Aws\Credentials\Credentials;
-use Aws\DocDB\DocDBClient;
-use Aws\Result;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Credentials\Credentials;
+use CloudBeds\Aws\MskFork\DocDB\DocDBClient;
+use CloudBeds\Aws\MskFork\Result;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 use Psr\Http\Message\RequestInterface;
 require_once __DIR__ . '/../Signature/sig_hack.php';

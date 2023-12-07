@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Emr;
+namespace CloudBeds\Aws\MskFork\Emr;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Elastic MapReduce (Amazon EMR)** service.

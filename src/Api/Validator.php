@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Api;
+namespace CloudBeds\Aws\MskFork\Api;
 
-use Aws;
+use CloudBeds\Aws\MskFork;
 
 /**
  * Validates a schema against a hash of input.

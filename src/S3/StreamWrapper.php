@@ -1,10 +1,10 @@
 <?php
-namespace Aws\S3;
+namespace CloudBeds\Aws\MskFork\S3;
 
-use Aws\CacheInterface;
-use Aws\LruArrayCache;
-use Aws\Result;
-use Aws\S3\Exception\S3Exception;
+use CloudBeds\Aws\MskFork\CacheInterface;
+use CloudBeds\Aws\MskFork\LruArrayCache;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\S3\Exception\S3Exception;
 use GuzzleHttp\Psr7;
 use GuzzleHttp\Psr7\Stream;
 use GuzzleHttp\Psr7\CachingStream;

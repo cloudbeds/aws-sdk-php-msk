@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws\PhpHash;
+use CloudBeds\Aws\MskFork\PhpHash;
 use PHPUnit\Framework\TestCase;
 
 /**

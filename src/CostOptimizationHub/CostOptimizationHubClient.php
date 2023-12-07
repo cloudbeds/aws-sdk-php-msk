@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CostOptimizationHub;
+namespace CloudBeds\Aws\MskFork\CostOptimizationHub;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Cost Optimization Hub** service.

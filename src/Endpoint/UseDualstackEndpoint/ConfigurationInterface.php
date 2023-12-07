@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Endpoint\UseDualstackEndpoint;
+namespace CloudBeds\Aws\MskFork\Endpoint\UseDualstackEndpoint;
 
 interface ConfigurationInterface
 {

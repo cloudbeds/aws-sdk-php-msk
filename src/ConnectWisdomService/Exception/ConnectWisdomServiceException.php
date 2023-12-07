@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ConnectWisdomService\Exception;
+namespace CloudBeds\Aws\MskFork\ConnectWisdomService\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Connect Wisdom Service** service.

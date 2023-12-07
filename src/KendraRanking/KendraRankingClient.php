@@ -1,7 +1,7 @@
 <?php
-namespace Aws\KendraRanking;
+namespace CloudBeds\Aws\MskFork\KendraRanking;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Kendra Intelligent Ranking** service.

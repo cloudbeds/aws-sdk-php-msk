@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Organizations;
+namespace CloudBeds\Aws\MskFork\Organizations;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Organizations** service.

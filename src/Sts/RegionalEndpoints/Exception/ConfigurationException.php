@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Sts\RegionalEndpoints\Exception;
+namespace CloudBeds\Aws\MskFork\Sts\RegionalEndpoints\Exception;
 
-use Aws\HasMonitoringEventsTrait;
-use Aws\MonitoringEventsInterface;
+use CloudBeds\Aws\MskFork\HasMonitoringEventsTrait;
+use CloudBeds\Aws\MskFork\MonitoringEventsInterface;
 
 /**
  * Represents an error interacting with configuration for sts regional endpoints

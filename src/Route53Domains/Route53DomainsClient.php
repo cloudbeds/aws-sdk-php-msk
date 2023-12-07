@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Route53Domains;
+namespace CloudBeds\Aws\MskFork\Route53Domains;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Route 53 Domains** service.

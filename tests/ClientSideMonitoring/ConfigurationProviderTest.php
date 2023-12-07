@@ -1,13 +1,13 @@
 <?php
 
-namespace Aws\Test\ClientSideMonitoring;
+namespace CloudBeds\Aws\MskFork\Test\ClientSideMonitoring;
 
-use Aws\CacheInterface;
-use Aws\ClientSideMonitoring\Configuration;
-use Aws\ClientSideMonitoring\ConfigurationInterface;
-use Aws\ClientSideMonitoring\ConfigurationProvider;
-use Aws\ClientSideMonitoring\Exception\ConfigurationException;
-use Aws\LruArrayCache;
+use CloudBeds\Aws\MskFork\CacheInterface;
+use CloudBeds\Aws\MskFork\ClientSideMonitoring\Configuration;
+use CloudBeds\Aws\MskFork\ClientSideMonitoring\ConfigurationInterface;
+use CloudBeds\Aws\MskFork\ClientSideMonitoring\ConfigurationProvider;
+use CloudBeds\Aws\MskFork\ClientSideMonitoring\Exception\ConfigurationException;
+use CloudBeds\Aws\MskFork\LruArrayCache;
 use GuzzleHttp\Promise;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
@@ -295,7 +295,7 @@ EOT;
             throw $e;
         }
     }
-    
+
     public function testUsesClassDefaultOptions()
     {
         $this->clearEnv();

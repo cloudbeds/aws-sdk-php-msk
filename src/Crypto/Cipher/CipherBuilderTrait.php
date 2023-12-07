@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Crypto\Cipher;
+namespace CloudBeds\Aws\MskFork\Crypto\Cipher;
 
-use Aws\Exception\CryptoException;
+use CloudBeds\Aws\MskFork\Exception\CryptoException;
 
 trait CipherBuilderTrait
 {

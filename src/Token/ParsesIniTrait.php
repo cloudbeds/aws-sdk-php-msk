@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Token;
+namespace CloudBeds\Aws\MskFork\Token;
 
 trait ParsesIniTrait
 {

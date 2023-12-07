@@ -1,7 +1,7 @@
 <?php
-namespace Aws\FreeTier\Exception;
+namespace CloudBeds\Aws\MskFork\FreeTier\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Free Tier** service.

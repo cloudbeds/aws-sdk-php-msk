@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CostExplorer\Exception;
+namespace CloudBeds\Aws\MskFork\CostExplorer\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Cost Explorer Service** service.

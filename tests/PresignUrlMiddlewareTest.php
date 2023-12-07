@@ -1,13 +1,13 @@
 <?php
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws\CommandInterface;
-use Aws\Credentials\Credentials;
-use Aws\DocDB\DocDBClient;
-use Aws\Ec2\Ec2Client;
-use Aws\Neptune\NeptuneClient;
-use Aws\Rds\RdsClient;
-use Aws\Result;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Credentials\Credentials;
+use CloudBeds\Aws\MskFork\DocDB\DocDBClient;
+use CloudBeds\Aws\MskFork\Ec2\Ec2Client;
+use CloudBeds\Aws\MskFork\Neptune\NeptuneClient;
+use CloudBeds\Aws\MskFork\Rds\RdsClient;
+use CloudBeds\Aws\MskFork\Result;
 use Psr\Http\Message\RequestInterface;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 

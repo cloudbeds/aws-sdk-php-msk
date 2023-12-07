@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Test\Arn\S3;
+namespace CloudBeds\Aws\MskFork\Test\Arn\S3;
 
-use Aws\Arn\S3\AccessPointArn;
-use Aws\Arn\Exception\InvalidArnException;
-use Aws\Arn\S3\OutpostsAccessPointArn;
+use CloudBeds\Aws\MskFork\Arn\S3\AccessPointArn;
+use CloudBeds\Aws\MskFork\Arn\Exception\InvalidArnException;
+use CloudBeds\Aws\MskFork\Arn\S3\OutpostsAccessPointArn;
 use PHPUnit\Framework\TestCase;
 
 /**

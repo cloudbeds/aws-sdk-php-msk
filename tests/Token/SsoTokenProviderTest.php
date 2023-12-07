@@ -1,14 +1,14 @@
 <?php
-namespace Aws\Test\Token;
+namespace CloudBeds\Aws\MskFork\Test\Token;
 
 
-use Aws\Exception\TokenException;
-use Aws\LruArrayCache;
-use Aws\Result;
-use Aws\Test\UsesServiceTrait;
-use Aws\Token\SsoTokenProvider;
-use Aws\Token\Token;
-use Aws\Token\TokenProvider;
+use CloudBeds\Aws\MskFork\Exception\TokenException;
+use CloudBeds\Aws\MskFork\LruArrayCache;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Token\SsoTokenProvider;
+use CloudBeds\Aws\MskFork\Token\Token;
+use CloudBeds\Aws\MskFork\Token\TokenProvider;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 require_once __DIR__ . '/../Token/token_hack.php';

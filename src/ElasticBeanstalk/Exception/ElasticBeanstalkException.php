@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ElasticBeanstalk\Exception;
+namespace CloudBeds\Aws\MskFork\ElasticBeanstalk\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the AWS Elastic Beanstalk service.

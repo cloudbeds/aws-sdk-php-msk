@@ -1,7 +1,7 @@
 <?php
-namespace Aws\BCMDataExports\Exception;
+namespace CloudBeds\Aws\MskFork\BCMDataExports\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Billing and Cost Management Data Exports** service.

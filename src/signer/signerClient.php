@@ -1,7 +1,7 @@
 <?php
-namespace Aws\signer;
+namespace CloudBeds\Aws\MskFork\signer;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Signer** service.

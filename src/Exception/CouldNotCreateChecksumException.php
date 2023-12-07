@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Exception;
+namespace CloudBeds\Aws\MskFork\Exception;
 
-use Aws\HasMonitoringEventsTrait;
-use Aws\MonitoringEventsInterface;
+use CloudBeds\Aws\MskFork\HasMonitoringEventsTrait;
+use CloudBeds\Aws\MskFork\MonitoringEventsInterface;
 
 class CouldNotCreateChecksumException extends \RuntimeException implements
     MonitoringEventsInterface

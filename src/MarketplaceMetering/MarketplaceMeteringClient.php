@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MarketplaceMetering;
+namespace CloudBeds\Aws\MskFork\MarketplaceMetering;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWSMarketplace Metering** service.

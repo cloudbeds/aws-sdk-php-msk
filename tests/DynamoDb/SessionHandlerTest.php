@@ -1,11 +1,11 @@
 <?php
-namespace Aws\Test\DynamoDb;
+namespace CloudBeds\Aws\MskFork\Test\DynamoDb;
 
-use Aws\DynamoDb\LockingSessionConnection;
-use Aws\DynamoDb\SessionConnectionInterface;
-use Aws\DynamoDb\SessionHandler;
-use Aws\DynamoDb\StandardSessionConnection;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\DynamoDb\LockingSessionConnection;
+use CloudBeds\Aws\MskFork\DynamoDb\SessionConnectionInterface;
+use CloudBeds\Aws\MskFork\DynamoDb\SessionHandler;
+use CloudBeds\Aws\MskFork\DynamoDb\StandardSessionConnection;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

@@ -1,12 +1,12 @@
 <?php
-namespace Aws\Test\DefaultsMode;
+namespace CloudBeds\Aws\MskFork\Test\DefaultsMode;
 
-use Aws\CacheInterface;
-use Aws\LruArrayCache;
-use Aws\DefaultsMode\Configuration;
-use Aws\DefaultsMode\ConfigurationInterface;
-use Aws\DefaultsMode\ConfigurationProvider;
-use Aws\DefaultsMode\Exception\ConfigurationException;
+use CloudBeds\Aws\MskFork\CacheInterface;
+use CloudBeds\Aws\MskFork\LruArrayCache;
+use CloudBeds\Aws\MskFork\DefaultsMode\Configuration;
+use CloudBeds\Aws\MskFork\DefaultsMode\ConfigurationInterface;
+use CloudBeds\Aws\MskFork\DefaultsMode\ConfigurationProvider;
+use CloudBeds\Aws\MskFork\DefaultsMode\Exception\ConfigurationException;
 use GuzzleHttp\Promise;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 

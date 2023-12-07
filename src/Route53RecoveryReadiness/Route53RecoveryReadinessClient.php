@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Route53RecoveryReadiness;
+namespace CloudBeds\Aws\MskFork\Route53RecoveryReadiness;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Route53 Recovery Readiness** service.

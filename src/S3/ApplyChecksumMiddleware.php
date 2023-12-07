@@ -1,8 +1,8 @@
 <?php
-namespace Aws\S3;
+namespace CloudBeds\Aws\MskFork\S3;
 
-use Aws\Api\Service;
-use Aws\CommandInterface;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\CommandInterface;
 use GuzzleHttp\Psr7;
 use InvalidArgumentException;
 use Psr\Http\Message\RequestInterface;

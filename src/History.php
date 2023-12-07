@@ -1,8 +1,8 @@
 <?php
-namespace Aws;
+namespace CloudBeds\Aws\MskFork;
 
 use Psr\Http\Message\RequestInterface;
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents a history container that is required when using the history

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\S3Control\Exception;
+namespace CloudBeds\Aws\MskFork\S3Control\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS S3 Control** service.

@@ -1,11 +1,11 @@
 <?php
-namespace Aws\Test\Crypto;
+namespace CloudBeds\Aws\MskFork\Test\Crypto;
 
-use Aws\Crypto\KmsMaterialsProviderV2;
-use Aws\Kms\KmsClient;
-use Aws\Middleware;
-use Aws\Result;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Crypto\KmsMaterialsProviderV2;
+use CloudBeds\Aws\MskFork\Kms\KmsClient;
+use CloudBeds\Aws\MskFork\Middleware;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

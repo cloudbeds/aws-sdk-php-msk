@@ -1,11 +1,11 @@
 <?php
-namespace Aws\CognitoIdentityProvider;
+namespace CloudBeds\Aws\MskFork\CognitoIdentityProvider;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Cognito Identity Provider** service.
- * 
+ *
  * @method \Aws\Result addCustomAttributes(array $args = [])
  * @method \GuzzleHttp\Promise\Promise addCustomAttributesAsync(array $args = [])
  * @method \Aws\Result adminAddUserToGroup(array $args = [])

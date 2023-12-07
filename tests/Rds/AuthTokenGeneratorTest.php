@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Test\Rds;
+namespace CloudBeds\Aws\MskFork\Test\Rds;
 
-use Aws\Credentials\Credentials;
-use Aws\Rds\AuthTokenGenerator;
+use CloudBeds\Aws\MskFork\Credentials\Credentials;
+use CloudBeds\Aws\MskFork\Rds\AuthTokenGenerator;
 use GuzzleHttp\Promise;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 

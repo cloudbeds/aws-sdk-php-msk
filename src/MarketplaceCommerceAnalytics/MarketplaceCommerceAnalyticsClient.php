@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MarketplaceCommerceAnalytics;
+namespace CloudBeds\Aws\MskFork\MarketplaceCommerceAnalytics;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Marketplace Commerce Analytics** service.

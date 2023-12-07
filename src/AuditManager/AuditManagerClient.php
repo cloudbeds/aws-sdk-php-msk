@@ -1,7 +1,7 @@
 <?php
-namespace Aws\AuditManager;
+namespace CloudBeds\Aws\MskFork\AuditManager;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Audit Manager** service.

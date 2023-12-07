@@ -1,8 +1,8 @@
 <?php
-namespace Aws\S3\Exception;
+namespace CloudBeds\Aws\MskFork\S3\Exception;
 
-use Aws\HasMonitoringEventsTrait;
-use Aws\MonitoringEventsInterface;
+use CloudBeds\Aws\MskFork\HasMonitoringEventsTrait;
+use CloudBeds\Aws\MskFork\MonitoringEventsInterface;
 
 /**
  * Exception thrown when errors occur while deleting objects using a

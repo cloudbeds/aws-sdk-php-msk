@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\Api\Parser;
+namespace CloudBeds\Aws\MskFork\Test\Api\Parser;
 
-use Aws\Api\Parser\Exception\ParserException;
+use CloudBeds\Aws\MskFork\Api\Parser\Exception\ParserException;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

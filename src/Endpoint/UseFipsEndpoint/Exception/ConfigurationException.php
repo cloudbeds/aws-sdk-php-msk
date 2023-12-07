@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Endpoint\UseFipsEndpoint\Exception;
+namespace CloudBeds\Aws\MskFork\Endpoint\UseFipsEndpoint\Exception;
 
-use Aws\HasMonitoringEventsTrait;
-use Aws\MonitoringEventsInterface;
+use CloudBeds\Aws\MskFork\HasMonitoringEventsTrait;
+use CloudBeds\Aws\MskFork\MonitoringEventsInterface;
 
 /**
  * Represents an error interacting with configuration for useFipsRegion

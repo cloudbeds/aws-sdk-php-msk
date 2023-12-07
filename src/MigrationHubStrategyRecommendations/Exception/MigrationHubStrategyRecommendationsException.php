@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MigrationHubStrategyRecommendations\Exception;
+namespace CloudBeds\Aws\MskFork\MigrationHubStrategyRecommendations\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Migration Hub Strategy Recommendations** service.

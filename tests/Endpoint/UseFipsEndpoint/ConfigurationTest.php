@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\Endpoint\UseFipsEndpoint;
+namespace CloudBeds\Aws\MskFork\Test\Endpoint\UseFipsEndpoint;
 
-use Aws\Endpoint\UseFipsEndpoint\Configuration;
+use CloudBeds\Aws\MskFork\Endpoint\UseFipsEndpoint\Configuration;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

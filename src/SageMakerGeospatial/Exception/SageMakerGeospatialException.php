@@ -1,7 +1,7 @@
 <?php
-namespace Aws\SageMakerGeospatial\Exception;
+namespace CloudBeds\Aws\MskFork\SageMakerGeospatial\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon SageMaker geospatial capabilities** service.

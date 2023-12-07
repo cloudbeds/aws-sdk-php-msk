@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MigrationHubRefactorSpaces\Exception;
+namespace CloudBeds\Aws\MskFork\MigrationHubRefactorSpaces\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Migration Hub Refactor Spaces** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ResourceGroupsTaggingAPI\Exception;
+namespace CloudBeds\Aws\MskFork\ResourceGroupsTaggingAPI\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Resource Groups Tagging API** service.

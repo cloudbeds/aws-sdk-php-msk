@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Route53Domains\Exception;
+namespace CloudBeds\Aws\MskFork\Route53Domains\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the Amazon Route 53 Domains service.

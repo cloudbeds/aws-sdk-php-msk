@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Test\Api\ErrorParser;
+namespace CloudBeds\Aws\MskFork\Test\Api\ErrorParser;
 
-use Aws\Api\ErrorParser\XmlErrorParser;
-use Aws\Test\TestServiceTrait;
+use CloudBeds\Aws\MskFork\Api\ErrorParser\XmlErrorParser;
+use CloudBeds\Aws\MskFork\Test\TestServiceTrait;
 use DMS\PHPUnitExtensions\ArraySubset\ArraySubsetAsserts;
 use GuzzleHttp\Psr7;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;

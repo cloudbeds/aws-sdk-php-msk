@@ -1,7 +1,7 @@
 <?php
-namespace Aws\WorkSpacesWeb;
+namespace CloudBeds\Aws\MskFork\WorkSpacesWeb;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon WorkSpaces Web** service.

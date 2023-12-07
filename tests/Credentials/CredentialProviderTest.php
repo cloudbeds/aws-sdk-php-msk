@@ -1,17 +1,17 @@
 <?php
-namespace Aws\Test\Credentials;
+namespace CloudBeds\Aws\MskFork\Test\Credentials;
 
-use Aws\Api\DateTimeResult;
-use Aws\Credentials\CredentialProvider;
-use Aws\Credentials\Credentials;
-use Aws\Credentials\EcsCredentialProvider;
-use Aws\Credentials\InstanceProfileProvider;
-use Aws\History;
-use Aws\LruArrayCache;
-use Aws\Result;
-use Aws\Token\SsoTokenProvider;
+use CloudBeds\Aws\MskFork\Api\DateTimeResult;
+use CloudBeds\Aws\MskFork\Credentials\CredentialProvider;
+use CloudBeds\Aws\MskFork\Credentials\Credentials;
+use CloudBeds\Aws\MskFork\Credentials\EcsCredentialProvider;
+use CloudBeds\Aws\MskFork\Credentials\InstanceProfileProvider;
+use CloudBeds\Aws\MskFork\History;
+use CloudBeds\Aws\MskFork\LruArrayCache;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\Token\SsoTokenProvider;
 use GuzzleHttp\Promise;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 
@@ -778,7 +778,7 @@ EOT;
         $credentials = <<<EOT
 [assume]
 credential_source = Environment
-role_arn = 
+role_arn =
 EOT;
         file_put_contents($dir . '/credentials', $credentials);
         putenv('HOME=' . dirname($dir));
@@ -1910,7 +1910,7 @@ EOT;
             'credentials' => $cache,
         ]))
             ->wait();
-    
+
         $this->assertSame($ecsCredential->getAccessKeyId(), $credentials->getAccessKeyId());
         $this->assertSame($ecsCredential->getSecretKey(), $credentials->getSecretKey());
 
@@ -1921,7 +1921,7 @@ EOT;
             'credentials' => $cache,
         ]))
             ->wait();
-            
+
         $this->assertSame($ecsCredential->getAccessKeyId(), $credentials->getAccessKeyId());
         $this->assertSame($ecsCredential->getSecretKey(), $credentials->getSecretKey());
     }

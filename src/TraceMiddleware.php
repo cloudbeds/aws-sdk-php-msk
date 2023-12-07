@@ -1,8 +1,8 @@
 <?php
-namespace Aws;
+namespace CloudBeds\Aws\MskFork;
 
-use Aws\Api\Service;
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 use GuzzleHttp\Promise\RejectedPromise;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;

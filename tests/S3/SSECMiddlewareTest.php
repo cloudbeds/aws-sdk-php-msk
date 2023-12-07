@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Test\S3;
+namespace CloudBeds\Aws\MskFork\Test\S3;
 
-use Aws\Middleware;
-use Aws\Result;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Middleware;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

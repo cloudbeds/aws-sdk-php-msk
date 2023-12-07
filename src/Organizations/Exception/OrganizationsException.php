@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Organizations\Exception;
+namespace CloudBeds\Aws\MskFork\Organizations\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Organizations** service.

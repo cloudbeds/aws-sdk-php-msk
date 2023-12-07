@@ -1,8 +1,8 @@
 <?php
 
-namespace Aws\EndpointV2\Rule;
+namespace CloudBeds\Aws\MskFork\EndpointV2\Rule;
 
-use Aws\Exception\UnresolvedEndpointException;
+use CloudBeds\Aws\MskFork\Exception\UnresolvedEndpointException;
 
 class RuleCreator
 {

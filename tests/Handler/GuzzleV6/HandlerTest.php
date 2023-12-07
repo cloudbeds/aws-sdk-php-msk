@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\Handler\GuzzleV6;
+namespace CloudBeds\Aws\MskFork\Test\Handler\GuzzleV6;
 
-use Aws\Handler\GuzzleV6\GuzzleHandler;
+use CloudBeds\Aws\MskFork\Handler\GuzzleV6\GuzzleHandler;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Handler\MockHandler;

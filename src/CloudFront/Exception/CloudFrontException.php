@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CloudFront\Exception;
+namespace CloudBeds\Aws\MskFork\CloudFront\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the Amazon CloudFront service.

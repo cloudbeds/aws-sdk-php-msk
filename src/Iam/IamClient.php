@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Iam;
+namespace CloudBeds\Aws\MskFork\Iam;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Identity and Access Management (AWS IAM)** service.

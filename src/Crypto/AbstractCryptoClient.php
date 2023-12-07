@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Crypto;
+namespace CloudBeds\Aws\MskFork\Crypto;
 
-use Aws\Crypto\Cipher\CipherMethod;
-use Aws\Crypto\Cipher\Cbc;
+use CloudBeds\Aws\MskFork\Crypto\Cipher\CipherMethod;
+use CloudBeds\Aws\MskFork\Crypto\Cipher\Cbc;
 use GuzzleHttp\Psr7\Stream;
 
 /**

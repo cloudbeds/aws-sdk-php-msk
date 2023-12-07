@@ -1,7 +1,7 @@
 <?php
-namespace Aws\QLDBSession;
+namespace CloudBeds\Aws\MskFork\QLDBSession;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon QLDB Session** service.

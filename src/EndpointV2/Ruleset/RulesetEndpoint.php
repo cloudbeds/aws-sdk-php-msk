@@ -1,6 +1,6 @@
 <?php
 
-namespace Aws\EndpointV2\Ruleset;
+namespace CloudBeds\Aws\MskFork\EndpointV2\Ruleset;
 
 /**
  * Represents a fully resolved endpoint that a

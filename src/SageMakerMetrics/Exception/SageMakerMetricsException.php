@@ -1,7 +1,7 @@
 <?php
-namespace Aws\SageMakerMetrics\Exception;
+namespace CloudBeds\Aws\MskFork\SageMakerMetrics\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon SageMaker Metrics Service** service.

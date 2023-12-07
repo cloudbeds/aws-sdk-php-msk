@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Rds\Exception;
+namespace CloudBeds\Aws\MskFork\Rds\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the Amazon Relational Database Service.

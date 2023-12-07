@@ -1,5 +1,5 @@
 <?php
-namespace Aws\S3\UseArnRegion;
+namespace CloudBeds\Aws\MskFork\S3\UseArnRegion;
 
 interface ConfigurationInterface
 {

@@ -1,14 +1,14 @@
 <?php
-namespace Aws;
+namespace CloudBeds\Aws\MskFork;
 
-use Aws\Api\Service;
-use Aws\Api\Validator;
-use Aws\Credentials\CredentialsInterface;
-use Aws\EndpointV2\EndpointProviderV2;
-use Aws\Exception\AwsException;
-use Aws\Signature\S3ExpressSignature;
-use Aws\Token\TokenAuthorization;
-use Aws\Token\TokenInterface;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Api\Validator;
+use CloudBeds\Aws\MskFork\Credentials\CredentialsInterface;
+use CloudBeds\Aws\MskFork\EndpointV2\EndpointProviderV2;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Signature\S3ExpressSignature;
+use CloudBeds\Aws\MskFork\Token\TokenAuthorization;
+use CloudBeds\Aws\MskFork\Token\TokenInterface;
 use GuzzleHttp\Promise;
 use GuzzleHttp\Psr7;
 use GuzzleHttp\Psr7\LazyOpenStream;

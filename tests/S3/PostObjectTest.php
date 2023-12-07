@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test\S3;
+namespace CloudBeds\Aws\MskFork\Test\S3;
 
-use Aws\Credentials\Credentials;
-use Aws\S3\PostObject;
-use Aws\S3\S3Client;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Credentials\Credentials;
+use CloudBeds\Aws\MskFork\S3\PostObject;
+use CloudBeds\Aws\MskFork\S3\S3Client;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

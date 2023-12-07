@@ -1,7 +1,7 @@
 <?php
-namespace Aws\FraudDetector\Exception;
+namespace CloudBeds\Aws\MskFork\FraudDetector\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Fraud Detector** service.

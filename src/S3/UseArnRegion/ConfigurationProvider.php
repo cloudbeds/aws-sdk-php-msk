@@ -1,10 +1,10 @@
 <?php
-namespace Aws\S3\UseArnRegion;
+namespace CloudBeds\Aws\MskFork\S3\UseArnRegion;
 
-use Aws\AbstractConfigurationProvider;
-use Aws\CacheInterface;
-use Aws\ConfigurationProviderInterface;
-use Aws\S3\UseArnRegion\Exception\ConfigurationException;
+use CloudBeds\Aws\MskFork\AbstractConfigurationProvider;
+use CloudBeds\Aws\MskFork\CacheInterface;
+use CloudBeds\Aws\MskFork\ConfigurationProviderInterface;
+use CloudBeds\Aws\MskFork\S3\UseArnRegion\Exception\ConfigurationException;
 use GuzzleHttp\Promise;
 
 /**
@@ -13,7 +13,7 @@ use GuzzleHttp\Promise;
  * or rejected with an {@see \Aws\S3\UseArnRegion\Exception\ConfigurationException}.
  *
  * <code>
- * use Aws\S3\UseArnRegion\ConfigurationProvider;
+ * use CloudBeds\Aws\MskFork\S3\UseArnRegion\ConfigurationProvider;
  * $provider = ConfigurationProvider::defaultProvider();
  * // Returns a ConfigurationInterface or throws.
  * $config = $provider()->wait();

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Schemas;
+namespace CloudBeds\Aws\MskFork\Schemas;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Schemas** service.

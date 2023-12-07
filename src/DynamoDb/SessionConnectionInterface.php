@@ -1,5 +1,5 @@
 <?php
-namespace Aws\DynamoDb;
+namespace CloudBeds\Aws\MskFork\DynamoDb;
 
 /**
  * The session connection provides the underlying logic for interacting with

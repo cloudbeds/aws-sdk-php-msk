@@ -1,7 +1,7 @@
 <?php
-namespace Aws\IVS;
+namespace CloudBeds\Aws\MskFork\IVS;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Interactive Video Service** service.

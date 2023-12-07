@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Crypto\Polyfill;
+namespace CloudBeds\Aws\MskFork\Crypto\Polyfill;
 
 /**
  * Class Gmac

@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test\RequestCompression;
+namespace CloudBeds\Aws\MskFork\Test\RequestCompression;
 
-use Aws\Api\Service;
-use Aws\AwsClient;
-use Aws\Middleware;
-use Aws\RequestCompressionMiddleware;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\AwsClient;
+use CloudBeds\Aws\MskFork\Middleware;
+use CloudBeds\Aws\MskFork\RequestCompressionMiddleware;
 use GuzzleHttp\Promise\FulfilledPromise;
 use GuzzleHttp\Psr7\Response;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;

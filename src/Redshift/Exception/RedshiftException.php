@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Redshift\Exception;
+namespace CloudBeds\Aws\MskFork\Redshift\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the Amazon Redshift service.

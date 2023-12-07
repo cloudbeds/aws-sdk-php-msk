@@ -1,7 +1,7 @@
 <?php
-namespace Aws\QBusiness\Exception;
+namespace CloudBeds\Aws\MskFork\QBusiness\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **QBusiness** service.

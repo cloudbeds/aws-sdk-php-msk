@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Api\Serializer;
+namespace CloudBeds\Aws\MskFork\Api\Serializer;
 
-use Aws\Api\Service;
-use Aws\Api\Shape;
-use Aws\Api\TimestampShape;
-use Aws\Exception\InvalidJsonException;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Api\Shape;
+use CloudBeds\Aws\MskFork\Api\TimestampShape;
+use CloudBeds\Aws\MskFork\Exception\InvalidJsonException;
 
 /**
  * Formats the JSON body of a JSON-REST or JSON-RPC operation.

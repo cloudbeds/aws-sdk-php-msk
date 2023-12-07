@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Api\ErrorParser;
+namespace CloudBeds\Aws\MskFork\Api\ErrorParser;
 
-use Aws\Api\Parser\PayloadParserTrait;
-use Aws\Api\StructureShape;
+use CloudBeds\Aws\MskFork\Api\Parser\PayloadParserTrait;
+use CloudBeds\Aws\MskFork\Api\StructureShape;
 use Psr\Http\Message\ResponseInterface;
 
 /**

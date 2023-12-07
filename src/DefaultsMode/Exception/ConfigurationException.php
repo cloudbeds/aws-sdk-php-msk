@@ -1,8 +1,8 @@
 <?php
-namespace Aws\DefaultsMode\Exception;
+namespace CloudBeds\Aws\MskFork\DefaultsMode\Exception;
 
-use Aws\HasMonitoringEventsTrait;
-use Aws\MonitoringEventsInterface;
+use CloudBeds\Aws\MskFork\HasMonitoringEventsTrait;
+use CloudBeds\Aws\MskFork\MonitoringEventsInterface;
 
 /**
  * Represents an error interacting with configuration mode

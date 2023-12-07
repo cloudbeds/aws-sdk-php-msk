@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Neptune\Exception;
+namespace CloudBeds\Aws\MskFork\Neptune\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Neptune** service.

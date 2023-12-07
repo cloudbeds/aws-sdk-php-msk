@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Comprehend;
+namespace CloudBeds\Aws\MskFork\Comprehend;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Comprehend** service.

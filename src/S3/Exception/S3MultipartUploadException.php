@@ -1,9 +1,9 @@
 <?php
-namespace Aws\S3\Exception;
+namespace CloudBeds\Aws\MskFork\S3\Exception;
 
-use Aws\CommandInterface;
-use Aws\Exception\AwsException;
-use Aws\Multipart\UploadState;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Multipart\UploadState;
 
 class S3MultipartUploadException extends \Aws\Exception\MultipartUploadException
 {

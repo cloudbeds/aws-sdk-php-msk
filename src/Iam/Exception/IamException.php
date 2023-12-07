@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Iam\Exception;
+namespace CloudBeds\Aws\MskFork\Iam\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the AWS Identity and Access Management service.

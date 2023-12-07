@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CostandUsageReportService;
+namespace CloudBeds\Aws\MskFork\CostandUsageReportService;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Cost and Usage Report Service** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\imagebuilder\Exception;
+namespace CloudBeds\Aws\MskFork\imagebuilder\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **EC2 Image Builder** service.

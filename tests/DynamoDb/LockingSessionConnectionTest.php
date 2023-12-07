@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test\DynamoDb;
+namespace CloudBeds\Aws\MskFork\Test\DynamoDb;
 
-use Aws\DynamoDb\Exception\DynamoDbException;
-use Aws\DynamoDb\LockingSessionConnection;
-use Aws\Result;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\DynamoDb\Exception\DynamoDbException;
+use CloudBeds\Aws\MskFork\DynamoDb\LockingSessionConnection;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use PHPUnit\Framework\TestCase;
 
 /**

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ChimeSDKMediaPipelines;
+namespace CloudBeds\Aws\MskFork\ChimeSDKMediaPipelines;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Chime SDK Media Pipelines** service.

@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test\Crypto;
+namespace CloudBeds\Aws\MskFork\Test\Crypto;
 
-use Aws\Crypto\KmsMaterialsProvider;
-use Aws\Kms\KmsClient;
-use Aws\Result;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Crypto\KmsMaterialsProvider;
+use CloudBeds\Aws\MskFork\Kms\KmsClient;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use PHPUnit\Framework\TestCase;
 
 /**

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Token;
+namespace CloudBeds\Aws\MskFork\Token;
 
-use Aws\Token\TokenInterface;
+use CloudBeds\Aws\MskFork\Token\TokenInterface;
 
 /**
  * Basic implementation of the AWS Token interface that allows callers to

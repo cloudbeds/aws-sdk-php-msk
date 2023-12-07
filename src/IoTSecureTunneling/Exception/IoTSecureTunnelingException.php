@@ -1,7 +1,7 @@
 <?php
-namespace Aws\IoTSecureTunneling\Exception;
+namespace CloudBeds\Aws\MskFork\IoTSecureTunneling\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS IoT Secure Tunneling** service.

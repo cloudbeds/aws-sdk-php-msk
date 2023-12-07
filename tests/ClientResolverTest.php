@@ -1,23 +1,23 @@
 <?php
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws\Api\Service;
-use Aws\ClientResolver;
-use Aws\ClientSideMonitoring\Configuration;
-use Aws\ClientSideMonitoring\ConfigurationProvider;
-use Aws\CommandInterface;
-use Aws\Credentials\CredentialProvider;
-use Aws\Credentials\Credentials;
-use Aws\Credentials\CredentialsInterface;
-use Aws\DynamoDb\DynamoDbClient;
-use Aws\Endpoint\Partition;
-use Aws\EndpointV2\EndpointProviderV2;
-use Aws\Exception\InvalidRegionException;
-use Aws\LruArrayCache;
-use Aws\S3\S3Client;
-use Aws\HandlerList;
-use Aws\Sdk;
-use Aws\Result;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\ClientResolver;
+use CloudBeds\Aws\MskFork\ClientSideMonitoring\Configuration;
+use CloudBeds\Aws\MskFork\ClientSideMonitoring\ConfigurationProvider;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Credentials\CredentialProvider;
+use CloudBeds\Aws\MskFork\Credentials\Credentials;
+use CloudBeds\Aws\MskFork\Credentials\CredentialsInterface;
+use CloudBeds\Aws\MskFork\DynamoDb\DynamoDbClient;
+use CloudBeds\Aws\MskFork\Endpoint\Partition;
+use CloudBeds\Aws\MskFork\EndpointV2\EndpointProviderV2;
+use CloudBeds\Aws\MskFork\Exception\InvalidRegionException;
+use CloudBeds\Aws\MskFork\LruArrayCache;
+use CloudBeds\Aws\MskFork\S3\S3Client;
+use CloudBeds\Aws\MskFork\HandlerList;
+use CloudBeds\Aws\MskFork\Sdk;
+use CloudBeds\Aws\MskFork\Result;
 use Psr\Http\Message\RequestInterface;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
@@ -1442,7 +1442,7 @@ EOT;
             'service' => 's3',
             'region' => $configKey === 'region' ? null : 'x'
         ], new HandlerList());
-   
+
         if ($configType === 'args') {
             $this->assertEquals($conf[$configKey], $expected);
         } else {

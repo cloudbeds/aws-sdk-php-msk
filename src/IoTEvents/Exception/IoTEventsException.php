@@ -1,7 +1,7 @@
 <?php
-namespace Aws\IoTEvents\Exception;
+namespace CloudBeds\Aws\MskFork\IoTEvents\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS IoT Events** service.

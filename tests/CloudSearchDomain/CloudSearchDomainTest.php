@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\CloudSearchDomain;
+namespace CloudBeds\Aws\MskFork\Test\CloudSearchDomain;
 
-use Aws\CloudSearchDomain\CloudSearchDomainClient;
+use CloudBeds\Aws\MskFork\CloudSearchDomain\CloudSearchDomainClient;
 use GuzzleHttp\Psr7\Request;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 

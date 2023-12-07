@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Test\S3\Crypto;
+namespace CloudBeds\Aws\MskFork\Test\S3\Crypto;
 
-use Aws\S3\Crypto\HeadersMetadataStrategy;
-use Aws\Test\Crypto\UsesMetadataEnvelopeTrait;
+use CloudBeds\Aws\MskFork\S3\Crypto\HeadersMetadataStrategy;
+use CloudBeds\Aws\MskFork\Test\Crypto\UsesMetadataEnvelopeTrait;
 use PHPUnit\Framework\TestCase;
 
 /**

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CodeGuruSecurity;
+namespace CloudBeds\Aws\MskFork\CodeGuruSecurity;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon CodeGuru Security** service.

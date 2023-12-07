@@ -1,19 +1,19 @@
 <?php
 
-namespace Aws\Test\Integ;
+namespace CloudBeds\Aws\MskFork\Test\Integ;
 
-use Aws\Api\ApiProvider;
-use Aws\Api\Service;
-use Aws\AwsClient;
-use Aws\ClientSideMonitoring\ConfigurationProvider;
-use Aws\ClientSideMonitoring\Exception\ConfigurationException;
-use Aws\Command;
-use Aws\Credentials\Credentials;
-use Aws\Exception\AwsException;
-use Aws\MockHandler;
-use Aws\MonitoringEventsInterface;
-use Aws\Result;
-use Aws\Sdk;
+use CloudBeds\Aws\MskFork\Api\ApiProvider;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\AwsClient;
+use CloudBeds\Aws\MskFork\ClientSideMonitoring\ConfigurationProvider;
+use CloudBeds\Aws\MskFork\ClientSideMonitoring\Exception\ConfigurationException;
+use CloudBeds\Aws\MskFork\Command;
+use CloudBeds\Aws\MskFork\Credentials\Credentials;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\MockHandler;
+use CloudBeds\Aws\MskFork\MonitoringEventsInterface;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\Sdk;
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\SnippetAcceptingContext;
 use GuzzleHttp\Psr7\Request;

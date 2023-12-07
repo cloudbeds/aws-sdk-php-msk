@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Sts\RegionalEndpoints;
+namespace CloudBeds\Aws\MskFork\Sts\RegionalEndpoints;
 
 /**
  * Provides access to STS regional endpoints configuration options: endpoints_type

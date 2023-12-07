@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MQ;
+namespace CloudBeds\Aws\MskFork\MQ;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AmazonMQ** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ServiceCatalog\Exception;
+namespace CloudBeds\Aws\MskFork\ServiceCatalog\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Service Catalog** service.

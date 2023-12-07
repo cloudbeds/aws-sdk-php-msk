@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Arn\S3;
+namespace CloudBeds\Aws\MskFork\Arn\S3;
 
-use Aws\Arn\AccessPointArn as BaseAccessPointArn;
-use Aws\Arn\AccessPointArnInterface;
-use Aws\Arn\ArnInterface;
-use Aws\Arn\Exception\InvalidArnException;
+use CloudBeds\Aws\MskFork\Arn\AccessPointArn as BaseAccessPointArn;
+use CloudBeds\Aws\MskFork\Arn\AccessPointArnInterface;
+use CloudBeds\Aws\MskFork\Arn\ArnInterface;
+use CloudBeds\Aws\MskFork\Arn\Exception\InvalidArnException;
 
 /**
  * @internal

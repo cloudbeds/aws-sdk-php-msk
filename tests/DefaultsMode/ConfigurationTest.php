@@ -1,8 +1,8 @@
 <?php
 
-namespace Aws\Test\DefaultsMode;
+namespace CloudBeds\Aws\MskFork\Test\DefaultsMode;
 
-use Aws\DefaultsMode\Configuration;
+use CloudBeds\Aws\MskFork\DefaultsMode\Configuration;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

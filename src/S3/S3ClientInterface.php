@@ -1,10 +1,10 @@
 <?php
-namespace Aws\S3;
+namespace CloudBeds\Aws\MskFork\S3;
 
-use Aws\AwsClientInterface;
-use Aws\CommandInterface;
-use Aws\ResultInterface;
-use Aws\S3\Exception\S3Exception;
+use CloudBeds\Aws\MskFork\AwsClientInterface;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\ResultInterface;
+use CloudBeds\Aws\MskFork\S3\Exception\S3Exception;
 use GuzzleHttp\Promise\PromiseInterface;
 use Psr\Http\Message\RequestInterface;
 

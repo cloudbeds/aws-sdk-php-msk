@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Ses;
+namespace CloudBeds\Aws\MskFork\Ses;
 
-use Aws\Api\ApiProvider;
-use Aws\Api\DocModel;
-use Aws\Api\Service;
-use Aws\Credentials\CredentialsInterface;
+use CloudBeds\Aws\MskFork\Api\ApiProvider;
+use CloudBeds\Aws\MskFork\Api\DocModel;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Credentials\CredentialsInterface;
 
 /**
  * This client is used to interact with the **Amazon Simple Email Service (Amazon SES)**.

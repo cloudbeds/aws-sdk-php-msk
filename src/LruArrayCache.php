@@ -1,5 +1,5 @@
 <?php
-namespace Aws;
+namespace CloudBeds\Aws\MskFork;
 
 /**
  * Simple in-memory LRU cache that limits the number of cached entries.

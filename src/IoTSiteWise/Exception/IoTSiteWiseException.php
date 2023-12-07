@@ -1,7 +1,7 @@
 <?php
-namespace Aws\IoTSiteWise\Exception;
+namespace CloudBeds\Aws\MskFork\IoTSiteWise\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS IoT SiteWise** service.

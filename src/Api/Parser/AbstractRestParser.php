@@ -1,11 +1,11 @@
 <?php
-namespace Aws\Api\Parser;
+namespace CloudBeds\Aws\MskFork\Api\Parser;
 
-use Aws\Api\DateTimeResult;
-use Aws\Api\Shape;
-use Aws\Api\StructureShape;
-use Aws\Result;
-use Aws\CommandInterface;
+use CloudBeds\Aws\MskFork\Api\DateTimeResult;
+use CloudBeds\Aws\MskFork\Api\Shape;
+use CloudBeds\Aws\MskFork\Api\StructureShape;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\CommandInterface;
 use Psr\Http\Message\ResponseInterface;
 
 /**

@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Test\Arn;
+namespace CloudBeds\Aws\MskFork\Test\Arn;
 
-use Aws\Arn\Arn;
-use Aws\Arn\Exception\InvalidArnException;
+use CloudBeds\Aws\MskFork\Arn\Arn;
+use CloudBeds\Aws\MskFork\Arn\Exception\InvalidArnException;
 use GuzzleHttp\Promise\Promise;
 use PHPUnit\Framework\TestCase;
 

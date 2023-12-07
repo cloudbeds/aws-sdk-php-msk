@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MigrationHubRefactorSpaces;
+namespace CloudBeds\Aws\MskFork\MigrationHubRefactorSpaces;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Migration Hub Refactor Spaces** service.

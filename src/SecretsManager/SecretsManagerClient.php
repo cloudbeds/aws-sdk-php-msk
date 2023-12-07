@@ -1,7 +1,7 @@
 <?php
-namespace Aws\SecretsManager;
+namespace CloudBeds\Aws\MskFork\SecretsManager;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Secrets Manager** service.

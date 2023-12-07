@@ -1,8 +1,8 @@
 <?php
-namespace Aws;
+namespace CloudBeds\Aws\MskFork;
 
-use Aws\Exception\AwsException;
-use Aws\Retry\RetryHelperTrait;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Retry\RetryHelperTrait;
 use GuzzleHttp\Exception\RequestException;
 use Psr\Http\Message\RequestInterface;
 use GuzzleHttp\Promise\PromiseInterface;

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ElasticsearchService;
+namespace CloudBeds\Aws\MskFork\ElasticsearchService;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Elasticsearch Service** service.

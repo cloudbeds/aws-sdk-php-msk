@@ -1,13 +1,13 @@
 <?php
 
-namespace Aws\Test\S3\RegionalEndpoint;
+namespace CloudBeds\Aws\MskFork\Test\S3\RegionalEndpoint;
 
-use Aws\CacheInterface;
-use Aws\LruArrayCache;
-use Aws\S3\RegionalEndpoint\Configuration;
-use Aws\S3\RegionalEndpoint\ConfigurationInterface;
-use Aws\S3\RegionalEndpoint\ConfigurationProvider;
-use Aws\S3\RegionalEndpoint\Exception\ConfigurationException;
+use CloudBeds\Aws\MskFork\CacheInterface;
+use CloudBeds\Aws\MskFork\LruArrayCache;
+use CloudBeds\Aws\MskFork\S3\RegionalEndpoint\Configuration;
+use CloudBeds\Aws\MskFork\S3\RegionalEndpoint\ConfigurationInterface;
+use CloudBeds\Aws\MskFork\S3\RegionalEndpoint\ConfigurationProvider;
+use CloudBeds\Aws\MskFork\S3\RegionalEndpoint\Exception\ConfigurationException;
 use GuzzleHttp\Promise;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 

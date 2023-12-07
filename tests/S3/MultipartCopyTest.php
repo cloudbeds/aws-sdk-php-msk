@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test\S3;
+namespace CloudBeds\Aws\MskFork\Test\S3;
 
-use Aws\Result;
-use Aws\ResultInterface;
-use Aws\S3\MultipartCopy;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\ResultInterface;
+use CloudBeds\Aws\MskFork\S3\MultipartCopy;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use PHPUnit\Framework\TestCase;
 
 class MultipartCopyTest extends TestCase

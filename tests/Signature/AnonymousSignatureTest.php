@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Test\Signature;
+namespace CloudBeds\Aws\MskFork\Test\Signature;
 
-use Aws\Credentials\Credentials;
-use Aws\Signature\AnonymousSignature;
+use CloudBeds\Aws\MskFork\Credentials\Credentials;
+use CloudBeds\Aws\MskFork\Signature\AnonymousSignature;
 use GuzzleHttp\Psr7\Request;
 use PHPUnit\Framework\TestCase;
 

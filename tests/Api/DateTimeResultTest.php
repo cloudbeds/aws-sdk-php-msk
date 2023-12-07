@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\Api;
+namespace CloudBeds\Aws\MskFork\Test\Api;
 
-use Aws\Api\DateTimeResult;
+use CloudBeds\Aws\MskFork\Api\DateTimeResult;
 use PHPUnit\Framework\TestCase;
 
 /**

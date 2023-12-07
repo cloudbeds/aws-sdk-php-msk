@@ -1,11 +1,11 @@
 <?php
-namespace Aws\Test\S3;
+namespace CloudBeds\Aws\MskFork\Test\S3;
 
-use Aws\Credentials\Credentials;
-use Aws\S3\PostObjectV4;
-use Aws\S3\S3Client;
+use CloudBeds\Aws\MskFork\Credentials\Credentials;
+use CloudBeds\Aws\MskFork\S3\PostObjectV4;
+use CloudBeds\Aws\MskFork\S3\S3Client;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 
 require_once __DIR__ . '/sig_hack.php';
 

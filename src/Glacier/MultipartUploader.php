@@ -1,12 +1,12 @@
 <?php
-namespace Aws\Glacier;
+namespace CloudBeds\Aws\MskFork\Glacier;
 
-use Aws\CommandInterface;
-use Aws\HashingStream;
-use Aws\Multipart\AbstractUploader;
-use Aws\Multipart\UploadState;
-use Aws\PhpHash;
-use Aws\ResultInterface;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\HashingStream;
+use CloudBeds\Aws\MskFork\Multipart\AbstractUploader;
+use CloudBeds\Aws\MskFork\Multipart\UploadState;
+use CloudBeds\Aws\MskFork\PhpHash;
+use CloudBeds\Aws\MskFork\ResultInterface;
 use GuzzleHttp\Psr7;
 use Psr\Http\Message\StreamInterface as Stream;
 

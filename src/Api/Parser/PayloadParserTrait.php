@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Api\Parser;
+namespace CloudBeds\Aws\MskFork\Api\Parser;
 
-use Aws\Api\Parser\Exception\ParserException;
+use CloudBeds\Aws\MskFork\Api\Parser\Exception\ParserException;
 use Psr\Http\Message\ResponseInterface;
 
 trait PayloadParserTrait

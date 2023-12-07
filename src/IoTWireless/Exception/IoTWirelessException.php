@@ -1,7 +1,7 @@
 <?php
-namespace Aws\IoTWireless\Exception;
+namespace CloudBeds\Aws\MskFork\IoTWireless\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS IoT Wireless** service.

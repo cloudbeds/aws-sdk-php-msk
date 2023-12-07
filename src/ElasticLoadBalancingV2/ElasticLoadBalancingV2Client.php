@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ElasticLoadBalancingV2;
+namespace CloudBeds\Aws\MskFork\ElasticLoadBalancingV2;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Elastic Load Balancing** service.

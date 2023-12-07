@@ -1,7 +1,7 @@
 <?php
-namespace Aws\IoTTwinMaker\Exception;
+namespace CloudBeds\Aws\MskFork\IoTTwinMaker\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS IoT TwinMaker** service.

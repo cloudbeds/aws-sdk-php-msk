@@ -1,7 +1,7 @@
 <?php
-namespace Aws\SnowDeviceManagement;
+namespace CloudBeds\Aws\MskFork\SnowDeviceManagement;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Snow Device Management** service.

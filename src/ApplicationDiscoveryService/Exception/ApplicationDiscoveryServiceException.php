@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ApplicationDiscoveryService\Exception;
+namespace CloudBeds\Aws\MskFork\ApplicationDiscoveryService\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Application Discovery Service** service.

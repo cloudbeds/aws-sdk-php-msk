@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Api;
+namespace CloudBeds\Aws\MskFork\Api;
 
 /**
  * Represents a structure shape and resolve member shape references.

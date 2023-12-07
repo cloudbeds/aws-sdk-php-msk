@@ -1,15 +1,15 @@
 <?php
-namespace Aws\Test\EndpointV2;
+namespace CloudBeds\Aws\MskFork\Test\EndpointV2;
 
-use Aws\EndpointV2\EndpointDefinitionProvider;
-use Aws\CommandInterface;
-use Aws\EndpointV2\EndpointProviderV2;
-use Aws\EndpointV2\Ruleset\Ruleset;
-use Aws\EndpointV2\Ruleset\RulesetEndpoint;
-use Aws\Exception\CommonRuntimeException;
-use Aws\Exception\UnresolvedEndpointException;
-use Aws\Middleware;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\EndpointV2\EndpointDefinitionProvider;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\EndpointV2\EndpointProviderV2;
+use CloudBeds\Aws\MskFork\EndpointV2\Ruleset\Ruleset;
+use CloudBeds\Aws\MskFork\EndpointV2\Ruleset\RulesetEndpoint;
+use CloudBeds\Aws\MskFork\Exception\CommonRuntimeException;
+use CloudBeds\Aws\MskFork\Exception\UnresolvedEndpointException;
+use CloudBeds\Aws\MskFork\Middleware;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use Psr\Http\Message\RequestInterface;
 use GuzzleHttp\Psr7\Uri;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;

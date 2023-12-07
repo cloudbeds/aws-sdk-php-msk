@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Test\Api;
+namespace CloudBeds\Aws\MskFork\Test\Api;
 
-use Aws\Api\TimestampShape;
-use Aws\Api\ShapeMap;
+use CloudBeds\Aws\MskFork\Api\TimestampShape;
+use CloudBeds\Aws\MskFork\Api\ShapeMap;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

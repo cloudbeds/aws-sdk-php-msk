@@ -1,7 +1,7 @@
 <?php
-namespace Aws\StorageGateway;
+namespace CloudBeds\Aws\MskFork\StorageGateway;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * AWS Storage Gateway client.

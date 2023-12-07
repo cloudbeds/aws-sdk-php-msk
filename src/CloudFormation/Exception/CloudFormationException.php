@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CloudFormation\Exception;
+namespace CloudBeds\Aws\MskFork\CloudFormation\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the AWS CloudFormation service.

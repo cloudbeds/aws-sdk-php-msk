@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ApplicationInsights\Exception;
+namespace CloudBeds\Aws\MskFork\ApplicationInsights\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon CloudWatch Application Insights** service.

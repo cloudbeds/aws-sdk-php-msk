@@ -1,8 +1,8 @@
 <?php
-namespace Aws;
+namespace CloudBeds\Aws\MskFork;
 
-use Aws\Api\Parser\Exception\ParserException;
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Api\Parser\Exception\ParserException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 use GuzzleHttp\Promise;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;

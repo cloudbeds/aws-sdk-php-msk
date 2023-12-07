@@ -1,7 +1,7 @@
 <?php
-namespace Aws\WorkLink\Exception;
+namespace CloudBeds\Aws\MskFork\WorkLink\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon WorkLink** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\SsmSap;
+namespace CloudBeds\Aws\MskFork\SsmSap;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Systems Manager for SAP** service.

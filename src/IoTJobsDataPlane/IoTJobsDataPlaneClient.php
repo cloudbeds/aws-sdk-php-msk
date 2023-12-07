@@ -1,7 +1,7 @@
 <?php
-namespace Aws\IoTJobsDataPlane;
+namespace CloudBeds\Aws\MskFork\IoTJobsDataPlane;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS IoT Jobs Data Plane** service.

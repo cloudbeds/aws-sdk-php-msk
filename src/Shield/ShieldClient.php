@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Shield;
+namespace CloudBeds\Aws\MskFork\Shield;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Shield** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Kms\Exception;
+namespace CloudBeds\Aws\MskFork\Kms\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the AWS Key Management Service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\PinpointSMSVoice;
+namespace CloudBeds\Aws\MskFork\PinpointSMSVoice;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Pinpoint SMS and Voice Service** service.

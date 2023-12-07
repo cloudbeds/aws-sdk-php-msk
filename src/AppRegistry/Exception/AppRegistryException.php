@@ -1,7 +1,7 @@
 <?php
-namespace Aws\AppRegistry\Exception;
+namespace CloudBeds\Aws\MskFork\AppRegistry\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Service Catalog App Registry** service.

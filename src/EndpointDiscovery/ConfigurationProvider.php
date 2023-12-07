@@ -1,10 +1,10 @@
 <?php
-namespace Aws\EndpointDiscovery;
+namespace CloudBeds\Aws\MskFork\EndpointDiscovery;
 
-use Aws\AbstractConfigurationProvider;
-use Aws\CacheInterface;
-use Aws\ConfigurationProviderInterface;
-use Aws\EndpointDiscovery\Exception\ConfigurationException;
+use CloudBeds\Aws\MskFork\AbstractConfigurationProvider;
+use CloudBeds\Aws\MskFork\CacheInterface;
+use CloudBeds\Aws\MskFork\ConfigurationProviderInterface;
+use CloudBeds\Aws\MskFork\EndpointDiscovery\Exception\ConfigurationException;
 use GuzzleHttp\Promise;
 use GuzzleHttp\Promise\PromiseInterface;
 
@@ -14,7 +14,7 @@ use GuzzleHttp\Promise\PromiseInterface;
  * or rejected with an {@see \Aws\EndpointDiscovery\Exception\ConfigurationException}.
  *
  * <code>
- * use Aws\EndpointDiscovery\ConfigurationProvider;
+ * use CloudBeds\Aws\MskFork\EndpointDiscovery\ConfigurationProvider;
  * $provider = ConfigurationProvider::defaultProvider();
  * // Returns a ConfigurationInterface or throws.
  * $config = $provider()->wait();

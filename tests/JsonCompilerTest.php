@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws\JsonCompiler;
+use CloudBeds\Aws\MskFork\JsonCompiler;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

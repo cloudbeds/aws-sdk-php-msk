@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Swf;
+namespace CloudBeds\Aws\MskFork\Swf;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * Amazon Simple Workflow Service (Amazon SWF) client.

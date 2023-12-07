@@ -1,12 +1,12 @@
 <?php
-namespace Aws\Test\Multipart;
+namespace CloudBeds\Aws\MskFork\Test\Multipart;
 
-use Aws\Command;
-use Aws\Exception\AwsException;
-use Aws\Exception\MultipartUploadException;
-use Aws\Multipart\UploadState;
-use Aws\Result;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Command;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\MultipartUploadException;
+use CloudBeds\Aws\MskFork\Multipart\UploadState;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use GuzzleHttp\Psr7;
 use Psr\Http\Message\StreamInterface;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;

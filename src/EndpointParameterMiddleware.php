@@ -1,7 +1,7 @@
 <?php
-namespace Aws;
+namespace CloudBeds\Aws\MskFork;
 
-use Aws\Api\Service;
+use CloudBeds\Aws\MskFork\Api\Service;
 use Psr\Http\Message\RequestInterface;
 use Psr\Log\InvalidArgumentException;
 

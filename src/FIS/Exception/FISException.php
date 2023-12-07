@@ -1,7 +1,7 @@
 <?php
-namespace Aws\FIS\Exception;
+namespace CloudBeds\Aws\MskFork\FIS\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Fault Injection Simulator** service.

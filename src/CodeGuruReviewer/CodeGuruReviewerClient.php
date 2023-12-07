@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CodeGuruReviewer;
+namespace CloudBeds\Aws\MskFork\CodeGuruReviewer;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon CodeGuru Reviewer** service.

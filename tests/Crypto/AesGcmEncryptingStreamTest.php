@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\Crypto;
+namespace CloudBeds\Aws\MskFork\Test\Crypto;
 
-use Aws\Crypto\AesGcmEncryptingStream;
+use CloudBeds\Aws\MskFork\Crypto\AesGcmEncryptingStream;
 use GuzzleHttp\Psr7;
 use Psr\Http\Message\StreamInterface;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MarketplaceAgreement;
+namespace CloudBeds\Aws\MskFork\MarketplaceAgreement;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Marketplace Agreement Service** service.

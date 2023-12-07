@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ApplicationInsights;
+namespace CloudBeds\Aws\MskFork\ApplicationInsights;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon CloudWatch Application Insights** service.

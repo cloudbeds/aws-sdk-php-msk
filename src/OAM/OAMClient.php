@@ -1,7 +1,7 @@
 <?php
-namespace Aws\OAM;
+namespace CloudBeds\Aws\MskFork\OAM;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **CloudWatch Observability Access Manager** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Keyspaces\Exception;
+namespace CloudBeds\Aws\MskFork\Keyspaces\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Keyspaces** service.

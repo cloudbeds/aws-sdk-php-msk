@@ -1,7 +1,7 @@
 <?php
-namespace Aws\PI\Exception;
+namespace CloudBeds\Aws\MskFork\PI\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Performance Insights** service.

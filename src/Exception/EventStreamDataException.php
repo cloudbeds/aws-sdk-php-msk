@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Exception;
+namespace CloudBeds\Aws\MskFork\Exception;
 
 /**
  * Represents an exception that was supplied via an EventStream.

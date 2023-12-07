@@ -1,7 +1,7 @@
 <?php
-namespace Aws\LocationService;
+namespace CloudBeds\Aws\MskFork\LocationService;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Location Service** service.

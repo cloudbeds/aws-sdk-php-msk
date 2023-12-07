@@ -1,11 +1,11 @@
 <?php
-namespace Aws\Test\S3;
+namespace CloudBeds\Aws\MskFork\Test\S3;
 
-use Aws\Middleware;
-use Aws\S3\MultipartUploader;
-use Aws\Result;
-use Aws\S3\S3Client;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Middleware;
+use CloudBeds\Aws\MskFork\S3\MultipartUploader;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\S3\S3Client;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use GuzzleHttp\Promise;
 use GuzzleHttp\Psr7;
 use Psr\Http\Message\StreamInterface;

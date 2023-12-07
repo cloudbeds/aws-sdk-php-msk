@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Ssm;
+namespace CloudBeds\Aws\MskFork\Ssm;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * Amazon EC2 Simple Systems Manager client.

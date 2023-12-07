@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\Route53;
+namespace CloudBeds\Aws\MskFork\Test\Route53;
 
-use Aws\Route53\Route53Client;
+use CloudBeds\Aws\MskFork\Route53\Route53Client;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

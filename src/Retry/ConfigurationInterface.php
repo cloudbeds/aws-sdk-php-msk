@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Retry;
+namespace CloudBeds\Aws\MskFork\Retry;
 
 /**
  * Provides access to retry configuration

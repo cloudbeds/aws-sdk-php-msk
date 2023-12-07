@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CostandUsageReportService\Exception;
+namespace CloudBeds\Aws\MskFork\CostandUsageReportService\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Cost and Usage Report Service** service.

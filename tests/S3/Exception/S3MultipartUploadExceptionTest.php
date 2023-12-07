@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test\S3\Exception;
+namespace CloudBeds\Aws\MskFork\Test\S3\Exception;
 
-use Aws\Command;
-use Aws\Exception\AwsException;
-use Aws\S3\Exception\S3MultipartUploadException;
-use Aws\Multipart\UploadState;
+use CloudBeds\Aws\MskFork\Command;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\S3\Exception\S3MultipartUploadException;
+use CloudBeds\Aws\MskFork\Multipart\UploadState;
 use GuzzleHttp\Psr7;
 use PHPUnit\Framework\TestCase;
 

@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Test\Api\ErrorParser;
+namespace CloudBeds\Aws\MskFork\Test\Api\ErrorParser;
 
-use Aws\Api\ErrorParser\RestJsonErrorParser;
-use Aws\Test\TestServiceTrait;
+use CloudBeds\Aws\MskFork\Api\ErrorParser\RestJsonErrorParser;
+use CloudBeds\Aws\MskFork\Test\TestServiceTrait;
 use GuzzleHttp\Psr7;
 use PHPUnit\Framework\TestCase;
 

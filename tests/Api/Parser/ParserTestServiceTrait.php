@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Test\Api\Parser;
+namespace CloudBeds\Aws\MskFork\Test\Api\Parser;
 
-use Aws\Api\Service;
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\AwsClient;
 use GuzzleHttp\Promise\FulfilledPromise;
 use GuzzleHttp\Psr7\Response;
 

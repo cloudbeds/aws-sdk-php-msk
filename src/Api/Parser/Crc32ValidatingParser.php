@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Api\Parser;
+namespace CloudBeds\Aws\MskFork\Api\Parser;
 
-use Aws\Api\StructureShape;
-use Aws\CommandInterface;
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Api\StructureShape;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;
 use GuzzleHttp\Psr7;

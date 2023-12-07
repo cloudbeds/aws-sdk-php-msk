@@ -1,11 +1,11 @@
 <?php
-namespace Aws\Rds;
+namespace CloudBeds\Aws\MskFork\Rds;
 
-use Aws\AwsClient;
-use Aws\Api\Service;
-use Aws\Api\DocModel;
-use Aws\Api\ApiProvider;
-use Aws\PresignUrlMiddleware;
+use CloudBeds\Aws\MskFork\AwsClient;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Api\DocModel;
+use CloudBeds\Aws\MskFork\Api\ApiProvider;
+use CloudBeds\Aws\MskFork\PresignUrlMiddleware;
 
 /**
  * This client is used to interact with the **Amazon Relational Database Service (Amazon RDS)**.

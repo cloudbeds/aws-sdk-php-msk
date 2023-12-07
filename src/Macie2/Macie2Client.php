@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Macie2;
+namespace CloudBeds\Aws\MskFork\Macie2;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Macie 2** service.

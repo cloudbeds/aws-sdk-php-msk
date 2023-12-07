@@ -1,5 +1,5 @@
 <?php
-namespace Aws\DefaultsMode;
+namespace CloudBeds\Aws\MskFork\DefaultsMode;
 
 /**
  * Provides access to defaultsMode configuration

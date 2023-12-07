@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Endpoint;
+namespace CloudBeds\Aws\MskFork\Endpoint;
 
 use JmesPath\Env;
 

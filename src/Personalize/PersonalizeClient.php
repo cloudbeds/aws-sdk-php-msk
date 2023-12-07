@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Personalize;
+namespace CloudBeds\Aws\MskFork\Personalize;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Personalize** service.

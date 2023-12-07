@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Sns;
+namespace CloudBeds\Aws\MskFork\Sns;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Simple Notification Service (Amazon SNS)**.

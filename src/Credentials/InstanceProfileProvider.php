@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Credentials;
+namespace CloudBeds\Aws\MskFork\Credentials;
 
-use Aws\Configuration\ConfigurationResolver;
-use Aws\Exception\CredentialsException;
-use Aws\Exception\InvalidJsonException;
-use Aws\Sdk;
+use CloudBeds\Aws\MskFork\Configuration\ConfigurationResolver;
+use CloudBeds\Aws\MskFork\Exception\CredentialsException;
+use CloudBeds\Aws\MskFork\Exception\InvalidJsonException;
+use CloudBeds\Aws\MskFork\Sdk;
 use GuzzleHttp\Exception\TransferException;
 use GuzzleHttp\Promise;
 use GuzzleHttp\Psr7\Request;
@@ -314,7 +314,7 @@ class InstanceProfileProvider
      *
      * @return bool
      */
-    private function shouldFallbackToIMDSv1(): bool 
+    private function shouldFallbackToIMDSv1(): bool
     {
         $isImdsV1Disabled = \Aws\boolean_value($this->ec2MetadataV1Disabled)
             ?? \Aws\boolean_value(

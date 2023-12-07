@@ -1,7 +1,7 @@
 <?php
-namespace Aws\PersonalizeEvents;
+namespace CloudBeds\Aws\MskFork\PersonalizeEvents;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Personalize Events** service.

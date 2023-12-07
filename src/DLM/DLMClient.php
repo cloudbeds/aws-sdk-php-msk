@@ -1,7 +1,7 @@
 <?php
-namespace Aws\DLM;
+namespace CloudBeds\Aws\MskFork\DLM;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Data Lifecycle Manager** service.

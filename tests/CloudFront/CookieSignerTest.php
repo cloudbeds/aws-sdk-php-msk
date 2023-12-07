@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\CloudFront;
+namespace CloudBeds\Aws\MskFork\Test\CloudFront;
 
-use Aws\CloudFront\CookieSigner;
+use CloudBeds\Aws\MskFork\CloudFront\CookieSigner;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 class CookieSignerTest extends TestCase

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\LookoutforVision;
+namespace CloudBeds\Aws\MskFork\LookoutforVision;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Lookout for Vision** service.

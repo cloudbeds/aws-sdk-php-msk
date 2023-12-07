@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Crypto\Cipher;
+namespace CloudBeds\Aws\MskFork\Crypto\Cipher;
 
 use \InvalidArgumentException;
 use \LogicException;

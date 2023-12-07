@@ -1,7 +1,7 @@
 <?php
-namespace Aws\VPCLattice;
+namespace CloudBeds\Aws\MskFork\VPCLattice;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon VPC Lattice** service.

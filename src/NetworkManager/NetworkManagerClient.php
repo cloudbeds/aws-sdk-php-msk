@@ -1,7 +1,7 @@
 <?php
-namespace Aws\NetworkManager;
+namespace CloudBeds\Aws\MskFork\NetworkManager;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Network Manager** service.

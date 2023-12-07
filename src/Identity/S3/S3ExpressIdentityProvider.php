@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Identity\S3;
+namespace CloudBeds\Aws\MskFork\Identity\S3;
 
-use Aws;
-use Aws\LruArrayCache;
+use CloudBeds\Aws\MskFork;
+use CloudBeds\Aws\MskFork\LruArrayCache;
 use GuzzleHttp\Promise;
 
 class S3ExpressIdentityProvider

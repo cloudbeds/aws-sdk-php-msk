@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CodeStarNotifications;
+namespace CloudBeds\Aws\MskFork\CodeStarNotifications;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS CodeStar Notifications** service.

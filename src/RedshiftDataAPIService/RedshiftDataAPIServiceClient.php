@@ -1,7 +1,7 @@
 <?php
-namespace Aws\RedshiftDataAPIService;
+namespace CloudBeds\Aws\MskFork\RedshiftDataAPIService;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Redshift Data API Service** service.

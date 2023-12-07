@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Backup;
+namespace CloudBeds\Aws\MskFork\Backup;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Backup** service.

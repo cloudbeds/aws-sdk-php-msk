@@ -1,8 +1,8 @@
 <?php
 
-namespace Aws\EndpointV2;
+namespace CloudBeds\Aws\MskFork\EndpointV2;
 
-use Aws\Api\Serializer\RestSerializer;
+use CloudBeds\Aws\MskFork\Api\Serializer\RestSerializer;
 use GuzzleHttp\Psr7\Uri;
 
 /**

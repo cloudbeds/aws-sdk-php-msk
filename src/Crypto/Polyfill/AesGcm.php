@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Crypto\Polyfill;
+namespace CloudBeds\Aws\MskFork\Crypto\Polyfill;
 
-use Aws\Exception\CryptoPolyfillException;
+use CloudBeds\Aws\MskFork\Exception\CryptoPolyfillException;
 use InvalidArgumentException;
 use RangeException;
 

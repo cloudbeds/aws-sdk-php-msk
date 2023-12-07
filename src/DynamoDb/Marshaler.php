@@ -1,5 +1,5 @@
 <?php
-namespace Aws\DynamoDb;
+namespace CloudBeds\Aws\MskFork\DynamoDb;
 
 use Psr\Http\Message\StreamInterface;
 

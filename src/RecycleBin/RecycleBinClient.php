@@ -1,7 +1,7 @@
 <?php
-namespace Aws\RecycleBin;
+namespace CloudBeds\Aws\MskFork\RecycleBin;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Recycle Bin** service.

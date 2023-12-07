@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Exception;
+namespace CloudBeds\Aws\MskFork\Exception;
 
-use Aws\HasMonitoringEventsTrait;
-use Aws\MonitoringEventsInterface;
-use Aws\Multipart\UploadState;
+use CloudBeds\Aws\MskFork\HasMonitoringEventsTrait;
+use CloudBeds\Aws\MskFork\MonitoringEventsInterface;
+use CloudBeds\Aws\MskFork\Multipart\UploadState;
 
 class MultipartUploadException extends \RuntimeException implements
     MonitoringEventsInterface

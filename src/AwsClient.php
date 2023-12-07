@@ -1,13 +1,13 @@
 <?php
-namespace Aws;
+namespace CloudBeds\Aws\MskFork;
 
-use Aws\Api\ApiProvider;
-use Aws\Api\DocModel;
-use Aws\Api\Service;
-use Aws\EndpointDiscovery\EndpointDiscoveryMiddleware;
-use Aws\EndpointV2\EndpointProviderV2;
-use Aws\Exception\AwsException;
-use Aws\Signature\SignatureProvider;
+use CloudBeds\Aws\MskFork\Api\ApiProvider;
+use CloudBeds\Aws\MskFork\Api\DocModel;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\EndpointDiscovery\EndpointDiscoveryMiddleware;
+use CloudBeds\Aws\MskFork\EndpointV2\EndpointProviderV2;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Signature\SignatureProvider;
 use GuzzleHttp\Psr7\Uri;
 
 /**
@@ -15,7 +15,7 @@ use GuzzleHttp\Psr7\Uri;
  */
 class AwsClient implements AwsClientInterface
 {
-    use AwsClientTrait;
+    use CloudBeds\Aws\MskForkClientTrait;
 
     /** @var array */
     private $aliases;

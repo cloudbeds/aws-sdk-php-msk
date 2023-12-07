@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Signature;
+namespace CloudBeds\Aws\MskFork\Signature;
 
 // Hack gmdate() to returned the canned result.
 function gmdate($format, $ts = null)

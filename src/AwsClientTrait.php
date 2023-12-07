@@ -1,7 +1,7 @@
 <?php
-namespace Aws;
+namespace CloudBeds\Aws\MskFork;
 
-use Aws\Api\Service;
+use CloudBeds\Aws\MskFork\Api\Service;
 
 /**
  * A trait providing generic functionality for interacting with Amazon Web

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MarketplaceEntitlementService\Exception;
+namespace CloudBeds\Aws\MskFork\MarketplaceEntitlementService\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Marketplace Entitlement Service** service.

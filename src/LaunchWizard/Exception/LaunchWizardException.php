@@ -1,7 +1,7 @@
 <?php
-namespace Aws\LaunchWizard\Exception;
+namespace CloudBeds\Aws\MskFork\LaunchWizard\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Launch Wizard** service.

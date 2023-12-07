@@ -1,7 +1,7 @@
 <?php
-namespace Aws\IoTDeviceAdvisor;
+namespace CloudBeds\Aws\MskFork\IoTDeviceAdvisor;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS IoT Core Device Advisor** service.

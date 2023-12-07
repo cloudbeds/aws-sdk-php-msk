@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Test\Ec2;
+namespace CloudBeds\Aws\MskFork\Test\Ec2;
 
-use Aws\Ec2\Ec2Client;
-use Aws\MockHandler;
-use Aws\Result;
+use CloudBeds\Aws\MskFork\Ec2\Ec2Client;
+use CloudBeds\Aws\MskFork\MockHandler;
+use CloudBeds\Aws\MskFork\Result;
 use PHPUnit\Framework\TestCase;
 
 /**

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\KinesisVideoArchivedMedia;
+namespace CloudBeds\Aws\MskFork\KinesisVideoArchivedMedia;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Kinesis Video Streams Archived Media** service.

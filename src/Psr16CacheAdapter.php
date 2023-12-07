@@ -1,5 +1,5 @@
 <?php
-namespace Aws;
+namespace CloudBeds\Aws\MskFork;
 
 use Psr\SimpleCache\CacheInterface as SimpleCacheInterface;
 

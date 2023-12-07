@@ -1,9 +1,9 @@
 <?php
-namespace Aws\S3\Crypto;
+namespace CloudBeds\Aws\MskFork\S3\Crypto;
 
-use Aws\Crypto\MaterialsProvider;
-use Aws\Crypto\MetadataEnvelope;
-use Aws\Crypto\MetadataStrategyInterface;
+use CloudBeds\Aws\MskFork\Crypto\MaterialsProvider;
+use CloudBeds\Aws\MskFork\Crypto\MetadataEnvelope;
+use CloudBeds\Aws\MskFork\Crypto\MetadataStrategyInterface;
 
 trait CryptoParamsTrait
 {

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\DynamoDb;
+namespace CloudBeds\Aws\MskFork\DynamoDb;
 
-use Aws\DynamoDb\Exception\DynamoDbException;
+use CloudBeds\Aws\MskFork\DynamoDb\Exception\DynamoDbException;
 
 /**
  * The standard connection performs the read and write operations to DynamoDB.
@@ -9,10 +9,10 @@ use Aws\DynamoDb\Exception\DynamoDbException;
 class StandardSessionConnection implements SessionConnectionInterface
 {
     use SessionConnectionConfigTrait;
-    
+
     /** @var DynamoDbClient The DynamoDB client */
     protected $client;
-    
+
     /**
      * @param DynamoDbClient    $client DynamoDB client
      * @param array             $config Session handler config

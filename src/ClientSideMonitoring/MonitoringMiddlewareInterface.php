@@ -1,10 +1,10 @@
 <?php
 
-namespace Aws\ClientSideMonitoring;
+namespace CloudBeds\Aws\MskFork\ClientSideMonitoring;
 
-use Aws\CommandInterface;
-use Aws\Exception\AwsException;
-use Aws\ResultInterface;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\ResultInterface;
 use GuzzleHttp\Psr7\Request;
 use Psr\Http\Message\RequestInterface;
 

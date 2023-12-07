@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws\Command;
-use Aws\CommandPool;
-use Aws\Exception\AwsException;
-use Aws\Result;
+use CloudBeds\Aws\MskFork\Command;
+use CloudBeds\Aws\MskFork\CommandPool;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Result;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

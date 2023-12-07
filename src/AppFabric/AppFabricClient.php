@@ -1,7 +1,7 @@
 <?php
-namespace Aws\AppFabric;
+namespace CloudBeds\Aws\MskFork\AppFabric;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AppFabric** service.

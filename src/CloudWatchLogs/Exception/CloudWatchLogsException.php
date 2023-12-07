@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CloudWatchLogs\Exception;
+namespace CloudBeds\Aws\MskFork\CloudWatchLogs\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the Amazon CloudWatch Logs service.

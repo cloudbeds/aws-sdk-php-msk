@@ -1,7 +1,7 @@
 <?php
-namespace Aws\EKS;
+namespace CloudBeds\Aws\MskFork\EKS;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Elastic Container Service for Kubernetes** service.

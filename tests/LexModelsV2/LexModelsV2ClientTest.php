@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test\LexModelsV2;
+namespace CloudBeds\Aws\MskFork\Test\LexModelsV2;
 
-use Aws\Exception\CouldNotCreateChecksumException;
-use Aws\Glacier\GlacierClient;
-use Aws\LexModelsV2\LexModelsV2Client;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Exception\CouldNotCreateChecksumException;
+use CloudBeds\Aws\MskFork\Glacier\GlacierClient;
+use CloudBeds\Aws\MskFork\LexModelsV2\LexModelsV2Client;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use GuzzleHttp\Psr7\NoSeekStream;
 use GuzzleHttp\Psr7;
 use PHPUnit\Framework\TestCase;

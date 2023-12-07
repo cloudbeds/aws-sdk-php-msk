@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test\S3Control;
+namespace CloudBeds\Aws\MskFork\Test\S3Control;
 
-use Aws\Arn\ArnParser;
-use Aws\Exception\UnresolvedEndpointException;
-use Aws\S3Control\S3ControlClient;
-use Aws\Signature\SignatureV4;
+use CloudBeds\Aws\MskFork\Arn\ArnParser;
+use CloudBeds\Aws\MskFork\Exception\UnresolvedEndpointException;
+use CloudBeds\Aws\MskFork\S3Control\S3ControlClient;
+use CloudBeds\Aws\MskFork\Signature\SignatureV4;
 use GuzzleHttp\Promise;
 use GuzzleHttp\Psr7\Response;
 use Psr\Http\Message\RequestInterface;

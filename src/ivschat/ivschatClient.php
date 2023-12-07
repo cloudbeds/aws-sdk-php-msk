@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ivschat;
+namespace CloudBeds\Aws\MskFork\ivschat;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Interactive Video Service Chat** service.

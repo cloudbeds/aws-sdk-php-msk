@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Api\Serializer;
+namespace CloudBeds\Aws\MskFork\Api\Serializer;
 
-use Aws\Api\Service;
-use Aws\CommandInterface;
-use Aws\EndpointV2\EndpointProviderV2;
-use Aws\EndpointV2\EndpointV2SerializerTrait;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\EndpointV2\EndpointProviderV2;
+use CloudBeds\Aws\MskFork\EndpointV2\EndpointV2SerializerTrait;
 use GuzzleHttp\Psr7\Request;
 use Psr\Http\Message\RequestInterface;
 

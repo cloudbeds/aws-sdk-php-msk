@@ -1,7 +1,7 @@
 <?php
-namespace Aws\DirectoryService\Exception;
+namespace CloudBeds\Aws\MskFork\DirectoryService\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * AWS Directory Service Exception

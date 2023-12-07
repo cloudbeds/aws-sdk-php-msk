@@ -1,16 +1,16 @@
 <?php
-namespace Aws\S3\Crypto;
+namespace CloudBeds\Aws\MskFork\S3\Crypto;
 
-use Aws\Crypto\DecryptionTraitV2;
-use Aws\Exception\CryptoException;
-use Aws\HashingStream;
-use Aws\PhpHash;
-use Aws\Crypto\AbstractCryptoClientV2;
-use Aws\Crypto\EncryptionTraitV2;
-use Aws\Crypto\MetadataEnvelope;
-use Aws\Crypto\MaterialsProvider;
-use Aws\Crypto\Cipher\CipherBuilderTrait;
-use Aws\S3\S3Client;
+use CloudBeds\Aws\MskFork\Crypto\DecryptionTraitV2;
+use CloudBeds\Aws\MskFork\Exception\CryptoException;
+use CloudBeds\Aws\MskFork\HashingStream;
+use CloudBeds\Aws\MskFork\PhpHash;
+use CloudBeds\Aws\MskFork\Crypto\AbstractCryptoClientV2;
+use CloudBeds\Aws\MskFork\Crypto\EncryptionTraitV2;
+use CloudBeds\Aws\MskFork\Crypto\MetadataEnvelope;
+use CloudBeds\Aws\MskFork\Crypto\MaterialsProvider;
+use CloudBeds\Aws\MskFork\Crypto\Cipher\CipherBuilderTrait;
+use CloudBeds\Aws\MskFork\S3\S3Client;
 use GuzzleHttp\Promise;
 use GuzzleHttp\Promise\PromiseInterface;
 use GuzzleHttp\Psr7;
@@ -33,9 +33,9 @@ use GuzzleHttp\Psr7;
  * Example write path:
  *
  * <code>
- * use Aws\Crypto\KmsMaterialsProviderV2;
- * use Aws\S3\Crypto\S3EncryptionClientV2;
- * use Aws\S3\S3Client;
+ * use CloudBeds\Aws\MskFork\Crypto\KmsMaterialsProviderV2;
+ * use CloudBeds\Aws\MskFork\S3\Crypto\S3EncryptionClientV2;
+ * use CloudBeds\Aws\MskFork\S3\S3Client;
  *
  * $encryptionClient = new S3EncryptionClientV2(
  *     new S3Client([

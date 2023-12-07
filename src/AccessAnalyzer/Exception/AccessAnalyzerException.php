@@ -1,7 +1,7 @@
 <?php
-namespace Aws\AccessAnalyzer\Exception;
+namespace CloudBeds\Aws\MskFork\AccessAnalyzer\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Access Analyzer** service.

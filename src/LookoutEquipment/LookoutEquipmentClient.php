@@ -1,7 +1,7 @@
 <?php
-namespace Aws\LookoutEquipment;
+namespace CloudBeds\Aws\MskFork\LookoutEquipment;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Lookout for Equipment** service.

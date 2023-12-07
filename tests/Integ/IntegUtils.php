@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Test\Integ;
+namespace CloudBeds\Aws\MskFork\Test\Integ;
 
 trait IntegUtils
 {

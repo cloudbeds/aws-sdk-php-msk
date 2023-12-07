@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CodeGuruSecurity\Exception;
+namespace CloudBeds\Aws\MskFork\CodeGuruSecurity\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon CodeGuru Security** service.

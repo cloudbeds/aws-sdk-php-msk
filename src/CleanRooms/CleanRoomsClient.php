@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CleanRooms;
+namespace CloudBeds\Aws\MskFork\CleanRooms;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Clean Rooms Service** service.

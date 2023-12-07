@@ -1,7 +1,7 @@
 <?php
-namespace Aws\AutoScalingPlans;
+namespace CloudBeds\Aws\MskFork\AutoScalingPlans;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Auto Scaling Plans** service.

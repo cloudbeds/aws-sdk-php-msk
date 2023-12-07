@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CloudWatchRUM\Exception;
+namespace CloudBeds\Aws\MskFork\CloudWatchRUM\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **CloudWatch RUM** service.

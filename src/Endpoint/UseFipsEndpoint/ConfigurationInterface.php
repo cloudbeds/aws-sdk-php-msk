@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Endpoint\UseFipsEndpoint;
+namespace CloudBeds\Aws\MskFork\Endpoint\UseFipsEndpoint;
 
 interface ConfigurationInterface
 {

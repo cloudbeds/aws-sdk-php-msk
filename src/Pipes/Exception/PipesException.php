@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Pipes\Exception;
+namespace CloudBeds\Aws\MskFork\Pipes\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon EventBridge Pipes** service.

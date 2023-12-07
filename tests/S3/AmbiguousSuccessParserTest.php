@@ -1,12 +1,12 @@
 <?php
-namespace Aws\Test\S3;
+namespace CloudBeds\Aws\MskFork\Test\S3;
 
-use Aws\Api\ApiProvider;
-use Aws\Api\ErrorParser\XmlErrorParser;
-use Aws\Command;
-use Aws\CommandInterface;
-use Aws\S3\AmbiguousSuccessParser;
-use Aws\S3\Exception\S3Exception;
+use CloudBeds\Aws\MskFork\Api\ApiProvider;
+use CloudBeds\Aws\MskFork\Api\ErrorParser\XmlErrorParser;
+use CloudBeds\Aws\MskFork\Command;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\S3\AmbiguousSuccessParser;
+use CloudBeds\Aws\MskFork\S3\Exception\S3Exception;
 use GuzzleHttp\Psr7\Response;
 use Psr\Http\Message\ResponseInterface;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;

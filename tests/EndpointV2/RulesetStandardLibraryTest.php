@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Test\EndpointV2;
+namespace CloudBeds\Aws\MskFork\Test\EndpointV2;
 
-use Aws\EndpointV2\EndpointDefinitionProvider;
-use Aws\EndpointV2\Ruleset\RulesetStandardLibrary;
-use Aws\Exception\UnresolvedEndpointException;
+use CloudBeds\Aws\MskFork\EndpointV2\EndpointDefinitionProvider;
+use CloudBeds\Aws\MskFork\EndpointV2\Ruleset\RulesetStandardLibrary;
+use CloudBeds\Aws\MskFork\Exception\UnresolvedEndpointException;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

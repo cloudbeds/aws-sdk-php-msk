@@ -1,7 +1,7 @@
 <?php
-namespace Aws\SupportApp\Exception;
+namespace CloudBeds\Aws\MskFork\SupportApp\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Support App** service.

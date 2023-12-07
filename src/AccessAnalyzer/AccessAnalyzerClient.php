@@ -1,7 +1,7 @@
 <?php
-namespace Aws\AccessAnalyzer;
+namespace CloudBeds\Aws\MskFork\AccessAnalyzer;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Access Analyzer** service.

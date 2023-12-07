@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Pricing\Exception;
+namespace CloudBeds\Aws\MskFork\Pricing\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Price List Service** service.

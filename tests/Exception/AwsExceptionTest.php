@@ -1,14 +1,14 @@
 <?php
-namespace Aws\Test\Exception;
+namespace CloudBeds\Aws\MskFork\Test\Exception;
 
-use Aws\Test\UsesServiceTrait;
-use Aws\Api\ApiProvider;
-use Aws\Api\Service;
-use Aws\Api\StructureShape;
-use Aws\Command;
-use Aws\Ec2\Ec2Client;
-use Aws\Exception\AwsException;
-use Aws\Result;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Api\ApiProvider;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Api\StructureShape;
+use CloudBeds\Aws\MskFork\Command;
+use CloudBeds\Aws\MskFork\Ec2\Ec2Client;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Result;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
 use PHPUnit\Framework\TestCase;

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\IoTAnalytics\Exception;
+namespace CloudBeds\Aws\MskFork\IoTAnalytics\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS IoT Analytics** service.

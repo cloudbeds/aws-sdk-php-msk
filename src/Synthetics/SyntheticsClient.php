@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Synthetics;
+namespace CloudBeds\Aws\MskFork\Synthetics;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Synthetics** service.

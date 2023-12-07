@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Api;
+namespace CloudBeds\Aws\MskFork\Api;
 
 /**
  * Base class representing a modeled shape.

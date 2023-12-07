@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Detective;
+namespace CloudBeds\Aws\MskFork\Detective;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Detective** service.

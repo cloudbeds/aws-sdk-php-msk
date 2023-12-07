@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Ecr\Exception;
+namespace CloudBeds\Aws\MskFork\Ecr\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon EC2 Container Registry** service.

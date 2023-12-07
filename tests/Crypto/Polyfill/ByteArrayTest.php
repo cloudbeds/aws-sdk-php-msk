@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\Crypto\Polyfill;
+namespace CloudBeds\Aws\MskFork\Test\Crypto\Polyfill;
 
-use Aws\Crypto\Polyfill\ByteArray;
+use CloudBeds\Aws\MskFork\Crypto\Polyfill\ByteArray;
 use PHPUnit\Framework\TestCase;
 
 /**

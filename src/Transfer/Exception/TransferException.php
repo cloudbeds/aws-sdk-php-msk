@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Transfer\Exception;
+namespace CloudBeds\Aws\MskFork\Transfer\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Transfer for SFTP** service.

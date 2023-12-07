@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Credentials;
+namespace CloudBeds\Aws\MskFork\Credentials;
 
-use Aws\Exception\CredentialsException;
+use CloudBeds\Aws\MskFork\Exception\CredentialsException;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Promise\PromiseInterface;
@@ -158,7 +158,7 @@ class EcsCredentialProvider
             if (!empty($credFullUri))
                 return $credFullUri;
         }
-        
+
         return self::SERVER_URI . $credsUri;
     }
 

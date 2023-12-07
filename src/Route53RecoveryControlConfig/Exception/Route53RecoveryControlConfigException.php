@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Route53RecoveryControlConfig\Exception;
+namespace CloudBeds\Aws\MskFork\Route53RecoveryControlConfig\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Route53 Recovery Control Config** service.

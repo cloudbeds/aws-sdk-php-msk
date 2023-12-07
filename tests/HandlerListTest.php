@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws\Command;
-use Aws\CommandInterface;
-use Aws\HandlerList;
-use Aws\Middleware;
+use CloudBeds\Aws\MskFork\Command;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\HandlerList;
+use CloudBeds\Aws\MskFork\Middleware;
 use GuzzleHttp\Psr7\Request;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 

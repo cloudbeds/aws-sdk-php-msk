@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MedicalImaging;
+namespace CloudBeds\Aws\MskFork\MedicalImaging;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Health Imaging** service.

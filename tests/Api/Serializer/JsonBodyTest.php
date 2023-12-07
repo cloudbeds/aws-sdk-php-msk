@@ -1,11 +1,11 @@
 <?php
-namespace Aws\Test\Api\Serializer;
+namespace CloudBeds\Aws\MskFork\Test\Api\Serializer;
 
-use Aws\Api\Serializer\JsonBody;
-use Aws\Api\Service;
-use Aws\Api\Shape;
-use Aws\Api\ShapeMap;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Api\Serializer\JsonBody;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Api\Shape;
+use CloudBeds\Aws\MskFork\Api\ShapeMap;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use PHPUnit\Framework\TestCase;
 
 /**

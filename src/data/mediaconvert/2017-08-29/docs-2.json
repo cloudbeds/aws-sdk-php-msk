@@ -2247,9 +2247,9 @@
       }
     },
     "InputDecryptionSettings": {
-      "base": "Settings for decrypting any input files that you encrypt before you upload them to Amazon S3. MediaConvert can decrypt files only when you use AWS Key Management Service (KMS) to encrypt the data key that you use to encrypt your content.",
+      "base": "Settings for decrypting any input files that you encrypt before you upload them to Amazon S3. MediaConvert can decrypt files only when you use CloudBeds\Aws\MskFork Key Management Service (KMS) to encrypt the data key that you use to encrypt your content.",
       "refs": {
-        "Input$DecryptionSettings": "Settings for decrypting any input files that you encrypt before you upload them to Amazon S3. MediaConvert can decrypt files only when you use AWS Key Management Service (KMS) to encrypt the data key that you use to encrypt your content."
+        "Input$DecryptionSettings": "Settings for decrypting any input files that you encrypt before you upload them to Amazon S3. MediaConvert can decrypt files only when you use CloudBeds\Aws\MskFork Key Management Service (KMS) to encrypt the data key that you use to encrypt your content."
       }
     },
     "InputDenoiseFilter": {

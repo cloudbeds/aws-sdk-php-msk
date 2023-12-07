@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CloudTrail;
+namespace CloudBeds\Aws\MskFork\CloudTrail;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS CloudTrail** service.

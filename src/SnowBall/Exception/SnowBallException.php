@@ -1,7 +1,7 @@
 <?php
-namespace Aws\SnowBall\Exception;
+namespace CloudBeds\Aws\MskFork\SnowBall\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Import/Export Snowball** service.

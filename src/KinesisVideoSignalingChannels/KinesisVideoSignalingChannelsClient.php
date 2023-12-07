@@ -1,7 +1,7 @@
 <?php
-namespace Aws\KinesisVideoSignalingChannels;
+namespace CloudBeds\Aws\MskFork\KinesisVideoSignalingChannels;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Kinesis Video Signaling Channels** service.

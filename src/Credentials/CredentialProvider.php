@@ -1,11 +1,11 @@
 <?php
-namespace Aws\Credentials;
+namespace CloudBeds\Aws\MskFork\Credentials;
 
-use Aws;
-use Aws\Api\DateTimeResult;
-use Aws\CacheInterface;
-use Aws\Exception\CredentialsException;
-use Aws\Sts\StsClient;
+use CloudBeds\Aws\MskFork;
+use CloudBeds\Aws\MskFork\Api\DateTimeResult;
+use CloudBeds\Aws\MskFork\CacheInterface;
+use CloudBeds\Aws\MskFork\Exception\CredentialsException;
+use CloudBeds\Aws\MskFork\Sts\StsClient;
 use GuzzleHttp\Promise;
 /**
  * Credential providers are functions that accept no arguments and return a
@@ -13,7 +13,7 @@ use GuzzleHttp\Promise;
  * or rejected with an {@see \Aws\Exception\CredentialsException}.
  *
  * <code>
- * use Aws\Credentials\CredentialProvider;
+ * use CloudBeds\Aws\MskFork\Credentials\CredentialProvider;
  * $provider = CredentialProvider::defaultProvider();
  * // Returns a CredentialsInterface or throws.
  * $creds = $provider()->wait();

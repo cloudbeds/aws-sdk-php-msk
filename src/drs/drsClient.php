@@ -1,7 +1,7 @@
 <?php
-namespace Aws\drs;
+namespace CloudBeds\Aws\MskFork\drs;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Elastic Disaster Recovery Service** service.

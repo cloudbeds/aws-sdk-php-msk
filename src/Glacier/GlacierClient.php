@@ -1,15 +1,15 @@
 <?php
-namespace Aws\Glacier;
+namespace CloudBeds\Aws\MskFork\Glacier;
 
-use Aws\Api\ApiProvider;
-use Aws\Api\DocModel;
-use Aws\Api\Service;
-use Aws\AwsClient;
-use Aws\CommandInterface;
-use Aws\Exception\CouldNotCreateChecksumException;
-use Aws\HashingStream;
-use Aws\Middleware;
-use Aws\PhpHash;
+use CloudBeds\Aws\MskFork\Api\ApiProvider;
+use CloudBeds\Aws\MskFork\Api\DocModel;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\AwsClient;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Exception\CouldNotCreateChecksumException;
+use CloudBeds\Aws\MskFork\HashingStream;
+use CloudBeds\Aws\MskFork\Middleware;
+use CloudBeds\Aws\MskFork\PhpHash;
 use Psr\Http\Message\RequestInterface;
 
 /**

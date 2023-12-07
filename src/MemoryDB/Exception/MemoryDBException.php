@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MemoryDB\Exception;
+namespace CloudBeds\Aws\MskFork\MemoryDB\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon MemoryDB** service.

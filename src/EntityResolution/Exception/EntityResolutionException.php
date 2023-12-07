@@ -1,7 +1,7 @@
 <?php
-namespace Aws\EntityResolution\Exception;
+namespace CloudBeds\Aws\MskFork\EntityResolution\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS EntityResolution** service.

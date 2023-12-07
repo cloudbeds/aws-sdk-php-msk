@@ -1,7 +1,7 @@
 <?php
-namespace Aws\WellArchitected;
+namespace CloudBeds\Aws\MskFork\WellArchitected;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Well-Architected Tool** service.

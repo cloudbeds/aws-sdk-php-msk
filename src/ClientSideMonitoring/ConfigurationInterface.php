@@ -1,5 +1,5 @@
 <?php
-namespace Aws\ClientSideMonitoring;
+namespace CloudBeds\Aws\MskFork\ClientSideMonitoring;
 
 /**
  * Provides access to client-side monitoring configuration options:

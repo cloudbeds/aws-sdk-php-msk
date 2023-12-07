@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Endpoint\UseFipsEndpoint;
+namespace CloudBeds\Aws\MskFork\Endpoint\UseFipsEndpoint;
 
-use Aws;
-use Aws\Endpoint\UseFipsEndpoint\Exception\ConfigurationException;
+use CloudBeds\Aws\MskFork;
+use CloudBeds\Aws\MskFork\Endpoint\UseFipsEndpoint\Exception\ConfigurationException;
 
 class Configuration implements ConfigurationInterface
 {

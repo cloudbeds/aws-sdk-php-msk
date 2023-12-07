@@ -1,7 +1,7 @@
 <?php
-namespace Aws\SagemakerEdgeManager;
+namespace CloudBeds\Aws\MskFork\SagemakerEdgeManager;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Sagemaker Edge Manager** service.

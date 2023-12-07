@@ -1,7 +1,7 @@
 <?php
-namespace Aws\TimestreamQuery;
+namespace CloudBeds\Aws\MskFork\TimestreamQuery;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Timestream Query** service.

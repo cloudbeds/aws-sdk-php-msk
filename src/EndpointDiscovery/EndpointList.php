@@ -1,5 +1,5 @@
 <?php
-namespace Aws\EndpointDiscovery;
+namespace CloudBeds\Aws\MskFork\EndpointDiscovery;
 
 class EndpointList
 {

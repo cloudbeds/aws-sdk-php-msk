@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Arn;
+namespace CloudBeds\Aws\MskFork\Arn;
 
-use Aws\Arn\Exception\InvalidArnException;
+use CloudBeds\Aws\MskFork\Arn\Exception\InvalidArnException;
 
 /**
  * @internal

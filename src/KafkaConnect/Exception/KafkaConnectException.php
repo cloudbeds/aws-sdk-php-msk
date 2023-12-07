@@ -1,7 +1,7 @@
 <?php
-namespace Aws\KafkaConnect\Exception;
+namespace CloudBeds\Aws\MskFork\KafkaConnect\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Managed Streaming for Kafka Connect** service.

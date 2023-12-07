@@ -1,7 +1,7 @@
 <?php
-namespace Aws\S3;
+namespace CloudBeds\Aws\MskFork\S3;
 
-use Aws\Credentials\CredentialsInterface;
+use CloudBeds\Aws\MskFork\Credentials\CredentialsInterface;
 use GuzzleHttp\Psr7\Uri;
 
 /**

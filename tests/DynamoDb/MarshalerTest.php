@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test\DynamoDb;
+namespace CloudBeds\Aws\MskFork\Test\DynamoDb;
 
-use Aws\DynamoDb\Marshaler;
-use Aws\DynamoDb\BinaryValue;
-use Aws\DynamoDb\NumberValue;
-use Aws\DynamoDb\SetValue;
+use CloudBeds\Aws\MskFork\DynamoDb\Marshaler;
+use CloudBeds\Aws\MskFork\DynamoDb\BinaryValue;
+use CloudBeds\Aws\MskFork\DynamoDb\NumberValue;
+use CloudBeds\Aws\MskFork\DynamoDb\SetValue;
 use GuzzleHttp\Psr7;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 

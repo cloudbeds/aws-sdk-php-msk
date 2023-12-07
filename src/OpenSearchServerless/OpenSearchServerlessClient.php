@@ -1,7 +1,7 @@
 <?php
-namespace Aws\OpenSearchServerless;
+namespace CloudBeds\Aws\MskFork\OpenSearchServerless;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **OpenSearch Service Serverless** service.

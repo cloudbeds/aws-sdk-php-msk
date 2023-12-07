@@ -1,8 +1,8 @@
 <?php
 
-namespace Aws\Test\Retry;
+namespace CloudBeds\Aws\MskFork\Test\Retry;
 
-use Aws\Retry\RateLimiter;
+use CloudBeds\Aws\MskFork\Retry\RateLimiter;
 use PHPUnit\Framework\TestCase;
 
 /**

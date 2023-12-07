@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Translate;
+namespace CloudBeds\Aws\MskFork\Translate;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Translate** service.

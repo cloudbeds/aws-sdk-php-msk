@@ -1,11 +1,11 @@
 <?php
-namespace Aws\Test\Identity\S3Express;
+namespace CloudBeds\Aws\MskFork\Test\Identity\S3Express;
 
-use Aws\Api\DateTimeResult;
-use Aws\Identity\S3\S3ExpressIdentityProvider;
-use Aws\Result;
-use Aws\S3\S3Client;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Api\DateTimeResult;
+use CloudBeds\Aws\MskFork\Identity\S3\S3ExpressIdentityProvider;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\S3\S3Client;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use Behat\Gherkin\Exception\CacheException;
 use Composer\Cache;
 use GuzzleHttp\Promise\FulfilledPromise;
@@ -34,7 +34,7 @@ class S3ExpressIdentityProviderTest extends TestCase
             ]
         ]);
     }
-    
+
     public function testProvidesIdentity()
     {
         $expiration = time() + 5000;

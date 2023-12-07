@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ServiceQuotas\Exception;
+namespace CloudBeds\Aws\MskFork\ServiceQuotas\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Service Quotas** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\DataSync;
+namespace CloudBeds\Aws\MskFork\DataSync;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS DataSync** service.

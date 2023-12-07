@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\Build\Changelog;
+namespace CloudBeds\Aws\MskFork\Test\Build\Changelog;
 
-use Aws\Build\Changelog\ChangelogBuilder;
+use CloudBeds\Aws\MskFork\Build\Changelog\ChangelogBuilder;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

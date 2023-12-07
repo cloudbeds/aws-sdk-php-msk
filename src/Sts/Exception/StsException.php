@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Sts\Exception;
+namespace CloudBeds\Aws\MskFork\Sts\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * AWS Security Token Service exception.

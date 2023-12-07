@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Sfn\Exception;
+namespace CloudBeds\Aws\MskFork\Sfn\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Step Functions** service.

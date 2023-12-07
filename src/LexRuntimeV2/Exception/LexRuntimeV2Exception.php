@@ -1,7 +1,7 @@
 <?php
-namespace Aws\LexRuntimeV2\Exception;
+namespace CloudBeds\Aws\MskFork\LexRuntimeV2\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Lex Runtime V2** service.

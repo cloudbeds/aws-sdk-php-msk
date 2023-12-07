@@ -1,7 +1,7 @@
 <?php
-namespace Aws\QConnect;
+namespace CloudBeds\Aws\MskFork\QConnect;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Q Connect** service.

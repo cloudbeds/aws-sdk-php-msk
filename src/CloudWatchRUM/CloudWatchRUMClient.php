@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CloudWatchRUM;
+namespace CloudBeds\Aws\MskFork\CloudWatchRUM;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **CloudWatch RUM** service.

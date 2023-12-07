@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CodeGuruReviewer\Exception;
+namespace CloudBeds\Aws\MskFork\CodeGuruReviewer\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon CodeGuru Reviewer** service.

@@ -1,14 +1,14 @@
 <?php
 
-namespace Aws\Test\ClientSideMonitoring;
+namespace CloudBeds\Aws\MskFork\Test\ClientSideMonitoring;
 
-use Aws\Api\Parser\Exception\ParserException;
-use Aws\ClientSideMonitoring\ApiCallAttemptMonitoringMiddleware;
-use Aws\ClientSideMonitoring\Configuration;
-use Aws\Command;
-use Aws\Credentials\CredentialProvider;
-use Aws\Credentials\Credentials;
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Api\Parser\Exception\ParserException;
+use CloudBeds\Aws\MskFork\ClientSideMonitoring\ApiCallAttemptMonitoringMiddleware;
+use CloudBeds\Aws\MskFork\ClientSideMonitoring\Configuration;
+use CloudBeds\Aws\MskFork\Command;
+use CloudBeds\Aws\MskFork\Credentials\CredentialProvider;
+use CloudBeds\Aws\MskFork\Credentials\Credentials;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;

@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Test\Lambda;
+namespace CloudBeds\Aws\MskFork\Test\Lambda;
 
-use Aws\Lambda\LambdaClient;
-use Aws\Result;
+use CloudBeds\Aws\MskFork\Lambda\LambdaClient;
+use CloudBeds\Aws\MskFork\Result;
 use DMS\PHPUnitExtensions\ArraySubset\ArraySubsetAsserts;
 use GuzzleHttp\Promise;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;

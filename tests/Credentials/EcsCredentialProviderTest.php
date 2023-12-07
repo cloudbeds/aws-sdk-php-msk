@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Test\Credentials;
+namespace CloudBeds\Aws\MskFork\Test\Credentials;
 
-use Aws\Credentials\EcsCredentialProvider;
-use Aws\Exception\CredentialsException;
-use Aws\Handler\GuzzleV6\GuzzleHandler;
+use CloudBeds\Aws\MskFork\Credentials\EcsCredentialProvider;
+use CloudBeds\Aws\MskFork\Exception\CredentialsException;
+use CloudBeds\Aws\MskFork\Handler\GuzzleV6\GuzzleHandler;
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Promise;

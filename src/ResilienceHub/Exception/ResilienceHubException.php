@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ResilienceHub\Exception;
+namespace CloudBeds\Aws\MskFork\ResilienceHub\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Resilience Hub** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Budgets;
+namespace CloudBeds\Aws\MskFork\Budgets;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Budgets** service.

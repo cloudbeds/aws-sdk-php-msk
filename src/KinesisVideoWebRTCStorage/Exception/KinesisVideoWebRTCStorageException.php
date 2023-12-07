@@ -1,7 +1,7 @@
 <?php
-namespace Aws\KinesisVideoWebRTCStorage\Exception;
+namespace CloudBeds\Aws\MskFork\KinesisVideoWebRTCStorage\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Kinesis Video WebRTC Storage** service.

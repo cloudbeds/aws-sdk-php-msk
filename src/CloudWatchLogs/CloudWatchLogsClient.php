@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CloudWatchLogs;
+namespace CloudBeds\Aws\MskFork\CloudWatchLogs;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon CloudWatch Logs** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\finspace\Exception;
+namespace CloudBeds\Aws\MskFork\finspace\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **FinSpace User Environment Management service** service.

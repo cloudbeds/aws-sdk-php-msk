@@ -1,11 +1,11 @@
 <?php
-namespace Aws\S3;
+namespace CloudBeds\Aws\MskFork\S3;
 
-use Aws\Arn\ArnParser;
-use Aws\Arn\S3\AccessPointArn;
-use Aws\Exception\MultipartUploadException;
-use Aws\Result;
-use Aws\S3\Exception\S3Exception;
+use CloudBeds\Aws\MskFork\Arn\ArnParser;
+use CloudBeds\Aws\MskFork\Arn\S3\AccessPointArn;
+use CloudBeds\Aws\MskFork\Exception\MultipartUploadException;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\S3\Exception\S3Exception;
 use GuzzleHttp\Promise\Coroutine;
 use GuzzleHttp\Promise\PromiseInterface;
 use GuzzleHttp\Promise\PromisorInterface;

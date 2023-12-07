@@ -1,9 +1,9 @@
 <?php
 
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws\Api\Service;
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * Trait TestServiceTrait

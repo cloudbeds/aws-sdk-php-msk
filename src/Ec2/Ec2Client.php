@@ -1,11 +1,11 @@
 <?php
-namespace Aws\Ec2;
+namespace CloudBeds\Aws\MskFork\Ec2;
 
-use Aws\AwsClient;
-use Aws\Api\Service;
-use Aws\Api\DocModel;
-use Aws\Api\ApiProvider;
-use Aws\PresignUrlMiddleware;
+use CloudBeds\Aws\MskFork\AwsClient;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Api\DocModel;
+use CloudBeds\Aws\MskFork\Api\ApiProvider;
+use CloudBeds\Aws\MskFork\PresignUrlMiddleware;
 
 /**
  * Client used to interact with Amazon EC2.

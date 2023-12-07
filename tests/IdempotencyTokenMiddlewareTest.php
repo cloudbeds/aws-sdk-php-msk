@@ -1,13 +1,13 @@
 <?php
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws\IdempotencyTokenMiddleware;
-use Aws\Result;
+use CloudBeds\Aws\MskFork\IdempotencyTokenMiddleware;
+use CloudBeds\Aws\MskFork\Result;
 use GuzzleHttp\Promise;
-use Aws\HandlerList;
-use Aws\Api\ApiProvider;
-use Aws\Api\Service;
-use Aws\Command;
+use CloudBeds\Aws\MskFork\HandlerList;
+use CloudBeds\Aws\MskFork\Api\ApiProvider;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Command;
 use GuzzleHttp\Psr7\Request;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 

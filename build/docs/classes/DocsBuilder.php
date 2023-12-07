@@ -1,14 +1,14 @@
 <?php
-namespace Aws\Build\Docs;
+namespace CloudBeds\Aws\MskFork\Build\Docs;
 
-use Aws\Api\AbstractModel;
-use Aws\Api\ApiProvider;
-use Aws\Api\ListShape;
-use Aws\Api\MapShape;
-use Aws\Api\Operation;
-use Aws\Api\Service as Api;
-use Aws\Api\StructureShape;
-use Aws\Api\DocModel;
+use CloudBeds\Aws\MskFork\Api\AbstractModel;
+use CloudBeds\Aws\MskFork\Api\ApiProvider;
+use CloudBeds\Aws\MskFork\Api\ListShape;
+use CloudBeds\Aws\MskFork\Api\MapShape;
+use CloudBeds\Aws\MskFork\Api\Operation;
+use CloudBeds\Aws\MskFork\Api\Service as Api;
+use CloudBeds\Aws\MskFork\Api\StructureShape;
+use CloudBeds\Aws\MskFork\Api\DocModel;
 use TokenReflection\Broker;
 use TokenReflection\ReflectionBase;
 use TokenReflection\ReflectionFunction;
@@ -422,8 +422,8 @@ EOT;
                 $html = new HtmlDocument;
                 $html->section(2, 'Expected Exception Codes');
                 $desc = <<<EOT
-The following are the known exception codes and corresponding data shapes that 
-this service may return as part of an error response. 
+The following are the known exception codes and corresponding data shapes that
+this service may return as part of an error response.
 EOT;
                 $html->elem('div', null, $desc);
                 foreach ($shapes as $shape) {
@@ -839,15 +839,15 @@ EOT;
                 $html->elem('p', null, $example['description']);
                 $comments = $example['comments'];
                 $html->elem('pre', null, $generator->generateInput(
-                    $name, 
-                    isset($example['input']) ? $example['input'] : [], 
+                    $name,
+                    isset($example['input']) ? $example['input'] : [],
                     isset($comments['input']) ? $comments['input'] : []
                 ));
                 if (isset($example['output'])) {
                     $html->elem('p', null, 'Result syntax:');
                     $html->elem('pre', null, $generator->generateOutput(
-                        $name, 
-                        $example['output'], 
+                        $name,
+                        $example['output'],
                         isset($comments['output'])
                             ? $comments['output']
                             : []

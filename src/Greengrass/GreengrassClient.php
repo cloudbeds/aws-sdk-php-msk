@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Greengrass;
+namespace CloudBeds\Aws\MskFork\Greengrass;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Greengrass** service.

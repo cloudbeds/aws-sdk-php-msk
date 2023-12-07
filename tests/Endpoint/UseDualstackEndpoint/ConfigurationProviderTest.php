@@ -1,13 +1,13 @@
 <?php
-namespace Aws\Test\Endpoint\UseDualstackEndpoint;
+namespace CloudBeds\Aws\MskFork\Test\Endpoint\UseDualstackEndpoint;
 
 
-use Aws\CacheInterface;
-use Aws\LruArrayCache;
-use Aws\Endpoint\UseDualstackEndpoint\ConfigurationProvider;
-use Aws\Endpoint\UseDualstackEndpoint\Configuration;
-use Aws\Endpoint\UseDualstackEndpoint\ConfigurationInterface;
-use Aws\Endpoint\UseDualstackEndpoint\Exception\ConfigurationException;
+use CloudBeds\Aws\MskFork\CacheInterface;
+use CloudBeds\Aws\MskFork\LruArrayCache;
+use CloudBeds\Aws\MskFork\Endpoint\UseDualstackEndpoint\ConfigurationProvider;
+use CloudBeds\Aws\MskFork\Endpoint\UseDualstackEndpoint\Configuration;
+use CloudBeds\Aws\MskFork\Endpoint\UseDualstackEndpoint\ConfigurationInterface;
+use CloudBeds\Aws\MskFork\Endpoint\UseDualstackEndpoint\Exception\ConfigurationException;
 use GuzzleHttp\Promise;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 

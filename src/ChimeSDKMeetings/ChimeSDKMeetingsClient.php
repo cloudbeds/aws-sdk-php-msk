@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ChimeSDKMeetings;
+namespace CloudBeds\Aws\MskFork\ChimeSDKMeetings;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Chime SDK Meetings** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CloudWatchEvidently\Exception;
+namespace CloudBeds\Aws\MskFork\CloudWatchEvidently\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon CloudWatch Evidently** service.

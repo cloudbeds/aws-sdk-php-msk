@@ -1,7 +1,7 @@
 <?php
-namespace Aws\IoTWireless;
+namespace CloudBeds\Aws\MskFork\IoTWireless;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS IoT Wireless** service.

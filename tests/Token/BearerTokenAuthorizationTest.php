@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\Token;
+namespace CloudBeds\Aws\MskFork\Test\Token;
 
-use Aws\Token\Token;
+use CloudBeds\Aws\MskFork\Token\Token;
 use GuzzleHttp\Psr7\Request;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 

@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Test\Handler\GuzzleV5;
+namespace CloudBeds\Aws\MskFork\Test\Handler\GuzzleV5;
 
-use Aws\Handler\GuzzleV5\GuzzleStream as GuzzleStreamAdapter;
-use Aws\Handler\GuzzleV5\PsrStream as PsrStreamAdapter;
+use CloudBeds\Aws\MskFork\Handler\GuzzleV5\GuzzleStream as GuzzleStreamAdapter;
+use CloudBeds\Aws\MskFork\Handler\GuzzleV5\PsrStream as PsrStreamAdapter;
 use GuzzleHttp\Psr7;
 use GuzzleHttp\Stream\Stream as GuzzleStream;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;

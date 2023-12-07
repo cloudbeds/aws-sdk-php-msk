@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test\Api\ErrorParser;
+namespace CloudBeds\Aws\MskFork\Test\Api\ErrorParser;
 
-use Aws\Api\ErrorParser\JsonRpcErrorParser;
-use Aws\Api\ErrorParser\RestJsonErrorParser;
-use Aws\Api\StructureShape;
-use Aws\Test\TestServiceTrait;
+use CloudBeds\Aws\MskFork\Api\ErrorParser\JsonRpcErrorParser;
+use CloudBeds\Aws\MskFork\Api\ErrorParser\RestJsonErrorParser;
+use CloudBeds\Aws\MskFork\Api\StructureShape;
+use CloudBeds\Aws\MskFork\Test\TestServiceTrait;
 use GuzzleHttp\Promise\Promise;
 use GuzzleHttp\Psr7;
 use PHPUnit\Framework\TestCase;

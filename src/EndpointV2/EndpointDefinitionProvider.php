@@ -1,6 +1,6 @@
 <?php
 
-namespace Aws\EndpointV2;
+namespace CloudBeds\Aws\MskFork\EndpointV2;
 
 /**
  * Provides Endpoint-related artifacts used for endpoint resolution

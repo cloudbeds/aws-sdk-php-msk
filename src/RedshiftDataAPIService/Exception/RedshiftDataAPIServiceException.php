@@ -1,7 +1,7 @@
 <?php
-namespace Aws\RedshiftDataAPIService\Exception;
+namespace CloudBeds\Aws\MskFork\RedshiftDataAPIService\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Redshift Data API Service** service.

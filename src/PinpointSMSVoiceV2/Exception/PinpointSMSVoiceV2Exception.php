@@ -1,7 +1,7 @@
 <?php
-namespace Aws\PinpointSMSVoiceV2\Exception;
+namespace CloudBeds\Aws\MskFork\PinpointSMSVoiceV2\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Pinpoint SMS Voice V2** service.

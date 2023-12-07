@@ -1,7 +1,7 @@
 <?php
-namespace Aws\PrometheusService\Exception;
+namespace CloudBeds\Aws\MskFork\PrometheusService\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Prometheus Service** service.

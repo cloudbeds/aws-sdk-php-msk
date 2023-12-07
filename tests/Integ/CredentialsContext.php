@@ -1,9 +1,9 @@
 <?php
 
-namespace Aws\Test\Integ;
+namespace CloudBeds\Aws\MskFork\Test\Integ;
 
-use Aws\Result;
-use Aws\Credentials\CredentialProvider;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\Credentials\CredentialProvider;
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\SnippetAcceptingContext;
 use PHPUnit\Framework\Assert;

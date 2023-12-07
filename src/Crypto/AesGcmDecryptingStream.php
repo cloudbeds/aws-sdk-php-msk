@@ -1,12 +1,12 @@
 <?php
-namespace Aws\Crypto;
+namespace CloudBeds\Aws\MskFork\Crypto;
 
-use Aws\Exception\CryptoException;
+use CloudBeds\Aws\MskFork\Exception\CryptoException;
 use GuzzleHttp\Psr7;
 use GuzzleHttp\Psr7\StreamDecoratorTrait;
 use Psr\Http\Message\StreamInterface;
-use Aws\Crypto\Polyfill\AesGcm;
-use Aws\Crypto\Polyfill\Key;
+use CloudBeds\Aws\MskFork\Crypto\Polyfill\AesGcm;
+use CloudBeds\Aws\MskFork\Crypto\Polyfill\Key;
 
 /**
  * @internal Represents a stream of data to be gcm decrypted.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MemoryDB;
+namespace CloudBeds\Aws\MskFork\MemoryDB;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon MemoryDB** service.

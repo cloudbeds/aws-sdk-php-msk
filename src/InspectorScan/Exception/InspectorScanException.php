@@ -1,7 +1,7 @@
 <?php
-namespace Aws\InspectorScan\Exception;
+namespace CloudBeds\Aws\MskFork\InspectorScan\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Inspector Scan** service.

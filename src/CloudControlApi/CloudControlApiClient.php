@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CloudControlApi;
+namespace CloudBeds\Aws\MskFork\CloudControlApi;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Cloud Control API** service.

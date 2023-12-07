@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Signature;
+namespace CloudBeds\Aws\MskFork\Signature;
 
-use Aws\Credentials\CredentialsInterface;
+use CloudBeds\Aws\MskFork\Credentials\CredentialsInterface;
 use Psr\Http\Message\RequestInterface;
 
 /**

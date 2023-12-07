@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ChimeSDKMediaPipelines\Exception;
+namespace CloudBeds\Aws\MskFork\ChimeSDKMediaPipelines\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Chime SDK Media Pipelines** service.

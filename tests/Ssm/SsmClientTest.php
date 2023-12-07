@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Test\Ssm;
+namespace CloudBeds\Aws\MskFork\Test\Ssm;
 
-use Aws\Ssm\SsmClient;
-use Aws\MockHandler;
-use Aws\Result;
+use CloudBeds\Aws\MskFork\Ssm\SsmClient;
+use CloudBeds\Aws\MskFork\MockHandler;
+use CloudBeds\Aws\MskFork\Result;
 use PHPUnit\Framework\TestCase;
 
 /**

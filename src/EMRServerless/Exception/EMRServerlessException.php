@@ -1,7 +1,7 @@
 <?php
-namespace Aws\EMRServerless\Exception;
+namespace CloudBeds\Aws\MskFork\EMRServerless\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **EMR Serverless** service.

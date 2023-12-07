@@ -1,6 +1,6 @@
 <?php
 
-namespace Aws\Configuration;
+namespace CloudBeds\Aws\MskFork\Configuration;
 
 class ConfigurationResolver
 {

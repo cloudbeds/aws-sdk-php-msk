@@ -1,13 +1,13 @@
 <?php
-namespace Aws\Multipart;
+namespace CloudBeds\Aws\MskFork\Multipart;
 
-use Aws\AwsClientInterface as Client;
-use Aws\CommandInterface;
-use Aws\CommandPool;
-use Aws\Exception\AwsException;
-use Aws\Exception\MultipartUploadException;
-use Aws\Result;
-use Aws\ResultInterface;
+use CloudBeds\Aws\MskFork\AwsClientInterface as Client;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\CommandPool;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\MultipartUploadException;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\ResultInterface;
 use GuzzleHttp\Promise;
 use GuzzleHttp\Promise\PromiseInterface;
 use InvalidArgumentException as IAE;

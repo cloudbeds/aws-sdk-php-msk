@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Firehose\Exception;
+namespace CloudBeds\Aws\MskFork\Firehose\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Kinesis Firehose** service.

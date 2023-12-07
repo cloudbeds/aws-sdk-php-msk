@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Test\Api;
+namespace CloudBeds\Aws\MskFork\Test\Api;
 
-use Aws\Api\ApiProvider;
-use Aws\Exception\UnresolvedApiException;
+use CloudBeds\Aws\MskFork\Api\ApiProvider;
+use CloudBeds\Aws\MskFork\Exception\UnresolvedApiException;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

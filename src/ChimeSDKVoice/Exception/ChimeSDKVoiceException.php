@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ChimeSDKVoice\Exception;
+namespace CloudBeds\Aws\MskFork\ChimeSDKVoice\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Chime SDK Voice** service.

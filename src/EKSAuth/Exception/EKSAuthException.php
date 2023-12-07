@@ -1,7 +1,7 @@
 <?php
-namespace Aws\EKSAuth\Exception;
+namespace CloudBeds\Aws\MskFork\EKSAuth\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon EKS Auth** service.

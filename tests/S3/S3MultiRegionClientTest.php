@@ -1,14 +1,14 @@
 <?php
-namespace Aws\Test\S3;
+namespace CloudBeds\Aws\MskFork\Test\S3;
 
-use Aws\CacheInterface;
-use Aws\CommandInterface;
-use Aws\Endpoint\Partition;
-use Aws\LruArrayCache;
-use Aws\ResultInterface;
-use Aws\S3\S3ClientInterface;
-use Aws\S3\S3MultiRegionClient;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\CacheInterface;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Endpoint\Partition;
+use CloudBeds\Aws\MskFork\LruArrayCache;
+use CloudBeds\Aws\MskFork\ResultInterface;
+use CloudBeds\Aws\MskFork\S3\S3ClientInterface;
+use CloudBeds\Aws\MskFork\S3\S3MultiRegionClient;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7;
 use GuzzleHttp\Psr7\Response;

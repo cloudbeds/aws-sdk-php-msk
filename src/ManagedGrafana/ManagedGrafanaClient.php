@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ManagedGrafana;
+namespace CloudBeds\Aws\MskFork\ManagedGrafana;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Managed Grafana** service.

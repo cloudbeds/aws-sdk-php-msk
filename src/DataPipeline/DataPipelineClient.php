@@ -1,7 +1,7 @@
 <?php
-namespace Aws\DataPipeline;
+namespace CloudBeds\Aws\MskFork\DataPipeline;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Data Pipeline** service.

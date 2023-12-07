@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ResourceGroupsTaggingAPI;
+namespace CloudBeds\Aws\MskFork\ResourceGroupsTaggingAPI;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Resource Groups Tagging API** service.

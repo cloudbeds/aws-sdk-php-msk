@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MediaStore\Exception;
+namespace CloudBeds\Aws\MskFork\MediaStore\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Elemental MediaStore** service.

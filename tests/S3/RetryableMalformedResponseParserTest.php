@@ -1,11 +1,11 @@
 <?php
-namespace Aws\Test\S3;
+namespace CloudBeds\Aws\MskFork\Test\S3;
 
 
-use Aws\Api\Parser\Exception\ParserException;
-use Aws\CommandInterface;
-use Aws\S3\Exception\S3Exception;
-use Aws\S3\RetryableMalformedResponseParser;
+use CloudBeds\Aws\MskFork\Api\Parser\Exception\ParserException;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\S3\Exception\S3Exception;
+use CloudBeds\Aws\MskFork\S3\RetryableMalformedResponseParser;
 use Psr\Http\Message\ResponseInterface;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 

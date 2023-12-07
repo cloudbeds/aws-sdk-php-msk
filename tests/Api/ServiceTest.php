@@ -1,16 +1,16 @@
 <?php
-namespace Aws\Test\Api;
+namespace CloudBeds\Aws\MskFork\Test\Api;
 
-use Aws\Api\ErrorParser;
-use Aws\Api\Operation;
-use Aws\Api\Parser;
-use Aws\Api\Parser\QueryParser;
-use Aws\Api\Parser\XmlParser;
-use Aws\Api\Serializer;
-use Aws\Api\Service;
-use Aws\Api\StructureShape;
-use Aws\Test\TestServiceTrait;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Api\ErrorParser;
+use CloudBeds\Aws\MskFork\Api\Operation;
+use CloudBeds\Aws\MskFork\Api\Parser;
+use CloudBeds\Aws\MskFork\Api\Parser\QueryParser;
+use CloudBeds\Aws\MskFork\Api\Parser\XmlParser;
+use CloudBeds\Aws\MskFork\Api\Serializer;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Api\StructureShape;
+use CloudBeds\Aws\MskFork\Test\TestServiceTrait;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\QLDBSession\Exception;
+namespace CloudBeds\Aws\MskFork\QLDBSession\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon QLDB Session** service.

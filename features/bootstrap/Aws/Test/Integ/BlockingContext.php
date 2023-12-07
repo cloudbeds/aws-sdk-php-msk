@@ -1,9 +1,9 @@
 <?php
 
-namespace Aws\Test\Integ;
+namespace CloudBeds\Aws\MskFork\Test\Integ;
 
-use Aws\AwsClient;
-use Aws\DynamoDb\Exception\DynamoDbException;
+use CloudBeds\Aws\MskFork\AwsClient;
+use CloudBeds\Aws\MskFork\DynamoDb\Exception\DynamoDbException;
 use Behat\Behat\Hook\Scope\AfterFeatureScope;
 use Behat\Behat\Tester\Exception\PendingException;
 use Behat\Behat\Context\Context;

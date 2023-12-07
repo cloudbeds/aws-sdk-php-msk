@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Emr\Exception;
+namespace CloudBeds\Aws\MskFork\Emr\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the Amazon Elastic MapReduce service.

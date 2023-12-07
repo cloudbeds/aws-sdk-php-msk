@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CustomerProfiles\Exception;
+namespace CloudBeds\Aws\MskFork\CustomerProfiles\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Connect Customer Profiles** service.

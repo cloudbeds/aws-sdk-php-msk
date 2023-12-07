@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Efs\Exception;
+namespace CloudBeds\Aws\MskFork\Efs\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Amazon EFS exception.

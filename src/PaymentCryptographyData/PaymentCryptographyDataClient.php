@@ -1,7 +1,7 @@
 <?php
-namespace Aws\PaymentCryptographyData;
+namespace CloudBeds\Aws\MskFork\PaymentCryptographyData;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Payment Cryptography Data Plane** service.

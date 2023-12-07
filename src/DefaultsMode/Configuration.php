@@ -1,7 +1,7 @@
 <?php
-namespace Aws\DefaultsMode;
+namespace CloudBeds\Aws\MskFork\DefaultsMode;
 
-use Aws\DefaultsMode\Exception\ConfigurationException;
+use CloudBeds\Aws\MskFork\DefaultsMode\Exception\ConfigurationException;
 
 class Configuration implements ConfigurationInterface
 {

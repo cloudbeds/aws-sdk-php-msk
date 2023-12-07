@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Batch\Exception;
+namespace CloudBeds\Aws\MskFork\Batch\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Batch** service.

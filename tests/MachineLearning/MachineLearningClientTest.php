@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Test\MachineLearning;
+namespace CloudBeds\Aws\MskFork\Test\MachineLearning;
 
-use Aws\Middleware;
-use Aws\MachineLearning\MachineLearningClient;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Middleware;
+use CloudBeds\Aws\MskFork\MachineLearning\MachineLearningClient;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use GuzzleHttp\Psr7\Uri;
 use PHPUnit\Framework\TestCase;
 

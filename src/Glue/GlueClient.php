@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Glue;
+namespace CloudBeds\Aws\MskFork\Glue;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Glue** service.

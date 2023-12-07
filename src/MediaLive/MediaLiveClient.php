@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MediaLive;
+namespace CloudBeds\Aws\MskFork\MediaLive;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Elemental MediaLive** service.

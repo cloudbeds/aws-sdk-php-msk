@@ -1,20 +1,20 @@
 <?php
-namespace Aws\S3;
+namespace CloudBeds\Aws\MskFork\S3;
 
-use Aws\Api\Service;
-use Aws\Arn\AccessPointArnInterface;
-use Aws\Arn\ArnParser;
-use Aws\Arn\ObjectLambdaAccessPointArn;
-use Aws\Arn\Exception\InvalidArnException;
-use Aws\Arn\AccessPointArn as BaseAccessPointArn;
-use Aws\Arn\S3\OutpostsAccessPointArn;
-use Aws\Arn\S3\MultiRegionAccessPointArn;
-use Aws\Arn\S3\OutpostsArnInterface;
-use Aws\CommandInterface;
-use Aws\Endpoint\PartitionEndpointProvider;
-use Aws\Exception\InvalidRegionException;
-use Aws\Exception\UnresolvedEndpointException;
-use Aws\S3\Exception\S3Exception;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Arn\AccessPointArnInterface;
+use CloudBeds\Aws\MskFork\Arn\ArnParser;
+use CloudBeds\Aws\MskFork\Arn\ObjectLambdaAccessPointArn;
+use CloudBeds\Aws\MskFork\Arn\Exception\InvalidArnException;
+use CloudBeds\Aws\MskFork\Arn\AccessPointArn as BaseAccessPointArn;
+use CloudBeds\Aws\MskFork\Arn\S3\OutpostsAccessPointArn;
+use CloudBeds\Aws\MskFork\Arn\S3\MultiRegionAccessPointArn;
+use CloudBeds\Aws\MskFork\Arn\S3\OutpostsArnInterface;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Endpoint\PartitionEndpointProvider;
+use CloudBeds\Aws\MskFork\Exception\InvalidRegionException;
+use CloudBeds\Aws\MskFork\Exception\UnresolvedEndpointException;
+use CloudBeds\Aws\MskFork\S3\Exception\S3Exception;
 use InvalidArgumentException;
 use Psr\Http\Message\RequestInterface;
 

@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test\Crypto;
+namespace CloudBeds\Aws\MskFork\Test\Crypto;
 
-use Aws\Crypto\AesDecryptingStream;
-use Aws\Crypto\AesEncryptingStream;
-use Aws\Crypto\Cipher\Cbc;
-use Aws\Crypto\Cipher\CipherMethod;
+use CloudBeds\Aws\MskFork\Crypto\AesDecryptingStream;
+use CloudBeds\Aws\MskFork\Crypto\AesEncryptingStream;
+use CloudBeds\Aws\MskFork\Crypto\Cipher\Cbc;
+use CloudBeds\Aws\MskFork\Crypto\Cipher\CipherMethod;
 use GuzzleHttp\Psr7;
 use Psr\Http\Message\StreamInterface;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;

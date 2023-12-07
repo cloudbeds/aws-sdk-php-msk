@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Firehose;
+namespace CloudBeds\Aws\MskFork\Firehose;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Kinesis Firehose** service.

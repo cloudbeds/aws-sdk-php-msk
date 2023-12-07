@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Api;
+namespace CloudBeds\Aws\MskFork\Api;
 
 /**
  * Encapsulates the documentation strings for a given service-version and

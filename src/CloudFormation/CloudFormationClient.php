@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CloudFormation;
+namespace CloudBeds\Aws\MskFork\CloudFormation;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS CloudFormation** service.

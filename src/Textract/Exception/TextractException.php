@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Textract\Exception;
+namespace CloudBeds\Aws\MskFork\Textract\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Textract** service.

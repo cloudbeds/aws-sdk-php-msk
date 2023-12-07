@@ -1,7 +1,7 @@
 <?php
-namespace Aws\DynamoDb;
+namespace CloudBeds\Aws\MskFork\DynamoDb;
 
-use Aws\DynamoDb\Exception\DynamoDbException;
+use CloudBeds\Aws\MskFork\DynamoDb\Exception\DynamoDbException;
 
 /**
  * The locking connection adds locking logic to the read operation.

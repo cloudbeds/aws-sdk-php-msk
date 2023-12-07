@@ -1,7 +1,7 @@
 <?php
-namespace Aws\RAM;
+namespace CloudBeds\Aws\MskFork\RAM;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Resource Access Manager** service.

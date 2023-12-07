@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\CognitoSync;
+namespace CloudBeds\Aws\MskFork\Test\CognitoSync;
 
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use GuzzleHttp\Promise\FulfilledPromise;
 use GuzzleHttp\Psr7\Response;
 use Psr\Http\Message\RequestInterface;

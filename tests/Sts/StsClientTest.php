@@ -1,13 +1,13 @@
 <?php
-namespace Aws\Test\Sts;
+namespace CloudBeds\Aws\MskFork\Test\Sts;
 
-use Aws\Api\DateTimeResult;
-use Aws\Credentials\CredentialsInterface;
-use Aws\Endpoint\PartitionEndpointProvider;
-use Aws\LruArrayCache;
-use Aws\Result;
-use Aws\Sts\RegionalEndpoints\Configuration;
-use Aws\Sts\StsClient;
+use CloudBeds\Aws\MskFork\Api\DateTimeResult;
+use CloudBeds\Aws\MskFork\Credentials\CredentialsInterface;
+use CloudBeds\Aws\MskFork\Endpoint\PartitionEndpointProvider;
+use CloudBeds\Aws\MskFork\LruArrayCache;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\Sts\RegionalEndpoints\Configuration;
+use CloudBeds\Aws\MskFork\Sts\StsClient;
 use GuzzleHttp\Psr7\Uri;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MediaConnect\Exception;
+namespace CloudBeds\Aws\MskFork\MediaConnect\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS MediaConnect** service.

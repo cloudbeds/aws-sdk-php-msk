@@ -1,7 +1,7 @@
 <?php
-namespace Aws\IVSRealTime;
+namespace CloudBeds\Aws\MskFork\IVSRealTime;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Interactive Video Service RealTime** service.

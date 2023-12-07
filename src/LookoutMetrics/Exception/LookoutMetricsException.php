@@ -1,7 +1,7 @@
 <?php
-namespace Aws\LookoutMetrics\Exception;
+namespace CloudBeds\Aws\MskFork\LookoutMetrics\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Lookout for Metrics** service.

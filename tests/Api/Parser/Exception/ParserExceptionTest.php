@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\Api\Parser\Exception;
+namespace CloudBeds\Aws\MskFork\Test\Api\Parser\Exception;
 
-use Aws\Api\Parser\Exception\ParserException;
+use CloudBeds\Aws\MskFork\Api\Parser\Exception\ParserException;
 use PHPUnit\Framework\TestCase;
 
 /**

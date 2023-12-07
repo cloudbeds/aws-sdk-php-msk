@@ -1,7 +1,7 @@
 <?php
-namespace Aws\WorkSpacesWeb\Exception;
+namespace CloudBeds\Aws\MskFork\WorkSpacesWeb\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon WorkSpaces Web** service.

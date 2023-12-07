@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\Crypto;
+namespace CloudBeds\Aws\MskFork\Test\Crypto;
 
-use Aws\Crypto\Cipher\Cbc;
+use CloudBeds\Aws\MskFork\Crypto\Cipher\Cbc;
 use GuzzleHttp\Psr7;
 use GuzzleHttp\Psr7\CachingStream;
 

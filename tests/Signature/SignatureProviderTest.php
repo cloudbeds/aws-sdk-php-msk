@@ -1,12 +1,12 @@
 <?php
-namespace Aws\Test\Signature;
+namespace CloudBeds\Aws\MskFork\Test\Signature;
 
-use Aws\Signature\AnonymousSignature;
-use Aws\Signature\S3ExpressSignature;
-use Aws\Signature\S3SignatureV4;
-use Aws\Signature\SignatureInterface;
-use Aws\Signature\SignatureProvider;
-use Aws\Signature\SignatureV4;
+use CloudBeds\Aws\MskFork\Signature\AnonymousSignature;
+use CloudBeds\Aws\MskFork\Signature\S3ExpressSignature;
+use CloudBeds\Aws\MskFork\Signature\S3SignatureV4;
+use CloudBeds\Aws\MskFork\Signature\SignatureInterface;
+use CloudBeds\Aws\MskFork\Signature\SignatureProvider;
+use CloudBeds\Aws\MskFork\Signature\SignatureV4;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

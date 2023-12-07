@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Build\Docs;
+namespace CloudBeds\Aws\MskFork\Build\Docs;
 
 /**
  * @internal

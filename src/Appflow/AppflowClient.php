@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Appflow;
+namespace CloudBeds\Aws\MskFork\Appflow;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Appflow** service.

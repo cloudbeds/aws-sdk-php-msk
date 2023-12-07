@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Acm;
+namespace CloudBeds\Aws\MskFork\Acm;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Certificate Manager** service.

@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Arn;
+namespace CloudBeds\Aws\MskFork\Arn;
 
 /**
  * This class represents an S3 Object bucket ARN, which is in the

@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Lambda;
+namespace CloudBeds\Aws\MskFork\Lambda;
 
-use Aws\AwsClient;
-use Aws\CommandInterface;
-use Aws\Middleware;
+use CloudBeds\Aws\MskFork\AwsClient;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Middleware;
 
 /**
  * This client is used to interact with AWS Lambda

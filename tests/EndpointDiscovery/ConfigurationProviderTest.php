@@ -1,14 +1,14 @@
 <?php
 
-namespace Aws\Test\EndpointDiscovery;
+namespace CloudBeds\Aws\MskFork\Test\EndpointDiscovery;
 
-use Aws\Api\ApiProvider;
-use Aws\CacheInterface;
-use Aws\EndpointDiscovery\Configuration;
-use Aws\EndpointDiscovery\ConfigurationInterface;
-use Aws\EndpointDiscovery\ConfigurationProvider;
-use Aws\EndpointDiscovery\Exception\ConfigurationException;
-use Aws\LruArrayCache;
+use CloudBeds\Aws\MskFork\Api\ApiProvider;
+use CloudBeds\Aws\MskFork\CacheInterface;
+use CloudBeds\Aws\MskFork\EndpointDiscovery\Configuration;
+use CloudBeds\Aws\MskFork\EndpointDiscovery\ConfigurationInterface;
+use CloudBeds\Aws\MskFork\EndpointDiscovery\ConfigurationProvider;
+use CloudBeds\Aws\MskFork\EndpointDiscovery\Exception\ConfigurationException;
+use CloudBeds\Aws\MskFork\LruArrayCache;
 use GuzzleHttp\Promise;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 

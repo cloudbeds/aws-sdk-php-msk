@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CodeCommit\Exception;
+namespace CloudBeds\Aws\MskFork\CodeCommit\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS CodeCommit** service.

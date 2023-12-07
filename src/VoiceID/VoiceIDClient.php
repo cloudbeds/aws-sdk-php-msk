@@ -1,7 +1,7 @@
 <?php
-namespace Aws\VoiceID;
+namespace CloudBeds\Aws\MskFork\VoiceID;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Voice ID** service.

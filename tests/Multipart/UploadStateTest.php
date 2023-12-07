@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\Multipart;
+namespace CloudBeds\Aws\MskFork\Test\Multipart;
 
-use Aws\Multipart\UploadState;
+use CloudBeds\Aws\MskFork\Multipart\UploadState;
 use PHPUnit\Framework\TestCase;
 
 /**

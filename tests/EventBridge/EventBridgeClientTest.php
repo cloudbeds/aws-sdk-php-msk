@@ -1,11 +1,11 @@
 <?php
-namespace Aws\Test\EventBridge;
+namespace CloudBeds\Aws\MskFork\Test\EventBridge;
 
-use Aws\CommandInterface;
-use Aws\Exception\UnresolvedEndpointException;
-use Aws\Result;
-use Aws\EventBridge\EventBridgeClient;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Exception\UnresolvedEndpointException;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\EventBridge\EventBridgeClient;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use Psr\Http\Message\RequestInterface;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 

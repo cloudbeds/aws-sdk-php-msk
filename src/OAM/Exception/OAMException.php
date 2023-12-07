@@ -1,7 +1,7 @@
 <?php
-namespace Aws\OAM\Exception;
+namespace CloudBeds\Aws\MskFork\OAM\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **CloudWatch Observability Access Manager** service.

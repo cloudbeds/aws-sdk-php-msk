@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CognitoIdentity;
+namespace CloudBeds\Aws\MskFork\CognitoIdentity;
 
-use Aws\Credentials\Credentials;
+use CloudBeds\Aws\MskFork\Credentials\Credentials;
 use GuzzleHttp\Promise;
 
 class CognitoIdentityProvider

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ConfigService;
+namespace CloudBeds\Aws\MskFork\ConfigService;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with AWS Config.

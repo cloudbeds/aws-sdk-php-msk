@@ -1,6 +1,6 @@
 <?php
 
-namespace Aws;
+namespace CloudBeds\Aws\MskFork;
 
 use Psr\Http\Message\ResponseInterface;
 

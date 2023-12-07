@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CognitoIdentity;
+namespace CloudBeds\Aws\MskFork\CognitoIdentity;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Cognito Identity** service.

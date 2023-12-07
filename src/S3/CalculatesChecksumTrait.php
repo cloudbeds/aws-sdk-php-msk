@@ -1,8 +1,8 @@
 <?php
-namespace Aws\S3;
+namespace CloudBeds\Aws\MskFork\S3;
 
-use AWS\CRT\CRT;
-use Aws\Exception\CommonRuntimeException;
+use CloudBeds\Aws\MskFork\CRT\CRT;
+use CloudBeds\Aws\MskFork\Exception\CommonRuntimeException;
 use GuzzleHttp\Psr7;
 use InvalidArgumentException;
 

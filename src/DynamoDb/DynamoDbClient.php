@@ -1,14 +1,14 @@
 <?php
-namespace Aws\DynamoDb;
+namespace CloudBeds\Aws\MskFork\DynamoDb;
 
-use Aws\Api\Parser\Crc32ValidatingParser;
-use Aws\AwsClient;
-use Aws\ClientResolver;
-use Aws\Exception\AwsException;
-use Aws\HandlerList;
-use Aws\Middleware;
-use Aws\RetryMiddleware;
-use Aws\RetryMiddlewareV2;
+use CloudBeds\Aws\MskFork\Api\Parser\Crc32ValidatingParser;
+use CloudBeds\Aws\MskFork\AwsClient;
+use CloudBeds\Aws\MskFork\ClientResolver;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\HandlerList;
+use CloudBeds\Aws\MskFork\Middleware;
+use CloudBeds\Aws\MskFork\RetryMiddleware;
+use CloudBeds\Aws\MskFork\RetryMiddlewareV2;
 
 /**
  * This client is used to interact with the **Amazon DynamoDB** service.

@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Sqs;
+namespace CloudBeds\Aws\MskFork\Sqs;
 
-use Aws\AwsClient;
-use Aws\CommandInterface;
-use Aws\Sqs\Exception\SqsException;
+use CloudBeds\Aws\MskFork\AwsClient;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Sqs\Exception\SqsException;
 use GuzzleHttp\Psr7\Uri;
 use GuzzleHttp\Psr7\UriResolver;
 use Psr\Http\Message\RequestInterface;

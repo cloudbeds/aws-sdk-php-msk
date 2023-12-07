@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\Endpoint\UseDualstackEndpoint;
+namespace CloudBeds\Aws\MskFork\Test\Endpoint\UseDualstackEndpoint;
 
-use Aws\Endpoint\UseDualstackEndpoint\Configuration;
+use CloudBeds\Aws\MskFork\Endpoint\UseDualstackEndpoint\Configuration;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

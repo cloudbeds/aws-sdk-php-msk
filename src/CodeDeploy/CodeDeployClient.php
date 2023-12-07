@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CodeDeploy;
+namespace CloudBeds\Aws\MskFork\CodeDeploy;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with AWS CodeDeploy

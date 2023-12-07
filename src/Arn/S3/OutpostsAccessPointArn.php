@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Arn\S3;
+namespace CloudBeds\Aws\MskFork\Arn\S3;
 
-use Aws\Arn\AccessPointArn as BaseAccessPointArn;
-use Aws\Arn\AccessPointArnInterface;
-use Aws\Arn\Arn;
-use Aws\Arn\Exception\InvalidArnException;
+use CloudBeds\Aws\MskFork\Arn\AccessPointArn as BaseAccessPointArn;
+use CloudBeds\Aws\MskFork\Arn\AccessPointArnInterface;
+use CloudBeds\Aws\MskFork\Arn\Arn;
+use CloudBeds\Aws\MskFork\Arn\Exception\InvalidArnException;
 
 /**
  * This class represents an S3 Outposts access point ARN, which is in the

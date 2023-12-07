@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Arn;
+namespace CloudBeds\Aws\MskFork\Arn;
 
 /**
  * @internal

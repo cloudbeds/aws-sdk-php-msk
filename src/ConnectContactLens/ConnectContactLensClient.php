@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ConnectContactLens;
+namespace CloudBeds\Aws\MskFork\ConnectContactLens;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Connect Contact Lens** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\VPCLattice\Exception;
+namespace CloudBeds\Aws\MskFork\VPCLattice\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon VPC Lattice** service.

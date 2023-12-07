@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Multipart;
+namespace CloudBeds\Aws\MskFork\Multipart;
 
 /**
  * Representation of the multipart upload.

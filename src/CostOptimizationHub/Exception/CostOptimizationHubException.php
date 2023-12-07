@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CostOptimizationHub\Exception;
+namespace CloudBeds\Aws\MskFork\CostOptimizationHub\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Cost Optimization Hub** service.

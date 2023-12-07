@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Api\Serializer;
+namespace CloudBeds\Aws\MskFork\Api\Serializer;
 
-use Aws\Api\Shape;
-use Aws\Api\ListShape;
+use CloudBeds\Aws\MskFork\Api\Shape;
+use CloudBeds\Aws\MskFork\Api\ListShape;
 
 /**
  * @internal

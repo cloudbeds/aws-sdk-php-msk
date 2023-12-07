@@ -1,5 +1,5 @@
 <?php
-namespace Aws;
+namespace CloudBeds\Aws\MskFork;
 
 /**
  * Represents an AWS result object that is returned from executing an operation.

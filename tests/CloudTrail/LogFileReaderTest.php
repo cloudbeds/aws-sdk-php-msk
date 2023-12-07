@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Test\CloudTrail;
+namespace CloudBeds\Aws\MskFork\Test\CloudTrail;
 
-use Aws\CloudTrail\LogFileReader;
-use Aws\Result;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\CloudTrail\LogFileReader;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use PHPUnit\Framework\TestCase;
 
 /**

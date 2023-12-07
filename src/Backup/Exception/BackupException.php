@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Backup\Exception;
+namespace CloudBeds\Aws\MskFork\Backup\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Backup** service.

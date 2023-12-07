@@ -1,7 +1,7 @@
 <?php
-namespace Aws\IdentityStore;
+namespace CloudBeds\Aws\MskFork\IdentityStore;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS SSO Identity Store** service.

@@ -1,13 +1,13 @@
 <?php
-namespace Aws\Test\Arn;
+namespace CloudBeds\Aws\MskFork\Test\Arn;
 
-use Aws\Arn\AccessPointArn;
-use Aws\Arn\Arn;
-use Aws\Arn\ArnParser;
-use Aws\Arn\S3\AccessPointArn as S3AccessPointArn;
-use Aws\Arn\S3\OutpostsAccessPointArn;
-use Aws\Arn\S3\OutpostsBucketArn;
-use Aws\Arn\S3\RegionalBucketArn;
+use CloudBeds\Aws\MskFork\Arn\AccessPointArn;
+use CloudBeds\Aws\MskFork\Arn\Arn;
+use CloudBeds\Aws\MskFork\Arn\ArnParser;
+use CloudBeds\Aws\MskFork\Arn\S3\AccessPointArn as S3AccessPointArn;
+use CloudBeds\Aws\MskFork\Arn\S3\OutpostsAccessPointArn;
+use CloudBeds\Aws\MskFork\Arn\S3\OutpostsBucketArn;
+use CloudBeds\Aws\MskFork\Arn\S3\RegionalBucketArn;
 use PHPUnit\Framework\TestCase;
 
 /**

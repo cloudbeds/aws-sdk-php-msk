@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Shield\Exception;
+namespace CloudBeds\Aws\MskFork\Shield\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Shield** service.

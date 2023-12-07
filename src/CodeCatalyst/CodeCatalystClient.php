@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CodeCatalyst;
+namespace CloudBeds\Aws\MskFork\CodeCatalyst;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon CodeCatalyst** service.

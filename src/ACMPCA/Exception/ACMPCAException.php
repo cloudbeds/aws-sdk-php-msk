@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ACMPCA\Exception;
+namespace CloudBeds\Aws\MskFork\ACMPCA\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Certificate Manager Private Certificate Authority** service.

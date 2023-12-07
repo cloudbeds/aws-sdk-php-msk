@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws\CacheInterface;
-use Aws\DoctrineCacheAdapter;
+use CloudBeds\Aws\MskFork\CacheInterface;
+use CloudBeds\Aws\MskFork\DoctrineCacheAdapter;
 use Doctrine\Common\Cache\Cache;
 use PHPUnit\Framework\TestCase;
 

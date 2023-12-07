@@ -1,19 +1,19 @@
 <?php
-namespace Aws\Test\S3\Crypto;
+namespace CloudBeds\Aws\MskFork\Test\S3\Crypto;
 
-use Aws\Crypto\AesDecryptingStream;
-use Aws\Crypto\AesGcmDecryptingStream;
-use Aws\Crypto\KmsMaterialsProvider;
-use Aws\Crypto\KmsMaterialsProviderV2;
-use Aws\Crypto\MetadataEnvelope;
-use Aws\HashingStream;
-use Aws\Result;
-use Aws\S3\S3Client;
-use Aws\S3\Crypto\InstructionFileMetadataStrategy;
-use Aws\S3\Crypto\S3EncryptionClientV2;
-use Aws\Test\Crypto\UsesCryptoParamsTraitV2;
-use Aws\Test\UsesServiceTrait;
-use Aws\Test\Crypto\UsesMetadataEnvelopeTrait;
+use CloudBeds\Aws\MskFork\Crypto\AesDecryptingStream;
+use CloudBeds\Aws\MskFork\Crypto\AesGcmDecryptingStream;
+use CloudBeds\Aws\MskFork\Crypto\KmsMaterialsProvider;
+use CloudBeds\Aws\MskFork\Crypto\KmsMaterialsProviderV2;
+use CloudBeds\Aws\MskFork\Crypto\MetadataEnvelope;
+use CloudBeds\Aws\MskFork\HashingStream;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\S3\S3Client;
+use CloudBeds\Aws\MskFork\S3\Crypto\InstructionFileMetadataStrategy;
+use CloudBeds\Aws\MskFork\S3\Crypto\S3EncryptionClientV2;
+use CloudBeds\Aws\MskFork\Test\Crypto\UsesCryptoParamsTraitV2;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Test\Crypto\UsesMetadataEnvelopeTrait;
 use GuzzleHttp\Promise;
 use GuzzleHttp\Promise\FulfilledPromise;
 use GuzzleHttp\Psr7\Response;

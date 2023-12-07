@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ResourceExplorer2\Exception;
+namespace CloudBeds\Aws\MskFork\ResourceExplorer2\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Resource Explorer** service.

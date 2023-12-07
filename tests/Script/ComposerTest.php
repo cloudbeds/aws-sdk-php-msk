@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Test\Script;
+namespace CloudBeds\Aws\MskFork\Test\Script;
 
-use Aws;
-use Aws\Script\Composer\Composer;
+use CloudBeds\Aws\MskFork;
+use CloudBeds\Aws\MskFork\Script\Composer\Composer;
 use Symfony\Component\Filesystem\Exception\IOException;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 use Symfony\Component\Filesystem\Filesystem;

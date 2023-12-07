@@ -1,11 +1,11 @@
 <?php
-namespace Aws;
+namespace CloudBeds\Aws\MskFork;
 
-use Aws\Api\ListShape;
-use Aws\Api\MapShape;
-use Aws\Api\Service;
-use Aws\Api\Shape;
-use Aws\Api\StructureShape;
+use CloudBeds\Aws\MskFork\Api\ListShape;
+use CloudBeds\Aws\MskFork\Api\MapShape;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Api\Shape;
+use CloudBeds\Aws\MskFork\Api\StructureShape;
 use Closure;
 
 /**

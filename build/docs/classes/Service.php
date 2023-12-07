@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Build\Docs;
+namespace CloudBeds\Aws\MskFork\Build\Docs;
 
-use Aws\Api\Service as Api;
-use Aws\Api\DocModel;
-use Aws\Sdk;
+use CloudBeds\Aws\MskFork\Api\Service as Api;
+use CloudBeds\Aws\MskFork\Api\DocModel;
+use CloudBeds\Aws\MskFork\Sdk;
 
 /**
  * Serves as a DTO for information about a service required to build various

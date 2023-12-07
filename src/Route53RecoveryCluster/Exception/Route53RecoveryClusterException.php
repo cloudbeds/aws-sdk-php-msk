@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Route53RecoveryCluster\Exception;
+namespace CloudBeds\Aws\MskFork\Route53RecoveryCluster\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Route53 Recovery Cluster** service.

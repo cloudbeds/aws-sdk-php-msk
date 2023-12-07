@@ -1,12 +1,12 @@
 <?php
-namespace Aws\S3Control;
+namespace CloudBeds\Aws\MskFork\S3Control;
 
-use Aws\AwsClient;
-use Aws\CacheInterface;
-use Aws\HandlerList;
-use Aws\S3\UseArnRegion\Configuration;
-use Aws\S3\UseArnRegion\ConfigurationInterface;
-use Aws\S3\UseArnRegion\ConfigurationProvider as UseArnRegionConfigurationProvider;
+use CloudBeds\Aws\MskFork\AwsClient;
+use CloudBeds\Aws\MskFork\CacheInterface;
+use CloudBeds\Aws\MskFork\HandlerList;
+use CloudBeds\Aws\MskFork\S3\UseArnRegion\Configuration;
+use CloudBeds\Aws\MskFork\S3\UseArnRegion\ConfigurationInterface;
+use CloudBeds\Aws\MskFork\S3\UseArnRegion\ConfigurationProvider as UseArnRegionConfigurationProvider;
 use GuzzleHttp\Promise\PromiseInterface;
 
 /**
@@ -196,7 +196,7 @@ use GuzzleHttp\Promise\PromiseInterface;
  * @method \Aws\Result updateStorageLensGroup(array $args = [])
  * @method \GuzzleHttp\Promise\Promise updateStorageLensGroupAsync(array $args = [])
  */
-class S3ControlClient extends AwsClient 
+class S3ControlClient extends AwsClient
 {
     public static function getArguments()
     {

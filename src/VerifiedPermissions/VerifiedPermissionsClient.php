@@ -1,7 +1,7 @@
 <?php
-namespace Aws\VerifiedPermissions;
+namespace CloudBeds\Aws\MskFork\VerifiedPermissions;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Verified Permissions** service.

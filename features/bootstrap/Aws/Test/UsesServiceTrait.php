@@ -1,13 +1,13 @@
 <?php
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws\AwsClientInterface;
-use Aws\CommandInterface;
-use Aws\Exception\AwsException;
-use Aws\MockHandler;
-use Aws\Result;
-use Aws\Sdk;
-use Aws\Api\Service;
+use CloudBeds\Aws\MskFork\AwsClientInterface;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\MockHandler;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\Sdk;
+use CloudBeds\Aws\MskFork\Api\Service;
 
 /**
  * @internal

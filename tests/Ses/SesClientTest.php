@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Test\Ses;
+namespace CloudBeds\Aws\MskFork\Test\Ses;
 
-use Aws\Credentials\Credentials;
-use Aws\Ses\SesClient;
+use CloudBeds\Aws\MskFork\Credentials\Credentials;
+use CloudBeds\Aws\MskFork\Ses\SesClient;
 use PHPUnit\Framework\TestCase;
 
 class SesClientTest extends TestCase

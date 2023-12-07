@@ -1,10 +1,10 @@
 <?php
 
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws\LruArrayCache;
-use Aws\Result;
-use Aws\ResultInterface;
+use CloudBeds\Aws\MskFork\LruArrayCache;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\ResultInterface;
 use GuzzleHttp\Promise;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 

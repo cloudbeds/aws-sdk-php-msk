@@ -1,9 +1,9 @@
 <?php
-namespace Aws\S3;
+namespace CloudBeds\Aws\MskFork\S3;
 
-use Aws\CommandInterface;
-use Aws\Multipart\UploadState;
-use Aws\ResultInterface;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Multipart\UploadState;
+use CloudBeds\Aws\MskFork\ResultInterface;
 
 trait MultipartUploadingTrait
 {

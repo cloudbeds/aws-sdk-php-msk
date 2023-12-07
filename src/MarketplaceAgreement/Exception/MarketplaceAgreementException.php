@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MarketplaceAgreement\Exception;
+namespace CloudBeds\Aws\MskFork\MarketplaceAgreement\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Marketplace Agreement Service** service.

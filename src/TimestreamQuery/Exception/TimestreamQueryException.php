@@ -1,7 +1,7 @@
 <?php
-namespace Aws\TimestreamQuery\Exception;
+namespace CloudBeds\Aws\MskFork\TimestreamQuery\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Timestream Query** service.

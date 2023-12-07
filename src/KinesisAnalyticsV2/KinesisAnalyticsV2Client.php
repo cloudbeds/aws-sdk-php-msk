@@ -1,7 +1,7 @@
 <?php
-namespace Aws\KinesisAnalyticsV2;
+namespace CloudBeds\Aws\MskFork\KinesisAnalyticsV2;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Kinesis Analytics** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Build\Docs;
+namespace CloudBeds\Aws\MskFork\Build\Docs;
 
-use Aws\Api\ApiProvider;
+use CloudBeds\Aws\MskFork\Api\ApiProvider;
 
 /**
  * Builds redirect map file across services

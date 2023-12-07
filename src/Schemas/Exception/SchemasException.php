@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Schemas\Exception;
+namespace CloudBeds\Aws\MskFork\Schemas\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Schemas** service.

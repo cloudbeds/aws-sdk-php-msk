@@ -1,7 +1,7 @@
 <?php
-namespace Aws\SesV2\Exception;
+namespace CloudBeds\Aws\MskFork\SesV2\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Simple Email Service** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MarketplaceCommerceAnalytics\Exception;
+namespace CloudBeds\Aws\MskFork\MarketplaceCommerceAnalytics\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Marketplace Commerce Analytics** service.

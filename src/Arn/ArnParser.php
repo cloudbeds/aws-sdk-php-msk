@@ -1,12 +1,12 @@
 <?php
-namespace Aws\Arn;
+namespace CloudBeds\Aws\MskFork\Arn;
 
-use Aws\Arn\S3\AccessPointArn as S3AccessPointArn;
-use Aws\Arn\ObjectLambdaAccessPointArn;
-use Aws\Arn\S3\MultiRegionAccessPointArn;
-use Aws\Arn\S3\OutpostsBucketArn;
-use Aws\Arn\S3\RegionalBucketArn;
-use Aws\Arn\S3\OutpostsAccessPointArn;
+use CloudBeds\Aws\MskFork\Arn\S3\AccessPointArn as S3AccessPointArn;
+use CloudBeds\Aws\MskFork\Arn\ObjectLambdaAccessPointArn;
+use CloudBeds\Aws\MskFork\Arn\S3\MultiRegionAccessPointArn;
+use CloudBeds\Aws\MskFork\Arn\S3\OutpostsBucketArn;
+use CloudBeds\Aws\MskFork\Arn\S3\RegionalBucketArn;
+use CloudBeds\Aws\MskFork\Arn\S3\OutpostsAccessPointArn;
 
 /**
  * This class provides functionality to parse ARN strings and return a

@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
 use GuzzleHttp\Psr7;
-use Aws\PhpHash;
-use Aws\HashingStream;
+use CloudBeds\Aws\MskFork\PhpHash;
+use CloudBeds\Aws\MskFork\HashingStream;
 use PHPUnit\Framework\TestCase;
 
 /**

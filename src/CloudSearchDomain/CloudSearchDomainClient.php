@@ -1,9 +1,9 @@
 <?php
-namespace Aws\CloudSearchDomain;
+namespace CloudBeds\Aws\MskFork\CloudSearchDomain;
 
-use Aws\AwsClient;
-use Aws\CommandInterface;
-use Aws\HandlerList;
+use CloudBeds\Aws\MskFork\AwsClient;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\HandlerList;
 use GuzzleHttp\Psr7\Uri;
 use Psr\Http\Message\RequestInterface;
 use GuzzleHttp\Psr7;

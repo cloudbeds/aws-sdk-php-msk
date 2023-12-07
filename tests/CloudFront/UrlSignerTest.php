@@ -1,9 +1,9 @@
 <?php
 
-namespace Aws\Test\CloudFront;
+namespace CloudBeds\Aws\MskFork\Test\CloudFront;
 
-use Aws\CloudFront\CloudFrontClient;
-use Aws\CloudFront\UrlSigner;
+use CloudBeds\Aws\MskFork\CloudFront\CloudFrontClient;
+use CloudBeds\Aws\MskFork\CloudFront\UrlSigner;
 use GuzzleHttp\Psr7\Uri;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 

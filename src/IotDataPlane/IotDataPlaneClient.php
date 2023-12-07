@@ -1,7 +1,7 @@
 <?php
-namespace Aws\IotDataPlane;
+namespace CloudBeds\Aws\MskFork\IotDataPlane;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS IoT Data Plane** service.

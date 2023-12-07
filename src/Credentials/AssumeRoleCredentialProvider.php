@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Credentials;
+namespace CloudBeds\Aws\MskFork\Credentials;
 
-use Aws\Exception\CredentialsException;
-use Aws\Result;
-use Aws\Sts\StsClient;
+use CloudBeds\Aws\MskFork\Exception\CredentialsException;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\Sts\StsClient;
 use GuzzleHttp\Promise\PromiseInterface;
 
 /**

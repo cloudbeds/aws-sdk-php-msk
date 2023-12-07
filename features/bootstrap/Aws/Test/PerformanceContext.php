@@ -1,12 +1,12 @@
 <?php
 
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws;
-use Aws\Api\ApiProvider;
-use Aws\Api\Service;
-use Aws\Result;
-use Aws\S3\S3Client;
+use CloudBeds\Aws\MskFork;
+use CloudBeds\Aws\MskFork\Api\ApiProvider;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\S3\S3Client;
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\SnippetAcceptingContext;
 use Behat\Behat\Hook\Scope\AfterScenarioScope;

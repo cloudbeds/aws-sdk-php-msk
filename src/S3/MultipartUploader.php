@@ -1,13 +1,13 @@
 <?php
-namespace Aws\S3;
+namespace CloudBeds\Aws\MskFork\S3;
 
-use Aws\HashingStream;
-use Aws\Multipart\AbstractUploader;
-use Aws\PhpHash;
-use Aws\ResultInterface;
+use CloudBeds\Aws\MskFork\HashingStream;
+use CloudBeds\Aws\MskFork\Multipart\AbstractUploader;
+use CloudBeds\Aws\MskFork\PhpHash;
+use CloudBeds\Aws\MskFork\ResultInterface;
 use GuzzleHttp\Psr7;
 use Psr\Http\Message\StreamInterface as Stream;
-use Aws\S3\Exception\S3MultipartUploadException;
+use CloudBeds\Aws\MskFork\S3\Exception\S3MultipartUploadException;
 
 /**
  * Encapsulates the execution of a multipart upload to S3 or Glacier.

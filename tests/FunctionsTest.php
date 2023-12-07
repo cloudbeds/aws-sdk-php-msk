@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws;
-use Aws\MockHandler;
-use Aws\Result;
-use Aws\S3\S3Client;
+use CloudBeds\Aws\MskFork;
+use CloudBeds\Aws\MskFork\MockHandler;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\S3\S3Client;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 class FunctionsTest extends TestCase

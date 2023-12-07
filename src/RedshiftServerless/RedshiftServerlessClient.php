@@ -1,7 +1,7 @@
 <?php
-namespace Aws\RedshiftServerless;
+namespace CloudBeds\Aws\MskFork\RedshiftServerless;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Redshift Serverless** service.

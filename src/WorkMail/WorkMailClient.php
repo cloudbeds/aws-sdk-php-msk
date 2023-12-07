@@ -1,7 +1,7 @@
 <?php
-namespace Aws\WorkMail;
+namespace CloudBeds\Aws\MskFork\WorkMail;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon WorkMail** service.

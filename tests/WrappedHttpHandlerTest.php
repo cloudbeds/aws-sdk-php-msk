@@ -1,16 +1,16 @@
 <?php
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws\Api\ErrorParser\JsonRpcErrorParser;
-use Aws\Api\ErrorParser\RestJsonErrorParser;
-use Aws\Api\ErrorParser\XmlErrorParser;
-use Aws\Api\Service;
-use Aws\AwsClient;
-use Aws\Command;
-use Aws\CommandInterface;
-use Aws\Exception\AwsException;
-use Aws\Result;
-use Aws\WrappedHttpHandler;
+use CloudBeds\Aws\MskFork\Api\ErrorParser\JsonRpcErrorParser;
+use CloudBeds\Aws\MskFork\Api\ErrorParser\RestJsonErrorParser;
+use CloudBeds\Aws\MskFork\Api\ErrorParser\XmlErrorParser;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\AwsClient;
+use CloudBeds\Aws\MskFork\Command;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\WrappedHttpHandler;
 use GuzzleHttp\Promise\RejectedPromise;
 use Psr\Http\Message\RequestInterface;
 use GuzzleHttp\Psr7\Request;

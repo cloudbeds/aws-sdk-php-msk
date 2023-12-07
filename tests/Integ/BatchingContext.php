@@ -1,12 +1,12 @@
 <?php
 
-namespace Aws\Test\Integ;
+namespace CloudBeds\Aws\MskFork\Test\Integ;
 
-use Aws\DynamoDb\DynamoDbClient;
-use Aws\DynamoDb\WriteRequestBatch;
-use Aws\Exception\AwsException;
-use Aws\Result;
-use Aws\Sqs\SqsClient;
+use CloudBeds\Aws\MskFork\DynamoDb\DynamoDbClient;
+use CloudBeds\Aws\MskFork\DynamoDb\WriteRequestBatch;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\Sqs\SqsClient;
 use Behat\Behat\Hook\Scope\AfterFeatureScope;
 use Behat\Behat\Hook\Scope\BeforeFeatureScope;
 use Behat\Behat\Tester\Exception\PendingException;

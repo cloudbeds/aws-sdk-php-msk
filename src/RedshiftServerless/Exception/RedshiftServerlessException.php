@@ -1,7 +1,7 @@
 <?php
-namespace Aws\RedshiftServerless\Exception;
+namespace CloudBeds\Aws\MskFork\RedshiftServerless\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Redshift Serverless** service.

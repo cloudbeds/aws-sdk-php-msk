@@ -1,7 +1,7 @@
 <?php
-namespace Aws\NimbleStudio;
+namespace CloudBeds\Aws\MskFork\NimbleStudio;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AmazonNimbleStudio** service.

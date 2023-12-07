@@ -1,14 +1,14 @@
 <?php
 
-namespace Aws\Test\Api\Parser;
+namespace CloudBeds\Aws\MskFork\Test\Api\Parser;
 
-use Aws\Api\Parser\EventParsingIterator;
-use Aws\Api\Parser\Exception\ParserException;
-use Aws\Api\Parser\RestXmlParser;
-use Aws\Api\Service;
-use Aws\Api\ShapeMap;
-use Aws\Api\StructureShape;
-use Aws\Exception\EventStreamDataException;
+use CloudBeds\Aws\MskFork\Api\Parser\EventParsingIterator;
+use CloudBeds\Aws\MskFork\Api\Parser\Exception\ParserException;
+use CloudBeds\Aws\MskFork\Api\Parser\RestXmlParser;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Api\ShapeMap;
+use CloudBeds\Aws\MskFork\Api\StructureShape;
+use CloudBeds\Aws\MskFork\Exception\EventStreamDataException;
 use GuzzleHttp\Psr7;
 use Psr\Http\Message\StreamInterface;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;

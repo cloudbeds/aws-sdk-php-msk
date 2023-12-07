@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ElasticInference;
+namespace CloudBeds\Aws\MskFork\ElasticInference;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Elastic  Inference** service.

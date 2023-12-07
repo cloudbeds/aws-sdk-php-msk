@@ -1,7 +1,7 @@
 <?php
-namespace Aws\BedrockAgent\Exception;
+namespace CloudBeds\Aws\MskFork\BedrockAgent\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Agents for Amazon Bedrock** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\Credentials;
+namespace CloudBeds\Aws\MskFork\Test\Credentials;
 
-use Aws\Credentials\Credentials;
+use CloudBeds\Aws\MskFork\Credentials\Credentials;
 use PHPUnit\Framework\TestCase;
 
 /**

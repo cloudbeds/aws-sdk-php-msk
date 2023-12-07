@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Test\S3Control;
+namespace CloudBeds\Aws\MskFork\Test\S3Control;
 
-use Aws\Api\ApiProvider;
-use Aws\S3Control\S3ControlClient;
+use CloudBeds\Aws\MskFork\Api\ApiProvider;
+use CloudBeds\Aws\MskFork\S3Control\S3ControlClient;
 
 trait S3ControlTestingTrait
 {

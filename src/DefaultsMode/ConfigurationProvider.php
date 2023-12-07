@@ -1,10 +1,10 @@
 <?php
-namespace Aws\DefaultsMode;
+namespace CloudBeds\Aws\MskFork\DefaultsMode;
 
-use Aws\AbstractConfigurationProvider;
-use Aws\CacheInterface;
-use Aws\ConfigurationProviderInterface;
-use Aws\DefaultsMode\Exception\ConfigurationException;
+use CloudBeds\Aws\MskFork\AbstractConfigurationProvider;
+use CloudBeds\Aws\MskFork\CacheInterface;
+use CloudBeds\Aws\MskFork\ConfigurationProviderInterface;
+use CloudBeds\Aws\MskFork\DefaultsMode\Exception\ConfigurationException;
 use GuzzleHttp\Promise;
 use GuzzleHttp\Promise\PromiseInterface;
 
@@ -14,7 +14,7 @@ use GuzzleHttp\Promise\PromiseInterface;
  * or rejected with an {@see \Aws\DefaultsMode\Exception\ConfigurationException}.
  *
  * <code>
- * use Aws\Sts\RegionalEndpoints\ConfigurationProvider;
+ * use CloudBeds\Aws\MskFork\Sts\RegionalEndpoints\ConfigurationProvider;
  * $provider = ConfigurationProvider::defaultProvider();
  * // Returns a ConfigurationInterface or throws.
  * $config = $provider()->wait();

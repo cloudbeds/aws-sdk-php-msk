@@ -1,7 +1,7 @@
 <?php
-namespace Aws\OpenSearchService\Exception;
+namespace CloudBeds\Aws\MskFork\OpenSearchService\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon OpenSearch Service** service.

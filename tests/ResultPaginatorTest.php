@@ -1,11 +1,11 @@
 <?php
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws\Api\ApiProvider;
-use Aws\CloudWatchLogs\CloudWatchLogsClient;
-use Aws\CommandInterface;
-use Aws\DynamoDb\DynamoDbClient;
-use Aws\Result;
+use CloudBeds\Aws\MskFork\Api\ApiProvider;
+use CloudBeds\Aws\MskFork\CloudWatchLogs\CloudWatchLogsClient;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\DynamoDb\DynamoDbClient;
+use CloudBeds\Aws\MskFork\Result;
 use GuzzleHttp\Promise;
 use Psr\Http\Message\RequestInterface;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;

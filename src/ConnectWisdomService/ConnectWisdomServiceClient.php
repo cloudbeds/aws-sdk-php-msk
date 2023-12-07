@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ConnectWisdomService;
+namespace CloudBeds\Aws\MskFork\ConnectWisdomService;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Connect Wisdom Service** service.

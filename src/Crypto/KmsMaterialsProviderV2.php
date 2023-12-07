@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Crypto;
+namespace CloudBeds\Aws\MskFork\Crypto;
 
-use Aws\Exception\CryptoException;
-use Aws\Kms\KmsClient;
+use CloudBeds\Aws\MskFork\Exception\CryptoException;
+use CloudBeds\Aws\MskFork\Kms\KmsClient;
 
 /**
  * Uses KMS to supply materials for encrypting and decrypting data. This

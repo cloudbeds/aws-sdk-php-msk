@@ -1,11 +1,11 @@
 <?php
-namespace Aws\Sts;
+namespace CloudBeds\Aws\MskFork\Sts;
 
-use Aws\AwsClient;
-use Aws\CacheInterface;
-use Aws\Credentials\Credentials;
-use Aws\Result;
-use Aws\Sts\RegionalEndpoints\ConfigurationProvider;
+use CloudBeds\Aws\MskFork\AwsClient;
+use CloudBeds\Aws\MskFork\CacheInterface;
+use CloudBeds\Aws\MskFork\Credentials\Credentials;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\Sts\RegionalEndpoints\ConfigurationProvider;
 
 /**
  * This client is used to interact with the **AWS Security Token Service (AWS STS)**.

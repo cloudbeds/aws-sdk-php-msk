@@ -1,7 +1,7 @@
 <?php
-namespace Aws\AppMesh\Exception;
+namespace CloudBeds\Aws\MskFork\AppMesh\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS App Mesh** service.

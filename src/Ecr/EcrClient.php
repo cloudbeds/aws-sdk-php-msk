@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Ecr;
+namespace CloudBeds\Aws\MskFork\Ecr;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon EC2 Container Registry** service.

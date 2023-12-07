@@ -1,11 +1,11 @@
 <?php
 
-namespace Aws\Test\Retry;
+namespace CloudBeds\Aws\MskFork\Test\Retry;
 
-use Aws\Command;
-use Aws\Exception\AwsException;
-use Aws\Result;
-use Aws\Retry\QuotaManager;
+use CloudBeds\Aws\MskFork\Command;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\Retry\QuotaManager;
 use PHPUnit\Framework\TestCase;
 
 /**

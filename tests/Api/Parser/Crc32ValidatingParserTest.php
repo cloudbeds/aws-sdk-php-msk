@@ -1,13 +1,13 @@
 <?php
-namespace Aws\Test\Api\Parser;
+namespace CloudBeds\Aws\MskFork\Test\Api\Parser;
 
-use Aws\Api\ApiProvider;
-use Aws\Api\Parser\Crc32ValidatingParser;
-use Aws\Api\Parser\JsonRpcParser;
-use Aws\Api\Service;
-use Aws\Command;
-use Aws\Exception\AwsException;
-use Aws\ResultInterface;
+use CloudBeds\Aws\MskFork\Api\ApiProvider;
+use CloudBeds\Aws\MskFork\Api\Parser\Crc32ValidatingParser;
+use CloudBeds\Aws\MskFork\Api\Parser\JsonRpcParser;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Command;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\ResultInterface;
 use GuzzleHttp\Psr7\Response;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 

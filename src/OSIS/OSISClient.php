@@ -1,7 +1,7 @@
 <?php
-namespace Aws\OSIS;
+namespace CloudBeds\Aws\MskFork\OSIS;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon OpenSearch Ingestion** service.

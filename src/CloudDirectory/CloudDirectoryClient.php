@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CloudDirectory;
+namespace CloudBeds\Aws\MskFork\CloudDirectory;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon CloudDirectory** service.

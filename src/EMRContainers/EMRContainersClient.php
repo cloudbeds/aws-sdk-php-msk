@@ -1,7 +1,7 @@
 <?php
-namespace Aws\EMRContainers;
+namespace CloudBeds\Aws\MskFork\EMRContainers;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon EMR Containers** service.

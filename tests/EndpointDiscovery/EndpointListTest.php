@@ -1,8 +1,8 @@
 <?php
 
-namespace Aws\Test\EndpointDiscovery;
+namespace CloudBeds\Aws\MskFork\Test\EndpointDiscovery;
 
-use Aws\EndpointDiscovery\EndpointList;
+use CloudBeds\Aws\MskFork\EndpointDiscovery\EndpointList;
 use PHPUnit\Framework\TestCase;
 
 /**

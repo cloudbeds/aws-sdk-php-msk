@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CustomerProfiles;
+namespace CloudBeds\Aws\MskFork\CustomerProfiles;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Connect Customer Profiles** service.

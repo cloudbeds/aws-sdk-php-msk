@@ -1,8 +1,8 @@
 <?php
-namespace Aws\CloudTrail;
+namespace CloudBeds\Aws\MskFork\CloudTrail;
 
-use Aws\S3\S3Client;
-use Aws\CloudTrail\Exception\CloudTrailException;
+use CloudBeds\Aws\MskFork\S3\S3Client;
+use CloudBeds\Aws\MskFork\CloudTrail\Exception\CloudTrailException;
 
 /**
  * The `Aws\CloudTrail\LogFileIterator` provides an easy way to iterate over

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\NetworkManager\Exception;
+namespace CloudBeds\Aws\MskFork\NetworkManager\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Network Manager** service.

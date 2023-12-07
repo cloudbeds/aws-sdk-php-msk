@@ -1,7 +1,7 @@
 <?php
-namespace Aws\DAX;
+namespace CloudBeds\Aws\MskFork\DAX;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon DynamoDB Accelerator (DAX)** service.

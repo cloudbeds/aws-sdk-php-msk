@@ -56,7 +56,7 @@ Jump To:
 // Require the Composer autoloader.
 require 'vendor/autoload.php';
 
-use Aws\S3\S3Client;
+use CloudBeds\Aws\MskFork\S3\S3Client;
 
 // Instantiate an Amazon S3 client.
 $s3 = new S3Client([

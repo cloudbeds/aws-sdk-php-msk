@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Endpoint\UseDualstackEndpoint;
+namespace CloudBeds\Aws\MskFork\Endpoint\UseDualstackEndpoint;
 
-use Aws;
-use Aws\Endpoint\UseDualstackEndpoint\Exception\ConfigurationException;
+use CloudBeds\Aws\MskFork;
+use CloudBeds\Aws\MskFork\Endpoint\UseDualstackEndpoint\Exception\ConfigurationException;
 
 class Configuration implements ConfigurationInterface
 {

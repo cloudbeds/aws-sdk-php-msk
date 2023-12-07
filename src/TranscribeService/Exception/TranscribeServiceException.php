@@ -1,7 +1,7 @@
 <?php
-namespace Aws\TranscribeService\Exception;
+namespace CloudBeds\Aws\MskFork\TranscribeService\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Transcribe Service** service.

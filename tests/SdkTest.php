@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws\AwsClientInterface;
-use Aws\MultiRegionClient;
-use Aws\S3\S3MultiRegionClient;
-use Aws\Sdk;
+use CloudBeds\Aws\MskFork\AwsClientInterface;
+use CloudBeds\Aws\MskFork\MultiRegionClient;
+use CloudBeds\Aws\MskFork\S3\S3MultiRegionClient;
+use CloudBeds\Aws\MskFork\Sdk;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

@@ -1,22 +1,22 @@
 <?php
-namespace Aws\Test\S3;
+namespace CloudBeds\Aws\MskFork\Test\S3;
 
-use Aws\Arn\ArnParser;
-use Aws\Command;
-use Aws\CommandInterface;
-use Aws\Exception\AwsException;
-use Aws\Identity\S3\S3ExpressIdentity;
-use Aws\LruArrayCache;
-use Aws\Endpoint\PartitionEndpointProvider;
-use Aws\Middleware;
-use Aws\Result;
-use Aws\S3\Exception\PermanentRedirectException;
-use Aws\S3\Exception\S3Exception;
-use Aws\S3\RegionalEndpoint\Configuration;
-use Aws\S3\S3Client;
-use Aws\S3\UseArnRegion\Configuration as UseArnRegionConfiguration;
-use Aws\Signature\SignatureV4;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Arn\ArnParser;
+use CloudBeds\Aws\MskFork\Command;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Identity\S3\S3ExpressIdentity;
+use CloudBeds\Aws\MskFork\LruArrayCache;
+use CloudBeds\Aws\MskFork\Endpoint\PartitionEndpointProvider;
+use CloudBeds\Aws\MskFork\Middleware;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\S3\Exception\PermanentRedirectException;
+use CloudBeds\Aws\MskFork\S3\Exception\S3Exception;
+use CloudBeds\Aws\MskFork\S3\RegionalEndpoint\Configuration;
+use CloudBeds\Aws\MskFork\S3\S3Client;
+use CloudBeds\Aws\MskFork\S3\UseArnRegion\Configuration as UseArnRegionConfiguration;
+use CloudBeds\Aws\MskFork\Signature\SignatureV4;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use GuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Promise;
@@ -28,7 +28,7 @@ use GuzzleHttp\Psr7\Uri;
 use http\Exception\InvalidArgumentException;
 use Psr\Http\Message\RequestInterface;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
-use Aws\Exception\UnresolvedEndpointException;
+use CloudBeds\Aws\MskFork\Exception\UnresolvedEndpointException;
 
 /**
  * @covers Aws\S3\S3Client

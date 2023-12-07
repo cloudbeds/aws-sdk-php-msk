@@ -1,7 +1,7 @@
 <?php
-namespace Aws\DataPipeline\Exception;
+namespace CloudBeds\Aws\MskFork\DataPipeline\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the AWS Data Pipeline service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\EC2InstanceConnect\Exception;
+namespace CloudBeds\Aws\MskFork\EC2InstanceConnect\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS EC2 Instance Connect** service.

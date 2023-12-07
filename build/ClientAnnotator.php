@@ -1,6 +1,6 @@
 <?php
 
-use Aws\Api\ApiProvider;
+use CloudBeds\Aws\MskFork\Api\ApiProvider;
 
 class ClientAnnotator
 {

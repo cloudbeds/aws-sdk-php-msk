@@ -1,14 +1,14 @@
 <?php
-namespace Aws\Test\S3\Crypto;
+namespace CloudBeds\Aws\MskFork\Test\S3\Crypto;
 
-use Aws\Middleware;
-use Aws\S3\Crypto\S3EncryptionMultipartUploader;
-use Aws\Result;
-use Aws\Crypto\KmsMaterialsProvider;
-use Aws\S3\Crypto\InstructionFileMetadataStrategy;
-use Aws\Test\Crypto\UsesCryptoParamsTrait;
-use Aws\Test\UsesServiceTrait;
-use Aws\Test\Crypto\UsesMetadataEnvelopeTrait;
+use CloudBeds\Aws\MskFork\Middleware;
+use CloudBeds\Aws\MskFork\S3\Crypto\S3EncryptionMultipartUploader;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\Crypto\KmsMaterialsProvider;
+use CloudBeds\Aws\MskFork\S3\Crypto\InstructionFileMetadataStrategy;
+use CloudBeds\Aws\MskFork\Test\Crypto\UsesCryptoParamsTrait;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Test\Crypto\UsesMetadataEnvelopeTrait;
 use GuzzleHttp\Psr7;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 

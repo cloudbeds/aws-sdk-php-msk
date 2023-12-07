@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Arn\S3;
+namespace CloudBeds\Aws\MskFork\Arn\S3;
 
-use Aws\Arn\ArnInterface;
+use CloudBeds\Aws\MskFork\Arn\ArnInterface;
 
 /**
  * @internal

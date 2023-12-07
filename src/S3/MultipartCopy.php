@@ -1,10 +1,10 @@
 <?php
 
-namespace Aws\S3;
+namespace CloudBeds\Aws\MskFork\S3;
 
-use Aws\Arn\ArnParser;
-use Aws\Multipart\AbstractUploadManager;
-use Aws\ResultInterface;
+use CloudBeds\Aws\MskFork\Arn\ArnParser;
+use CloudBeds\Aws\MskFork\Multipart\AbstractUploadManager;
+use CloudBeds\Aws\MskFork\ResultInterface;
 use GuzzleHttp\Psr7;
 
 class MultipartCopy extends AbstractUploadManager

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Comprehend\Exception;
+namespace CloudBeds\Aws\MskFork\Comprehend\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Comprehend** service.

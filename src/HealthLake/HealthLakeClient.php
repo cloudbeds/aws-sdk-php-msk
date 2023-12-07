@@ -1,7 +1,7 @@
 <?php
-namespace Aws\HealthLake;
+namespace CloudBeds\Aws\MskFork\HealthLake;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon HealthLake** service.

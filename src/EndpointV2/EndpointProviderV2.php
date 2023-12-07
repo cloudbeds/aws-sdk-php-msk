@@ -1,10 +1,10 @@
 <?php
 
-namespace Aws\EndpointV2;
+namespace CloudBeds\Aws\MskFork\EndpointV2;
 
-use Aws\EndpointV2\Ruleset\Ruleset;
-use Aws\Exception\UnresolvedEndpointException;
-use Aws\LruArrayCache;
+use CloudBeds\Aws\MskFork\EndpointV2\Ruleset\Ruleset;
+use CloudBeds\Aws\MskFork\Exception\UnresolvedEndpointException;
+use CloudBeds\Aws\MskFork\LruArrayCache;
 
 /**
  * Given a service's Ruleset and client-provided input parameters, provides

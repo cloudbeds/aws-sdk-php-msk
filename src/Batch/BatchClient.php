@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Batch;
+namespace CloudBeds\Aws\MskFork\Batch;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Batch** service.

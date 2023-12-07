@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Test\Crypto;
+namespace CloudBeds\Aws\MskFork\Test\Crypto;
 
 use GuzzleHttp\Psr7\PumpStream;
 use GuzzleHttp\Psr7\StreamDecoratorTrait;

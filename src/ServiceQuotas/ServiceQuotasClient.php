@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ServiceQuotas;
+namespace CloudBeds\Aws\MskFork\ServiceQuotas;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Service Quotas** service.

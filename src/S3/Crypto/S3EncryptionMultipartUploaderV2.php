@@ -1,12 +1,12 @@
 <?php
-namespace Aws\S3\Crypto;
+namespace CloudBeds\Aws\MskFork\S3\Crypto;
 
-use Aws\Crypto\AbstractCryptoClientV2;
-use Aws\Crypto\EncryptionTraitV2;
-use Aws\Crypto\MetadataEnvelope;
-use Aws\Crypto\Cipher\CipherBuilderTrait;
-use Aws\S3\MultipartUploader;
-use Aws\S3\S3ClientInterface;
+use CloudBeds\Aws\MskFork\Crypto\AbstractCryptoClientV2;
+use CloudBeds\Aws\MskFork\Crypto\EncryptionTraitV2;
+use CloudBeds\Aws\MskFork\Crypto\MetadataEnvelope;
+use CloudBeds\Aws\MskFork\Crypto\Cipher\CipherBuilderTrait;
+use CloudBeds\Aws\MskFork\S3\MultipartUploader;
+use CloudBeds\Aws\MskFork\S3\S3ClientInterface;
 use GuzzleHttp\Promise;
 
 /**

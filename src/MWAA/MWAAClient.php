@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MWAA;
+namespace CloudBeds\Aws\MskFork\MWAA;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AmazonMWAA** service.

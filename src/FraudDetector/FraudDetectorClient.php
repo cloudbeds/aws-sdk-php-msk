@@ -1,7 +1,7 @@
 <?php
-namespace Aws\FraudDetector;
+namespace CloudBeds\Aws\MskFork\FraudDetector;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Fraud Detector** service.

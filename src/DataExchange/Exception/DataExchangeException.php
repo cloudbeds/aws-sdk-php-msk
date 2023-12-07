@@ -1,7 +1,7 @@
 <?php
-namespace Aws\DataExchange\Exception;
+namespace CloudBeds\Aws\MskFork\DataExchange\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Data Exchange** service.

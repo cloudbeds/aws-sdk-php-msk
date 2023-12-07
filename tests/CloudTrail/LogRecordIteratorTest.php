@@ -1,12 +1,12 @@
 <?php
-namespace Aws\Test\CloudTrail;
+namespace CloudBeds\Aws\MskFork\Test\CloudTrail;
 
-use Aws\Result;
-use Aws\S3\S3Client;
-use Aws\CloudTrail\CloudTrailClient;
-use Aws\CloudTrail\LogFileReader;
-use Aws\CloudTrail\LogRecordIterator;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\S3\S3Client;
+use CloudBeds\Aws\MskFork\CloudTrail\CloudTrailClient;
+use CloudBeds\Aws\MskFork\CloudTrail\LogFileReader;
+use CloudBeds\Aws\MskFork\CloudTrail\LogRecordIterator;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use GuzzleHttp\Psr7;
 use PHPUnit\Framework\TestCase;
 

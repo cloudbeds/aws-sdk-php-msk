@@ -1,9 +1,9 @@
 <?php
-namespace Aws\S3;
+namespace CloudBeds\Aws\MskFork\S3;
 
-use Aws\Arn\Exception\InvalidArnException;
-use Aws\Arn\S3\AccessPointArn;
-use Aws\Arn\ArnParser;
+use CloudBeds\Aws\MskFork\Arn\Exception\InvalidArnException;
+use CloudBeds\Aws\MskFork\Arn\S3\AccessPointArn;
+use CloudBeds\Aws\MskFork\Arn\ArnParser;
 use GuzzleHttp\Psr7;
 use Psr\Http\Message\UriInterface;
 

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\FSx\Exception;
+namespace CloudBeds\Aws\MskFork\FSx\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon FSx** service.

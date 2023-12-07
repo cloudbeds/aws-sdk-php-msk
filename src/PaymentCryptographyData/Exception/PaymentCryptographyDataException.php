@@ -1,7 +1,7 @@
 <?php
-namespace Aws\PaymentCryptographyData\Exception;
+namespace CloudBeds\Aws\MskFork\PaymentCryptographyData\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Payment Cryptography Data Plane** service.

@@ -1,11 +1,11 @@
 <?php
-namespace Aws\Test\S3\Crypto;
+namespace CloudBeds\Aws\MskFork\Test\S3\Crypto;
 
-use Aws\S3\Crypto\InstructionFileMetadataStrategy;
-use Aws\Result;
-use Aws\S3\S3Client;
-use Aws\Test\Crypto\UsesMetadataEnvelopeTrait;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\S3\Crypto\InstructionFileMetadataStrategy;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\S3\S3Client;
+use CloudBeds\Aws\MskFork\Test\Crypto\UsesMetadataEnvelopeTrait;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use PHPUnit\Framework\TestCase;
 
 /**

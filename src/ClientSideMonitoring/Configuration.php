@@ -1,5 +1,5 @@
 <?php
-namespace Aws\ClientSideMonitoring;
+namespace CloudBeds\Aws\MskFork\ClientSideMonitoring;
 
 class Configuration implements ConfigurationInterface
 {

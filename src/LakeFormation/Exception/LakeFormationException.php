@@ -1,7 +1,7 @@
 <?php
-namespace Aws\LakeFormation\Exception;
+namespace CloudBeds\Aws\MskFork\LakeFormation\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Lake Formation** service.

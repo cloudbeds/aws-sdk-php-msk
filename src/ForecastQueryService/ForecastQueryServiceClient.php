@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ForecastQueryService;
+namespace CloudBeds\Aws\MskFork\ForecastQueryService;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Forecast Query Service** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Support\Exception;
+namespace CloudBeds\Aws\MskFork\Support\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * AWS Support service exception.

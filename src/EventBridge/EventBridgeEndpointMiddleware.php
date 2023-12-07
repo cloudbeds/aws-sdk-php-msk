@@ -1,9 +1,9 @@
 <?php
-namespace Aws\EventBridge;
+namespace CloudBeds\Aws\MskFork\EventBridge;
 
-use Aws\CommandInterface;
-use Aws\Endpoint\EndpointProvider;
-use Aws\Endpoint\PartitionEndpointProvider;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Endpoint\EndpointProvider;
+use CloudBeds\Aws\MskFork\Endpoint\PartitionEndpointProvider;
 use InvalidArgumentException;
 use Psr\Http\Message\RequestInterface;
 

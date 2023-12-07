@@ -1,7 +1,7 @@
 <?php
-namespace Aws\EKS\Exception;
+namespace CloudBeds\Aws\MskFork\EKS\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Elastic Container Service for Kubernetes** service.

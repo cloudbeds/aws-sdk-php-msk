@@ -1,6 +1,6 @@
 <?php
-namespace Aws\Identity\S3;
+namespace CloudBeds\Aws\MskFork\Identity\S3;
 
-use Aws\Credentials\Credentials;
+use CloudBeds\Aws\MskFork\Credentials\Credentials;
 
 class S3ExpressIdentity extends Credentials {}

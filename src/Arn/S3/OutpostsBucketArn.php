@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Arn\S3;
+namespace CloudBeds\Aws\MskFork\Arn\S3;
 
-use Aws\Arn\Arn;
-use Aws\Arn\Exception\InvalidArnException;
-use Aws\Arn\ResourceTypeAndIdTrait;
+use CloudBeds\Aws\MskFork\Arn\Arn;
+use CloudBeds\Aws\MskFork\Arn\Exception\InvalidArnException;
+use CloudBeds\Aws\MskFork\Arn\ResourceTypeAndIdTrait;
 
 /**
  * This class represents an S3 Outposts bucket ARN, which is in the

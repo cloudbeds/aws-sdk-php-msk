@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CloudWatchEvidently;
+namespace CloudBeds\Aws\MskFork\CloudWatchEvidently;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon CloudWatch Evidently** service.

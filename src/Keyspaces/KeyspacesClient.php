@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Keyspaces;
+namespace CloudBeds\Aws\MskFork\Keyspaces;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Keyspaces** service.

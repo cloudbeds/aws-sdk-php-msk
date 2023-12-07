@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Sts\RegionalEndpoints;
+namespace CloudBeds\Aws\MskFork\Sts\RegionalEndpoints;
 
 class Configuration implements ConfigurationInterface
 {

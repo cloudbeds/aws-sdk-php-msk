@@ -1,15 +1,15 @@
 <?php
-namespace Aws\Test\Credentials;
+namespace CloudBeds\Aws\MskFork\Test\Credentials;
 
-use Aws\Credentials\AssumeRoleCredentialProvider;
-use Aws\Credentials\Credentials;
-use Aws\Exception\AwsException;
-use Aws\Result;
-use Aws\Sts\StsClient;
-use Aws\Api\DateTimeResult;
+use CloudBeds\Aws\MskFork\Credentials\AssumeRoleCredentialProvider;
+use CloudBeds\Aws\MskFork\Credentials\Credentials;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\Sts\StsClient;
+use CloudBeds\Aws\MskFork\Api\DateTimeResult;
 use GuzzleHttp\Promise;
 use GuzzleHttp\Promise\RejectedPromise;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

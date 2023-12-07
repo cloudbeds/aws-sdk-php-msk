@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws\PsrCacheAdapter;
+use CloudBeds\Aws\MskFork\PsrCacheAdapter;
 use Psr\Cache\CacheItemInterface;
 use Psr\Cache\CacheItemPoolInterface;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;

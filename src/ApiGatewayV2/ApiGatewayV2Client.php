@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ApiGatewayV2;
+namespace CloudBeds\Aws\MskFork\ApiGatewayV2;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AmazonApiGatewayV2** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\AlexaForBusiness\Exception;
+namespace CloudBeds\Aws\MskFork\AlexaForBusiness\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Alexa For Business** service.

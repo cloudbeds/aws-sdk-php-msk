@@ -1,9 +1,9 @@
 <?php
-namespace Aws\S3;
+namespace CloudBeds\Aws\MskFork\S3;
 
-use Aws\Api\Parser\AbstractParser;
-use Aws\Api\StructureShape;
-use Aws\CommandInterface;
+use CloudBeds\Aws\MskFork\Api\Parser\AbstractParser;
+use CloudBeds\Aws\MskFork\Api\StructureShape;
+use CloudBeds\Aws\MskFork\CommandInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;
 

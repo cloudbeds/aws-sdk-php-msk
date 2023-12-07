@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Crypto;
+namespace CloudBeds\Aws\MskFork\Crypto;
 
 use GuzzleHttp\Psr7;
 use GuzzleHttp\Psr7\AppendStream;

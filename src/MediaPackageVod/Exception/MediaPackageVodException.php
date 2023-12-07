@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MediaPackageVod\Exception;
+namespace CloudBeds\Aws\MskFork\MediaPackageVod\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Elemental MediaPackage VOD** service.

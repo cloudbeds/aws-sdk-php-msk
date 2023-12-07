@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MediaStore;
+namespace CloudBeds\Aws\MskFork\MediaStore;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Elemental MediaStore** service.

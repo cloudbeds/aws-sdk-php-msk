@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Polly\Exception;
+namespace CloudBeds\Aws\MskFork\Polly\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Polly** service.

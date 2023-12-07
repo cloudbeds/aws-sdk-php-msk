@@ -1,18 +1,18 @@
 <?php
-namespace Aws\S3Control;
+namespace CloudBeds\Aws\MskFork\S3Control;
 
-use Aws\Api\Service;
-use Aws\Arn\AccessPointArnInterface;
-use Aws\Arn\ArnInterface;
-use Aws\Arn\ArnParser;
-use Aws\Arn\Exception\InvalidArnException;
-use Aws\Arn\S3\BucketArnInterface;
-use Aws\Arn\S3\OutpostsArnInterface;
-use Aws\CommandInterface;
-use Aws\Endpoint\PartitionEndpointProvider;
-use Aws\Exception\InvalidRegionException;
-use Aws\Exception\UnresolvedEndpointException;
-use Aws\S3\EndpointRegionHelperTrait;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Arn\AccessPointArnInterface;
+use CloudBeds\Aws\MskFork\Arn\ArnInterface;
+use CloudBeds\Aws\MskFork\Arn\ArnParser;
+use CloudBeds\Aws\MskFork\Arn\Exception\InvalidArnException;
+use CloudBeds\Aws\MskFork\Arn\S3\BucketArnInterface;
+use CloudBeds\Aws\MskFork\Arn\S3\OutpostsArnInterface;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Endpoint\PartitionEndpointProvider;
+use CloudBeds\Aws\MskFork\Exception\InvalidRegionException;
+use CloudBeds\Aws\MskFork\Exception\UnresolvedEndpointException;
+use CloudBeds\Aws\MskFork\S3\EndpointRegionHelperTrait;
 use GuzzleHttp\Psr7;
 use Psr\Http\Message\RequestInterface;
 

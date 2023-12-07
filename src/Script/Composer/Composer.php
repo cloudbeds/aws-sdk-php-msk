@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Script\Composer;
+namespace CloudBeds\Aws\MskFork\Script\Composer;
 
 use Composer\Script\Event;
 use Symfony\Component\Filesystem\Exception\IOException;

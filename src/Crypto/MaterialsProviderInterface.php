@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Crypto;
+namespace CloudBeds\Aws\MskFork\Crypto;
 
 interface MaterialsProviderInterface
 {

@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test\CognitoIdentity;
+namespace CloudBeds\Aws\MskFork\Test\CognitoIdentity;
 
-use Aws\Api\DateTimeResult;
-use Aws\CognitoIdentity\CognitoIdentityProvider;
-use Aws\MockHandler;
-use Aws\Result;
+use CloudBeds\Aws\MskFork\Api\DateTimeResult;
+use CloudBeds\Aws\MskFork\CognitoIdentity\CognitoIdentityProvider;
+use CloudBeds\Aws\MskFork\MockHandler;
+use CloudBeds\Aws\MskFork\Result;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 class CognitoIdentityProviderTest extends TestCase

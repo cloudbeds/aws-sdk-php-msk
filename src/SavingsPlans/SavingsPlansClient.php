@@ -1,7 +1,7 @@
 <?php
-namespace Aws\SavingsPlans;
+namespace CloudBeds\Aws\MskFork\SavingsPlans;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Savings Plans** service.

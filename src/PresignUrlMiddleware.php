@@ -1,8 +1,8 @@
 <?php
-namespace Aws;
+namespace CloudBeds\Aws\MskFork;
 
-use Aws\Signature\SignatureV4;
-use Aws\Endpoint\EndpointProvider;
+use CloudBeds\Aws\MskFork\Signature\SignatureV4;
+use CloudBeds\Aws\MskFork\Endpoint\EndpointProvider;
 use GuzzleHttp\Psr7\Uri;
 use Psr\Http\Message\RequestInterface;
 

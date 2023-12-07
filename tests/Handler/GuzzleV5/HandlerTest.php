@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\Handler\GuzzleV5;
+namespace CloudBeds\Aws\MskFork\Test\Handler\GuzzleV5;
 
-use Aws\Handler\GuzzleV5\GuzzleHandler;
+use CloudBeds\Aws\MskFork\Handler\GuzzleV5\GuzzleHandler;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\Exception\RequestException;

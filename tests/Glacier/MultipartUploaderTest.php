@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Test\Glacier;
+namespace CloudBeds\Aws\MskFork\Test\Glacier;
 
-use Aws\Glacier\MultipartUploader;
-use Aws\Result;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Glacier\MultipartUploader;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use GuzzleHttp\Psr7;
 use Psr\Http\Message\StreamInterface;
 use PHPUnit\Framework\TestCase;

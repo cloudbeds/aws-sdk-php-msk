@@ -1,7 +1,7 @@
 <?php
-namespace Aws\SageMakerRuntime;
+namespace CloudBeds\Aws\MskFork\SageMakerRuntime;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon SageMaker Runtime** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ChimeSDKVoice;
+namespace CloudBeds\Aws\MskFork\ChimeSDKVoice;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Chime SDK Voice** service.

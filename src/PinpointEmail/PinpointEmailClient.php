@@ -1,7 +1,7 @@
 <?php
-namespace Aws\PinpointEmail;
+namespace CloudBeds\Aws\MskFork\PinpointEmail;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Pinpoint Email Service** service.

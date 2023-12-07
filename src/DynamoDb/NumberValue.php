@@ -1,5 +1,5 @@
 <?php
-namespace Aws\DynamoDb;
+namespace CloudBeds\Aws\MskFork\DynamoDb;
 
 /**
  * Special object to represent a DynamoDB Number (N) value.

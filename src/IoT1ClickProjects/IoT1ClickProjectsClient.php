@@ -1,7 +1,7 @@
 <?php
-namespace Aws\IoT1ClickProjects;
+namespace CloudBeds\Aws\MskFork\IoT1ClickProjects;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS IoT 1-Click Projects Service** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Glacier;
+namespace CloudBeds\Aws\MskFork\Glacier;
 
-use Aws\HashInterface;
+use CloudBeds\Aws\MskFork\HashInterface;
 
 /**
  * Encapsulates the creation of a tree hash from streamed data

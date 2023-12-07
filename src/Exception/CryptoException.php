@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Exception;
+namespace CloudBeds\Aws\MskFork\Exception;
 
 /**
  * This class represents exceptions related to logic surrounding client-side

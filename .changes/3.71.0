@@ -12,7 +12,7 @@
     {
         "type": "api-change",
         "category": "WAFRegional",
-        "description": "You can now use AWS WAF to configure protections for your Amazon API Gateway APIs. This will enable you to block (or count) undesired traffic to your APIs based on the different AWS WAF rules and conditions you create. For more information about AWS WAF, see the AWS WAF Developer Guide."
+        "description": "You can now use CloudBeds\Aws\MskFork WAF to configure protections for your Amazon API Gateway APIs. This will enable you to block (or count) undesired traffic to your APIs based on the different AWS WAF rules and conditions you create. For more information about AWS WAF, see the AWS WAF Developer Guide."
     },
     {
         "type": "api-change",

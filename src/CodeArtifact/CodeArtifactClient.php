@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CodeArtifact;
+namespace CloudBeds\Aws\MskFork\CodeArtifact;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **CodeArtifact** service.

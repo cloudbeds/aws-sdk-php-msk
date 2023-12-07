@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Sns\Exception;
+namespace CloudBeds\Aws\MskFork\Sns\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the Amazon Simple Notification Service.

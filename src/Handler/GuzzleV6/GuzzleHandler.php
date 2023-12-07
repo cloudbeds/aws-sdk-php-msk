@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Handler\GuzzleV6;
+namespace CloudBeds\Aws\MskFork\Handler\GuzzleV6;
 
 use Exception;
 use GuzzleHttp\Exception\ConnectException;

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\TrustedAdvisor\Exception;
+namespace CloudBeds\Aws\MskFork\TrustedAdvisor\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **TrustedAdvisor Public API** service.

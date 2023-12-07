@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Test\S3;
+namespace CloudBeds\Aws\MskFork\Test\S3;
 
-use Aws\Arn\Exception\InvalidArnException;
-use Aws\S3\S3UriParser;
+use CloudBeds\Aws\MskFork\Arn\Exception\InvalidArnException;
+use CloudBeds\Aws\MskFork\S3\S3UriParser;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

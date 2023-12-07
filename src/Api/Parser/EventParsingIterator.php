@@ -1,11 +1,11 @@
 <?php
 
-namespace Aws\Api\Parser;
+namespace CloudBeds\Aws\MskFork\Api\Parser;
 
 use \Iterator;
-use Aws\Exception\EventStreamDataException;
-use Aws\Api\Parser\Exception\ParserException;
-use Aws\Api\StructureShape;
+use CloudBeds\Aws\MskFork\Exception\EventStreamDataException;
+use CloudBeds\Aws\MskFork\Api\Parser\Exception\ParserException;
+use CloudBeds\Aws\MskFork\Api\StructureShape;
 use Psr\Http\Message\StreamInterface;
 
 /**

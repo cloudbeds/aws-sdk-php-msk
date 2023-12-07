@@ -1,7 +1,7 @@
 <?php
-namespace Aws\PinpointEmail\Exception;
+namespace CloudBeds\Aws\MskFork\PinpointEmail\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Pinpoint Email Service** service.

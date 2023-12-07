@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Handler\GuzzleV5;
+namespace CloudBeds\Aws\MskFork\Handler\GuzzleV5;
 
 use Exception;
 use GuzzleHttp\Client;

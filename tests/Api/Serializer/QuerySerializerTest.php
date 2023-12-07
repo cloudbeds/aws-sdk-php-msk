@@ -1,12 +1,12 @@
 <?php
-namespace Aws\Test\Api\Serializer;
+namespace CloudBeds\Aws\MskFork\Test\Api\Serializer;
 
-use Aws\Api\Serializer\QuerySerializer;
-use Aws\Api\Service;
-use Aws\Command;
-use Aws\EndpointV2\EndpointDefinitionProvider;
-use Aws\EndpointV2\EndpointProviderV2;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Api\Serializer\QuerySerializer;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Command;
+use CloudBeds\Aws\MskFork\EndpointV2\EndpointDefinitionProvider;
+use CloudBeds\Aws\MskFork\EndpointV2\EndpointProviderV2;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use PHPUnit\Framework\TestCase;
 
 /**

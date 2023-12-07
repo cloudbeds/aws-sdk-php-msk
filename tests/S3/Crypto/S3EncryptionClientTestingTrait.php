@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Test\S3\Crypto;
+namespace CloudBeds\Aws\MskFork\Test\S3\Crypto;
 
-use Aws\Crypto\MaterialsProviderInterface;
-use Aws\Crypto\MetadataEnvelope;
+use CloudBeds\Aws\MskFork\Crypto\MaterialsProviderInterface;
+use CloudBeds\Aws\MskFork\Crypto\MetadataEnvelope;
 
 trait S3EncryptionClientTestingTrait
 {

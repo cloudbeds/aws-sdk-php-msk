@@ -1,7 +1,7 @@
 <?php
-namespace Aws\KinesisVideo\Exception;
+namespace CloudBeds\Aws\MskFork\KinesisVideo\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Kinesis Video Streams** service.

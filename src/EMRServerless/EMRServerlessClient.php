@@ -1,7 +1,7 @@
 <?php
-namespace Aws\EMRServerless;
+namespace CloudBeds\Aws\MskFork\EMRServerless;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **EMR Serverless** service.

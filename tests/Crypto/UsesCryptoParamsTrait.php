@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Test\Crypto;
+namespace CloudBeds\Aws\MskFork\Test\Crypto;
 
-use Aws\Crypto\KmsMaterialsProvider;
-use Aws\S3\Crypto\HeadersMetadataStrategy;
-use Aws\S3\Crypto\InstructionFileMetadataStrategy;
+use CloudBeds\Aws\MskFork\Crypto\KmsMaterialsProvider;
+use CloudBeds\Aws\MskFork\S3\Crypto\HeadersMetadataStrategy;
+use CloudBeds\Aws\MskFork\S3\Crypto\InstructionFileMetadataStrategy;
 
 trait UsesCryptoParamsTrait
 {

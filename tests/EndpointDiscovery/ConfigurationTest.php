@@ -1,8 +1,8 @@
 <?php
 
-namespace Aws\Test\EndpointDiscovery;
+namespace CloudBeds\Aws\MskFork\Test\EndpointDiscovery;
 
-use Aws\EndpointDiscovery\Configuration;
+use CloudBeds\Aws\MskFork\EndpointDiscovery\Configuration;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 use Psr\Log\InvalidArgumentException;
 

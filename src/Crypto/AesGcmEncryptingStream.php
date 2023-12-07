@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Crypto;
+namespace CloudBeds\Aws\MskFork\Crypto;
 
-use Aws\Crypto\Polyfill\AesGcm;
-use Aws\Crypto\Polyfill\Key;
+use CloudBeds\Aws\MskFork\Crypto\Polyfill\AesGcm;
+use CloudBeds\Aws\MskFork\Crypto\Polyfill\Key;
 use GuzzleHttp\Psr7;
 use GuzzleHttp\Psr7\StreamDecoratorTrait;
 use Psr\Http\Message\StreamInterface;

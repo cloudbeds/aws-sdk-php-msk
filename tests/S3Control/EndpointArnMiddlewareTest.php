@@ -1,12 +1,12 @@
 <?php
-namespace Aws\Test\S3Control;
+namespace CloudBeds\Aws\MskFork\Test\S3Control;
 
-use Aws\Arn\Exception\InvalidArnException;
-use Aws\CommandInterface;
-use Aws\Exception\InvalidRegionException;
-use Aws\Exception\UnresolvedEndpointException;
-use Aws\Middleware;
-use Aws\Test\S3Control\S3ControlTestingTrait;
+use CloudBeds\Aws\MskFork\Arn\Exception\InvalidArnException;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Exception\InvalidRegionException;
+use CloudBeds\Aws\MskFork\Exception\UnresolvedEndpointException;
+use CloudBeds\Aws\MskFork\Middleware;
+use CloudBeds\Aws\MskFork\Test\S3Control\S3ControlTestingTrait;
 use GuzzleHttp\Promise;
 use GuzzleHttp\Psr7\Response;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;

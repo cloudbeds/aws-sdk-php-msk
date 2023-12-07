@@ -1,14 +1,14 @@
 <?php
-namespace Aws;
+namespace CloudBeds\Aws\MskFork;
 
-use Aws\Endpoint\PartitionEndpointProvider;
-use Aws\Endpoint\PartitionInterface;
-use Aws\EndpointV2\EndpointProviderV2;
-use Aws\EndpointV2\EndpointDefinitionProvider;
+use CloudBeds\Aws\MskFork\Endpoint\PartitionEndpointProvider;
+use CloudBeds\Aws\MskFork\Endpoint\PartitionInterface;
+use CloudBeds\Aws\MskFork\EndpointV2\EndpointProviderV2;
+use CloudBeds\Aws\MskFork\EndpointV2\EndpointDefinitionProvider;
 
 class MultiRegionClient implements AwsClientInterface
 {
-    use AwsClientTrait;
+    use CloudBeds\Aws\MskForkClientTrait;
 
     /** @var AwsClientInterface[] A pool of clients keyed by region. */
     private $clientPool = [];

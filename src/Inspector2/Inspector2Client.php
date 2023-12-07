@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Inspector2;
+namespace CloudBeds\Aws\MskFork\Inspector2;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Inspector2** service.

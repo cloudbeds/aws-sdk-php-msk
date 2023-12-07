@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Test\DynamoDb;
+namespace CloudBeds\Aws\MskFork\Test\DynamoDb;
 
-use Aws\DynamoDb\SessionConnectionConfigTrait;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\DynamoDb\SessionConnectionConfigTrait;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use PHPUnit\Framework\TestCase;
 
 /**

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\AutoScaling\Exception;
+namespace CloudBeds\Aws\MskFork\AutoScaling\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error while interacting with the Auto Scaling service.

@@ -1,14 +1,14 @@
 <?php
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws\Api\Service;
-use Aws\AwsClient;
-use Aws\ClientResolver;
-use Aws\CommandInterface;
-use Aws\HandlerList;
-use Aws\Middleware;
-use Aws\Result;
-use Aws\StreamRequestPayloadMiddleware;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\AwsClient;
+use CloudBeds\Aws\MskFork\ClientResolver;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\HandlerList;
+use CloudBeds\Aws\MskFork\Middleware;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\StreamRequestPayloadMiddleware;
 use DMS\PHPUnitExtensions\ArraySubset\ArraySubsetAsserts;
 use GuzzleHttp\Psr7;
 use GuzzleHttp\Psr7\Request;

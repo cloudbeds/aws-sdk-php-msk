@@ -1,7 +1,7 @@
 <?php
-namespace Aws\BCMDataExports;
+namespace CloudBeds\Aws\MskFork\BCMDataExports;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Billing and Cost Management Data Exports** service.

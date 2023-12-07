@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MediaPackageVod;
+namespace CloudBeds\Aws\MskFork\MediaPackageVod;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Elemental MediaPackage VOD** service.

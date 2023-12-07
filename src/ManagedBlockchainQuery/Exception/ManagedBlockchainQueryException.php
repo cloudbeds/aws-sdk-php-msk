@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ManagedBlockchainQuery\Exception;
+namespace CloudBeds\Aws\MskFork\ManagedBlockchainQuery\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Managed Blockchain Query** service.

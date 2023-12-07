@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ApiGateway\Exception;
+namespace CloudBeds\Aws\MskFork\ApiGateway\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS API Gateway** service.

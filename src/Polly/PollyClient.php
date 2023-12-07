@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Polly;
+namespace CloudBeds\Aws\MskFork\Polly;
 
-use Aws\Api\Serializer\JsonBody;
-use Aws\AwsClient;
-use Aws\Signature\SignatureV4;
+use CloudBeds\Aws\MskFork\Api\Serializer\JsonBody;
+use CloudBeds\Aws\MskFork\AwsClient;
+use CloudBeds\Aws\MskFork\Signature\SignatureV4;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Uri;
 use GuzzleHttp\Psr7;

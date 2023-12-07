@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ChimeSDKMessaging;
+namespace CloudBeds\Aws\MskFork\ChimeSDKMessaging;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Chime SDK Messaging** service.

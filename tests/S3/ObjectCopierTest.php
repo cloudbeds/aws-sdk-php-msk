@@ -1,14 +1,14 @@
 <?php
-namespace Aws\Test\S3;
+namespace CloudBeds\Aws\MskFork\Test\S3;
 
-use Aws\Command;
-use Aws\CommandInterface;
-use Aws\Middleware;
-use Aws\Result;
-use Aws\S3\MultipartUploader;
-use Aws\S3\ObjectCopier;
-use Aws\S3\S3Client;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Command;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Middleware;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\S3\MultipartUploader;
+use CloudBeds\Aws\MskFork\S3\ObjectCopier;
+use CloudBeds\Aws\MskFork\S3\S3Client;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use GuzzleHttp\Promise;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\RequestInterface;

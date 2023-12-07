@@ -1,7 +1,7 @@
 <?php
-namespace Aws\AppRunner;
+namespace CloudBeds\Aws\MskFork\AppRunner;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS App Runner** service.

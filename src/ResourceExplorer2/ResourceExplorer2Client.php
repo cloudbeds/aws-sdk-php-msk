@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ResourceExplorer2;
+namespace CloudBeds\Aws\MskFork\ResourceExplorer2;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Resource Explorer** service.

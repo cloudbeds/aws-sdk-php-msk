@@ -1,7 +1,7 @@
 <?php
-namespace Aws\RoboMaker;
+namespace CloudBeds\Aws\MskFork\RoboMaker;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS RoboMaker** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MigrationHubConfig\Exception;
+namespace CloudBeds\Aws\MskFork\MigrationHubConfig\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Migration Hub Config** service.

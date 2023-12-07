@@ -1,7 +1,7 @@
 <?php
-namespace Aws\DeviceFarm;
+namespace CloudBeds\Aws\MskFork\DeviceFarm;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon DeviceFarm** service.

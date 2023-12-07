@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Mobile;
+namespace CloudBeds\Aws\MskFork\Mobile;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Mobile** service.

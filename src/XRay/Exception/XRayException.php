@@ -1,7 +1,7 @@
 <?php
-namespace Aws\XRay\Exception;
+namespace CloudBeds\Aws\MskFork\XRay\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS X-Ray** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\S3\Crypto;
+namespace CloudBeds\Aws\MskFork\S3\Crypto;
 
-use Aws\Crypto\MaterialsProviderInterfaceV2;
+use CloudBeds\Aws\MskFork\Crypto\MaterialsProviderInterfaceV2;
 
 trait CryptoParamsTraitV2
 {

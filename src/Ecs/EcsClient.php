@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Ecs;
+namespace CloudBeds\Aws\MskFork\Ecs;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with **Amazon ECS**.

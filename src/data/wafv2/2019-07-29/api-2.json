@@ -2771,22 +2771,22 @@
         "LoginPath":{
           "shape":"LoginPathString",
           "deprecated":true,
-          "deprecatedMessage":"Deprecated. Use AWSManagedRulesATPRuleSet LoginPath"
+          "deprecatedMessage":"Deprecated. use CloudBeds\Aws\MskForkManagedRulesATPRuleSet LoginPath"
         },
         "PayloadType":{
           "shape":"PayloadType",
           "deprecated":true,
-          "deprecatedMessage":"Deprecated. Use AWSManagedRulesATPRuleSet RequestInspection PayloadType"
+          "deprecatedMessage":"Deprecated. use CloudBeds\Aws\MskForkManagedRulesATPRuleSet RequestInspection PayloadType"
         },
         "UsernameField":{
           "shape":"UsernameField",
           "deprecated":true,
-          "deprecatedMessage":"Deprecated. Use AWSManagedRulesATPRuleSet RequestInspection UsernameField"
+          "deprecatedMessage":"Deprecated. use CloudBeds\Aws\MskForkManagedRulesATPRuleSet RequestInspection UsernameField"
         },
         "PasswordField":{
           "shape":"PasswordField",
           "deprecated":true,
-          "deprecatedMessage":"Deprecated. Use AWSManagedRulesATPRuleSet RequestInspection PasswordField"
+          "deprecatedMessage":"Deprecated. use CloudBeds\Aws\MskForkManagedRulesATPRuleSet RequestInspection PasswordField"
         },
         "AWSManagedRulesBotControlRuleSet":{"shape":"AWSManagedRulesBotControlRuleSet"},
         "AWSManagedRulesATPRuleSet":{"shape":"AWSManagedRulesATPRuleSet"},

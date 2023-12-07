@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws;
-use Aws\Command;
-use Aws\History;
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork;
+use CloudBeds\Aws\MskFork\Command;
+use CloudBeds\Aws\MskFork\History;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 use GuzzleHttp\Psr7\Request;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 

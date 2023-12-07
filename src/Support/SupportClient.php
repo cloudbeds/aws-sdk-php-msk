@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Support;
+namespace CloudBeds\Aws\MskFork\Support;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * AWS Support client.

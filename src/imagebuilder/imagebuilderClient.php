@@ -1,7 +1,7 @@
 <?php
-namespace Aws\imagebuilder;
+namespace CloudBeds\Aws\MskFork\imagebuilder;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **EC2 Image Builder** service.

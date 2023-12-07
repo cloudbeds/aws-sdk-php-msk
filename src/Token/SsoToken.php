@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Token;
+namespace CloudBeds\Aws\MskFork\Token;
 
 /**
  * Token that comes from the SSO provider

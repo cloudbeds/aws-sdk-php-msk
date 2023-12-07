@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Omics;
+namespace CloudBeds\Aws\MskFork\Omics;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Omics** service.

@@ -1,8 +1,8 @@
 <?php
-namespace Aws\DocDB;
+namespace CloudBeds\Aws\MskFork\DocDB;
 
-use Aws\AwsClient;
-use Aws\PresignUrlMiddleware;
+use CloudBeds\Aws\MskFork\AwsClient;
+use CloudBeds\Aws\MskFork\PresignUrlMiddleware;
 
 /**
  * This client is used to interact with the **Amazon DocumentDB with MongoDB compatibility** service.

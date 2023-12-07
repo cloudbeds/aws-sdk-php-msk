@@ -1,15 +1,15 @@
 <?php
-namespace Aws\S3\Crypto;
+namespace CloudBeds\Aws\MskFork\S3\Crypto;
 
-use Aws\Crypto\DecryptionTrait;
-use Aws\HashingStream;
-use Aws\PhpHash;
-use Aws\Crypto\AbstractCryptoClient;
-use Aws\Crypto\EncryptionTrait;
-use Aws\Crypto\MetadataEnvelope;
-use Aws\Crypto\MaterialsProvider;
-use Aws\Crypto\Cipher\CipherBuilderTrait;
-use Aws\S3\S3Client;
+use CloudBeds\Aws\MskFork\Crypto\DecryptionTrait;
+use CloudBeds\Aws\MskFork\HashingStream;
+use CloudBeds\Aws\MskFork\PhpHash;
+use CloudBeds\Aws\MskFork\Crypto\AbstractCryptoClient;
+use CloudBeds\Aws\MskFork\Crypto\EncryptionTrait;
+use CloudBeds\Aws\MskFork\Crypto\MetadataEnvelope;
+use CloudBeds\Aws\MskFork\Crypto\MaterialsProvider;
+use CloudBeds\Aws\MskFork\Crypto\Cipher\CipherBuilderTrait;
+use CloudBeds\Aws\MskFork\S3\S3Client;
 use GuzzleHttp\Promise;
 use GuzzleHttp\Promise\PromiseInterface;
 use GuzzleHttp\Psr7;

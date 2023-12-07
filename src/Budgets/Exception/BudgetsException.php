@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Budgets\Exception;
+namespace CloudBeds\Aws\MskFork\Budgets\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Budgets** service.

@@ -1,15 +1,15 @@
 <?php
-namespace Aws\Api\Serializer;
+namespace CloudBeds\Aws\MskFork\Api\Serializer;
 
-use Aws\Api\MapShape;
-use Aws\Api\Service;
-use Aws\Api\Operation;
-use Aws\Api\Shape;
-use Aws\Api\StructureShape;
-use Aws\Api\TimestampShape;
-use Aws\CommandInterface;
-use Aws\EndpointV2\EndpointProviderV2;
-use Aws\EndpointV2\EndpointV2SerializerTrait;
+use CloudBeds\Aws\MskFork\Api\MapShape;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Api\Operation;
+use CloudBeds\Aws\MskFork\Api\Shape;
+use CloudBeds\Aws\MskFork\Api\StructureShape;
+use CloudBeds\Aws\MskFork\Api\TimestampShape;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\EndpointV2\EndpointProviderV2;
+use CloudBeds\Aws\MskFork\EndpointV2\EndpointV2SerializerTrait;
 use GuzzleHttp\Psr7;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Uri;

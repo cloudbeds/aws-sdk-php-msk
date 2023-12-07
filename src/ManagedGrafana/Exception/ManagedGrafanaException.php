@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ManagedGrafana\Exception;
+namespace CloudBeds\Aws\MskFork\ManagedGrafana\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Managed Grafana** service.

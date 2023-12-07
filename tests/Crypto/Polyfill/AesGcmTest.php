@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Test\Crypto\Polyfill;
+namespace CloudBeds\Aws\MskFork\Test\Crypto\Polyfill;
 
-use Aws\Crypto\Polyfill\AesGcm;
-use Aws\Crypto\Polyfill\Key;
-use Aws\Exception\CryptoPolyfillException;
+use CloudBeds\Aws\MskFork\Crypto\Polyfill\AesGcm;
+use CloudBeds\Aws\MskFork\Crypto\Polyfill\Key;
+use CloudBeds\Aws\MskFork\Exception\CryptoPolyfillException;
 use PHPUnit\Framework\TestCase;
 
 /**

@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Exception;
+namespace CloudBeds\Aws\MskFork\Exception;
 
 /**
  * Class CryptoPolyfillException

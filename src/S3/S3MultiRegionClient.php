@@ -1,12 +1,12 @@
 <?php
-namespace Aws\S3;
+namespace CloudBeds\Aws\MskFork\S3;
 
-use Aws\CacheInterface;
-use Aws\CommandInterface;
-use Aws\LruArrayCache;
-use Aws\MultiRegionClient as BaseClient;
-use Aws\Exception\AwsException;
-use Aws\S3\Exception\PermanentRedirectException;
+use CloudBeds\Aws\MskFork\CacheInterface;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\LruArrayCache;
+use CloudBeds\Aws\MskFork\MultiRegionClient as BaseClient;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\S3\Exception\PermanentRedirectException;
 use GuzzleHttp\Promise;
 
 /**

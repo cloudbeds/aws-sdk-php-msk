@@ -1,6 +1,6 @@
 <?php
 
-namespace Aws\Test\Build\Changelog;
+namespace CloudBeds\Aws\MskFork\Test\Build\Changelog;
 
 use PHPUnit\Framework\TestCase;
 

@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Api\Parser\Exception;
+namespace CloudBeds\Aws\MskFork\Api\Parser\Exception;
 
-use Aws\HasMonitoringEventsTrait;
-use Aws\MonitoringEventsInterface;
-use Aws\ResponseContainerInterface;
+use CloudBeds\Aws\MskFork\HasMonitoringEventsTrait;
+use CloudBeds\Aws\MskFork\MonitoringEventsInterface;
+use CloudBeds\Aws\MskFork\ResponseContainerInterface;
 use Psr\Http\Message\ResponseInterface;
 
 class ParserException extends \RuntimeException implements

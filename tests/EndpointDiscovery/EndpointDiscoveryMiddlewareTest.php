@@ -1,20 +1,20 @@
 <?php
 
-namespace Aws\Test\EndpointDiscovery;
+namespace CloudBeds\Aws\MskFork\Test\EndpointDiscovery;
 
-use Aws\Api\Service;
-use Aws\AwsClient;
-use Aws\Command;
-use Aws\CommandInterface;
-use Aws\EndpointDiscovery\Configuration;
-use Aws\EndpointDiscovery\EndpointDiscoveryMiddleware;
-use Aws\Exception\AwsException;
-use Aws\Exception\UnresolvedEndpointException;
-use Aws\Middleware;
-use Aws\Result;
-use Aws\ResultInterface;
-use Aws\Sdk;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\AwsClient;
+use CloudBeds\Aws\MskFork\Command;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\EndpointDiscovery\Configuration;
+use CloudBeds\Aws\MskFork\EndpointDiscovery\EndpointDiscoveryMiddleware;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\UnresolvedEndpointException;
+use CloudBeds\Aws\MskFork\Middleware;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\ResultInterface;
+use CloudBeds\Aws\MskFork\Sdk;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use GuzzleHttp\Promise;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;

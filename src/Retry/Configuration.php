@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Retry;
+namespace CloudBeds\Aws\MskFork\Retry;
 
-use Aws\Retry\Exception\ConfigurationException;
+use CloudBeds\Aws\MskFork\Retry\Exception\ConfigurationException;
 
 class Configuration implements ConfigurationInterface
 {

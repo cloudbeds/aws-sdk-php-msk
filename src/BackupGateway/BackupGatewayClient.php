@@ -1,7 +1,7 @@
 <?php
-namespace Aws\BackupGateway;
+namespace CloudBeds\Aws\MskFork\BackupGateway;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Backup Gateway** service.

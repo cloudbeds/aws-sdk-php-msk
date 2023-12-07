@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\S3\Exception;
+namespace CloudBeds\Aws\MskFork\Test\S3\Exception;
 
-use Aws\S3\Exception\DeleteMultipleObjectsException;
+use CloudBeds\Aws\MskFork\S3\Exception\DeleteMultipleObjectsException;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

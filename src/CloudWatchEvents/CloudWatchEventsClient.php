@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CloudWatchEvents;
+namespace CloudBeds\Aws\MskFork\CloudWatchEvents;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon CloudWatch Events** service.

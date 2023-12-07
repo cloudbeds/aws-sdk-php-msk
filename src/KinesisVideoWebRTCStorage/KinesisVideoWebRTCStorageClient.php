@@ -1,7 +1,7 @@
 <?php
-namespace Aws\KinesisVideoWebRTCStorage;
+namespace CloudBeds\Aws\MskFork\KinesisVideoWebRTCStorage;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Kinesis Video WebRTC Storage** service.

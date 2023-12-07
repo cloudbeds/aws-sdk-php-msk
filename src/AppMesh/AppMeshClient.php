@@ -1,7 +1,7 @@
 <?php
-namespace Aws\AppMesh;
+namespace CloudBeds\Aws\MskFork\AppMesh;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS App Mesh** service.

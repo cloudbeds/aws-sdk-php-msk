@@ -1,8 +1,8 @@
 <?php
-namespace Aws\ClientSideMonitoring\Exception;
+namespace CloudBeds\Aws\MskFork\ClientSideMonitoring\Exception;
 
-use Aws\HasMonitoringEventsTrait;
-use Aws\MonitoringEventsInterface;
+use CloudBeds\Aws\MskFork\HasMonitoringEventsTrait;
+use CloudBeds\Aws\MskFork\MonitoringEventsInterface;
 
 
 /**

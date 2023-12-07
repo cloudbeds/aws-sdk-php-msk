@@ -1,7 +1,7 @@
 <?php
-namespace Aws\GuardDuty\Exception;
+namespace CloudBeds\Aws\MskFork\GuardDuty\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon GuardDuty** service.

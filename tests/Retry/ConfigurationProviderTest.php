@@ -1,12 +1,12 @@
 <?php
-namespace Aws\Test\Retry;
+namespace CloudBeds\Aws\MskFork\Test\Retry;
 
-use Aws\CacheInterface;
-use Aws\LruArrayCache;
-use Aws\Retry\Configuration;
-use Aws\Retry\ConfigurationInterface;
-use Aws\Retry\ConfigurationProvider;
-use Aws\Retry\Exception\ConfigurationException;
+use CloudBeds\Aws\MskFork\CacheInterface;
+use CloudBeds\Aws\MskFork\LruArrayCache;
+use CloudBeds\Aws\MskFork\Retry\Configuration;
+use CloudBeds\Aws\MskFork\Retry\ConfigurationInterface;
+use CloudBeds\Aws\MskFork\Retry\ConfigurationProvider;
+use CloudBeds\Aws\MskFork\Retry\Exception\ConfigurationException;
 use GuzzleHttp\Promise;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 

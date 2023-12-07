@@ -1,7 +1,7 @@
 <?php
-namespace Aws\KafkaConnect;
+namespace CloudBeds\Aws\MskFork\KafkaConnect;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Managed Streaming for Kafka Connect** service.

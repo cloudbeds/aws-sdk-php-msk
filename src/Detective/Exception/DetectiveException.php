@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Detective\Exception;
+namespace CloudBeds\Aws\MskFork\Detective\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Detective** service.

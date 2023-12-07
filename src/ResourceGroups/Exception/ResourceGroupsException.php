@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ResourceGroups\Exception;
+namespace CloudBeds\Aws\MskFork\ResourceGroups\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Resource Groups** service.

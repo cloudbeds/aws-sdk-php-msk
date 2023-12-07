@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Crypto;
+namespace CloudBeds\Aws\MskFork\Crypto;
 
-use Aws\Exception\CryptoException;
+use CloudBeds\Aws\MskFork\Exception\CryptoException;
 use GuzzleHttp\Psr7;
 use GuzzleHttp\Psr7\LimitStream;
 use Psr\Http\Message\StreamInterface;

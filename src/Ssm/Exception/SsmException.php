@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Ssm\Exception;
+namespace CloudBeds\Aws\MskFork\Ssm\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Amazon EC2 Simple Systems Manager exception.

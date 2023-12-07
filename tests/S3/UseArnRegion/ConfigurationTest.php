@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\S3\UseArnRegion;
+namespace CloudBeds\Aws\MskFork\Test\S3\UseArnRegion;
 
-use Aws\S3\UseArnRegion\Configuration;
+use CloudBeds\Aws\MskFork\S3\UseArnRegion\Configuration;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

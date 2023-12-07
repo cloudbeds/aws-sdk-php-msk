@@ -1,7 +1,7 @@
 <?php
-namespace Aws\PrivateNetworks\Exception;
+namespace CloudBeds\Aws\MskFork\PrivateNetworks\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Private 5G** service.

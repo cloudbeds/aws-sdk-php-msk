@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Crypto\Polyfill;
+namespace CloudBeds\Aws\MskFork\Crypto\Polyfill;
 
 /**
  * Class Key
@@ -16,7 +16,7 @@ class Key
     private $internalString;
 
     /**
-     * Hide contents of 
+     * Hide contents of
      *
      * @return array
      */

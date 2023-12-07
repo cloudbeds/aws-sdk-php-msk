@@ -1,7 +1,7 @@
 <?php
-namespace Aws\EMRContainers\Exception;
+namespace CloudBeds\Aws\MskFork\EMRContainers\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon EMR Containers** service.

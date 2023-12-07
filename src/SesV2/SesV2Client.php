@@ -1,7 +1,7 @@
 <?php
-namespace Aws\SesV2;
+namespace CloudBeds\Aws\MskFork\SesV2;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Simple Email Service** service.

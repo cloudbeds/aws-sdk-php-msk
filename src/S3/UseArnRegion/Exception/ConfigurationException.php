@@ -1,8 +1,8 @@
 <?php
-namespace Aws\S3\UseArnRegion\Exception;
+namespace CloudBeds\Aws\MskFork\S3\UseArnRegion\Exception;
 
-use Aws\HasMonitoringEventsTrait;
-use Aws\MonitoringEventsInterface;
+use CloudBeds\Aws\MskFork\HasMonitoringEventsTrait;
+use CloudBeds\Aws\MskFork\MonitoringEventsInterface;
 
 /**
  * Represents an error interacting with configuration for S3's UseArnRegion

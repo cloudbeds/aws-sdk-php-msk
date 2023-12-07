@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CognitoIdentityProvider\Exception;
+namespace CloudBeds\Aws\MskFork\CognitoIdentityProvider\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Cognito Identity Provider** service.

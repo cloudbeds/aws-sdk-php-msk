@@ -1,13 +1,13 @@
 <?php
-namespace Aws\Rds;
+namespace CloudBeds\Aws\MskFork\Rds;
 
-use Aws\Credentials\CredentialsInterface;
-use Aws\Credentials\Credentials;
-use Aws\Signature\SignatureV4;
+use CloudBeds\Aws\MskFork\Credentials\CredentialsInterface;
+use CloudBeds\Aws\MskFork\Credentials\Credentials;
+use CloudBeds\Aws\MskFork\Signature\SignatureV4;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Uri;
 use GuzzleHttp\Promise;
-use Aws;
+use CloudBeds\Aws\MskFork;
 
 /**
  * Generates RDS auth tokens for use with IAM authentication.

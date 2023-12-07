@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CostExplorer;
+namespace CloudBeds\Aws\MskFork\CostExplorer;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Cost Explorer Service** service.

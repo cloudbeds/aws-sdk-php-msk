@@ -1,7 +1,7 @@
 <?php
-namespace Aws\RolesAnywhere;
+namespace CloudBeds\Aws\MskFork\RolesAnywhere;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **IAM Roles Anywhere** service.

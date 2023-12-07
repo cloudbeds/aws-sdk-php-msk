@@ -1,7 +1,7 @@
 <?php
-namespace Aws\SSOOIDC;
+namespace CloudBeds\Aws\MskFork\SSOOIDC;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS SSO OIDC** service.

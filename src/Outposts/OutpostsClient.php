@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Outposts;
+namespace CloudBeds\Aws\MskFork\Outposts;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Outposts** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\BackupGateway\Exception;
+namespace CloudBeds\Aws\MskFork\BackupGateway\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Backup Gateway** service.

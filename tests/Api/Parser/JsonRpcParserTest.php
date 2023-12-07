@@ -1,12 +1,12 @@
 <?php
-namespace Aws\Test\Api\Parser;
+namespace CloudBeds\Aws\MskFork\Test\Api\Parser;
 
-use Aws\Api\Operation;
-use Aws\Api\Parser\JsonParser;
-use Aws\Api\Parser\JsonRpcParser;
-use Aws\Api\Service;
-use Aws\Api\Shape;
-use Aws\CommandInterface;
+use CloudBeds\Aws\MskFork\Api\Operation;
+use CloudBeds\Aws\MskFork\Api\Parser\JsonParser;
+use CloudBeds\Aws\MskFork\Api\Parser\JsonRpcParser;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Api\Shape;
+use CloudBeds\Aws\MskFork\CommandInterface;
 use GuzzleHttp\Psr7\Response;
 use PHPUnit\Framework\TestCase;
 
@@ -53,7 +53,7 @@ class JsonRpcParserTest extends TestCase
             new Response(200, [], json_encode(null))
         );
     }
-    
+
     public function testCanHandleEmptyResponses()
     {
         $operation = $this->getMockBuilder(Operation::class)

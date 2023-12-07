@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\Crypto\Polyfill;
+namespace CloudBeds\Aws\MskFork\Test\Crypto\Polyfill;
 
-use Aws\Crypto\Polyfill\Key;
+use CloudBeds\Aws\MskFork\Crypto\Polyfill\Key;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

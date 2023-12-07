@@ -1,12 +1,12 @@
 <?php
-namespace Aws\Test\CloudTrail;
+namespace CloudBeds\Aws\MskFork\Test\CloudTrail;
 
-use Aws\Api\Parser\RestXmlParser;
-use Aws\CloudTrail\CloudTrailClient;
-use Aws\CloudTrail\LogFileIterator;
-use Aws\Result;
-use Aws\S3\S3Client;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Api\Parser\RestXmlParser;
+use CloudBeds\Aws\MskFork\CloudTrail\CloudTrailClient;
+use CloudBeds\Aws\MskFork\CloudTrail\LogFileIterator;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\S3\S3Client;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use GuzzleHttp\Psr7\Response;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 

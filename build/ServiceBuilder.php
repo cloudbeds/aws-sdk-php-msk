@@ -53,9 +53,9 @@ class ServiceBuilder
     {
         return <<<EOPHP
 <?php
-namespace Aws\\{$this->namespace};
+namespace CloudBeds\Aws\MskFork\\{$this->namespace};
 
-use Aws\\AwsClient;
+use CloudBeds\Aws\MskFork\\AwsClient;
 
 /**
  * This client is used to interact with the **{$this->getFullName()}** service.
@@ -69,9 +69,9 @@ EOPHP;
     {
         return <<<EOPHP
 <?php
-namespace Aws\\{$this->namespace}\\Exception;
+namespace CloudBeds\Aws\MskFork\\{$this->namespace}\\Exception;
 
-use Aws\\Exception\\AwsException;
+use CloudBeds\Aws\MskFork\\Exception\\AwsException;
 
 /**
  * Represents an error interacting with the **{$this->getFullName()}** service.

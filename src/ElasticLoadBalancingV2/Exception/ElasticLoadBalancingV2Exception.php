@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ElasticLoadBalancingV2\Exception;
+namespace CloudBeds\Aws\MskFork\ElasticLoadBalancingV2\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Elastic Load Balancing** service.

@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Credentials;
+namespace CloudBeds\Aws\MskFork\Credentials;
 
 /**
  * Basic implementation of the AWS Credentials interface that allows callers to
@@ -110,8 +110,8 @@ class Credentials implements CredentialsInterface, \Serializable
         $this->expires = time() + $extension * 60;
 
         $message = <<<EOT
-Attempting credential expiration extension due to a credential service 
-availability issue. A refresh of these credentials will be attempted again 
+Attempting credential expiration extension due to a credential service
+availability issue. A refresh of these credentials will be attempted again
 after {$extension} minutes.\n
 EOT;
         trigger_error($message, E_USER_WARNING);

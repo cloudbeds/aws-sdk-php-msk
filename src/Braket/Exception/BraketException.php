@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Braket\Exception;
+namespace CloudBeds\Aws\MskFork\Braket\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Braket** service.

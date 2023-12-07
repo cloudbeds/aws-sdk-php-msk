@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Multipart;
+namespace CloudBeds\Aws\MskFork\Multipart;
 
-use Aws\AwsClientInterface as Client;
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\AwsClientInterface as Client;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 use GuzzleHttp\Psr7;
 use InvalidArgumentException as IAE;
 use Psr\Http\Message\StreamInterface as Stream;

@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Retry;
+namespace CloudBeds\Aws\MskFork\Retry;
 
-use Aws\Exception\AwsException;
-use Aws\ResultInterface;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\ResultInterface;
 
 trait RetryHelperTrait
 {

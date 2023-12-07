@@ -1,7 +1,7 @@
 <?php
-namespace Aws\S3;
+namespace CloudBeds\Aws\MskFork\S3;
 
-use Aws\CommandInterface;
+use CloudBeds\Aws\MskFork\CommandInterface;
 use Psr\Http\Message\RequestInterface;
 
 /**

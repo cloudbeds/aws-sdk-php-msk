@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Endpoint;
+namespace CloudBeds\Aws\MskFork\Endpoint;
 
 use ArrayAccess;
-use Aws\HasDataTrait;
-use Aws\Sts\RegionalEndpoints\ConfigurationProvider;
-use Aws\S3\RegionalEndpoint\ConfigurationProvider as S3ConfigurationProvider;
+use CloudBeds\Aws\MskFork\HasDataTrait;
+use CloudBeds\Aws\MskFork\Sts\RegionalEndpoints\ConfigurationProvider;
+use CloudBeds\Aws\MskFork\S3\RegionalEndpoint\ConfigurationProvider as S3ConfigurationProvider;
 use InvalidArgumentException as Iae;
 
 /**

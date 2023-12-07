@@ -1,7 +1,7 @@
 <?php
-namespace Aws\NimbleStudio\Exception;
+namespace CloudBeds\Aws\MskFork\NimbleStudio\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AmazonNimbleStudio** service.

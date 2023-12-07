@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ConnectCases\Exception;
+namespace CloudBeds\Aws\MskFork\ConnectCases\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Connect Cases** service.

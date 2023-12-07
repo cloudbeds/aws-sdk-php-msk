@@ -1,7 +1,7 @@
 <?php
-namespace Aws\DirectoryService;
+namespace CloudBeds\Aws\MskFork\DirectoryService;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * AWS Directory Service client

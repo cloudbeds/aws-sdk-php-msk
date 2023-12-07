@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Cloud9;
+namespace CloudBeds\Aws\MskFork\Cloud9;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Cloud9** service.

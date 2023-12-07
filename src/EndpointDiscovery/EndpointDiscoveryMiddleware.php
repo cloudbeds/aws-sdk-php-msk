@@ -1,14 +1,14 @@
 <?php
-namespace Aws\EndpointDiscovery;
+namespace CloudBeds\Aws\MskFork\EndpointDiscovery;
 
-use Aws\AwsClient;
-use Aws\CacheInterface;
-use Aws\CommandInterface;
-use Aws\Credentials\CredentialsInterface;
-use Aws\Exception\AwsException;
-use Aws\Exception\UnresolvedEndpointException;
-use Aws\LruArrayCache;
-use Aws\Middleware;
+use CloudBeds\Aws\MskFork\AwsClient;
+use CloudBeds\Aws\MskFork\CacheInterface;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Credentials\CredentialsInterface;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\UnresolvedEndpointException;
+use CloudBeds\Aws\MskFork\LruArrayCache;
+use CloudBeds\Aws\MskFork\Middleware;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\UriInterface;
 
@@ -160,7 +160,7 @@ class EndpointDiscoveryMiddleware
                             $g
                         );
                     }
-                    
+
                     return $value;
                 };
 

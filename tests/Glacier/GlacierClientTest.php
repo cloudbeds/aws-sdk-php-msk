@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Test\Glacier;
+namespace CloudBeds\Aws\MskFork\Test\Glacier;
 
-use Aws\Exception\CouldNotCreateChecksumException;
-use Aws\Glacier\GlacierClient;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Exception\CouldNotCreateChecksumException;
+use CloudBeds\Aws\MskFork\Glacier\GlacierClient;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use GuzzleHttp\Psr7\NoSeekStream;
 use GuzzleHttp\Psr7;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;

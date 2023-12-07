@@ -1,16 +1,16 @@
 <?php
-namespace Aws\Signature;
+namespace CloudBeds\Aws\MskFork\Signature;
 
-use Aws\Credentials\CredentialsInterface;
-use AWS\CRT\Auth\Signable;
-use AWS\CRT\Auth\SignatureType;
-use AWS\CRT\Auth\Signing;
-use AWS\CRT\Auth\SigningAlgorithm;
-use AWS\CRT\Auth\SigningConfigAWS;
-use AWS\CRT\Auth\StaticCredentialsProvider;
-use AWS\CRT\HTTP\Request;
-use Aws\Exception\CommonRuntimeException;
-use Aws\Exception\CouldNotCreateChecksumException;
+use CloudBeds\Aws\MskFork\Credentials\CredentialsInterface;
+use CloudBeds\Aws\MskFork\CRT\Auth\Signable;
+use CloudBeds\Aws\MskFork\CRT\Auth\SignatureType;
+use CloudBeds\Aws\MskFork\CRT\Auth\Signing;
+use CloudBeds\Aws\MskFork\CRT\Auth\SigningAlgorithm;
+use CloudBeds\Aws\MskFork\CRT\Auth\SigningConfigAWS;
+use CloudBeds\Aws\MskFork\CRT\Auth\StaticCredentialsProvider;
+use CloudBeds\Aws\MskFork\CRT\HTTP\Request;
+use CloudBeds\Aws\MskFork\Exception\CommonRuntimeException;
+use CloudBeds\Aws\MskFork\Exception\CouldNotCreateChecksumException;
 use GuzzleHttp\Psr7;
 use Psr\Http\Message\RequestInterface;
 

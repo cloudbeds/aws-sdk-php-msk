@@ -1,13 +1,13 @@
 <?php
-namespace Aws\Exception;
+namespace CloudBeds\Aws\MskFork\Exception;
 
-use Aws\Api\Shape;
-use Aws\CommandInterface;
-use Aws\HasDataTrait;
-use Aws\HasMonitoringEventsTrait;
-use Aws\MonitoringEventsInterface;
-use Aws\ResponseContainerInterface;
-use Aws\ResultInterface;
+use CloudBeds\Aws\MskFork\Api\Shape;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\HasDataTrait;
+use CloudBeds\Aws\MskFork\HasMonitoringEventsTrait;
+use CloudBeds\Aws\MskFork\MonitoringEventsInterface;
+use CloudBeds\Aws\MskFork\ResponseContainerInterface;
+use CloudBeds\Aws\MskFork\ResultInterface;
 use JmesPath\Env as JmesPath;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\RequestInterface;

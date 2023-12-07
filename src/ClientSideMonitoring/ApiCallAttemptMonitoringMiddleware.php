@@ -1,12 +1,12 @@
 <?php
 
-namespace Aws\ClientSideMonitoring;
+namespace CloudBeds\Aws\MskFork\ClientSideMonitoring;
 
-use Aws\CommandInterface;
-use Aws\Credentials\CredentialsInterface;
-use Aws\Exception\AwsException;
-use Aws\ResponseContainerInterface;
-use Aws\ResultInterface;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Credentials\CredentialsInterface;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\ResponseContainerInterface;
+use CloudBeds\Aws\MskFork\ResultInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 

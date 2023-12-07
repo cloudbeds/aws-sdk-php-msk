@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ServerlessApplicationRepository;
+namespace CloudBeds\Aws\MskFork\ServerlessApplicationRepository;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWSServerlessApplicationRepository** service.

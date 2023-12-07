@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CodeGuruProfiler;
+namespace CloudBeds\Aws\MskFork\CodeGuruProfiler;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon CodeGuru Profiler** service.

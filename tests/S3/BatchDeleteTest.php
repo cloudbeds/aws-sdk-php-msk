@@ -1,12 +1,12 @@
 <?php
-namespace Aws\Test\S3;
+namespace CloudBeds\Aws\MskFork\Test\S3;
 
-use Aws\CommandInterface;
-use Aws\MockHandler;
-use Aws\Result;
-use Aws\S3\BatchDelete;
-use Aws\S3\Exception\DeleteMultipleObjectsException;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\MockHandler;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\S3\BatchDelete;
+use CloudBeds\Aws\MskFork\S3\Exception\DeleteMultipleObjectsException;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
@@ -186,7 +186,7 @@ class BatchDeleteTest extends TestCase
         $keys = \JmesPath\search('[].Delete.Objects[].Key', $cmds);
         $this->assertEquals(range(0, 9), $keys);
     }
-    
+
     public function testWithNoMatchingObjects()
     {
         $client = $this->getTestClient('s3');

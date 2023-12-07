@@ -1,7 +1,7 @@
 <?php
-namespace Aws\AppIntegrationsService;
+namespace CloudBeds\Aws\MskFork\AppIntegrationsService;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon AppIntegrations Service** service.

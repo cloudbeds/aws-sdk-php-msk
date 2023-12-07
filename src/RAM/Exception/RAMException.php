@@ -1,7 +1,7 @@
 <?php
-namespace Aws\RAM\Exception;
+namespace CloudBeds\Aws\MskFork\RAM\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Resource Access Manager** service.

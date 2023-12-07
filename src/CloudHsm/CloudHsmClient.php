@@ -1,10 +1,10 @@
 <?php
-namespace Aws\CloudHsm;
+namespace CloudBeds\Aws\MskFork\CloudHsm;
 
-use Aws\Api\ApiProvider;
-use Aws\Api\DocModel;
-use Aws\Api\Service;
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\Api\ApiProvider;
+use CloudBeds\Aws\MskFork\Api\DocModel;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with **AWS CloudHSM**.

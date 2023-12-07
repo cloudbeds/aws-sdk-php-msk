@@ -1,7 +1,7 @@
 <?php
-namespace Aws\AuditManager\Exception;
+namespace CloudBeds\Aws\MskFork\AuditManager\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Audit Manager** service.

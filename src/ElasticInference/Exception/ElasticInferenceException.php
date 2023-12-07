@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ElasticInference\Exception;
+namespace CloudBeds\Aws\MskFork\ElasticInference\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Elastic  Inference** service.

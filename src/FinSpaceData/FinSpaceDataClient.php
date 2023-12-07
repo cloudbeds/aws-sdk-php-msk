@@ -1,8 +1,8 @@
 <?php
-namespace Aws\FinSpaceData;
+namespace CloudBeds\Aws\MskFork\FinSpaceData;
 
-use Aws\AwsClient;
-use Aws\CommandInterface;
+use CloudBeds\Aws\MskFork\AwsClient;
+use CloudBeds\Aws\MskFork\CommandInterface;
 use Psr\Http\Message\RequestInterface;
 
 /**

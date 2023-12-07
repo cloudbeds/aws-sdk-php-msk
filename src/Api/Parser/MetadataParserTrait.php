@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Api\Parser;
+namespace CloudBeds\Aws\MskFork\Api\Parser;
 
-use Aws\Api\DateTimeResult;
-use Aws\Api\Shape;
+use CloudBeds\Aws\MskFork\Api\DateTimeResult;
+use CloudBeds\Aws\MskFork\Api\Shape;
 use Psr\Http\Message\ResponseInterface;
 
 trait MetadataParserTrait

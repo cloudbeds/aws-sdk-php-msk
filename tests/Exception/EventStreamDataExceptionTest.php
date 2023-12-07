@@ -1,8 +1,8 @@
 <?php
 
-namespace Aws\Test\Exception;
+namespace CloudBeds\Aws\MskFork\Test\Exception;
 
-use Aws\Exception\EventStreamDataException;
+use CloudBeds\Aws\MskFork\Exception\EventStreamDataException;
 use PHPUnit\Framework\TestCase;
 
 /**

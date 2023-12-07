@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ForecastQueryService\Exception;
+namespace CloudBeds\Aws\MskFork\ForecastQueryService\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Forecast Query Service** service.

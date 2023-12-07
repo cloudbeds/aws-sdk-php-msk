@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MediaConvert\Exception;
+namespace CloudBeds\Aws\MskFork\MediaConvert\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Elemental MediaConvert** service.

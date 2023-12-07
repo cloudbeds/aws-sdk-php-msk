@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Transfer;
+namespace CloudBeds\Aws\MskFork\Transfer;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Transfer for SFTP** service.

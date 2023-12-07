@@ -1,7 +1,7 @@
 <?php
-namespace Aws\DevOpsGuru\Exception;
+namespace CloudBeds\Aws\MskFork\DevOpsGuru\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon DevOps Guru** service.

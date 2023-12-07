@@ -1,7 +1,7 @@
 <?php
-namespace Aws\WafRegional\Exception;
+namespace CloudBeds\Aws\MskFork\WafRegional\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS WAF Regional** service.

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\Glacier;
+namespace CloudBeds\Aws\MskFork\Test\Glacier;
 
-use Aws\Glacier\TreeHash;
+use CloudBeds\Aws\MskFork\Glacier\TreeHash;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 class TreeHashTest extends TestCase

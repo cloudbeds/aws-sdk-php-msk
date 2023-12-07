@@ -1,5 +1,5 @@
 <?php
-use Aws\Build\Docs\DocsBuilder;
+use CloudBeds\Aws\MskFork\Build\Docs\DocsBuilder;
 
 // Setup autoloading for SDK and build classes.
 $loader = require __DIR__ . '/../vendor/autoload.php';

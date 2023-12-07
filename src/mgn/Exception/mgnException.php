@@ -1,7 +1,7 @@
 <?php
-namespace Aws\mgn\Exception;
+namespace CloudBeds\Aws\MskFork\mgn\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Application Migration Service** service.

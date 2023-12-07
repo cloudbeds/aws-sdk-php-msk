@@ -1,7 +1,7 @@
 <?php
-namespace Aws\BedrockRuntime;
+namespace CloudBeds\Aws\MskFork\BedrockRuntime;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Bedrock Runtime** service.

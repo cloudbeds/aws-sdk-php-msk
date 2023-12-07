@@ -1,7 +1,7 @@
 <?php
-namespace Aws\IoT1ClickDevicesService;
+namespace CloudBeds\Aws\MskFork\IoT1ClickDevicesService;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS IoT 1-Click Devices Service** service.

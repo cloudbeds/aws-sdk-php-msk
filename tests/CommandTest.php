@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws\Command;
-use Aws\HandlerList;
+use CloudBeds\Aws\MskFork\Command;
+use CloudBeds\Aws\MskFork\HandlerList;
 use PHPUnit\Framework\TestCase;
 
 /**

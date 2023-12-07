@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CodeStarNotifications\Exception;
+namespace CloudBeds\Aws\MskFork\CodeStarNotifications\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS CodeStar Notifications** service.

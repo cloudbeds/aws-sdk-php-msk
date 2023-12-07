@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\Crypto;
+namespace CloudBeds\Aws\MskFork\Test\Crypto;
 
-use Aws\Crypto\MetadataEnvelope;
+use CloudBeds\Aws\MskFork\Crypto\MetadataEnvelope;
 
 trait UsesMetadataEnvelopeTrait
 {

@@ -1,11 +1,11 @@
 <?php
-namespace Aws\S3;
+namespace CloudBeds\Aws\MskFork\S3;
 
-use Aws\Api\Service;
-use Aws\Arn\ArnInterface;
-use Aws\Arn\S3\OutpostsArnInterface;
-use Aws\Endpoint\PartitionEndpointProvider;
-use Aws\Exception\InvalidRegionException;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Arn\ArnInterface;
+use CloudBeds\Aws\MskFork\Arn\S3\OutpostsArnInterface;
+use CloudBeds\Aws\MskFork\Endpoint\PartitionEndpointProvider;
+use CloudBeds\Aws\MskFork\Exception\InvalidRegionException;
 
 /**
  * @internal

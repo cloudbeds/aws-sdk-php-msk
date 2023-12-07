@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MarketplaceDeployment\Exception;
+namespace CloudBeds\Aws\MskFork\MarketplaceDeployment\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AWS Marketplace Deployment Service** service.

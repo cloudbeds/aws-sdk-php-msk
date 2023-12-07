@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Arn;
+namespace CloudBeds\Aws\MskFork\Arn;
 
 /**
  * Amazon Resource Names (ARNs) uniquely identify AWS resources. Classes

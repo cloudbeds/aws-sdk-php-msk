@@ -1,7 +1,7 @@
 <?php
-namespace Aws\QBusiness;
+namespace CloudBeds\Aws\MskFork\QBusiness;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **QBusiness** service.

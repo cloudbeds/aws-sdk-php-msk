@@ -1,7 +1,7 @@
 <?php
-namespace Aws\InternetMonitor;
+namespace CloudBeds\Aws\MskFork\InternetMonitor;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon CloudWatch Internet Monitor** service.

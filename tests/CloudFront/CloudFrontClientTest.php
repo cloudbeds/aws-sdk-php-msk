@@ -1,8 +1,8 @@
 <?php
 
-namespace Aws\Test\CloudFront;
+namespace CloudBeds\Aws\MskFork\Test\CloudFront;
 
-use Aws\CloudFront\CloudFrontClient;
+use CloudBeds\Aws\MskFork\CloudFront\CloudFrontClient;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test\Sqs;
+namespace CloudBeds\Aws\MskFork\Test\Sqs;
 
-use Aws\Middleware;
-use Aws\Result;
-use Aws\Sqs\SqsClient;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Middleware;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\Sqs\SqsClient;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

@@ -1,7 +1,7 @@
 <?php
-namespace Aws;
+namespace CloudBeds\Aws\MskFork;
 
-use Aws\Api\Service;
+use CloudBeds\Aws\MskFork\Api\Service;
 
 /**
  * Validates the required input parameters of commands are non empty

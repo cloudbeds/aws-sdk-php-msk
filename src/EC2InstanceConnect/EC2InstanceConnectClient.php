@@ -1,7 +1,7 @@
 <?php
-namespace Aws\EC2InstanceConnect;
+namespace CloudBeds\Aws\MskFork\EC2InstanceConnect;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS EC2 Instance Connect** service.

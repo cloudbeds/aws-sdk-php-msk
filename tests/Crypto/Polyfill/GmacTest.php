@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Test\Crypto\Polyfill;
+namespace CloudBeds\Aws\MskFork\Test\Crypto\Polyfill;
 
-use Aws\Crypto\Polyfill\Gmac;
-use Aws\Crypto\Polyfill\Key;
+use CloudBeds\Aws\MskFork\Crypto\Polyfill\Gmac;
+use CloudBeds\Aws\MskFork\Crypto\Polyfill\Key;
 use PHPUnit\Framework\TestCase;
 
 /**

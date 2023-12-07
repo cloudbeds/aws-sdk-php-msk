@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MachineLearning\Exception;
+namespace CloudBeds\Aws\MskFork\MachineLearning\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Amazon Machine Learning exception.

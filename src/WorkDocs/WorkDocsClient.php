@@ -1,7 +1,7 @@
 <?php
-namespace Aws\WorkDocs;
+namespace CloudBeds\Aws\MskFork\WorkDocs;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon WorkDocs** service.

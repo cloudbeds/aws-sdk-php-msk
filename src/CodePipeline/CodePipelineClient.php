@@ -1,7 +1,7 @@
 <?php
-namespace Aws\CodePipeline;
+namespace CloudBeds\Aws\MskFork\CodePipeline;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon CodePipeline** service.

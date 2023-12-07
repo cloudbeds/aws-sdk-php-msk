@@ -1,5 +1,5 @@
 <?php
-namespace Aws\Credentials;
+namespace CloudBeds\Aws\MskFork\Credentials;
 
 /**
  * Provides access to the AWS credentials used for accessing AWS services: AWS

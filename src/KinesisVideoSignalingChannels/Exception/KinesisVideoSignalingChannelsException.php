@@ -1,7 +1,7 @@
 <?php
-namespace Aws\KinesisVideoSignalingChannels\Exception;
+namespace CloudBeds\Aws\MskFork\KinesisVideoSignalingChannels\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Kinesis Video Signaling Channels** service.

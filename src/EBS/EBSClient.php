@@ -1,7 +1,7 @@
 <?php
-namespace Aws\EBS;
+namespace CloudBeds\Aws\MskFork\EBS;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Elastic Block Store** service.

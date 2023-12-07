@@ -1,7 +1,7 @@
 <?php
-namespace Aws\drs\Exception;
+namespace CloudBeds\Aws\MskFork\drs\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Elastic Disaster Recovery Service** service.

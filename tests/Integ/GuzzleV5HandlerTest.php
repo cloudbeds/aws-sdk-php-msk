@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\Integ;
+namespace CloudBeds\Aws\MskFork\Test\Integ;
 
-use Aws\Handler\GuzzleV5\GuzzleHandler;
+use CloudBeds\Aws\MskFork\Handler\GuzzleV5\GuzzleHandler;
 use GuzzleHttp\Promise\RejectionException;
 use GuzzleHttp\Psr7;
 use GuzzleHttp\Psr7\Request;

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Proton;
+namespace CloudBeds\Aws\MskFork\Proton;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Proton** service.

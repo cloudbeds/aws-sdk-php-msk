@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\ElasticLoadBalancingV2;
+namespace CloudBeds\Aws\MskFork\Test\ElasticLoadBalancingV2;
 
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use PHPUnit\Framework\TestCase;
 
 /**

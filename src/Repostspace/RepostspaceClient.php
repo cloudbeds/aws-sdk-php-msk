@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Repostspace;
+namespace CloudBeds\Aws\MskFork\Repostspace;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS re:Post Private** service.

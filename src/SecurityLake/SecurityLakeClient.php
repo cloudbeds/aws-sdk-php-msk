@@ -1,7 +1,7 @@
 <?php
-namespace Aws\SecurityLake;
+namespace CloudBeds\Aws\MskFork\SecurityLake;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Security Lake** service.

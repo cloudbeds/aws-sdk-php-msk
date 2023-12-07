@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test\Exception;
+namespace CloudBeds\Aws\MskFork\Test\Exception;
 
-use Aws\Command;
-use Aws\Exception\AwsException;
-use Aws\Exception\MultipartUploadException;
-use Aws\Multipart\UploadState;
+use CloudBeds\Aws\MskFork\Command;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\MultipartUploadException;
+use CloudBeds\Aws\MskFork\Multipart\UploadState;
 use PHPUnit\Framework\TestCase;
 
 /**

@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Token;
+namespace CloudBeds\Aws\MskFork\Token;
 
-use Aws;
-use Aws\Api\DateTimeResult;
-use Aws\CacheInterface;
-use Aws\Exception\TokenException;
+use CloudBeds\Aws\MskFork;
+use CloudBeds\Aws\MskFork\Api\DateTimeResult;
+use CloudBeds\Aws\MskFork\CacheInterface;
+use CloudBeds\Aws\MskFork\Exception\TokenException;
 use GuzzleHttp\Promise;
 
 /**
@@ -13,7 +13,7 @@ use GuzzleHttp\Promise;
  * or rejected with an {@see \Aws\Exception\TokenException}.
  *
  * <code>
- * use Aws\Token\TokenProvider;
+ * use CloudBeds\Aws\MskFork\Token\TokenProvider;
  * $provider = TokenProvider::defaultProvider();
  * // Returns a TokenInterface or throws.
  * $token = $provider()->wait();

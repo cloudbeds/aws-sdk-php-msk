@@ -1,7 +1,7 @@
 <?php
-namespace Aws\IVSRealTime\Exception;
+namespace CloudBeds\Aws\MskFork\IVSRealTime\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Interactive Video Service RealTime** service.

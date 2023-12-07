@@ -1,7 +1,7 @@
 <?php
-namespace Aws\AutoScaling;
+namespace CloudBeds\Aws\MskFork\AutoScaling;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * Auto Scaling client.

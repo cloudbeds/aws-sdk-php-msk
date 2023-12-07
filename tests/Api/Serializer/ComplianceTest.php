@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test\Api\Serializer;
+namespace CloudBeds\Aws\MskFork\Test\Api\Serializer;
 
-use Aws\Api\Service;
-use Aws\AwsClient;
-use Aws\Signature\SignatureInterface;
-use Aws\Test\UsesServiceTrait;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\AwsClient;
+use CloudBeds\Aws\MskFork\Signature\SignatureInterface;
+use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use PHPUnit\Framework\TestCase;
 
 /**

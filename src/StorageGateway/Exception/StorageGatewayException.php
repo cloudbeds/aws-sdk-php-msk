@@ -1,7 +1,7 @@
 <?php
-namespace Aws\StorageGateway\Exception;
+namespace CloudBeds\Aws\MskFork\StorageGateway\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the AWS Storage Gateway service.

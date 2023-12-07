@@ -1,11 +1,11 @@
 <?php
-namespace Aws\Test\Multipart;
+namespace CloudBeds\Aws\MskFork\Test\Multipart;
 
-use Aws\CommandInterface;
-use Aws\Multipart\AbstractUploader;
-use Aws\ResultInterface;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\Multipart\AbstractUploader;
+use CloudBeds\Aws\MskFork\ResultInterface;
 use GuzzleHttp\Psr7;
-use Aws\S3\Exception\S3MultipartUploadException;
+use CloudBeds\Aws\MskFork\S3\Exception\S3MultipartUploadException;
 
 /**
  * Concrete UploadBuilder for the purposes of the following test.

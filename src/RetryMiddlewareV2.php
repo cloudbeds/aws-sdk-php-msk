@@ -1,11 +1,11 @@
 <?php
-namespace Aws;
+namespace CloudBeds\Aws\MskFork;
 
-use Aws\Exception\AwsException;
-use Aws\Retry\ConfigurationInterface;
-use Aws\Retry\QuotaManager;
-use Aws\Retry\RateLimiter;
-use Aws\Retry\RetryHelperTrait;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Retry\ConfigurationInterface;
+use CloudBeds\Aws\MskFork\Retry\QuotaManager;
+use CloudBeds\Aws\MskFork\Retry\RateLimiter;
+use CloudBeds\Aws\MskFork\Retry\RetryHelperTrait;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Promise;
 use Psr\Http\Message\RequestInterface;

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Panorama;
+namespace CloudBeds\Aws\MskFork\Panorama;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Panorama** service.

@@ -1,5 +1,5 @@
 <?php
-namespace Aws\DynamoDb;
+namespace CloudBeds\Aws\MskFork\DynamoDb;
 
 trait SessionConnectionConfigTrait
 {
@@ -42,10 +42,10 @@ trait SessionConnectionConfigTrait
     /**
      * It initialize the Config class and
      * it sets values in case of valid configurations.
-     * 
+     *
      * It transforms parameters underscore separated in camelcase "this_is_a_test" => ThisIsATest
      * and it uses it in order to set the values.
-     * 
+     *
      * @param array $config
      */
     public function initConfig( array $config = [] )

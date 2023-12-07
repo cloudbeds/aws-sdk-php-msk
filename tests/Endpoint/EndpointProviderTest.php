@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Test\Endpoint;
+namespace CloudBeds\Aws\MskFork\Test\Endpoint;
 
-use Aws\Endpoint\EndpointProvider;
-use Aws\Endpoint\PartitionEndpointProvider;
-use Aws\Endpoint\PatternEndpointProvider;
+use CloudBeds\Aws\MskFork\Endpoint\EndpointProvider;
+use CloudBeds\Aws\MskFork\Endpoint\PartitionEndpointProvider;
+use CloudBeds\Aws\MskFork\Endpoint\PatternEndpointProvider;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test\CloudFront;
+namespace CloudBeds\Aws\MskFork\Test\CloudFront;
 
-use Aws\CloudFront\Signer;
+use CloudBeds\Aws\MskFork\CloudFront\Signer;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 class SignerTest extends TestCase

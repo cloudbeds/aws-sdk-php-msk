@@ -1,12 +1,12 @@
 <?php
-namespace Aws\Test\S3\UseArnRegion;
+namespace CloudBeds\Aws\MskFork\Test\S3\UseArnRegion;
 
-use Aws\CacheInterface;
-use Aws\LruArrayCache;
-use Aws\S3\UseArnRegion\Configuration;
-use Aws\S3\UseArnRegion\ConfigurationInterface;
-use Aws\S3\UseArnRegion\ConfigurationProvider;
-use Aws\S3\UseArnRegion\Exception\ConfigurationException;
+use CloudBeds\Aws\MskFork\CacheInterface;
+use CloudBeds\Aws\MskFork\LruArrayCache;
+use CloudBeds\Aws\MskFork\S3\UseArnRegion\Configuration;
+use CloudBeds\Aws\MskFork\S3\UseArnRegion\ConfigurationInterface;
+use CloudBeds\Aws\MskFork\S3\UseArnRegion\ConfigurationProvider;
+use CloudBeds\Aws\MskFork\S3\UseArnRegion\Exception\ConfigurationException;
 use GuzzleHttp\Promise;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 

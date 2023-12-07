@@ -1,11 +1,11 @@
 <?php
-namespace Aws\S3;
+namespace CloudBeds\Aws\MskFork\S3;
 
-use Aws\Api\Parser\AbstractParser;
-use Aws\Api\Service;
-use Aws\Api\StructureShape;
-use Aws\CommandInterface;
-use Aws\S3\Exception\S3Exception;
+use CloudBeds\Aws\MskFork\Api\Parser\AbstractParser;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Api\StructureShape;
+use CloudBeds\Aws\MskFork\CommandInterface;
+use CloudBeds\Aws\MskFork\S3\Exception\S3Exception;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;
 

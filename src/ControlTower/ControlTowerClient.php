@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ControlTower;
+namespace CloudBeds\Aws\MskFork\ControlTower;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Control Tower** service.

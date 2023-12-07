@@ -1,7 +1,7 @@
 <?php
-namespace Aws\B2bi;
+namespace CloudBeds\Aws\MskFork\B2bi;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS B2B Data Interchange** service.

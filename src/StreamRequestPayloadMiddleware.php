@@ -1,8 +1,8 @@
 <?php
-namespace Aws;
+namespace CloudBeds\Aws\MskFork;
 
-use Aws\Api\Service;
-use Aws\Exception\IncalculablePayloadException;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Exception\IncalculablePayloadException;
 use Psr\Http\Message\RequestInterface;
 
 /**

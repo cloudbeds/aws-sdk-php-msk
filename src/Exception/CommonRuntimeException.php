@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Exception;
+namespace CloudBeds\Aws\MskFork\Exception;
 
 class CommonRuntimeException extends \RuntimeException
 {
-    
+
 }

@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Signature;
+namespace CloudBeds\Aws\MskFork\Signature;
 
-use Aws\Exception\UnresolvedSignatureException;
-use Aws\Token\BearerTokenAuthorization;
+use CloudBeds\Aws\MskFork\Exception\UnresolvedSignatureException;
+use CloudBeds\Aws\MskFork\Token\BearerTokenAuthorization;
 
 /**
  * Signature providers.
@@ -16,7 +16,7 @@ use Aws\Token\BearerTokenAuthorization;
  * is created. If a signature object is not created, then the resolve()
  * function will throw a {@see Aws\Exception\UnresolvedSignatureException}.
  *
- *     use Aws\Signature\SignatureProvider;
+ *     use CloudBeds\Aws\MskFork\Signature\SignatureProvider;
  *     $provider = SignatureProvider::defaultProvider();
  *     // Returns a SignatureInterface or NULL.
  *     $signer = $provider('v4', 's3', 'us-west-2');

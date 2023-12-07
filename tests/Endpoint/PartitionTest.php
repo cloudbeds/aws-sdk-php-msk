@@ -1,10 +1,10 @@
 <?php
-namespace Aws\Test\Endpoint;
+namespace CloudBeds\Aws\MskFork\Test\Endpoint;
 
-use Aws\Endpoint\Partition;
-use Aws\Endpoint\PartitionInterface;
-use Aws\Endpoint\UseDualstackEndpoint;
-use Aws\Endpoint\UseFipsEndpoint;
+use CloudBeds\Aws\MskFork\Endpoint\Partition;
+use CloudBeds\Aws\MskFork\Endpoint\PartitionInterface;
+use CloudBeds\Aws\MskFork\Endpoint\UseDualstackEndpoint;
+use CloudBeds\Aws\MskFork\Endpoint\UseFipsEndpoint;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

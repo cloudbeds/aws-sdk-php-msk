@@ -1,7 +1,7 @@
 <?php
-namespace Aws\VoiceID\Exception;
+namespace CloudBeds\Aws\MskFork\VoiceID\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Voice ID** service.

@@ -1,9 +1,9 @@
 <?php
-namespace Aws\Api\ErrorParser;
+namespace CloudBeds\Aws\MskFork\Api\ErrorParser;
 
-use Aws\Api\Parser\JsonParser;
-use Aws\Api\Service;
-use Aws\CommandInterface;
+use CloudBeds\Aws\MskFork\Api\Parser\JsonParser;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\CommandInterface;
 use Psr\Http\Message\ResponseInterface;
 
 /**

@@ -1,8 +1,8 @@
 <?php
 
-namespace Aws\EndpointV2\Ruleset;
+namespace CloudBeds\Aws\MskFork\EndpointV2\Ruleset;
 
-use Aws\Exception\UnresolvedEndpointException;
+use CloudBeds\Aws\MskFork\Exception\UnresolvedEndpointException;
 
 /**
  * Houses properties of an individual parameter definition.

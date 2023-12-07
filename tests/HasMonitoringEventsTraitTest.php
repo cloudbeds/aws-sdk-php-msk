@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws\HasMonitoringEventsTrait;
+use CloudBeds\Aws\MskFork\HasMonitoringEventsTrait;
 use PHPUnit\Framework\TestCase;
 
 

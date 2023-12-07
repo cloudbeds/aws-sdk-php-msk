@@ -1,7 +1,7 @@
 <?php
-namespace Aws\AmplifyBackend\Exception;
+namespace CloudBeds\Aws\MskFork\AmplifyBackend\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **AmplifyBackend** service.

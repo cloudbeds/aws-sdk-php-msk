@@ -1,8 +1,8 @@
 <?php
 
-namespace Aws\Api;
+namespace CloudBeds\Aws\MskFork\Api;
 
-use Aws\Api\Parser\Exception\ParserException;
+use CloudBeds\Aws\MskFork\Api\Parser\Exception\ParserException;
 use DateTime;
 use DateTimeZone;
 use Exception;

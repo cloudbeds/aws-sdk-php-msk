@@ -1,5 +1,5 @@
 <?php
-namespace Aws\EndpointDiscovery;
+namespace CloudBeds\Aws\MskFork\EndpointDiscovery;
 
 /**
  * Provides access to endpoint discovery configuration options:

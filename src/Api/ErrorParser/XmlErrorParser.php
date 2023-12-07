@@ -1,11 +1,11 @@
 <?php
-namespace Aws\Api\ErrorParser;
+namespace CloudBeds\Aws\MskFork\Api\ErrorParser;
 
-use Aws\Api\Parser\PayloadParserTrait;
-use Aws\Api\Parser\XmlParser;
-use Aws\Api\Service;
-use Aws\Api\StructureShape;
-use Aws\CommandInterface;
+use CloudBeds\Aws\MskFork\Api\Parser\PayloadParserTrait;
+use CloudBeds\Aws\MskFork\Api\Parser\XmlParser;
+use CloudBeds\Aws\MskFork\Api\Service;
+use CloudBeds\Aws\MskFork\Api\StructureShape;
+use CloudBeds\Aws\MskFork\CommandInterface;
 use Psr\Http\Message\ResponseInterface;
 
 /**
@@ -88,8 +88,8 @@ class XmlErrorParser extends AbstractErrorParser
         $namespaces = $element->getDocNamespaces();
         if (!isset($namespaces[''])) {
             return '';
-        } 
-        
+        }
+
         // Account for the default namespace being defined and PHP not
         // being able to handle it :(.
         $element->registerXPathNamespace('ns', $namespaces['']);

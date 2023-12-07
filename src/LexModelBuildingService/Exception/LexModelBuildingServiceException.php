@@ -1,7 +1,7 @@
 <?php
-namespace Aws\LexModelBuildingService\Exception;
+namespace CloudBeds\Aws\MskFork\LexModelBuildingService\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Lex Model Building Service** service.

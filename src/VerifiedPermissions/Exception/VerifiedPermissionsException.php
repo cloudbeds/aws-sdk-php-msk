@@ -1,7 +1,7 @@
 <?php
-namespace Aws\VerifiedPermissions\Exception;
+namespace CloudBeds\Aws\MskFork\VerifiedPermissions\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Verified Permissions** service.

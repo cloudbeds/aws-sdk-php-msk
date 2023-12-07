@@ -1,12 +1,12 @@
 <?php
-namespace Aws\Api\Parser;
+namespace CloudBeds\Aws\MskFork\Api\Parser;
 
-use Aws\Api\DateTimeResult;
-use Aws\Api\ListShape;
-use Aws\Api\MapShape;
-use Aws\Api\Parser\Exception\ParserException;
-use Aws\Api\Shape;
-use Aws\Api\StructureShape;
+use CloudBeds\Aws\MskFork\Api\DateTimeResult;
+use CloudBeds\Aws\MskFork\Api\ListShape;
+use CloudBeds\Aws\MskFork\Api\MapShape;
+use CloudBeds\Aws\MskFork\Api\Parser\Exception\ParserException;
+use CloudBeds\Aws\MskFork\Api\Shape;
+use CloudBeds\Aws\MskFork\Api\StructureShape;
 
 /**
  * @internal Implements standard XML parsing for REST-XML and Query protocols.

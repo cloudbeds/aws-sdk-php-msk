@@ -1,7 +1,7 @@
 <?php
-namespace Aws\MediaPackageV2;
+namespace CloudBeds\Aws\MskFork\MediaPackageV2;
 
-use Aws\AwsClient;
+use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Elemental MediaPackage v2** service.

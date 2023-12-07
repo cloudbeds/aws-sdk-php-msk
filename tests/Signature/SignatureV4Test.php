@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Test\Signature;
+namespace CloudBeds\Aws\MskFork\Test\Signature;
 
-use Aws\Credentials\Credentials;
-use Aws\Signature\SignatureV4;
+use CloudBeds\Aws\MskFork\Credentials\Credentials;
+use CloudBeds\Aws\MskFork\Signature\SignatureV4;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 use GuzzleHttp\Psr7;
 use GuzzleHttp\Psr7\Request;

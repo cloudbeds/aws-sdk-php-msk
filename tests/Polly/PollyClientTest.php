@@ -1,8 +1,8 @@
 <?php
-namespace Aws\Test\Polly;
+namespace CloudBeds\Aws\MskFork\Test\Polly;
 
-use Aws\Credentials\Credentials;
-use Aws\Polly\PollyClient;
+use CloudBeds\Aws\MskFork\Credentials\Credentials;
+use CloudBeds\Aws\MskFork\Polly\PollyClient;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**

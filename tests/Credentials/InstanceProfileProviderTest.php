@@ -1,15 +1,15 @@
 <?php
-namespace Aws\Test\Credentials;
+namespace CloudBeds\Aws\MskFork\Test\Credentials;
 
-use Aws\Configuration\ConfigurationResolver;
-use Aws\Credentials\Credentials;
-use Aws\Credentials\CredentialsInterface;
-use Aws\Credentials\InstanceProfileProvider;
-use Aws\Exception\CredentialsException;
-use Aws\MockHandler;
-use Aws\Result;
-use Aws\S3\S3Client;
-use Aws\Sdk;
+use CloudBeds\Aws\MskFork\Configuration\ConfigurationResolver;
+use CloudBeds\Aws\MskFork\Credentials\Credentials;
+use CloudBeds\Aws\MskFork\Credentials\CredentialsInterface;
+use CloudBeds\Aws\MskFork\Credentials\InstanceProfileProvider;
+use CloudBeds\Aws\MskFork\Exception\CredentialsException;
+use CloudBeds\Aws\MskFork\MockHandler;
+use CloudBeds\Aws\MskFork\Result;
+use CloudBeds\Aws\MskFork\S3\S3Client;
+use CloudBeds\Aws\MskFork\Sdk;
 use GuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\Promise;
 use GuzzleHttp\Psr7;

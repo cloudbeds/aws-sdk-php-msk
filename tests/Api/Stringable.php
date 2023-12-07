@@ -1,6 +1,6 @@
 <?php
 
-namespace Aws\Test\Api;
+namespace CloudBeds\Aws\MskFork\Test\Api;
 
 class Stringable
 {

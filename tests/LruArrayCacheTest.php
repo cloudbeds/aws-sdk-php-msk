@@ -1,7 +1,7 @@
 <?php
-namespace Aws\Test;
+namespace CloudBeds\Aws\MskFork\Test;
 
-use Aws\LruArrayCache;
+use CloudBeds\Aws\MskFork\LruArrayCache;
 use PHPUnit\Framework\TestCase;
 
 /**

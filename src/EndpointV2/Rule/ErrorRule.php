@@ -1,9 +1,9 @@
 <?php
 
-namespace Aws\EndpointV2\Rule;
+namespace CloudBeds\Aws\MskFork\EndpointV2\Rule;
 
-use Aws\EndpointV2\Ruleset\RulesetStandardLibrary;
-use Aws\Exception\UnresolvedEndpointException;
+use CloudBeds\Aws\MskFork\EndpointV2\Ruleset\RulesetStandardLibrary;
+use CloudBeds\Aws\MskFork\Exception\UnresolvedEndpointException;
 
 class ErrorRule extends AbstractRule
 {

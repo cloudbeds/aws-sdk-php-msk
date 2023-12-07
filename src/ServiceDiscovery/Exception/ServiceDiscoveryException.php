@@ -1,7 +1,7 @@
 <?php
-namespace Aws\ServiceDiscovery\Exception;
+namespace CloudBeds\Aws\MskFork\ServiceDiscovery\Exception;
 
-use Aws\Exception\AwsException;
+use CloudBeds\Aws\MskFork\Exception\AwsException;
 
 /**
  * Represents an error interacting with the **Amazon Route 53 Auto Naming** service.
