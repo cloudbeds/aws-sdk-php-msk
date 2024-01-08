@@ -5,11 +5,11 @@ use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Personalize Runtime** service.
- * @method \Aws\Result getActionRecommendations(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result getActionRecommendations(array $args = [])
  * @method \GuzzleHttp\Promise\Promise getActionRecommendationsAsync(array $args = [])
- * @method \Aws\Result getPersonalizedRanking(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result getPersonalizedRanking(array $args = [])
  * @method \GuzzleHttp\Promise\Promise getPersonalizedRankingAsync(array $args = [])
- * @method \Aws\Result getRecommendations(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result getRecommendations(array $args = [])
  * @method \GuzzleHttp\Promise\Promise getRecommendationsAsync(array $args = [])
  */
 class PersonalizeRuntimeClient extends AwsClient {}

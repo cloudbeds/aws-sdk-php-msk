@@ -20,7 +20,7 @@ function generateDocblock(array $args)
         }
 
         if (isset($value['default']) && !is_callable($value['default'])) {
-            $modifiers[] = 'default=' . \Aws\describe_type($value['default']);
+            $modifiers[] = 'default=' . \CloudBeds\Aws\MskFork\describe_type($value['default']);
         }
 
         if ($modifiers) {

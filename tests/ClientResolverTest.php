@@ -61,7 +61,7 @@ class ClientResolverTest extends TestCase
             'validate' => false
         ]);
         $command = $c->getCommand('CreateTable');
-        $handler = \Aws\constantly(new Result([]));
+        $handler = \CloudBeds\Aws\MskFork\constantly(new Result([]));
         $command->getHandlerList()->setHandler($handler);
         $c->execute($command);
     }
@@ -79,7 +79,7 @@ class ClientResolverTest extends TestCase
             ]
         ]);
         $command = $c->getCommand('CreateTable');
-        $handler = \Aws\constantly(new Result([]));
+        $handler = \CloudBeds\Aws\MskFork\constantly(new Result([]));
         $command->getHandlerList()->setHandler($handler);
         $c->execute($command);
     }
@@ -920,7 +920,7 @@ EOT;
             );
 
         $args = [
-            'endpoint_discovery' => new \Aws\EndpointDiscovery\Configuration (
+            'endpoint_discovery' => new \CloudBeds\Aws\MskFork\EndpointDiscovery\Configuration (
                 true,
                 1000
             ),
@@ -1027,7 +1027,7 @@ EOT;
             );
 
         $args = [
-            'retries' => new \Aws\Retry\Configuration('adaptive', 10)
+            'retries' => new \CloudBeds\Aws\MskFork\Retry\Configuration('adaptive', 10)
         ];
         $list = new HandlerList(function () {
         });

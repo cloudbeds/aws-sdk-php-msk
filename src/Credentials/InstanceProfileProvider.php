@@ -64,7 +64,7 @@ class InstanceProfileProvider
         $this->timeout = (float) getenv(self::ENV_TIMEOUT) ?: ($config['timeout'] ?? self::DEFAULT_TIMEOUT);
         $this->profile = $config['profile'] ?? null;
         $this->retries = (int) getenv(self::ENV_RETRIES) ?: ($config['retries'] ?? self::DEFAULT_RETRIES);
-        $this->client = $config['client'] ?? \Aws\default_http_handler();
+        $this->client = $config['client'] ?? \CloudBeds\Aws\MskFork\default_http_handler();
         $this->ec2MetadataV1Disabled = $config[self::CFG_EC2_METADATA_V1_DISABLED] ?? null;
     }
 
@@ -232,7 +232,7 @@ class InstanceProfileProvider
         if (defined('HHVM_VERSION')) {
             $userAgent .= ' HHVM/' . HHVM_VERSION;
         }
-        $userAgent .= ' ' . \Aws\default_user_agent();
+        $userAgent .= ' ' . \CloudBeds\Aws\MskFork\default_user_agent();
         $request = $request->withHeader('User-Agent', $userAgent);
         foreach ($headers as $key => $value) {
             $request = $request->withHeader($key, $value);
@@ -316,8 +316,8 @@ class InstanceProfileProvider
      */
     private function shouldFallbackToIMDSv1(): bool
     {
-        $isImdsV1Disabled = \Aws\boolean_value($this->ec2MetadataV1Disabled)
-            ?? \Aws\boolean_value(
+        $isImdsV1Disabled = \CloudBeds\Aws\MskFork\boolean_value($this->ec2MetadataV1Disabled)
+            ?? \CloudBeds\Aws\MskFork\boolean_value(
                 ConfigurationResolver::resolve(
                     self::CFG_EC2_METADATA_V1_DISABLED,
                     self::DEFAULT_AWS_EC2_METADATA_V1_DISABLED,

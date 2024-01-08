@@ -519,7 +519,7 @@ class S3ClientTest extends TestCase
         $command = $client->getCommand($command, $params);
 
         $text = "<LocationConstraint>{$target}</LocationConstraint>";
-        $body = (string) \Aws\serialize($command)->getBody();
+        $body = (string) \CloudBeds\Aws\MskFork\serialize($command)->getBody();
         if ($contains) {
             $this->assertStringContainsString($text, $body);
         } else {

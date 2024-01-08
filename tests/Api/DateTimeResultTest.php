@@ -5,7 +5,7 @@ use CloudBeds\Aws\MskFork\Api\DateTimeResult;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Aws\Api\DateTimeResult
+ * @covers \CloudBeds\Aws\MskFork\Api\DateTimeResult
  */
 class DateTimeResultTest extends TestCase
 {

@@ -191,7 +191,7 @@ class S3EncryptionClient extends AbstractCryptoClient
      *   instruction file if an using an InstructionFileMetadataHandler was
      *   determined.
      *
-     * @return \Aws\Result PutObject call result with the details of uploading
+     * @return \CloudBeds\Aws\MskFork\Result PutObject call result with the details of uploading
      *                     the encrypted file.
      *
      * @throws \InvalidArgumentException Thrown when arguments above are not
@@ -326,7 +326,7 @@ class S3EncryptionClient extends AbstractCryptoClient
      *            passed directly to OpenSSL when using gcm. It is ignored when
      *            using cbc.
      *
-     * @return \Aws\Result GetObject call result with the 'Body' field
+     * @return \CloudBeds\Aws\MskFork\Result GetObject call result with the 'Body' field
      *                     wrapped in a decryption stream with its metadata
      *                     information.
      *

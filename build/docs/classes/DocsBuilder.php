@@ -366,7 +366,7 @@ EOT;
     {
         $path = __DIR__ . "/../../../src/data/{$name}/{$version}/examples-1.json";
         try {
-            return \Aws\load_compiled_json($path)['examples'];
+            return \CloudBeds\Aws\MskFork\load_compiled_json($path)['examples'];
         } catch (\InvalidArgumentException $e) {
             return [];
         }

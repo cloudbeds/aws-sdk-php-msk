@@ -89,7 +89,7 @@ class ApiCallMonitoringMiddlewareTest extends TestCase
             'Region' => 'us-east-1',
             'Type' => 'ApiCall',
             'Service' => 'ec2',
-            'UserAgent' => 'foo-agent ' . \Aws\default_user_agent(),
+            'UserAgent' => 'foo-agent ' . \CloudBeds\Aws\MskFork\default_user_agent(),
             'Version' => 1,
             'MaxRetriesExceeded' => 0,
         ];

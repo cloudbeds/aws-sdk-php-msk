@@ -9,7 +9,7 @@ use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
- * @covers \Aws\Crypto\KmsMaterialsProviderV2
+ * @covers \CloudBeds\Aws\MskFork\Crypto\KmsMaterialsProviderV2
  */
 class KmsMaterialsProviderV2Test extends TestCase
 {

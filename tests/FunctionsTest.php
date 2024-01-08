@@ -10,41 +10,41 @@ use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 class FunctionsTest extends TestCase
 {
     /**
-     * @covers Aws\recursive_dir_iterator()
+     * @covers \CloudBeds\Aws\MskFork\recursive_dir_iterator()
      */
     public function testCreatesRecursiveDirIterator()
     {
-        $iter = Aws\recursive_dir_iterator(__DIR__);
+        $iter = \CloudBeds\Aws\MskFork\recursive_dir_iterator(__DIR__);
         $this->assertInstanceOf('Iterator', $iter);
         $files = iterator_to_array($iter);
         $this->assertContains(__FILE__, $files);
     }
 
     /**
-     * @covers Aws\dir_iterator()
+     * @covers \CloudBeds\Aws\MskFork\dir_iterator()
      */
     public function testCreatesNonRecursiveDirIterator()
     {
-        $iter = Aws\dir_iterator(__DIR__);
+        $iter = \CloudBeds\Aws\MskFork\dir_iterator(__DIR__);
         $this->assertInstanceOf('Iterator', $iter);
         $files = iterator_to_array($iter);
         $this->assertContains('FunctionsTest.php', $files);
     }
 
     /**
-     * @covers Aws\or_chain()
+     * @covers \CloudBeds\Aws\MskFork\or_chain()
      */
     public function testComposesOrFunctions()
     {
         $a = function ($a, $b) { return null; };
         $b = function ($a, $b) { return $a . $b; };
         $c = function ($a, $b) { return 'C'; };
-        $comp = Aws\or_chain($a, $b, $c);
+        $comp = \CloudBeds\Aws\MskFork\or_chain($a, $b, $c);
         $this->assertSame('+-', $comp('+', '-'));
     }
 
     /**
-     * @covers Aws\or_chain()
+     * @covers \CloudBeds\Aws\MskFork\or_chain()
      */
     public function testReturnsNullWhenNonResolve()
     {
@@ -52,31 +52,31 @@ class FunctionsTest extends TestCase
         $a = function () use (&$called) { $called[] = 'a'; };
         $b = function () use (&$called) { $called[] = 'b'; };
         $c = function () use (&$called) { $called[] = 'c'; };
-        $comp = Aws\or_chain($a, $b, $c);
+        $comp = \CloudBeds\Aws\MskFork\or_chain($a, $b, $c);
         $this->assertNull($comp());
         $this->assertEquals(['a', 'b', 'c'], $called);
     }
 
     /**
-     * @covers Aws\constantly()
+     * @covers \CloudBeds\Aws\MskFork\constantly()
      */
     public function testCreatesConstantlyFunctions()
     {
-        $fn = Aws\constantly('foo');
+        $fn = \CloudBeds\Aws\MskFork\constantly('foo');
         $this->assertSame('foo', $fn());
     }
 
     /**
-     * @covers Aws\load_compiled_json()
+     * @covers \CloudBeds\Aws\MskFork\load_compiled_json()
      */
     public function testUsesJsonCompiler()
     {
         $this->expectException(\InvalidArgumentException::class);
-        Aws\load_compiled_json('/path/to/not/here.json');
+        \CloudBeds\Aws\MskFork\load_compiled_json('/path/to/not/here.json');
     }
 
     /**
-     * @covers Aws\load_compiled_json()
+     * @covers \CloudBeds\Aws\MskFork\load_compiled_json()
      */
     public function testUsesPhpCompilationOfJsonIfPossible()
     {
@@ -85,7 +85,7 @@ class FunctionsTest extends TestCase
 
         file_put_contents($jsonPath, json_encode($soughtData), LOCK_EX);
 
-        $this->assertSame($soughtData, Aws\load_compiled_json($jsonPath));
+        $this->assertSame($soughtData, \CloudBeds\Aws\MskFork\load_compiled_json($jsonPath));
 
         file_put_contents($jsonPath, 'INVALID JSON', LOCK_EX);
 
@@ -99,7 +99,7 @@ class FunctionsTest extends TestCase
     }
 
     /**
-     * @covers Aws\load_compiled_json()
+     * @covers \CloudBeds\Aws\MskFork\load_compiled_json()
      */
     public function testOnlyLoadsCompiledJsonOnce()
     {
@@ -108,7 +108,7 @@ class FunctionsTest extends TestCase
 
         file_put_contents($jsonPath, json_encode($soughtData), LOCK_EX);
 
-        $this->assertSame($soughtData, Aws\load_compiled_json($jsonPath));
+        $this->assertSame($soughtData, \CloudBeds\Aws\MskFork\load_compiled_json($jsonPath));
         $jsonAtime = fileatime($jsonPath);
 
         file_put_contents($jsonPath, 'INVALID JSON', LOCK_EX);
@@ -131,34 +131,34 @@ class FunctionsTest extends TestCase
     }
 
     /**
-     * @covers Aws\filter()
+     * @covers \CloudBeds\Aws\MskFork\filter()
      */
     public function testFilter()
     {
         $data = [0, 1, 2, 3, 4];
         $func = function ($v) { return $v % 2; };
-        $result = \Aws\filter($data, $func);
+        $result = \CloudBeds\Aws\MskFork\filter($data, $func);
         $this->assertEquals([1, 3], iterator_to_array($result));
     }
 
     /**
-     * @covers Aws\map()
+     * @covers \CloudBeds\Aws\MskFork\map()
      */
     public function testMap()
     {
         $data = [0, 1, 2, 3, 4];
-        $result = \Aws\map($data, function ($v) { return $v + 1; });
+        $result = \CloudBeds\Aws\MskFork\map($data, function ($v) { return $v + 1; });
         $this->assertEquals([1, 2, 3, 4, 5], iterator_to_array($result));
     }
 
     /**
-     * @covers Aws\flatmap()
+     * @covers \CloudBeds\Aws\MskFork\flatmap()
      */
     public function testFlatMap()
     {
         $data = ['Hello', 'World'];
         $xf = function ($value) { return str_split($value); };
-        $result = \Aws\flatmap($data, $xf);
+        $result = \CloudBeds\Aws\MskFork\flatmap($data, $xf);
         $this->assertEquals(
             ['H', 'e', 'l', 'l', 'o', 'W', 'o', 'r', 'l', 'd'],
             iterator_to_array($result)
@@ -166,53 +166,53 @@ class FunctionsTest extends TestCase
     }
 
     /**
-     * @covers Aws\partition()
+     * @covers \CloudBeds\Aws\MskFork\partition()
      */
     public function testPartition()
     {
         $data = [1, 2, 3, 4, 5];
-        $result = \Aws\partition($data, 2);
+        $result = \CloudBeds\Aws\MskFork\partition($data, 2);
         $this->assertEquals([[1, 2], [3, 4], [5]], iterator_to_array($result));
     }
 
     /**
-     * @covers Aws\describe_type()
+     * @covers \CloudBeds\Aws\MskFork\describe_type()
      */
     public function testDescribeObject()
     {
         $obj = new \stdClass();
-        $this->assertSame('object(stdClass)', Aws\describe_type($obj));
+        $this->assertSame('object(stdClass)', \CloudBeds\Aws\MskFork\describe_type($obj));
     }
 
     /**
-     * @covers Aws\describe_type()
+     * @covers \CloudBeds\Aws\MskFork\describe_type()
      */
     public function testDescribeArray()
     {
         $arr = [0, 1, 2];
-        $this->assertSame('array(3)', Aws\describe_type($arr));
+        $this->assertSame('array(3)', \CloudBeds\Aws\MskFork\describe_type($arr));
     }
 
     /**
-     * @covers Aws\describe_type()
+     * @covers \CloudBeds\Aws\MskFork\describe_type()
      */
     public function testDescribeDoubleToFloat()
     {
         $double = (double)1.3;
-        $this->assertSame('float(1.3)', Aws\describe_type($double));
+        $this->assertSame('float(1.3)', \CloudBeds\Aws\MskFork\describe_type($double));
     }
 
     /**
-     * @covers Aws\describe_type()
+     * @covers \CloudBeds\Aws\MskFork\describe_type()
      */
     public function testDescribeType()
     {
-        $this->assertSame('int(1)', Aws\describe_type(1));
-        $this->assertSame('string(4) "test"', Aws\describe_type("test"));
+        $this->assertSame('int(1)', \CloudBeds\Aws\MskFork\describe_type(1));
+        $this->assertSame('string(4) "test"', \CloudBeds\Aws\MskFork\describe_type("test"));
     }
 
     /**
-     * @covers Aws\default_http_handler()
+     * @covers \CloudBeds\Aws\MskFork\default_http_handler()
      */
     public function testGuzzleV5HttpHandler()
     {
@@ -220,13 +220,13 @@ class FunctionsTest extends TestCase
             $this->markTestSkipped();
         }
         $this->assertInstanceOf(
-            Aws\Handler\GuzzleV5\GuzzleHandler::class,
-            Aws\default_http_handler()
+            \CloudBeds\Aws\MskFork\Handler\GuzzleV5\GuzzleHandler::class,
+            \CloudBeds\Aws\MskFork\default_http_handler()
         );
     }
 
     /**
-     * @covers Aws\default_http_handler()
+     * @covers \CloudBeds\Aws\MskFork\default_http_handler()
      */
     public function testGuzzleV6HttpHandler()
     {
@@ -234,13 +234,13 @@ class FunctionsTest extends TestCase
             $this->markTestSkipped();
         }
         $this->assertInstanceOf(
-            Aws\Handler\GuzzleV6\GuzzleHandler::class,
-            Aws\default_http_handler()
+            \CloudBeds\Aws\MskFork\Handler\GuzzleV6\GuzzleHandler::class,
+            \CloudBeds\Aws\MskFork\default_http_handler()
         );
     }
 
     /**
-     * @covers Aws\serialize()
+     * @covers \CloudBeds\Aws\MskFork\serialize()
      */
     public function testSerializesHttpRequests()
     {
@@ -262,7 +262,7 @@ class FunctionsTest extends TestCase
             'Key'    => 'bar',
             'Body'   => '123'
         ]);
-        $request = \Aws\serialize($command);
+        $request = \CloudBeds\Aws\MskFork\serialize($command);
         $this->assertSame('/bar', $request->getRequestTarget());
         $this->assertSame('PUT', $request->getMethod());
         $this->assertSame('foo.s3.amazonaws.com', $request->getHeaderLine('Host'));
@@ -273,19 +273,19 @@ class FunctionsTest extends TestCase
     }
 
     /**
-     * @covers Aws\manifest()
+     * @covers \CloudBeds\Aws\MskFork\manifest()
      */
     public function testLoadsManifest()
     {
-        $this->assertNotNull(Aws\manifest());
+        $this->assertNotNull(\CloudBeds\Aws\MskFork\manifest());
     }
 
     /**
-     * @covers Aws\manifest()
+     * @covers \CloudBeds\Aws\MskFork\manifest()
      */
     public function testServiceManifest()
     {
-        $manifest = Aws\manifest('s3');
+        $manifest = \CloudBeds\Aws\MskFork\manifest('s3');
         $data = [
             'namespace' => 'S3',
             'versions'  => [
@@ -299,11 +299,11 @@ class FunctionsTest extends TestCase
     }
 
     /**
-     * @covers Aws\manifest()
+     * @covers \CloudBeds\Aws\MskFork\manifest()
      */
     public function testAliasManifest()
     {
-        $manifest = Aws\manifest('iotdataplane');
+        $manifest = \CloudBeds\Aws\MskFork\manifest('iotdataplane');
         $data = [
             'namespace' => 'IotDataPlane',
             'versions'  => [
@@ -317,21 +317,21 @@ class FunctionsTest extends TestCase
     }
 
     /**
-     * @covers Aws\manifest()
+     * @covers \CloudBeds\Aws\MskFork\manifest()
      */
     public function testInvalidManifest()
     {
         $this->expectException(\InvalidArgumentException::class);
-        Aws\manifest('notarealservicename');
+        \CloudBeds\Aws\MskFork\manifest('notarealservicename');
     }
 
     /**
-     * @covers Aws\is_valid_hostname()
+     * @covers \CloudBeds\Aws\MskFork\is_valid_hostname()
      * @dataProvider getHostnameTestCases
      */
     public function testValidatesHostnames($hostname, $expected)
     {
-        $this->assertEquals($expected, Aws\is_valid_hostname($hostname));
+        $this->assertEquals($expected, \CloudBeds\Aws\MskFork\is_valid_hostname($hostname));
     }
 
     public function getHostnameTestCases()
@@ -376,14 +376,14 @@ class FunctionsTest extends TestCase
     }
 
     /**
-     * @covers Aws\is_valid_hostlabel()
+     * @covers \CloudBeds\Aws\MskFork\is_valid_hostlabel()
      * @dataProvider getHostlabelTestCases
      * @param string $label
      * @param bool $expected
      */
     public function testValidatesHostlabels($label, $expected)
     {
-        $this->assertEquals($expected, Aws\is_valid_hostlabel($label));
+        $this->assertEquals($expected, \CloudBeds\Aws\MskFork\is_valid_hostlabel($label));
     }
 
     public function getHostlabelTestCases()
@@ -413,7 +413,7 @@ class FunctionsTest extends TestCase
     }
 
     /**
-     * @covers Aws\parse_ini_file()
+     * @covers \CloudBeds\Aws\MskFork\parse_ini_file()
      * @dataProvider getIniFileTestCases
      */
     public function testParsesIniFile($ini, $expected)
@@ -422,7 +422,7 @@ class FunctionsTest extends TestCase
         file_put_contents($tmpFile, $ini);
         $this->assertEquals(
             $expected,
-            Aws\parse_ini_file($tmpFile, true, INI_SCANNER_RAW)
+            MskFork\parse_ini_file($tmpFile, true, INI_SCANNER_RAW)
         );
         unlink($tmpFile);
     }
@@ -473,7 +473,7 @@ EOT
     }
 
     /**
-     * @covers Aws\parse_ini_section_with_subsections()
+     * @covers \CloudBeds\Aws\MskFork\parse_ini_section_with_subsections()
      * @dataProvider getIniFileServiceTestCases
      */
     public function testParsesIniSectionsWithSubsections($ini, $expected)
@@ -482,7 +482,7 @@ EOT
         file_put_contents($tmpFile, $ini);
         $this->assertEquals(
             $expected,
-            Aws\parse_ini_section_with_subsections($tmpFile, 'services my-services')
+            \CloudBeds\Aws\MskFork\parse_ini_section_with_subsections($tmpFile, 'services my-services')
         );
         unlink($tmpFile);
     }

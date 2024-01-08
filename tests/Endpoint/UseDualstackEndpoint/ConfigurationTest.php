@@ -5,7 +5,7 @@ use CloudBeds\Aws\MskFork\Endpoint\UseDualstackEndpoint\Configuration;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
- * @covers \Aws\Endpoint\UseDualstackEndpoint\Configuration
+ * @covers \CloudBeds\Aws\MskFork\Endpoint\UseDualstackEndpoint\Configuration
  */
 class ConfigurationTest extends TestCase
 {

@@ -21,7 +21,7 @@ Aws\DynamoDb\DynamoDbClient::factory($conf);
 // React autoloader
 $checks = [
     'JmesPath\\search',
-    'Aws\\dir_iterator',
+    'Cloudbeds\\Aws\\MskFork\\dir_iterator',
 ];
 
 foreach ($checks as $check) {
@@ -44,4 +44,4 @@ foreach ($classMethodChecks as $class => $method) {
     }
 }
 
-echo 'Version=' . Aws\Sdk::VERSION;
+echo 'Version=' . \CloudBeds\Aws\MskFork\Sdk::VERSION;

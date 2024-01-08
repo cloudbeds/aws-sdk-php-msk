@@ -7,8 +7,8 @@ use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 /**
  * This class tests the custom functionality of the XmlParser;
  * generic testing is done in ComplianceTest.php
- * @covers \Aws\Api\Parser\RestXmlParser
- * @covers \Aws\Api\Parser\XmlParser
+ * @covers \CloudBeds\Aws\MskFork\Api\Parser\RestXmlParser
+ * @covers \CloudBeds\Aws\MskFork\Api\Parser\XmlParser
  */
 class XmlParserTest extends TestCase
 {

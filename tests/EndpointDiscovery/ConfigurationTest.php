@@ -7,7 +7,7 @@ use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 use Psr\Log\InvalidArgumentException;
 
 /**
- * @covers \Aws\EndpointDiscovery\Configuration
+ * @covers \CloudBeds\Aws\MskFork\EndpointDiscovery\Configuration
  */
 class ConfigurationTest extends TestCase
 {

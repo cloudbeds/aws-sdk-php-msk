@@ -434,7 +434,7 @@ class StreamWrapper
 
         // Filter our "/" keys added by the console as directories, and ensure
         // that if a filter function is provided that it passes the filter.
-        $this->objectIterator = \Aws\flatmap(
+        $this->objectIterator = \CloudBeds\Aws\MskFork\flatmap(
             $this->getClient()->getPaginator('ListObjects', $op),
             function (Result $result) use ($filterFn) {
                 $contentsAndPrefixes = $result->search('[Contents[], CommonPrefixes[]][]');

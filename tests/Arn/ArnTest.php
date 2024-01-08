@@ -7,7 +7,7 @@ use GuzzleHttp\Promise\Promise;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Aws\Arn\Arn
+ * @covers \CloudBeds\Aws\MskFork\Arn\Arn
  */
 class ArnTest extends TestCase
 {

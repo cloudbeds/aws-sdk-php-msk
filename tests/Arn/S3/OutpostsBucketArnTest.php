@@ -8,7 +8,7 @@ use CloudBeds\Aws\MskFork\Arn\S3\OutpostsBucketArn;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Aws\Arn\S3\OutpostsBucketArn
+ * @covers \CloudBeds\Aws\MskFork\Arn\S3\OutpostsBucketArn
  */
 class OutpostsBucketArnTest extends TestCase
 {

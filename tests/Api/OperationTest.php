@@ -7,7 +7,7 @@ use CloudBeds\Aws\MskFork\Api\Operation;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
- * @covers \Aws\Api\Operation
+ * @covers \CloudBeds\Aws\MskFork\Api\Operation
  */
 class OperationTest extends TestCase
 {

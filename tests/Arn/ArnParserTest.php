@@ -11,7 +11,7 @@ use CloudBeds\Aws\MskFork\Arn\S3\RegionalBucketArn;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Aws\Arn\ArnParser
+ * @covers \CloudBeds\Aws\MskFork\Arn\ArnParser
  */
 class ArnParserTest extends TestCase
 {

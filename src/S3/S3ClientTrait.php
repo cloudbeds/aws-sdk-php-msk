@@ -14,7 +14,7 @@ use Psr\Http\Message\ResponseInterface;
 
 /**
  * A trait providing S3-specific functionality. This is meant to be used in
- * classes implementing \Aws\S3\S3ClientInterface
+ * classes implementing \CloudBeds\Aws\MskFork\S3\S3ClientInterface
  */
 trait S3ClientTrait
 {
@@ -144,7 +144,7 @@ trait S3ClientTrait
         $iter = $this->getIterator('ListObjects', $params);
 
         if ($regex) {
-            $iter = \Aws\filter($iter, function ($c) use ($regex) {
+            $iter = \CloudBeds\Aws\MskFork\filter($iter, function ($c) use ($regex) {
                 return preg_match($regex, $c['Key']);
             });
         }

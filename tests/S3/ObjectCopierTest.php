@@ -24,7 +24,7 @@ class ObjectCopierTest extends TestCase
         array $mockedResults,
         array $options
     ) {
-        /** @var \Aws\S3\S3Client $client */
+        /** @var \CloudBeds\Aws\MskFork\S3\S3Client $client */
         $client = $this->getTestClient('S3');
         $this->addMockResults($client, $mockedResults);
         $result = (new ObjectCopier(
@@ -45,7 +45,7 @@ class ObjectCopierTest extends TestCase
         array $mockedResults,
         array $options
     ) {
-        /** @var \Aws\S3\S3Client $client */
+        /** @var \CloudBeds\Aws\MskFork\S3\S3Client $client */
         $client = $this->getTestClient('S3', [
             'use_path_style_endpoint' => true
         ]);
@@ -70,7 +70,7 @@ class ObjectCopierTest extends TestCase
         array $mockedResults,
         array $options
     ) {
-        /** @var \Aws\S3\S3Client $client */
+        /** @var \CloudBeds\Aws\MskFork\S3\S3Client $client */
         $client = $this->getTestClient('S3', [
             'region' => 'us-west-2'
         ]);
@@ -146,7 +146,7 @@ class ObjectCopierTest extends TestCase
         array $mockedResults,
         array $options
     ) {
-        /** @var \Aws\S3\S3Client $client */
+        /** @var \CloudBeds\Aws\MskFork\S3\S3Client $client */
         $client = $this->getTestClient('S3');
         $this->addMockResults($client, $mockedResults);
         $promise = (new ObjectCopier(
@@ -169,7 +169,7 @@ class ObjectCopierTest extends TestCase
         array $mockedResults,
         array $options
     ) {
-        /** @var \Aws\S3\S3Client $client */
+        /** @var \CloudBeds\Aws\MskFork\S3\S3Client $client */
         $client = $this->getTestClient('S3', [
             'use_path_style_endpoint' => true
         ]);
@@ -302,7 +302,7 @@ class ObjectCopierTest extends TestCase
 
     public function testS3ObjectCopierCopyObjectParams()
     {
-        /** @var \Aws\S3\S3Client $client */
+        /** @var \CloudBeds\Aws\MskFork\S3\S3Client $client */
         $client = $this->getTestClient('s3');
         $copyOptions = [
             'params'          => ['RequestPayer' => 'test'],
@@ -335,7 +335,7 @@ class ObjectCopierTest extends TestCase
 
     public function testS3ObjectCopierMultipartParams()
     {
-        /** @var \Aws\S3\S3Client $client */
+        /** @var \CloudBeds\Aws\MskFork\S3\S3Client $client */
         $client = $this->getTestClient('s3');
         $copyOptions = [
             'mup_threshold'   => MultipartUploader::PART_MIN_SIZE,
@@ -375,7 +375,7 @@ class ObjectCopierTest extends TestCase
 
     public function testS3ObjectCopierDoesTransformUnicodeKeyToEncodedURL()
     {
-        /** @var \Aws\S3\S3Client $client */
+        /** @var \CloudBeds\Aws\MskFork\S3\S3Client $client */
         $client = $this->getTestClient('s3');
         $chinese = "中文";
         $url = 'https://bucket.s3.amazonaws.com/' . rawurlencode($chinese);
@@ -411,7 +411,7 @@ class ObjectCopierTest extends TestCase
      */
     public function testS3ObjectMultipartCopier($input, $expectedOutput)
     {
-        /** @var \Aws\S3\S3Client $client */
+        /** @var \CloudBeds\Aws\MskFork\S3\S3Client $client */
         $client = $this->getTestClient('s3');
 
         $this->addMockResults(

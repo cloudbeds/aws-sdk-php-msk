@@ -113,7 +113,7 @@ class ConfigurationResolver
         }
         // Use INI_SCANNER_NORMAL instead of INI_SCANNER_TYPED for PHP 5.5 compatibility
         //TODO change after deprecation
-        $data = @\Aws\parse_ini_file($filename, true, INI_SCANNER_NORMAL);
+        $data = @\CloudBeds\Aws\MskFork\parse_ini_file($filename, true, INI_SCANNER_NORMAL);
 
         if (isset($options['section'])
             && isset($options['subsection'])
@@ -193,7 +193,7 @@ class ConfigurationResolver
     private static function convertType($value, $type)
     {
         if ($type === 'bool'
-            && !is_null($convertedValue = \Aws\boolean_value($value))
+            && !is_null($convertedValue = \CloudBeds\Aws\MskFork\boolean_value($value))
         ) {
             return $convertedValue;
         }
@@ -232,7 +232,7 @@ class ConfigurationResolver
             return null;
         }
 
-        $services_section = \Aws\parse_ini_section_with_subsections(
+        $services_section = \CloudBeds\Aws\MskFork\parse_ini_section_with_subsections(
             $filename,
             "services {$data[$profile]['services']}"
         );

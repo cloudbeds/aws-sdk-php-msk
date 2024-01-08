@@ -105,7 +105,7 @@ function partition($iterable, $size)
  *
  *     $a = function ($x, $y) { return null; };
  *     $b = function ($x, $y) { return $x + $y; };
- *     $fn = \Aws\or_chain($a, $b);
+ *     $fn = \CloudBeds\Aws\MskFork\or_chain($a, $b);
  *     echo $fn(1, 2); // 3
  *
  * @return callable
@@ -276,12 +276,12 @@ function default_http_handler()
     $version = guzzle_major_version();
     // If Guzzle 6 or 7 installed
     if ($version === 6 || $version === 7) {
-        return new \Aws\Handler\GuzzleV6\GuzzleHandler();
+        return new \CloudBeds\Aws\MskFork\Handler\GuzzleV6\GuzzleHandler();
     }
 
     // If Guzzle 5 installed
     if ($version === 5) {
-        return new \Aws\Handler\GuzzleV5\GuzzleHandler();
+        return new \CloudBeds\Aws\MskFork\Handler\GuzzleV5\GuzzleHandler();
     }
 
     throw new \RuntimeException('Unknown Guzzle version: ' . $version);

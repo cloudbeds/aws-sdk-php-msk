@@ -30,7 +30,7 @@ class IdempotencyTokenMiddleware
      * You may also supply a custom bytes generator as an optional second
      * parameter.
      *
-     * @param \Aws\Api\Service $service
+     * @param \CloudBeds\Aws\MskFork\Api\Service $service
      * @param callable|null $bytesGenerator
      *
      * @return callable

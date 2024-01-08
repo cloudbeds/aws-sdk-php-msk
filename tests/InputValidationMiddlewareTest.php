@@ -12,7 +12,7 @@ use GuzzleHttp\Psr7\Request;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Aws\InputValidationMiddleware
+ * @covers \CloudBeds\Aws\MskFork\InputValidationMiddleware
  */
 class InputValidationMiddlewareTest extends TestCase
 {

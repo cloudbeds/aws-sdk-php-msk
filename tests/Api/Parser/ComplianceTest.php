@@ -13,14 +13,14 @@ use GuzzleHttp\Psr7;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Aws\Api\Parser\AbstractParser
- * @covers \Aws\Api\Parser\AbstractRestParser
- * @covers \Aws\Api\Parser\JsonRpcParser
- * @covers \Aws\Api\Parser\JsonParser
- * @covers \Aws\Api\Parser\RestJsonParser
- * @covers \Aws\Api\Parser\RestXmlParser
- * @covers \Aws\Api\Parser\QueryParser
- * @covers \Aws\Api\Parser\XmlParser
+ * @covers \CloudBeds\Aws\MskFork\Api\Parser\AbstractParser
+ * @covers \CloudBeds\Aws\MskFork\Api\Parser\AbstractRestParser
+ * @covers \CloudBeds\Aws\MskFork\Api\Parser\JsonRpcParser
+ * @covers \CloudBeds\Aws\MskFork\Api\Parser\JsonParser
+ * @covers \CloudBeds\Aws\MskFork\Api\Parser\RestJsonParser
+ * @covers \CloudBeds\Aws\MskFork\Api\Parser\RestXmlParser
+ * @covers \CloudBeds\Aws\MskFork\Api\Parser\QueryParser
+ * @covers \CloudBeds\Aws\MskFork\Api\Parser\XmlParser
  */
 class ComplianceTest extends TestCase
 {

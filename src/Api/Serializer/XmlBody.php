@@ -14,7 +14,7 @@ use XMLWriter;
  */
 class XmlBody
 {
-    /** @var \Aws\Api\Service */
+    /** @var \CloudBeds\Aws\MskFork\Api\Service */
     private $api;
 
     /**

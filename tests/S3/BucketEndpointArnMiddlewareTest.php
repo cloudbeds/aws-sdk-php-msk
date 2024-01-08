@@ -15,7 +15,7 @@ use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 use Psr\Http\Message\RequestInterface;
 
 /**
- * @covers \Aws\S3\BucketEndpointMiddleware
+ * @covers \CloudBeds\Aws\MskFork\S3\BucketEndpointMiddleware
  */
 class BucketEndpointArnMiddlewareTest extends TestCase
 {

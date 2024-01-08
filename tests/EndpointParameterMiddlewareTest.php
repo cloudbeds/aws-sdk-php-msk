@@ -9,7 +9,7 @@ use GuzzleHttp\Psr7\Request;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
- * @covers \Aws\EndpointParameterMiddleware
+ * @covers \CloudBeds\Aws\MskFork\EndpointParameterMiddleware
  */
 class EndpointParameterMiddlewareTest extends TestCase
 {

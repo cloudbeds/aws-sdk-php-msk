@@ -5,7 +5,7 @@ use CloudBeds\Aws\MskFork\Endpoint\UseFipsEndpoint\Configuration;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
- * @covers \Aws\Endpoint\UseFipsEndpoint\Configuration
+ * @covers \CloudBeds\Aws\MskFork\Endpoint\UseFipsEndpoint\Configuration
  */
 class ConfigurationTest extends TestCase
 {

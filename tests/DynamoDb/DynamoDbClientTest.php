@@ -15,7 +15,7 @@ use GuzzleHttp\Psr7\Stream;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
- * @covers \Aws\DynamoDb\DynamoDbClient
+ * @covers \CloudBeds\Aws\MskFork\DynamoDb\DynamoDbClient
  */
 class DynamoDbClientTest extends TestCase
 {

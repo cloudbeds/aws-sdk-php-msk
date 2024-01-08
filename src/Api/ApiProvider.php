@@ -23,14 +23,14 @@ use CloudBeds\Aws\MskFork\Exception\UnresolvedApiException;
  *     $data = ApiProvider::resolve($provider, 'api', 'elasticfood', '2020-01-01');
  *
  * You can compose multiple providers into a single provider using
- * {@see Aws\or_chain}. This method accepts providers as arguments and
+ * {@see \CloudBeds\Aws\MskFork\or_chain}. This method accepts providers as arguments and
  * returns a new function that will invoke each provider until a non-null value
  * is returned.
  *
  *     $a = ApiProvider::filesystem(sys_get_temp_dir() . '/aws-beta-models');
  *     $b = ApiProvider::manifest();
  *
- *     $c = \Aws\or_chain($a, $b);
+ *     $c = \CloudBeds\Aws\MskFork\or_chain($a, $b);
  *     $data = $c('api', 'betaservice', '2015-08-08'); // $a handles this.
  *     $data = $c('api', 's3', '2006-03-01');          // $b handles this.
  *     $data = $c('api', 'invalid', '2014-12-15');     // Neither handles this.
@@ -94,7 +94,7 @@ class ApiProvider
      */
     public static function defaultProvider()
     {
-        return new self(__DIR__ . '/../data', \Aws\manifest());
+        return new self(__DIR__ . '/../data', \CloudBeds\Aws\MskFork\manifest());
     }
 
     /**
@@ -195,7 +195,7 @@ class ApiProvider
         $path = "{$this->modelsDir}/{$service}/{$version}/{$type}.json";
 
         try {
-            return \Aws\load_compiled_json($path);
+            return \CloudBeds\Aws\MskFork\load_compiled_json($path);
         } catch (\InvalidArgumentException $e) {
             return null;
         }

@@ -79,7 +79,7 @@ class PerformanceContext implements Context, SnippetAcceptingContext
      */
     public function iHaveAListOfServices()
     {
-        $this->serviceList = array_keys(Aws\manifest());
+        $this->serviceList = array_keys(\CloudBeds\Aws\MskFork\manifest());
     }
 
     /**

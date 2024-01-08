@@ -7,8 +7,8 @@ use GuzzleHttp\Psr7;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Aws\Api\ErrorParser\RestJsonErrorParser
- * @covers \Aws\Api\ErrorParser\JsonParserTrait
+ * @covers \CloudBeds\Aws\MskFork\Api\ErrorParser\RestJsonErrorParser
+ * @covers \CloudBeds\Aws\MskFork\Api\ErrorParser\JsonParserTrait
  */
 class RestJsonErrorParserTest extends TestCase
 {

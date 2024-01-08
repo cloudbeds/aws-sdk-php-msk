@@ -86,7 +86,7 @@ class TransferTest extends TestCase
         );
 
         $c = [];
-        $i = \Aws\recursive_dir_iterator(__DIR__ . '/Crypto');
+        $i = \CloudBeds\Aws\MskFork\recursive_dir_iterator(__DIR__ . '/Crypto');
         $t = new Transfer($s3, $i, 's3://foo/bar', [
             'before' => function ($command) use (&$c) {
                 $c[] = $command;
@@ -332,7 +332,7 @@ class TransferTest extends TestCase
     {
         $s3 = $this->getMockS3Client();
         $filesInDirectory = array_filter(
-            iterator_to_array(\Aws\recursive_dir_iterator(__DIR__)),
+            iterator_to_array(\CloudBeds\Aws\MskFork\recursive_dir_iterator(__DIR__)),
             function ($path) { return !is_dir($path); }
         );
 
@@ -356,7 +356,7 @@ class TransferTest extends TestCase
     {
         $s3 = $this->getMockS3Client();
         $justThisFile = array_filter(
-            iterator_to_array(\Aws\recursive_dir_iterator(__DIR__)),
+            iterator_to_array(\CloudBeds\Aws\MskFork\recursive_dir_iterator(__DIR__)),
             function ($path) { return $path === __FILE__; }
         );
 

@@ -7,7 +7,7 @@ use CloudBeds\Aws\MskFork\Api\ListShape;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
- * @covers \Aws\Api\ListShape
+ * @covers \CloudBeds\Aws\MskFork\Api\ListShape
  */
 class ListShapeTest extends TestCase
 {

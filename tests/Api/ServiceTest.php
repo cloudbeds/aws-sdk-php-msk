@@ -14,7 +14,7 @@ use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
- * @covers \Aws\Api\Service
+ * @covers \CloudBeds\Aws\MskFork\Api\Service
  */
 class ServiceTest extends TestCase
 {

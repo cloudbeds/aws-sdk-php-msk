@@ -24,7 +24,7 @@ use CloudBeds\Aws\MskFork\Token\BearerTokenAuthorization;
  *     $signer = SignatureProvider::resolve($provider, 'no', 's3', 'foo');
  *
  * You can compose multiple providers into a single provider using
- * {@see Aws\or_chain}. This function accepts providers as arguments and
+ * {@see \CloudBeds\Aws\MskFork\or_chain}. This function accepts providers as arguments and
  * returns a new function that will invoke each provider until a non-null value
  * is returned.
  *
@@ -34,7 +34,7 @@ use CloudBeds\Aws\MskFork\Token\BearerTokenAuthorization;
  *             return new MyFooSignature();
  *         }
  *     };
- *     $c = \Aws\or_chain($a, $b);
+ *     $c = \CloudBeds\Aws\MskFork\or_chain($a, $b);
  *     $signer = $c('v4', 'abc', '123');     // $a handles this.
  *     $signer = $c('foo', 'abc', '123');    // $b handles this.
  *     $nullValue = $c('???', 'abc', '123'); // Neither can handle this.

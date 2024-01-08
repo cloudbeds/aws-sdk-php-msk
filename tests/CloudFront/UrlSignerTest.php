@@ -24,7 +24,7 @@ class UrlSignerTest extends TestCase
 
     public function testCreatesUrlSignersForHttp()
     {
-        /** @var $client \Aws\CloudFront\CloudFrontClient */
+        /** @var $client \CloudBeds\Aws\MskFork\CloudFront\CloudFrontClient */
         $client = CloudFrontClient::factory([
             'region'  => 'us-west-2',
             'version' => 'latest'
@@ -55,7 +55,7 @@ class UrlSignerTest extends TestCase
 
     public function testCreatesUrlSignersWithSpecialCharacters()
     {
-        /** @var $client \Aws\CloudFront\CloudFrontClient */
+        /** @var $client \CloudBeds\Aws\MskFork\CloudFront\CloudFrontClient */
         $client = CloudFrontClient::factory([
             'region'  => 'us-west-2',
             'version' => 'latest'
@@ -83,7 +83,7 @@ class UrlSignerTest extends TestCase
 
     public function testCreatesUrlSignersWithCustomPolicy()
     {
-        /** @var $client \Aws\CloudFront\CloudFrontClient */
+        /** @var $client \CloudBeds\Aws\MskFork\CloudFront\CloudFrontClient */
         $client = CloudFrontClient::factory([
             'region'  => 'us-west-2',
             'version' => 'latest'
@@ -100,7 +100,7 @@ class UrlSignerTest extends TestCase
 
     public function testCreatesUrlSignersForRtmp()
     {
-        /** @var $client \Aws\CloudFront\CloudFrontClient */
+        /** @var $client \CloudBeds\Aws\MskFork\CloudFront\CloudFrontClient */
         $client = CloudFrontClient::factory([
             'region'  => 'us-west-2',
             'version' => 'latest'

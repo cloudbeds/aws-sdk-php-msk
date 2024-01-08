@@ -9,8 +9,8 @@ use CloudBeds\Aws\MskFork\Sts\StsClient;
 use GuzzleHttp\Promise;
 /**
  * Credential providers are functions that accept no arguments and return a
- * promise that is fulfilled with an {@see \Aws\Credentials\CredentialsInterface}
- * or rejected with an {@see \Aws\Exception\CredentialsException}.
+ * promise that is fulfilled with an {@see \CloudBeds\Aws\MskFork\Credentials\CredentialsInterface}
+ * or rejected with an {@see \CloudBeds\Aws\MskFork\Exception\CredentialsException}.
  *
  * <code>
  * use CloudBeds\Aws\MskFork\Credentials\CredentialProvider;
@@ -567,7 +567,7 @@ class CredentialProvider
             if (!@is_readable($filename)) {
                 return self::reject("Cannot read process credentials from $filename");
             }
-            $data = \Aws\parse_ini_file($filename, true, INI_SCANNER_RAW);
+            $data = \CloudBeds\Aws\MskFork\parse_ini_file($filename, true, INI_SCANNER_RAW);
             if ($data === false) {
                 return self::reject("Invalid credentials file: $filename");
             }
@@ -733,14 +733,14 @@ class CredentialProvider
      */
     private static function loadProfiles($filename)
     {
-        $profileData = \Aws\parse_ini_file($filename, true, INI_SCANNER_RAW);
+        $profileData = \CloudBeds\Aws\MskFork\parse_ini_file($filename, true, INI_SCANNER_RAW);
 
         // If loading .aws/credentials, also load .aws/config when AWS_SDK_LOAD_NONDEFAULT_CONFIG is set
         if ($filename === self::getHomeDir() . '/.aws/credentials'
             && getenv('AWS_SDK_LOAD_NONDEFAULT_CONFIG')
         ) {
             $configFilename = self::getHomeDir() . '/.aws/config';
-            $configProfileData = \Aws\parse_ini_file($configFilename, true, INI_SCANNER_RAW);
+            $configProfileData = \CloudBeds\Aws\MskFork\parse_ini_file($configFilename, true, INI_SCANNER_RAW);
             foreach ($configProfileData as $name => $profile) {
                 // standardize config profile names
                 $name = str_replace('profile ', '', $name);
@@ -761,11 +761,11 @@ class CredentialProvider
         $credFile = self::getHomeDir() . '/.aws/credentials';
         $configFile = self::getHomeDir() . '/.aws/config';
         if (file_exists($credFile)) {
-            $profiles = \Aws\parse_ini_file($credFile, true, INI_SCANNER_RAW);
+            $profiles = \CloudBeds\Aws\MskFork\parse_ini_file($credFile, true, INI_SCANNER_RAW);
         }
 
         if (file_exists($configFile)) {
-            $configProfileData = \Aws\parse_ini_file($configFile, true, INI_SCANNER_RAW);
+            $configProfileData = \CloudBeds\Aws\MskFork\parse_ini_file($configFile, true, INI_SCANNER_RAW);
             foreach ($configProfileData as $name => $profile) {
                 // standardize config profile names
                 $name = str_replace('profile ', '', $name);

@@ -117,7 +117,7 @@ class ApiCallAttemptMonitoringMiddlewareTest extends TestCase
             'Service' => 'ec2',
             'SessionToken' => 'testtoken',
             'Type' => 'ApiCallAttempt',
-            'UserAgent' => 'foo-agent ' . \Aws\default_user_agent(),
+            'UserAgent' => 'foo-agent ' . \CloudBeds\Aws\MskFork\default_user_agent(),
             'Version' => 1,
         ];
         $eventStatsPartial = [

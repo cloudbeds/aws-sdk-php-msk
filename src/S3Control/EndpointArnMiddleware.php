@@ -308,7 +308,7 @@ class EndpointArnMiddleware
      * if successful
      *
      * @param $arn
-     * @return \Aws\Endpoint\Partition
+     * @return \CloudBeds\Aws\MskFork\Endpoint\Partition
      */
     private function validateArn(ArnInterface $arn)
     {
@@ -333,7 +333,7 @@ class EndpointArnMiddleware
         // If client partition not found, try removing pseudo-region qualifiers
         if (!($clientPart->isRegionMatch($this->region, 's3'))) {
             $clientPart = $this->partitionProvider->getPartition(
-                \Aws\strip_fips_pseudo_regions($this->region),
+                \CloudBeds\Aws\MskFork\strip_fips_pseudo_regions($this->region),
                 's3'
             );
         }

@@ -5,23 +5,23 @@ use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS Account** service.
- * @method \Aws\Result deleteAlternateContact(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result deleteAlternateContact(array $args = [])
  * @method \GuzzleHttp\Promise\Promise deleteAlternateContactAsync(array $args = [])
- * @method \Aws\Result disableRegion(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result disableRegion(array $args = [])
  * @method \GuzzleHttp\Promise\Promise disableRegionAsync(array $args = [])
- * @method \Aws\Result enableRegion(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result enableRegion(array $args = [])
  * @method \GuzzleHttp\Promise\Promise enableRegionAsync(array $args = [])
- * @method \Aws\Result getAlternateContact(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result getAlternateContact(array $args = [])
  * @method \GuzzleHttp\Promise\Promise getAlternateContactAsync(array $args = [])
- * @method \Aws\Result getContactInformation(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result getContactInformation(array $args = [])
  * @method \GuzzleHttp\Promise\Promise getContactInformationAsync(array $args = [])
- * @method \Aws\Result getRegionOptStatus(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result getRegionOptStatus(array $args = [])
  * @method \GuzzleHttp\Promise\Promise getRegionOptStatusAsync(array $args = [])
- * @method \Aws\Result listRegions(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result listRegions(array $args = [])
  * @method \GuzzleHttp\Promise\Promise listRegionsAsync(array $args = [])
- * @method \Aws\Result putAlternateContact(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result putAlternateContact(array $args = [])
  * @method \GuzzleHttp\Promise\Promise putAlternateContactAsync(array $args = [])
- * @method \Aws\Result putContactInformation(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result putContactInformation(array $args = [])
  * @method \GuzzleHttp\Promise\Promise putContactInformationAsync(array $args = [])
  */
 class AccountClient extends AwsClient {}

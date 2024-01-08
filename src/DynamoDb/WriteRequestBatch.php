@@ -46,10 +46,10 @@ class WriteRequestBatch
      *       in the queue. This defaults to true, so you must set this to false
      *       to stop autoflush.
      *     - before: (callable) Executed before every BatchWriteItem operation.
-     *       It should accept an \Aws\CommandInterface object as its argument.
+     *       It should accept an \CloudBeds\Aws\MskFork\CommandInterface object as its argument.
      *     - error: Executed if an error was encountered executing a,
      *       BatchWriteItem operation, otherwise errors are ignored. It should
-     *       accept an \Aws\Exception\AwsException as its argument.
+     *       accept an \CloudBeds\Aws\MskFork\Exception\AwsException as its argument.
      *
      * @throws \InvalidArgumentException if the batch size is not between 2 and 25.
      */

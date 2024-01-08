@@ -260,7 +260,7 @@ class S3EncryptionClientV2 extends AbstractCryptoClientV2
      *   instruction file if an using an InstructionFileMetadataHandler was
      *   determined.
      *
-     * @return \Aws\Result PutObject call result with the details of uploading
+     * @return \CloudBeds\Aws\MskFork\Result PutObject call result with the details of uploading
      *                     the encrypted file.
      *
      * @throws \InvalidArgumentException Thrown when arguments above are not
@@ -432,7 +432,7 @@ class S3EncryptionClientV2 extends AbstractCryptoClientV2
      *   be specified and provided to the decrypt operation. Ignored for non-KMS
      *   materials providers. Defaults to false.
      *
-     * @return \Aws\Result GetObject call result with the 'Body' field
+     * @return \CloudBeds\Aws\MskFork\Result GetObject call result with the 'Body' field
      *                     wrapped in a decryption stream with its metadata
      *                     information.
      *

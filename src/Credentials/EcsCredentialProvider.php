@@ -44,7 +44,7 @@ class EcsCredentialProvider
         }
 
         $this->timeout = (float) $timeout;
-        $this->client = $config['client'] ?? \Aws\default_http_handler();
+        $this->client = $config['client'] ?? \CloudBeds\Aws\MskFork\default_http_handler();
     }
 
     /**

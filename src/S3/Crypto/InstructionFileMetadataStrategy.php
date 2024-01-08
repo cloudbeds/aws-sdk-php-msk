@@ -1,9 +1,9 @@
 <?php
 namespace CloudBeds\Aws\MskFork\S3\Crypto;
 
-use \Aws\Crypto\MetadataStrategyInterface;
-use \Aws\Crypto\MetadataEnvelope;
-use \Aws\S3\S3Client;
+use \CloudBeds\Aws\MskFork\Crypto\MetadataStrategyInterface;
+use \CloudBeds\Aws\MskFork\Crypto\MetadataEnvelope;
+use \CloudBeds\Aws\MskFork\S3\S3Client;
 
 /**
  * Stores and reads encryption MetadataEnvelope information in a file on Amazon

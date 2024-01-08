@@ -10,21 +10,21 @@ use CloudBeds\Aws\MskFork\Sts\RegionalEndpoints\ConfigurationProvider;
 /**
  * This client is used to interact with the **AWS Security Token Service (AWS STS)**.
  *
- * @method \Aws\Result assumeRole(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result assumeRole(array $args = [])
  * @method \GuzzleHttp\Promise\Promise assumeRoleAsync(array $args = [])
- * @method \Aws\Result assumeRoleWithSAML(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result assumeRoleWithSAML(array $args = [])
  * @method \GuzzleHttp\Promise\Promise assumeRoleWithSAMLAsync(array $args = [])
- * @method \Aws\Result assumeRoleWithWebIdentity(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result assumeRoleWithWebIdentity(array $args = [])
  * @method \GuzzleHttp\Promise\Promise assumeRoleWithWebIdentityAsync(array $args = [])
- * @method \Aws\Result decodeAuthorizationMessage(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result decodeAuthorizationMessage(array $args = [])
  * @method \GuzzleHttp\Promise\Promise decodeAuthorizationMessageAsync(array $args = [])
- * @method \Aws\Result getAccessKeyInfo(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result getAccessKeyInfo(array $args = [])
  * @method \GuzzleHttp\Promise\Promise getAccessKeyInfoAsync(array $args = [])
- * @method \Aws\Result getCallerIdentity(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result getCallerIdentity(array $args = [])
  * @method \GuzzleHttp\Promise\Promise getCallerIdentityAsync(array $args = [])
- * @method \Aws\Result getFederationToken(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result getFederationToken(array $args = [])
  * @method \GuzzleHttp\Promise\Promise getFederationTokenAsync(array $args = [])
- * @method \Aws\Result getSessionToken(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result getSessionToken(array $args = [])
  * @method \GuzzleHttp\Promise\Promise getSessionTokenAsync(array $args = [])
  */
 class StsClient extends AwsClient
@@ -34,7 +34,7 @@ class StsClient extends AwsClient
      * {@inheritdoc}
      *
      * In addition to the options available to
-     * {@see \Aws\AwsClient::__construct}, StsClient accepts the following
+     * {@see \CloudBeds\Aws\MskFork\AwsClient::__construct}, StsClient accepts the following
      * options:
      *
      * - sts_regional_endpoints:

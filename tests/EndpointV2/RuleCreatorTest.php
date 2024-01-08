@@ -6,7 +6,7 @@ use CloudBeds\Aws\MskFork\Exception\UnresolvedEndpointException;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
- * @covers \Aws\EndpointV2\Rule\RuleCreator
+ * @covers \CloudBeds\Aws\MskFork\EndpointV2\Rule\RuleCreator
  */
 class RuleCreatorTest extends TestCase
 {

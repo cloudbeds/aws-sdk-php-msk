@@ -65,7 +65,7 @@ class EndpointDefinitionProvider
 
     private static function getLatest($service)
     {
-        $manifest = \Aws\manifest();
+        $manifest = \CloudBeds\Aws\MskFork\manifest();
         return $manifest[$service]['versions']['latest'];
     }
 }

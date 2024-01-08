@@ -34,7 +34,7 @@ class Configuration implements ConfigurationInterface
             return;
         }
 
-        $data = \Aws\load_compiled_json(
+        $data = \CloudBeds\Aws\MskFork\load_compiled_json(
             __DIR__ . '/../data/sdk-default-configuration.json'
         );
 

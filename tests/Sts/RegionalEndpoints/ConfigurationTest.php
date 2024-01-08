@@ -6,7 +6,7 @@ use CloudBeds\Aws\MskFork\Sts\RegionalEndpoints\Configuration;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
- * @covers \Aws\Sts\RegionalEndpoints\Configuration
+ * @covers \CloudBeds\Aws\MskFork\Sts\RegionalEndpoints\Configuration
  */
 class ConfigurationTest extends TestCase
 {

@@ -110,7 +110,7 @@ class MultipartCopyTest extends TestCase
 
     public function testS3MultipartCopyParams()
     {
-        /** @var \Aws\S3\S3Client $client */
+        /** @var \CloudBeds\Aws\MskFork\S3\S3Client $client */
         $client = $this->getTestClient('s3');
         $copyOptions = [
             'bucket' => 'foo',

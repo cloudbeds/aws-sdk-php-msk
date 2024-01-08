@@ -13,7 +13,7 @@ use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 use Psr\Http\Message\RequestInterface;
 
 /**
- * @covers \Aws\S3Control\EndpointArnMiddleware
+ * @covers \CloudBeds\Aws\MskFork\S3Control\EndpointArnMiddleware
  */
 class EndpointArnMiddlewareTest extends TestCase
 {

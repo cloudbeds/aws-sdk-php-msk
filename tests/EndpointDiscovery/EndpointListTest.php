@@ -6,7 +6,7 @@ use CloudBeds\Aws\MskFork\EndpointDiscovery\EndpointList;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Aws\EndpointDiscovery\EndpointList
+ * @covers \CloudBeds\Aws\MskFork\EndpointDiscovery\EndpointList
  */
 class EndpointListTest extends TestCase
 {

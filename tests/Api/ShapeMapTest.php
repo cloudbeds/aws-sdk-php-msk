@@ -6,7 +6,7 @@ use CloudBeds\Aws\MskFork\Api\ShapeMap;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
- * @covers \Aws\Api\ShapeMap
+ * @covers \CloudBeds\Aws\MskFork\Api\ShapeMap
  */
 class ShapeMapTest extends TestCase
 {

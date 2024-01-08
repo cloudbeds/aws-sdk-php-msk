@@ -11,11 +11,11 @@ use GuzzleHttp\Psr7;
 /**
  * This client is used to search and upload documents to an **Amazon CloudSearch** Domain.
  *
- * @method \Aws\Result search(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result search(array $args = [])
  * @method \GuzzleHttp\Promise\Promise searchAsync(array $args = [])
- * @method \Aws\Result suggest(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result suggest(array $args = [])
  * @method \GuzzleHttp\Promise\Promise suggestAsync(array $args = [])
- * @method \Aws\Result uploadDocuments(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result uploadDocuments(array $args = [])
  * @method \GuzzleHttp\Promise\Promise uploadDocumentsAsync(array $args = [])
  */
 class CloudSearchDomainClient extends AwsClient

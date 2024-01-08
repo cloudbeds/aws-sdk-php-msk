@@ -7,7 +7,7 @@ trait IntegUtils
 
     private static function getSdk(array $args = [])
     {
-        return new \Aws\Sdk($args + [
+        return new \CloudBeds\Aws\MskFork\Sdk($args + [
             'region'  => 'us-east-1',
             'version' => 'latest',
             'ua_append' => 'PHPUnit/Integration'
@@ -41,7 +41,7 @@ trait IntegUtils
     public static function disableCsm()
     {
         self::$originalCsmEnabled = getenv(
-            \Aws\ClientSideMonitoring\ConfigurationProvider::ENV_ENABLED
+            \CloudBeds\Aws\MskFork\ClientSideMonitoring\ConfigurationProvider::ENV_ENABLED
         );
         putenv(\Aws\ClientSideMonitoring\ConfigurationProvider::ENV_ENABLED
             . '=false'

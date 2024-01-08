@@ -6,7 +6,7 @@ use CloudBeds\Aws\MskFork\Api\ShapeMap;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
- * @covers \Aws\Api\TimestampShape
+ * @covers \CloudBeds\Aws\MskFork\Api\TimestampShape
  */
 class TimestampShapeTest extends TestCase
 {

@@ -16,7 +16,7 @@ use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 use Psr\Http\Message\RequestInterface;
 
 /**
- * @covers \Aws\StreamRequestPayloadMiddleware
+ * @covers \CloudBeds\Aws\MskFork\StreamRequestPayloadMiddleware
  */
 class StreamRequestPayloadMiddlewareTest extends TestCase
 {

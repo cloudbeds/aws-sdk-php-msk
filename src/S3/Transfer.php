@@ -294,7 +294,7 @@ class Transfer implements PromisorInterface
     private function createUploadPromise()
     {
         // Map each file into a promise that performs the actual transfer.
-        $files = \Aws\map($this->getUploadsIterator(), function ($file) {
+        $files = \CloudBeds\Aws\MskFork\map($this->getUploadsIterator(), function ($file) {
             return (filesize($file) >= $this->mupThreshold)
                 ? $this->uploadMultipart($file)
                 : $this->upload($file);
@@ -309,8 +309,8 @@ class Transfer implements PromisorInterface
     private function getUploadsIterator()
     {
         if (is_string($this->source)) {
-            return Aws\filter(
-                Aws\recursive_dir_iterator($this->sourceMetadata['path']),
+            return \CloudBeds\Aws\MskFork\filter(
+                \CloudBeds\Aws\MskFork\recursive_dir_iterator($this->sourceMetadata['path']),
                 function ($file) { return !is_dir($file); }
             );
         }
@@ -331,10 +331,10 @@ class Transfer implements PromisorInterface
             $files = $this->client
                 ->getPaginator('ListObjects', $listArgs)
                 ->search('Contents[].Key');
-            $files = Aws\map($files, function ($key) use ($listArgs) {
+            $files = \CloudBeds\Aws\MskFork\map($files, function ($key) use ($listArgs) {
                 return "s3://{$listArgs['Bucket']}/$key";
             });
-            return Aws\filter($files, function ($key) {
+            return \CloudBeds\Aws\MskFork\filter($files, function ($key) {
                 return substr($key, -1, 1) !== '/';
             });
         }

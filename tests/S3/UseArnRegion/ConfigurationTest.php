@@ -5,7 +5,7 @@ use CloudBeds\Aws\MskFork\S3\UseArnRegion\Configuration;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
- * @covers \Aws\S3\UseArnRegion\Configuration
+ * @covers \CloudBeds\Aws\MskFork\S3\UseArnRegion\Configuration
  */
 class ConfigurationTest extends TestCase
 {

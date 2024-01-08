@@ -10,8 +10,8 @@ use GuzzleHttp\Promise\PromiseInterface;
 
 /**
  * A configuration provider is a function that returns a promise that is
- * fulfilled with a {@see \Aws\EndpointDiscovery\ConfigurationInterface}
- * or rejected with an {@see \Aws\EndpointDiscovery\Exception\ConfigurationException}.
+ * fulfilled with a {@see \CloudBeds\Aws\MskFork\EndpointDiscovery\ConfigurationInterface}
+ * or rejected with an {@see \CloudBeds\Aws\MskFork\EndpointDiscovery\Exception\ConfigurationException}.
  *
  * <code>
  * use CloudBeds\Aws\MskFork\EndpointDiscovery\ConfigurationProvider;
@@ -182,7 +182,7 @@ class ConfigurationProvider extends AbstractConfigurationProvider
             if (!@is_readable($filename)) {
                 return self::reject("Cannot read configuration from $filename");
             }
-            $data = \Aws\parse_ini_file($filename, true);
+            $data = \CloudBeds\Aws\MskFork\parse_ini_file($filename, true);
             if ($data === false) {
                 return self::reject("Invalid config file: $filename");
             }

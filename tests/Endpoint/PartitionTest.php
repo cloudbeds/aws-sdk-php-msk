@@ -8,7 +8,7 @@ use CloudBeds\Aws\MskFork\Endpoint\UseFipsEndpoint;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
- * @covers \Aws\Endpoint\Partition
+ * @covers \CloudBeds\Aws\MskFork\Endpoint\Partition
  */
 class PartitionTest extends TestCase
 {

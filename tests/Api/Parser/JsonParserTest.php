@@ -7,8 +7,8 @@ use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 /**
  * This class tests the custom functionality of the JsonParser;
  * generic testing is done in ComplianceTest.php
- * @covers \Aws\Api\Parser\JsonRpcParser
- * @covers \Aws\Api\Parser\JsonParser
+ * @covers \CloudBeds\Aws\MskFork\Api\Parser\JsonRpcParser
+ * @covers \CloudBeds\Aws\MskFork\Api\Parser\JsonParser
  */
 class JsonParserTest extends TestCase
 {

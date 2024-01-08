@@ -10,7 +10,7 @@ use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
- * @covers \Aws\S3\BatchDelete
+ * @covers \CloudBeds\Aws\MskFork\S3\BatchDelete
  */
 class BatchDeleteTest extends TestCase
 {

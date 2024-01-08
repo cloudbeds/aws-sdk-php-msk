@@ -9,7 +9,7 @@ use CloudBeds\Aws\MskFork\Retry\QuotaManager;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Aws\Retry\QuotaManager
+ * @covers \CloudBeds\Aws\MskFork\Retry\QuotaManager
  */
 class QuotaManagerTest extends TestCase
 {

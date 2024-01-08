@@ -252,10 +252,10 @@ class EcsCredentialProviderTest extends TestCase
     {
         $t = (time() + 1000);
         $credentials = $this->getCredentialArray('foo', 'baz', null, "@{$t}");
-        $version = \Aws\guzzle_major_version();
+        $version = \CloudBeds\Aws\MskFork\guzzle_major_version();
 
         if ($version === 5) {
-            return new \Aws\Handler\GuzzleV5\GuzzleHandler(
+            return new \CloudBeds\Aws\MskFork\Handler\GuzzleV5\GuzzleHandler(
                 new Client([
                     'handler' => function (
                         array $request
@@ -274,7 +274,7 @@ class EcsCredentialProviderTest extends TestCase
         }
 
         if ($version === 6 || $version === 7) {
-            return new \Aws\Handler\GuzzleV6\GuzzleHandler(
+            return new \CloudBeds\Aws\MskFork\Handler\GuzzleV6\GuzzleHandler(
                 new Client([
                     'handler' => function (
                         Psr7\Request $request,

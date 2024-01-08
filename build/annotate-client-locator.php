@@ -7,7 +7,7 @@ require __DIR__ . '/../vendor/autoload.php';
 
 $namespaces = array_map(function (array $manifest) {
     return $manifest['namespace'];
-}, array_values(Aws\manifest()));
+}, array_values(\CloudBeds\Aws\MskFork\manifest()));
 
 sort($namespaces);
 $annotations = [];

@@ -76,7 +76,7 @@ class EndpointParameterMiddleware
 
             $uri = $request->getUri();
             $host = $prefix . $uri->getHost();
-            if (!\Aws\is_valid_hostname($host)) {
+            if (!\CloudBeds\Aws\MskFork\is_valid_hostname($host)) {
                 throw new \InvalidArgumentException(
                     "The supplied parameters result in an invalid hostname: '{$host}'."
                 );

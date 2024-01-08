@@ -7,7 +7,7 @@ use CloudBeds\Aws\MskFork\Api\StructureShape;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
- * @covers \Aws\Api\StructureShape
+ * @covers \CloudBeds\Aws\MskFork\Api\StructureShape
  */
 class StructureShapeTest extends TestCase
 {

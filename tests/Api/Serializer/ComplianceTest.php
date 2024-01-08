@@ -8,15 +8,15 @@ use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Aws\Api\Serializer\QuerySerializer
- * @covers \Aws\Api\Serializer\JsonRpcSerializer
- * @covers \Aws\Api\Serializer\RestSerializer
- * @covers \Aws\Api\Serializer\RestJsonSerializer
- * @covers \Aws\Api\Serializer\RestXmlSerializer
- * @covers \Aws\Api\Serializer\JsonBody
- * @covers \Aws\Api\Serializer\XmlBody
- * @covers \Aws\Api\Serializer\Ec2ParamBuilder
- * @covers \Aws\Api\Serializer\QueryParamBuilder
+ * @covers \CloudBeds\Aws\MskFork\Api\Serializer\QuerySerializer
+ * @covers \CloudBeds\Aws\MskFork\Api\Serializer\JsonRpcSerializer
+ * @covers \CloudBeds\Aws\MskFork\Api\Serializer\RestSerializer
+ * @covers \CloudBeds\Aws\MskFork\Api\Serializer\RestJsonSerializer
+ * @covers \CloudBeds\Aws\MskFork\Api\Serializer\RestXmlSerializer
+ * @covers \CloudBeds\Aws\MskFork\Api\Serializer\JsonBody
+ * @covers \CloudBeds\Aws\MskFork\Api\Serializer\XmlBody
+ * @covers \CloudBeds\Aws\MskFork\Api\Serializer\Ec2ParamBuilder
+ * @covers \CloudBeds\Aws\MskFork\Api\Serializer\QueryParamBuilder
  */
 class ComplianceTest extends TestCase
 {
@@ -94,7 +94,7 @@ class ComplianceTest extends TestCase
         ]);
 
         $command = $client->getCommand($name, $args);
-        $request = \Aws\serialize($command);
+        $request = \CloudBeds\Aws\MskFork\serialize($command);
         $this->assertEquals($serialized['uri'], $request->getRequestTarget());
 
         $body = (string) $request->getBody();

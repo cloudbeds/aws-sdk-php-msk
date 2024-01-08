@@ -9,8 +9,8 @@ use GuzzleHttp\Promise;
 
 /**
  * A configuration provider is a function that returns a promise that is
- * fulfilled with a {@see \Aws\Endpoint\UseDualstackEndpoint\onfigurationInterface}
- * or rejected with an {@see \Aws\Endpoint\UseDualstackEndpoint\ConfigurationException}.
+ * fulfilled with a {@see \CloudBeds\Aws\MskFork\Endpoint\UseDualstackEndpoint\onfigurationInterface}
+ * or rejected with an {@see \CloudBeds\Aws\MskFork\Endpoint\UseDualstackEndpoint\ConfigurationException}.
  *
  * <code>
  * use CloudBeds\Aws\MskFork\Endpoint\UseDualstackEndpoint\ConfigurationProvider;
@@ -136,7 +136,7 @@ class ConfigurationProvider extends AbstractConfigurationProvider
             }
 
             // Use INI_SCANNER_NORMAL instead of INI_SCANNER_TYPED for PHP 5.5 compatibility
-            $data = \Aws\parse_ini_file($filename, true, INI_SCANNER_NORMAL);
+            $data = \CloudBeds\Aws\MskFork\parse_ini_file($filename, true, INI_SCANNER_NORMAL);
             if ($data === false) {
                 return self::reject("Invalid config file: $filename");
             }

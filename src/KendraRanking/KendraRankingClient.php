@@ -5,23 +5,23 @@ use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Kendra Intelligent Ranking** service.
- * @method \Aws\Result createRescoreExecutionPlan(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result createRescoreExecutionPlan(array $args = [])
  * @method \GuzzleHttp\Promise\Promise createRescoreExecutionPlanAsync(array $args = [])
- * @method \Aws\Result deleteRescoreExecutionPlan(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result deleteRescoreExecutionPlan(array $args = [])
  * @method \GuzzleHttp\Promise\Promise deleteRescoreExecutionPlanAsync(array $args = [])
- * @method \Aws\Result describeRescoreExecutionPlan(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result describeRescoreExecutionPlan(array $args = [])
  * @method \GuzzleHttp\Promise\Promise describeRescoreExecutionPlanAsync(array $args = [])
- * @method \Aws\Result listRescoreExecutionPlans(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result listRescoreExecutionPlans(array $args = [])
  * @method \GuzzleHttp\Promise\Promise listRescoreExecutionPlansAsync(array $args = [])
- * @method \Aws\Result listTagsForResource(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result listTagsForResource(array $args = [])
  * @method \GuzzleHttp\Promise\Promise listTagsForResourceAsync(array $args = [])
- * @method \Aws\Result rescore(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result rescore(array $args = [])
  * @method \GuzzleHttp\Promise\Promise rescoreAsync(array $args = [])
- * @method \Aws\Result tagResource(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result tagResource(array $args = [])
  * @method \GuzzleHttp\Promise\Promise tagResourceAsync(array $args = [])
- * @method \Aws\Result untagResource(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result untagResource(array $args = [])
  * @method \GuzzleHttp\Promise\Promise untagResourceAsync(array $args = [])
- * @method \Aws\Result updateRescoreExecutionPlan(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result updateRescoreExecutionPlan(array $args = [])
  * @method \GuzzleHttp\Promise\Promise updateRescoreExecutionPlanAsync(array $args = [])
  */
 class KendraRankingClient extends AwsClient {}

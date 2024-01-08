@@ -9,7 +9,7 @@ use GuzzleHttp\Promise;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
- * @covers \Aws\AbstractConfigurationProvider
+ * @covers \CloudBeds\Aws\MskFork\AbstractConfigurationProvider
  */
 class AbstractConfigurationProviderTest extends TestCase
 {

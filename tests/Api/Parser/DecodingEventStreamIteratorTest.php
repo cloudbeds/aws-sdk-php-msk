@@ -17,7 +17,7 @@ class DecodingEventStreamIteratorTest extends TestCase
     {
         $cases = [];
 
-        $dataFilesIterator = \Aws\recursive_dir_iterator(
+        $dataFilesIterator = \CloudBeds\Aws\MskFork\recursive_dir_iterator(
             realpath(__DIR__ . '/../test_cases/eventstream/encoded/')
         );
         foreach ($dataFilesIterator as $file) {

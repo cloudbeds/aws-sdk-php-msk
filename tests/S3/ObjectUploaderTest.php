@@ -26,7 +26,7 @@ class ObjectUploaderTest extends TestCase
         array $mockedResults,
         array $options
     ) {
-        /** @var \Aws\S3\S3Client $client */
+        /** @var \CloudBeds\Aws\MskFork\S3\S3Client $client */
         $client = $this->getTestClient('S3');
         $this->addMockResults($client, $mockedResults);
         $result = (new ObjectUploader($client, 'bucket', 'key', $body, 'private', $options))
@@ -43,7 +43,7 @@ class ObjectUploaderTest extends TestCase
         array $mockedResults,
         array $options
     ) {
-        /** @var \Aws\S3\S3Client $client */
+        /** @var \CloudBeds\Aws\MskFork\S3\S3Client $client */
         $client = $this->getTestClient('S3', [
             'use_path_style_endpoint' => true
         ]);
@@ -62,7 +62,7 @@ class ObjectUploaderTest extends TestCase
         array $mockedResults,
         array $options
     ) {
-        /** @var \Aws\S3\S3Client $client */
+        /** @var \CloudBeds\Aws\MskFork\S3\S3Client $client */
         $client = $this->getTestClient('S3', [
             'region' => 'us-west-2'
         ]);
@@ -98,7 +98,7 @@ class ObjectUploaderTest extends TestCase
         array $mockedResults,
         array $options
     ) {
-        /** @var \Aws\S3\S3Client $client */
+        /** @var \CloudBeds\Aws\MskFork\S3\S3Client $client */
         $client = $this->getTestClient('S3');
         $this->addMockResults($client, $mockedResults);
         $promise = (new ObjectUploader($client, 'bucket', 'key', $body, 'private', $options))
@@ -116,7 +116,7 @@ class ObjectUploaderTest extends TestCase
         array $mockedResults,
         array $options
     ) {
-        /** @var \Aws\S3\S3Client $client */
+        /** @var \CloudBeds\Aws\MskFork\S3\S3Client $client */
         $client = $this->getTestClient('S3', [
             'use_path_style_endpoint' => true
         ]);
@@ -236,7 +236,7 @@ class ObjectUploaderTest extends TestCase
 
     public function testS3ObjectUploaderPutObjectParams()
     {
-        /** @var \Aws\S3\S3Client $client */
+        /** @var \CloudBeds\Aws\MskFork\S3\S3Client $client */
         $client = $this->getTestClient('s3');
         $client->getHandlerList()->appendSign(
             Middleware::tap(function ($cmd, $req) {
@@ -281,7 +281,7 @@ class ObjectUploaderTest extends TestCase
 
     public function testS3ObjectUploaderMultipartParams()
     {
-        /** @var \Aws\S3\S3Client $client */
+        /** @var \CloudBeds\Aws\MskFork\S3\S3Client $client */
         $client = $this->getTestClient('s3');
         $client->getHandlerList()->appendSign(
             Middleware::tap(function ($cmd, $req) {

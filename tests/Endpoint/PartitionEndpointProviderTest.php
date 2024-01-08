@@ -7,7 +7,7 @@ use CloudBeds\Aws\MskFork\Endpoint\PartitionEndpointProvider;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Aws\Endpoint\PartitionEndpointProvider
+ * @covers \CloudBeds\Aws\MskFork\Endpoint\PartitionEndpointProvider
  */
 class PartitionEndpointProviderTest extends TestCase
 {

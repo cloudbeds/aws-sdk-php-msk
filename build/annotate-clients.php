@@ -32,7 +32,7 @@ function get_client_classes($namespace) {
 
 if (isset($options['all'])) {
     // Get all client classes and mark them for update
-    $options['class'] = Aws\flatmap(Aws\manifest(), function (array $manifest) {
+    $options['class'] = \CloudBeds\Aws\MskFork\flatmap(\CloudBeds\Aws\MskFork\manifest(), function (array $manifest) {
         return get_client_classes($manifest['namespace']);
     });
 }
@@ -52,12 +52,12 @@ foreach ($options['tag'] as $tag) {
 
     // Find the client classes for each changed API service definition and mark
     // them for update.
-    $clientsWithChangedApis = Aws\flatmap($alteredApiFiles, function ($file) {
+    $clientsWithChangedApis = \CloudBeds\Aws\MskFork\flatmap($alteredApiFiles, function ($file) {
         $file = str_replace('src/data/', '', $file);
         $endpoint = substr($file, 0, strpos($file, '/'));
-        return get_client_classes(Aws\manifest($endpoint)['namespace']);
+        return get_client_classes(\CloudBeds\Aws\MskFork\manifest($endpoint)['namespace']);
     });
-    $options['class'] = \Aws\flatmap(
+    $options['class'] = \CloudBeds\Aws\MskFork\flatmap(
         [$options['class'], $clientsWithChangedApis],
         function ($class) { return $class; }
     );

@@ -9,8 +9,8 @@ use GuzzleHttp\Promise;
 
 /**
  * Token providers are functions that accept no arguments and return a
- * promise that is fulfilled with an {@see \Aws\Token\TokenInterface}
- * or rejected with an {@see \Aws\Exception\TokenException}.
+ * promise that is fulfilled with an {@see \CloudBeds\Aws\MskFork\Token\TokenInterface}
+ * or rejected with an {@see \CloudBeds\Aws\MskFork\Exception\TokenException}.
  *
  * <code>
  * use CloudBeds\Aws\MskFork\Token\TokenProvider;
@@ -232,7 +232,7 @@ class TokenProvider
         $configFile = self::getHomeDir() . '/.aws/config';
 
         if (file_exists($configFile)) {
-            $configProfileData = \Aws\parse_ini_file($configFile, true, INI_SCANNER_RAW);
+            $configProfileData = \CloudBeds\Aws\MskFork\parse_ini_file($configFile, true, INI_SCANNER_RAW);
             foreach ($configProfileData as $name => $profile) {
                 // standardize config profile names
                 $name = str_replace('profile ', '', $name);

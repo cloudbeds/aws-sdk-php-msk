@@ -10,23 +10,23 @@ use GuzzleHttp\Psr7;
 
 /**
  * This client is used to interact with the **Amazon Polly** service.
- * @method \Aws\Result deleteLexicon(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result deleteLexicon(array $args = [])
  * @method \GuzzleHttp\Promise\Promise deleteLexiconAsync(array $args = [])
- * @method \Aws\Result describeVoices(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result describeVoices(array $args = [])
  * @method \GuzzleHttp\Promise\Promise describeVoicesAsync(array $args = [])
- * @method \Aws\Result getLexicon(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result getLexicon(array $args = [])
  * @method \GuzzleHttp\Promise\Promise getLexiconAsync(array $args = [])
- * @method \Aws\Result getSpeechSynthesisTask(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result getSpeechSynthesisTask(array $args = [])
  * @method \GuzzleHttp\Promise\Promise getSpeechSynthesisTaskAsync(array $args = [])
- * @method \Aws\Result listLexicons(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result listLexicons(array $args = [])
  * @method \GuzzleHttp\Promise\Promise listLexiconsAsync(array $args = [])
- * @method \Aws\Result listSpeechSynthesisTasks(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result listSpeechSynthesisTasks(array $args = [])
  * @method \GuzzleHttp\Promise\Promise listSpeechSynthesisTasksAsync(array $args = [])
- * @method \Aws\Result putLexicon(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result putLexicon(array $args = [])
  * @method \GuzzleHttp\Promise\Promise putLexiconAsync(array $args = [])
- * @method \Aws\Result startSpeechSynthesisTask(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result startSpeechSynthesisTask(array $args = [])
  * @method \GuzzleHttp\Promise\Promise startSpeechSynthesisTaskAsync(array $args = [])
- * @method \Aws\Result synthesizeSpeech(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result synthesizeSpeech(array $args = [])
  * @method \GuzzleHttp\Promise\Promise synthesizeSpeechAsync(array $args = [])
  */
 class PollyClient extends AwsClient

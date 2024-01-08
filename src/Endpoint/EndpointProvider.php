@@ -28,7 +28,7 @@ use CloudBeds\Aws\MskFork\Exception\UnresolvedEndpointException;
  *     ]);
  *
  * You can compose multiple providers into a single provider using
- * {@see Aws\or_chain}. This function accepts providers as arguments and
+ * {@see \CloudBeds\Aws\MskFork\or_chain}. This function accepts providers as arguments and
  * returns a new function that will invoke each provider until a non-null value
  * is returned.
  *
@@ -38,7 +38,7 @@ use CloudBeds\Aws\MskFork\Exception\UnresolvedEndpointException;
  *         }
  *     };
  *     $b = EndpointProvider::defaultProvider();
- *     $c = \Aws\or_chain($a, $b);
+ *     $c = \CloudBeds\Aws\MskFork\or_chain($a, $b);
  *     $config = ['service' => 'ec2', 'region' => 'my-test-region'];
  *     $res = $c($config);  // $a handles this.
  *     $config['region'] = 'us-west-2';
@@ -72,7 +72,7 @@ class EndpointProvider
     /**
      * Creates and returns the default SDK endpoint provider.
      *
-     * @deprecated Use an instance of \Aws\Endpoint\Partition instead.
+     * @deprecated Use an instance of \CloudBeds\Aws\MskFork\Endpoint\Partition instead.
      *
      * @return callable
      */

@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 
 
 /**
- * @covers \Aws\HasMonitoringEventsTrait
+ * @covers \CloudBeds\Aws\MskFork\HasMonitoringEventsTrait
  */
 class HasMonitoringEventsTraitTest extends TestCase
 {

@@ -15,7 +15,7 @@ use GuzzleHttp\Psr7\Uri;
  */
 class AwsClient implements AwsClientInterface
 {
-    use CloudBeds\Aws\MskForkClientTrait;
+    use AwsClientTrait;
 
     /** @var array */
     private $aliases;
@@ -486,7 +486,7 @@ class AwsClient implements AwsClientInterface
             if (is_null($file)) {
                 $file = __DIR__ . '/data/aliases.json';
             }
-            $aliases = \Aws\load_compiled_json($file);
+            $aliases = \CloudBeds\Aws\MskFork\load_compiled_json($file);
             $serviceId = $this->api->getServiceId();
             $version = $this->getApi()->getApiVersion();
             if (!empty($aliases['operations'][$serviceId][$version])) {
@@ -651,7 +651,7 @@ class AwsClient implements AwsClientInterface
      */
     public static function applyDocFilters(array $api, array $docs)
     {
-        $aliases = \Aws\load_compiled_json(__DIR__ . '/data/aliases.json');
+        $aliases = \CloudBeds\Aws\MskFork\load_compiled_json(__DIR__ . '/data/aliases.json');
         $serviceId = $api['metadata']['serviceId'];
         $version = $api['metadata']['apiVersion'];
 

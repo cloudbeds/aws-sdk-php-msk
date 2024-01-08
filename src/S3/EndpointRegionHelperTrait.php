@@ -54,7 +54,7 @@ trait EndpointRegionHelperTrait
         $service,
         PartitionEndpointProvider $provider
     ) {
-        $arnRegion = \Aws\strip_fips_pseudo_regions(strtolower($arnRegion));
+        $arnRegion = \CloudBeds\Aws\MskFork\strip_fips_pseudo_regions(strtolower($arnRegion));
         $clientRegion = strtolower($clientRegion);
         if ($arnRegion === $clientRegion) {
             return true;
@@ -76,7 +76,7 @@ trait EndpointRegionHelperTrait
             } else {
                 $region = $arn->getRegion();
             }
-            if (\Aws\is_fips_pseudo_region($region)) {
+            if (\CloudBeds\Aws\MskFork\is_fips_pseudo_region($region)) {
                 throw new InvalidRegionException(
                     'Fips is currently not supported with S3 Outposts access'
                     . ' points. Please provide a non-fips region or do not supply an'

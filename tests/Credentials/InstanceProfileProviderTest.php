@@ -19,7 +19,7 @@ use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 use Psr\Http\Message\RequestInterface;
 
 /**
- * @covers \Aws\Credentials\InstanceProfileProvider
+ * @covers \CloudBeds\Aws\MskFork\Credentials\InstanceProfileProvider
  */
 class InstanceProfileProviderTest extends TestCase
 {
@@ -55,7 +55,7 @@ class InstanceProfileProviderTest extends TestCase
     private function getRequestClass()
     {
         // Guzzle 5 vs 6 namespace differences
-        $version = \Aws\guzzle_major_version();
+        $version = \CloudBeds\Aws\MskFork\guzzle_major_version();
         if ($version === 5) {
             return "\GuzzleHttp\Message\Request";
         }
@@ -65,7 +65,7 @@ class InstanceProfileProviderTest extends TestCase
     private function getResponseClass()
     {
         // Guzzle 5 vs 6 namespace differences
-        $version = \Aws\guzzle_major_version();
+        $version = \CloudBeds\Aws\MskFork\guzzle_major_version();
         if ($version === 5) {
             return "\GuzzleHttp\Message\Response";
         }
@@ -74,7 +74,7 @@ class InstanceProfileProviderTest extends TestCase
 
     private function getRequestException()
     {
-        $version = \Aws\guzzle_major_version();
+        $version = \CloudBeds\Aws\MskFork\guzzle_major_version();
         if ($version === 6 || $version === 7) {
             return new RequestException(
                 'test',
@@ -885,7 +885,7 @@ class InstanceProfileProviderTest extends TestCase
         $response = new Response(200, [], Psr7\Utils::streamFor('test'));
         $client = function (RequestInterface $request) use ($response) {
             $this->assertSame(
-                'aws-sdk-php/' . Sdk::VERSION . ' ' . \Aws\default_user_agent(),
+                'aws-sdk-php/' . Sdk::VERSION . ' ' . \CloudBeds\Aws\MskFork\default_user_agent(),
                 $request->getHeader('User-Agent')[0]
             );
 

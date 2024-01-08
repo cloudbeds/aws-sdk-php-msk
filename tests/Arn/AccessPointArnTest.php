@@ -6,7 +6,7 @@ use CloudBeds\Aws\MskFork\Arn\Exception\InvalidArnException;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Aws\Arn\AccessPointArn
+ * @covers \CloudBeds\Aws\MskFork\Arn\AccessPointArn
  */
 class AccessPointArnTest extends TestCase
 {

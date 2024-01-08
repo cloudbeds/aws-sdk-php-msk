@@ -5,17 +5,17 @@ use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **Amazon Kinesis Video Streams Archived Media** service.
- * @method \Aws\Result getClip(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result getClip(array $args = [])
  * @method \GuzzleHttp\Promise\Promise getClipAsync(array $args = [])
- * @method \Aws\Result getDASHStreamingSessionURL(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result getDASHStreamingSessionURL(array $args = [])
  * @method \GuzzleHttp\Promise\Promise getDASHStreamingSessionURLAsync(array $args = [])
- * @method \Aws\Result getHLSStreamingSessionURL(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result getHLSStreamingSessionURL(array $args = [])
  * @method \GuzzleHttp\Promise\Promise getHLSStreamingSessionURLAsync(array $args = [])
- * @method \Aws\Result getImages(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result getImages(array $args = [])
  * @method \GuzzleHttp\Promise\Promise getImagesAsync(array $args = [])
- * @method \Aws\Result getMediaForFragmentList(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result getMediaForFragmentList(array $args = [])
  * @method \GuzzleHttp\Promise\Promise getMediaForFragmentListAsync(array $args = [])
- * @method \Aws\Result listFragments(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result listFragments(array $args = [])
  * @method \GuzzleHttp\Promise\Promise listFragmentsAsync(array $args = [])
  */
 class KinesisVideoArchivedMediaClient extends AwsClient {}

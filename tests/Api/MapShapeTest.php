@@ -7,7 +7,7 @@ use CloudBeds\Aws\MskFork\Api\MapShape;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
- * @covers \Aws\Api\MapShape
+ * @covers \CloudBeds\Aws\MskFork\Api\MapShape
  */
 class MapShapeTest extends TestCase
 {

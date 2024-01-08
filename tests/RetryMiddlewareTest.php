@@ -92,7 +92,7 @@ class RetryMiddlewareTest extends TestCase
         $decider = RetryMiddleware::createDefaultDecider();
         $command = new Command('foo');
         $request = new Request('GET', 'http://www.example.com');
-        $version = \Aws\guzzle_major_version();
+        $version = \CloudBeds\Aws\MskFork\guzzle_major_version();
         if ($version === 6 || $version === 7) {
             $previous = new RequestException(
                 'test',
@@ -127,7 +127,7 @@ class RetryMiddlewareTest extends TestCase
         );
         $command = new Command('foo');
         $request = new Request('GET', 'http://www.example.com');
-        $version = \Aws\guzzle_major_version();
+        $version = \CloudBeds\Aws\MskFork\guzzle_major_version();
 
         // Custom error passed in to decider config should result in a retry
         if ($version === 6 || $version === 7) {

@@ -5,7 +5,7 @@ use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
- * @covers \Aws\S3\PermanentRedirectMiddleware
+ * @covers \CloudBeds\Aws\MskFork\S3\PermanentRedirectMiddleware
  */
 class PermanentRedirectMiddlewareTest extends TestCase
 {

@@ -5,7 +5,7 @@ use CloudBeds\Aws\MskFork\Api\Parser\Exception\ParserException;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Aws\Api\Parser\Exception\ParserException
+ * @covers \CloudBeds\Aws\MskFork\Api\Parser\Exception\ParserException
  */
 class ParserExceptionTest extends TestCase
 {

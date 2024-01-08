@@ -55,13 +55,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Aws\\": "src/"
+            "CloudBeds\\Aws\\MskFork\\": "src/"
         },
         "files": ["src/functions.php"]
     },
     "autoload-dev": {
         "psr-4": {
-            "Aws\\Test\\": "tests/"
+            "CloudBeds\\Aws\\MskFork\\Test\\": "tests/"
         },
         "classmap": ["build/"]
     },

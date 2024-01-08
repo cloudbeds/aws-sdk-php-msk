@@ -161,7 +161,7 @@ class MultipartUploaderTest extends TestCase
      */
     public function testS3MultipartUploadParams($stream, $size)
     {
-        /** @var \Aws\S3\S3Client $client */
+        /** @var \CloudBeds\Aws\MskFork\S3\S3Client $client */
         $client = $this->getTestClient('s3');
         $client->getHandlerList()->appendSign(
             Middleware::tap(function ($cmd, $req) {
@@ -248,7 +248,7 @@ class MultipartUploaderTest extends TestCase
         $params,
         $expectedContentType
     ) {
-        /** @var \Aws\S3\S3Client $client */
+        /** @var \CloudBeds\Aws\MskFork\S3\S3Client $client */
         $client = $this->getTestClient('s3');
         $uploadOptions = [
             'bucket'          => 'foo',
@@ -322,7 +322,7 @@ class MultipartUploaderTest extends TestCase
      */
     public function testUploaderAddsFlexibleChecksums($stream, $size)
     {
-        /** @var \Aws\S3\S3Client $client */
+        /** @var \CloudBeds\Aws\MskFork\S3\S3Client $client */
         $client = $this->getTestClient('s3');
         $uploadOptions = [
             'bucket'          => 'foo',

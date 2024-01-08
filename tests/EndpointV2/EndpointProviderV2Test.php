@@ -105,7 +105,7 @@ class EndpointProviderV2Test extends TestCase
     public function serviceTestCaseProvider()
     {
         $serviceTestCases = [];
-        $services = \Aws\Manifest();
+        $services = \CloudBeds\Aws\MskFork\Manifest();
 
         foreach($services as $service => $data) {
             $serviceTests = EndpointDefinitionProvider::getEndpointTests(
@@ -164,7 +164,7 @@ class EndpointProviderV2Test extends TestCase
     public function rulesetProtocolEndpointAndErrorCaseProvider()
     {
         $protocolTestCases = [];
-        $serviceList = \Aws\manifest();
+        $serviceList = \CloudBeds\Aws\MskFork\manifest();
 
         forEach($serviceList as $service => $serviceValue) {
             $testFile = EndpointDefinitionProvider::getEndpointTests($service, 'latest');

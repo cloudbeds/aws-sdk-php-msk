@@ -101,7 +101,7 @@ class MiddlewareTest extends TestCase
         $list->setHandler($mock);
         $creds = CredentialProvider::fromCredentials(new Credentials('foo', 'bar'));
         $signature = new SignatureV4('a', 'b');
-        $list->appendSign(Middleware::signer($creds, Aws\constantly($signature)));
+        $list->appendSign(Middleware::signer($creds, \CloudBeds\Aws\MskFork\constantly($signature)));
         $handler = $list->resolve();
         $handler(new Command('foo'), new Request('GET', 'http://exmaple.com'));
         Promise\Utils::queue()->run();

@@ -37,7 +37,7 @@ class BearerTokenAuthorizationTest extends TestCase {
      * @dataProvider bearerTestProvider
      */
     public function testBearerSuccessCases($headers, $tokenString, $expectedHeaders) {
-        $authorizer = new \Aws\Token\BearerTokenAuthorization();
+        $authorizer = new \CloudBeds\Aws\MskFork\Token\BearerTokenAuthorization();
         $request = new Request('GET', 'http://foo.com');
         foreach ($headers as $header => $value) {
             $request = $request->withHeader($header, $value);
@@ -50,7 +50,7 @@ class BearerTokenAuthorizationTest extends TestCase {
     }
 
     public function testBearerNullToken() {
-        $authorizer = new \Aws\Token\BearerTokenAuthorization();
+        $authorizer = new \CloudBeds\Aws\MskFork\Token\BearerTokenAuthorization();
         $request = new Request('GET', 'http://foo.com');
         $token = new Token(null);
         $this->expectException(\InvalidArgumentException::class);

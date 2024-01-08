@@ -215,8 +215,8 @@ class S3EndpointMiddleware
             $dnsSuffix = $this->endpointProvider
                 ->getPartition($this->region, 's3')
                 ->getDnsSuffix();
-            $fips = \Aws\is_fips_pseudo_region($this->region) ? "-fips" : "";
-            $region = \Aws\strip_fips_pseudo_regions($this->region);
+            $fips = \CloudBeds\Aws\MskFork\is_fips_pseudo_region($this->region) ? "-fips" : "";
+            $region = \CloudBeds\Aws\MskFork\strip_fips_pseudo_regions($this->region);
             $host =
                 "{$command['RequestRoute']}.s3-object-lambda{$fips}.{$region}.{$dnsSuffix}";
 

@@ -1,8 +1,8 @@
 <?php
 namespace CloudBeds\Aws\MskFork\S3\Crypto;
 
-use \Aws\Crypto\MetadataStrategyInterface;
-use \Aws\Crypto\MetadataEnvelope;
+use \CloudBeds\Aws\MskFork\Crypto\MetadataStrategyInterface;
+use \CloudBeds\Aws\MskFork\Crypto\MetadataEnvelope;
 
 class HeadersMetadataStrategy implements MetadataStrategyInterface
 {

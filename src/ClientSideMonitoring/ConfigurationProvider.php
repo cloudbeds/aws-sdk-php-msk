@@ -10,8 +10,8 @@ use GuzzleHttp\Promise\PromiseInterface;
 
 /**
  * A configuration provider is a function that accepts no arguments and returns
- * a promise that is fulfilled with a {@see \Aws\ClientSideMonitoring\ConfigurationInterface}
- * or rejected with an {@see \Aws\ClientSideMonitoring\Exception\ConfigurationException}.
+ * a promise that is fulfilled with a {@see \CloudBeds\Aws\MskFork\ClientSideMonitoring\ConfigurationInterface}
+ * or rejected with an {@see \CloudBeds\Aws\MskFork\ClientSideMonitoring\Exception\ConfigurationException}.
  *
  * <code>
  * use CloudBeds\Aws\MskFork\ClientSideMonitoring\ConfigurationProvider;
@@ -164,7 +164,7 @@ class ConfigurationProvider extends AbstractConfigurationProvider
             if (!@is_readable($filename)) {
                 return self::reject("Cannot read CSM config from $filename");
             }
-            $data = \Aws\parse_ini_file($filename, true);
+            $data = \CloudBeds\Aws\MskFork\parse_ini_file($filename, true);
             if ($data === false) {
                 return self::reject("Invalid config file: $filename");
             }

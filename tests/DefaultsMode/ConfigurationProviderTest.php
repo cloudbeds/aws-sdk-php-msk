@@ -11,7 +11,7 @@ use GuzzleHttp\Promise;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
- * @covers \Aws\DefaultsMode\ConfigurationProvider
+ * @covers \CloudBeds\Aws\MskFork\DefaultsMode\ConfigurationProvider
  */
 class ConfigurationProviderTest extends TestCase
 {

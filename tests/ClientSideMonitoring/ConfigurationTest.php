@@ -8,7 +8,7 @@ use Psr\Log\InvalidArgumentException;
 
 
 /**
- * @covers \Aws\ClientSideMonitoring\Configuration
+ * @covers \CloudBeds\Aws\MskFork\ClientSideMonitoring\Configuration
  */
 class ConfigurationTest extends TestCase
 {

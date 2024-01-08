@@ -10,7 +10,7 @@ class Configuration implements ConfigurationInterface
 
     public function __construct($useDualstackEndpoint, $region)
     {
-        $this->useDualstackEndpoint = Aws\boolean_value($useDualstackEndpoint);
+        $this->useDualstackEndpoint = MskFork\boolean_value($useDualstackEndpoint);
         if (is_null($this->useDualstackEndpoint)) {
             throw new ConfigurationException("'use_dual_stack_endpoint' config option"
                 . " must be a boolean value.");

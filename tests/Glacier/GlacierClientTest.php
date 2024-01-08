@@ -26,7 +26,7 @@ class GlacierClientTest extends TestCase
             'vaultName'  => 'foo',
             'sourceFile' => __DIR__ . '/test-content.txt',
         ]);
-        $request = \Aws\serialize($command);
+        $request = \CloudBeds\Aws\MskFork\serialize($command);
 
         // Added default accountId and the API version header.
         $this->assertSame('-', $command['accountId']);

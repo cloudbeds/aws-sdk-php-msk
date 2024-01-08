@@ -64,7 +64,7 @@ class GuzzleV6StreamHandlerTest extends TestCase
                     'Bucket' => $bucket,
                 ]);
             });
-        /** @var \Aws\Result $result */
+        /** @var \CloudBeds\Aws\MskFork\Result $result */
         $result = $promise->wait();
         $this->assertSame(204, $result['@metadata']['statusCode']);
     }

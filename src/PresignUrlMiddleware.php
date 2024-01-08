@@ -87,9 +87,9 @@ class PresignUrlMiddleware
         $newCmd->{'__skip' . $cmdName} = true;
 
         // Serialize a request for the operation.
-        $request = \Aws\serialize($newCmd);
+        $request = \CloudBeds\Aws\MskFork\serialize($newCmd);
         // Create the new endpoint for the target endpoint.
-        if ($this->endpointProvider instanceof \Aws\EndpointV2\EndpointProviderV2) {
+        if ($this->endpointProvider instanceof \CloudBeds\Aws\MskFork\EndpointV2\EndpointProviderV2) {
             $providerArgs = array_merge(
                 $this->client->getEndpointProviderArgs(),
                 ['Region' => $cmd['SourceRegion']]

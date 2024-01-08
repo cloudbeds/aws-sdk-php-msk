@@ -5,13 +5,13 @@ use CloudBeds\Aws\MskFork\AwsClient;
 
 /**
  * This client is used to interact with the **AWS License Manager Linux Subscriptions** service.
- * @method \Aws\Result getServiceSettings(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result getServiceSettings(array $args = [])
  * @method \GuzzleHttp\Promise\Promise getServiceSettingsAsync(array $args = [])
- * @method \Aws\Result listLinuxSubscriptionInstances(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result listLinuxSubscriptionInstances(array $args = [])
  * @method \GuzzleHttp\Promise\Promise listLinuxSubscriptionInstancesAsync(array $args = [])
- * @method \Aws\Result listLinuxSubscriptions(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result listLinuxSubscriptions(array $args = [])
  * @method \GuzzleHttp\Promise\Promise listLinuxSubscriptionsAsync(array $args = [])
- * @method \Aws\Result updateServiceSettings(array $args = [])
+ * @method \CloudBeds\Aws\MskFork\Result updateServiceSettings(array $args = [])
  * @method \GuzzleHttp\Promise\Promise updateServiceSettingsAsync(array $args = [])
  */
 class LicenseManagerLinuxSubscriptionsClient extends AwsClient {}

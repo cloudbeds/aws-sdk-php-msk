@@ -6,7 +6,7 @@ use CloudBeds\Aws\MskFork\Retry\RateLimiter;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Aws\Retry\RateLimiter
+ * @covers \CloudBeds\Aws\MskFork\Retry\RateLimiter
  */
 class RateLimiterTest extends TestCase
 {

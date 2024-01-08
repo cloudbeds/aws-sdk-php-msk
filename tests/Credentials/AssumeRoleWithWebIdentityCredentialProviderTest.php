@@ -15,7 +15,7 @@ use CloudBeds\Aws\MskFork\Test\UsesServiceTrait;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
- * @covers \Aws\Credentials\AssumeRoleWithWebIdentityCredentialProvider
+ * @covers \CloudBeds\Aws\MskFork\Credentials\AssumeRoleWithWebIdentityCredentialProvider
  */
 class AssumeRoleWithWebIdentityCredentialProviderTest extends TestCase
 {

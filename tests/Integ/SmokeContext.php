@@ -33,7 +33,7 @@ class SmokeContext extends Assert implements
     protected $serviceName;
 
     /**
-     * @var \Aws\AwsClientInterface
+     * @var \CloudBeds\Aws\MskFork\AwsClientInterface
      */
     protected $client;
 
@@ -82,7 +82,7 @@ class SmokeContext extends Assert implements
      */
     public static function setUpCloudFront(BeforeFeatureScope $scope)
     {
-        /** @var \Aws\Result $result */
+        /** @var \CloudBeds\Aws\MskFork\Result $result */
         $result = self::getSdk(self::$configOverrides)
             ->createCloudFront()
             ->createCloudFrontOriginAccessIdentity([
@@ -259,7 +259,7 @@ class SmokeContext extends Assert implements
     {
         foreach ($scope->getFeature()->getTags() as $tag) {
             try{
-                $this->serviceName = Aws\manifest($tag)['namespace'];
+                $this->serviceName = \CloudBeds\Aws\MskFork\manifest($tag)['namespace'];
                 break;
             } catch (\Exception $e) {
                 // just in case an additional tag managed to sneak into the smoke tests

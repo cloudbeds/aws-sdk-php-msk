@@ -89,7 +89,7 @@ class CommandPool implements PromisorInterface
      * @param array              $config   Configuration options.
      *
      * @return array
-     * @see \Aws\CommandPool::__construct for available configuration options.
+     * @see \CloudBeds\Aws\MskFork\CommandPool::__construct for available configuration options.
      */
     public static function batch(
         AwsClientInterface $client,

@@ -32,7 +32,7 @@ class RouteClient53Test extends TestCase
             ]
         ]);
 
-        $request = \Aws\serialize($command);
+        $request = \CloudBeds\Aws\MskFork\serialize($command);
         $requestUri = (string) $request->getUri();
         $this->assertStringContainsString('/hostedzone/foo/rrset/', $requestUri);
         $this->assertStringNotContainsString('/hostedzone/hostedzone', $requestUri);
@@ -41,7 +41,7 @@ class RouteClient53Test extends TestCase
             'Id' => '/delegationset/foo',
         ]);
 
-        $request = \Aws\serialize($command);
+        $request = \CloudBeds\Aws\MskFork\serialize($command);
         $requestUri = (string) $request->getUri();
         $this->assertStringContainsString('/delegationset/foo', $requestUri);
         $this->assertStringNotContainsString('/delegationset/delegationset', $requestUri);
@@ -52,7 +52,7 @@ class RouteClient53Test extends TestCase
             'DelegationSetId' => '/delegationset/bar',
         ]);
 
-        $request = \Aws\serialize($command);
+        $request = \CloudBeds\Aws\MskFork\serialize($command);
         $this->assertStringContainsString(
             '<DelegationSetId>bar</DelegationSetId>',
             $request->getBody()->getContents()

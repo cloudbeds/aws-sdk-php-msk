@@ -10,7 +10,7 @@ use CloudBeds\Aws\MskFork\Result;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
- * @covers \Aws\QueryCompatibleInputMiddleware
+ * @covers \CloudBeds\Aws\MskFork\QueryCompatibleInputMiddleware
  */
 class QueryCompatibleInputMiddlewareTest extends TestCase
 {

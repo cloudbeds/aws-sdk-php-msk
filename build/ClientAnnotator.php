@@ -19,7 +19,7 @@ class ClientAnnotator
     public function __construct($clientClassName)
     {
         $this->reflection = new ReflectionClass($clientClassName);
-        $this->aliases = \Aws\load_compiled_json(__DIR__ . '/../src/data/aliases.json');
+        $this->aliases = \CloudBeds\Aws\MskFork\load_compiled_json(__DIR__ . '/../src/data/aliases.json');
     }
 
     /**
@@ -134,7 +134,7 @@ class ClientAnnotator
                 preg_replace('/(MultiRegion)?Client$/', '', $this->reflection->getShortName())
             );
 
-            $this->endpoint = Aws\manifest($service)['endpoint'];
+            $this->endpoint = \CloudBeds\Aws\MskFork\manifest($service)['endpoint'];
         }
 
         return $this->endpoint;

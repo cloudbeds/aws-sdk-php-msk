@@ -5,7 +5,7 @@ use CloudBeds\Aws\MskFork\CommandInterface;
 use CloudBeds\Aws\MskFork\Exception\AwsException;
 use CloudBeds\Aws\MskFork\Multipart\UploadState;
 
-class S3MultipartUploadException extends \Aws\Exception\MultipartUploadException
+class S3MultipartUploadException extends \CloudBeds\Aws\MskFork\Exception\MultipartUploadException
 {
     /** @var string Bucket of the transfer object */
     private $bucket;

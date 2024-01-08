@@ -24,6 +24,7 @@ use CloudBeds\Aws\MskFork\Endpoint\UseFipsEndpoint\ConfigurationProvider as UseF
 use CloudBeds\Aws\MskFork\EndpointDiscovery\ConfigurationInterface;
 use CloudBeds\Aws\MskFork\EndpointDiscovery\ConfigurationProvider;
 use CloudBeds\Aws\MskFork\EndpointV2\EndpointDefinitionProvider;
+use CloudBeds\Aws\MskFork\EndpointV2\EndpointProviderV2;
 use CloudBeds\Aws\MskFork\Exception\AwsException;
 use CloudBeds\Aws\MskFork\Exception\InvalidRegionException;
 use CloudBeds\Aws\MskFork\Retry\ConfigurationInterface as RetryConfigInterface;
@@ -146,7 +147,7 @@ class ClientResolver
         ],
         'endpoint_provider' => [
             'type'     => 'value',
-            'valid'    => ['callable', EndpointV2\EndpointProviderV2::class],
+            'valid'    => ['callable', EndpointProviderV2::class],
             'fn'       => [__CLASS__, '_apply_endpoint_provider'],
             'doc'      => 'An optional PHP callable that accepts a hash of options including a "service" and "region" key and returns NULL or a hash of endpoint data, of which the "endpoint" key is required. See Aws\\Endpoint\\EndpointProvider for a list of built-in providers.',
             'default'  => [__CLASS__, '_default_endpoint_provider'],
@@ -659,9 +660,9 @@ class ClientResolver
         if ($value === false) {
             $value = new Configuration(
                 false,
-                \Aws\ClientSideMonitoring\ConfigurationProvider::DEFAULT_HOST,
-                \Aws\ClientSideMonitoring\ConfigurationProvider::DEFAULT_PORT,
-                \Aws\ClientSideMonitoring\ConfigurationProvider::DEFAULT_CLIENT_ID
+                \CloudBeds\Aws\MskFork\ClientSideMonitoring\ConfigurationProvider::DEFAULT_HOST,
+                \CloudBeds\Aws\MskFork\ClientSideMonitoring\ConfigurationProvider::DEFAULT_PORT,
+                \CloudBeds\Aws\MskFork\ClientSideMonitoring\ConfigurationProvider::DEFAULT_CLIENT_ID
             );
             $args['csm'] = $value;
         }
@@ -714,7 +715,7 @@ class ClientResolver
     public static function _apply_endpoint_provider($value, array &$args)
     {
         if (!isset($args['endpoint'])) {
-            if ($value instanceof \Aws\EndpointV2\EndpointProviderV2) {
+            if ($value instanceof EndpointProviderV2) {
                 $options = self::getEndpointProviderOptions($args);
                 $value = PartitionEndpointProvider::defaultProvider($options)
                     ->getPartition($args['region'], $args['service']);
@@ -741,7 +742,7 @@ class ClientResolver
                 );
             }
 
-            $args['region'] = \Aws\strip_fips_pseudo_regions($args['region']);
+            $args['region'] = \CloudBeds\Aws\MskFork\strip_fips_pseudo_regions($args['region']);
 
             // Invoke the endpoint provider and throw if it does not resolve.
             $result = EndpointProvider::resolve($value, [
@@ -941,7 +942,7 @@ class ClientResolver
 
         //Add endpoint discovery if set
         if (isset($args['endpoint_discovery'])) {
-            if (($args['endpoint_discovery'] instanceof \Aws\EndpointDiscovery\Configuration
+            if (($args['endpoint_discovery'] instanceof \CloudBeds\Aws\MskFork\EndpointDiscovery\Configuration
                 && $args['endpoint_discovery']->isEnabled())
             ) {
                 $userAgent []= 'cfg/endpoint-discovery';
@@ -955,7 +956,7 @@ class ClientResolver
 
         //Add retry mode if set
         if (isset($args['retries'])) {
-            if ($args['retries'] instanceof \Aws\Retry\Configuration) {
+            if ($args['retries'] instanceof \CloudBeds\Aws\MskFork\Retry\Configuration) {
                 $userAgent []= 'cfg/retry-mode#' . $args["retries"]->getMode();
             } elseif (is_array($args['retries'])
                 && isset($args["retries"]["mode"])
@@ -1046,7 +1047,7 @@ class ClientResolver
                 $service->getServiceName(),
                 $service->getApiVersion()
             );
-            return new \Aws\EndpointV2\EndpointProviderV2(
+            return new EndpointProviderV2(
                 $ruleset,
                 EndpointDefinitionProvider::getPartitions()
             );
@@ -1152,7 +1153,7 @@ class ClientResolver
             return '';
         }
 
-        $serviceIdentifier = \Aws\manifest($args['service'])['serviceIdentifier'];
+        $serviceIdentifier = \CloudBeds\Aws\MskFork\manifest($args['service'])['serviceIdentifier'];
         $value =  ConfigurationResolver::resolve(
             'endpoint_url_' . $serviceIdentifier,
             '',
@@ -1277,7 +1278,7 @@ EOT;
         if (is_null($service)) {
             return false;
         }
-        $services = \Aws\manifest();
+        $services = \CloudBeds\Aws\MskFork\manifest();
         return isset($services[$service]);
     }
 

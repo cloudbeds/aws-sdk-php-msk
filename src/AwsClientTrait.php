@@ -6,7 +6,7 @@ use CloudBeds\Aws\MskFork\Api\Service;
 /**
  * A trait providing generic functionality for interacting with Amazon Web
  * Services. This is meant to be used in classes implementing
- * \Aws\AwsClientInterface
+ * \CloudBeds\Aws\MskFork\AwsClientInterface
  */
 trait AwsClientTrait
 {

@@ -7,7 +7,7 @@ $loader = require __DIR__ . '/../vendor/autoload.php';
 // Setup directories.
 $config = \Nette\Neon\Neon::decode(file_get_contents(__DIR__ . '/docs/apigen.neon'));
 $outputDir = __DIR__ . '/../' . $config['destination'];
-$apiProvider = \Aws\Api\ApiProvider::defaultProvider();
+$apiProvider = \CloudBeds\Aws\MskFork\Api\ApiProvider::defaultProvider();
 
 // Extract the built homepage into a template file.
 $xml = new DOMDocument();
@@ -26,7 +26,7 @@ foreach ($sourceDirs as $dir) {
     $sourceFiles = array_merge(
         $sourceFiles,
         array_filter(
-            array_map('realpath', iterator_to_array(\Aws\recursive_dir_iterator($dir))),
+            array_map('realpath', iterator_to_array(\CloudBeds\Aws\MskFork\recursive_dir_iterator($dir))),
             function ($path) {
                 return preg_match('/(?<!\.json)\.php/', $path);
             }

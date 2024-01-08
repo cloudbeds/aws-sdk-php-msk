@@ -25,7 +25,7 @@ class LexModelsV2ClientTest extends TestCase
         $command = $client->getCommand('DeleteBot', [
             'botId' => '0123456789'
         ]);
-        $request = \Aws\serialize($command);
+        $request = \CloudBeds\Aws\MskFork\serialize($command);
 
         // Corrected the header in a post request
         $contentType = $request->getHeader('Content-Type');

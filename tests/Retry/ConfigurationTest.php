@@ -6,7 +6,7 @@ use CloudBeds\Aws\MskFork\Retry\Configuration;
 use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /**
- * @covers \Aws\Retry\Configuration
+ * @covers \CloudBeds\Aws\MskFork\Retry\Configuration
  */
 class ConfigurationTest extends TestCase
 {
